@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/startMenu.css">
+    <script type="text/javascript" src="../js/SCORM_API_wrapper.js"></script>
+    <script type="text/javascript" src="../js/SCORM.js"></script>
+    <script type="text/javascript" src="libs/anime.min.js"></script>
+    <title>Wimmelbild</title>
+</head>
+
+<body>
+    <div id="fullScreen">
+        <div id="start-screen">
+            <!-- <p id="start-titel">Wimmelbild</p> -->
+        </div>
+        <div id="volume">
+            <div id="options-text">
+                <p>Einstellungen</p>
+            </div>
+            <div id="slide">
+                <img src="img/options/BIB001_Einstellungen_Tonsymbol_01_hz.png" alt="" srcset="">
+                <input type="range" min="0" max="100" value="100" class="slider">
+            </div>
+            <div id="options-back">
+                <img src="img/options/Kreuz.png" alt="" srcset="">
+            </div>
+        </div>
+        <div id="glossar">
+            <div class="haupt-kat">
+                <div id="studium">S</div>
+                <div id="ausbildung">A</div>
+                <div id="herausforderungen">H</div>
+                <div id="erwachsen">E</div>
+            </div>
+            <div id="text-kat">
+                <div id="unter-kat"></div>
+                <div id="info-kat" include-html="glossar.html"></div>
+                <div id="sort">Studium</div>
+            </div>
+            <div id="glossar-back">
+                <img src="img/options/Kreuz.png" alt="" srcset="">
+            </div>
+        </div>
+
+        <div id="menu-wrapper-start">
+            <div id="options">
+                <img id="options-volume"
+                    src="img/Einstellungen/EinstellungenButton/BIB001_EinstellungenButton_01_hz.png" alt="" srcset="">
+                <img id="options-glossar" src="img/Glossar/GlossarButton/BIB001_GlossarButton_01_hz.png" alt=""
+                    srcset="">
+            </div>
+        </div>
+
+        <div id="screens">
+            <div id="screen01">
+                <img id="screen01-image" src="img/places/Stadt_01_hz.png" alt="">
+                <!-- <div class="backscreen"></div> -->
+            </div>
+        </div>
+
+        <div id="levels">
+            <div class="menu-levelcontainer" id="startLevel1">
+                <p class="">Innenstadt</p>
+            </div>
+            <div class="menu-levelcontainer" id="startLevel2">
+                <p>Campus</p>
+            </div>
+            <div class="menu-levelcontainer" id="startLevel3">
+                <p>Altstadt</p>
+            </div>
+            <div class="menu-levelcontainer" id="startLevel4">
+                <p>Wohnviertel</p>
+            </div>
+            <div id="level-info">
+                <h2>INFO</h2>
+                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda officiis iure dolor, possimus expedita nostrum molestiae repellendus aliquam nemo culpa</p>
+                <div id="level1Ready">START!</div>
+                <div id="level2Ready">START!</div>
+                <div id="level3Ready">START!</div>
+                <div id="level4Ready">START!</div>
+            </div>
+        </div>
+
+        <div id="question"> 
+            <img src="img/inventar/BIB001_Inventar_Fragezeichen_01_hz.png" alt="" srcset="">
+        </div>
+
+        <div id="tutWrapper">
+            <div id="welcome-wrapper">
+                <p id="welcome-text">Willkommen in zynd-City! Ich bin Zynd-3-Rella, deine Reisebegleitung. Werfen wir mal einen Blick auf die Stadtkarte.</p>
+                <img id="weiter" src="img/Dialog/BIB001_Dialog_Weiter_01_hz.png" alt="">
+            </div>
+            <div id="avatar">
+                <img src="img/Dialog/Zynd-3-rella.png" alt="">
+            </div>
+        </div>
+        <div id="tutImg">
+            <div id="eins" class="highlight2"></div>
+            <div id="zwei" class="highlight3"></div>
+        </div>
+        <div id="backgroundDark"></div>
+    </div>
+    <script type="text/javascript" src="gamejs/optionsMainScreen.js"></script>
+    <!-- <script type="text/javascript" src="gamejs/options.js"></script> -->
+    <script type="text/javascript" src="gamejs/glossar.js"></script>
+    <script type="text/javascript" src="gamejs/startScreen.js"></script>
+    <script type="text/javascript" src="gamejs/tutorial.js"></script>
+</body>
+
+</html>
