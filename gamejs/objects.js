@@ -248,17 +248,17 @@ function checkAllObjectsFound() {
     objectCopy = objectCopy.filter((element) => element.place != "screen01");
     animateWin("#inventory-wrapper01");
   }
-  if (countedObjects02.length >= 15) {
+  if (countedObjects02.length >= 12) {
     sound04.play();
     objectCopy = objectCopy.filter((element) => element.place != "screen02");
     animateWin("#inventory-wrapper02");
   }
-  if (countedObjects03.length >= 15) {
+  if (countedObjects03.length >= 9) {
     sound04.play();
     objectCopy = objectCopy.filter((element) => element.place != "screen03");
     animateWin("#inventory-wrapper03");
   }
-  if (countedObjects04.length >= 15) {
+  if (countedObjects04.length >= 8) {
     sound04.play();
     objectCopy = objectCopy.filter((element) => element.place != "screen04");
     animateWin("#inventory-wrapper04");
