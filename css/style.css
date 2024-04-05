@@ -501,8 +501,8 @@ body::-webkit-scrollbar {
     /*var(--padding)*/
     width: 80vw;
     height: calc(80vw * (514 / 3868));
-    z-index: 1;
-    background-image: url(../img/Wimmbelbild/Inventar/_old/BIB001_Inventar_Hintergrund_01_hz.png);
+    z-index: 1; 
+    background-image: url(../img/Wimmbelbild/Inventar/BIB001_Inventar_10Icons_01_hz.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
