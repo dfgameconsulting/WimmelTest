@@ -117,8 +117,8 @@ function showTutorial(step) {
       fadeIn("#tutImg");
       tutHintergrund.style.display = "block";
       fadeIn("#backgroundDark");
-      tutBild1.style.backgroundImage = "url(../content/img/objects/BIB001_Inventar_Testobjektgefunden_01_hz.png)";
-      tutBild2.style.backgroundImage = "url(../content/img/tutorial/Leiste.png)";
+      tutBild1.style.backgroundImage = "url(../img/objects/BIB001_Inventar_Testobjektgefunden_01_hz.png)";
+      tutBild2.style.backgroundImage = "url(../img/tutorial/Leiste.png)";
       tutBild1.style.display = "block";
       tutBild2.style.display = "block";
       tutBild1.classList.remove("highlight4");
@@ -131,7 +131,7 @@ function showTutorial(step) {
       fadeOut(tutBild2);
       setTimeout(() => {
         tutBild1.classList.remove("highlight2");
-        tutBild1.style.backgroundImage = "url(../content/img/Glossar/GlossarButton/BIB001_GlossarButton_01_hz.png)";
+        tutBild1.style.backgroundImage = "url(../img/Glossar/GlossarButton/BIB001_GlossarButton_01_hz.png)";
         tutBild2.style.display = "none";
         tutBild1.classList.add("highlight4");
         fadeIn(tutBild1);
@@ -140,21 +140,21 @@ function showTutorial(step) {
     case 2:
       fadeOut(tutBild1);
       setTimeout(() => {
-        tutBild1.style.backgroundImage = "url(../content/img/options/BIB001_Wimmelbild_UmsehenPfeil_01_hz.png)";
+        tutBild1.style.backgroundImage = "url(../img/options/BIB001_Wimmelbild_UmsehenPfeil_01_hz.png)";
         fadeIn(tutBild1);
       }, 500);
       break;
     case 3:
       fadeOut(tutBild1);
       setTimeout(() => {
-        tutBild1.style.backgroundImage = "url(../content/img/inventar/BIB001_Inventar_Lupe_01_hz.png)";
+        tutBild1.style.backgroundImage = "url(../img/inventar/BIB001_Inventar_Lupe_01_hz.png)";
         fadeIn(tutBild1);
       }, 500);
       break;
     case 4:
       fadeOut(tutBild1);
       setTimeout(() => {
-        tutBild1.style.backgroundImage = "url(../content/img/inventar/BIB001_Inventar_Fragezeichen_01_hz.png)";
+        tutBild1.style.backgroundImage = "url(../img/inventar/BIB001_Inventar_Fragezeichen_01_hz.png)";
         fadeIn(tutBild1);
       }, 500);
       break;

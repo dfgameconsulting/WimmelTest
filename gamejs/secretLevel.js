@@ -12,7 +12,7 @@ lupe.forEach((lupe) => {
     lupeAus = !lupeAus;
     if (!lupeAus) {
       console.log("LUPE AN");
-      document.body.style.cursor = "url(../content/img/inventar/LupeCursor.svg), auto";
+      document.body.style.cursor = "url(../img/inventar/LupeCursor.svg), auto";
     } else {
       console.log("LUPE AUS");
       document.body.style.cursor = "auto";
@@ -90,25 +90,25 @@ let kontoauszug = document.querySelector("#kontoauszug");
 let loadedSecret = [];
 let lodedGlitchImages = [];
 let glitch01Images = [
-  "../content/img/Bild002/Zoom/glitch/bsod.png",
-  "../content/img/Bild002/Zoom/glitch/glitch-bsod01.png",
-  "../content/img/Bild002/Zoom/glitch/glitch-bsod02.png",
-  "../content/img/Bild002/Zoom/glitch/glitch-bsod03.png",
-  "../content/img/Bild002/Zoom/glitch/glitch-bsod04.png",
-  "../content/img/Bild002/Zoom/glitch/glitch-bsod05.png",
-  "../content/img/Bild002/Zoom/glitch/glitch-bsod06.png",
-  "../content/img/Bild002/Zoom/glitch/glitch-bsod07.png",
-  "../content/img/Bild002/Zoom/glitch/glitch-bsod08.png",
-  "../content/img/Bild002/Zoom/glitch/glitch-dos01.png",
-  "../content/img/Bild002/Zoom/glitch/glitch-dos02.png",
-  "../content/img/Bild002/Zoom/glitch/dos.png",
+  "../img/Bild002/Zoom/glitch/bsod.png",
+  "../img/Bild002/Zoom/glitch/glitch-bsod01.png",
+  "../img/Bild002/Zoom/glitch/glitch-bsod02.png",
+  "../img/Bild002/Zoom/glitch/glitch-bsod03.png",
+  "../img/Bild002/Zoom/glitch/glitch-bsod04.png",
+  "../img/Bild002/Zoom/glitch/glitch-bsod05.png",
+  "../img/Bild002/Zoom/glitch/glitch-bsod06.png",
+  "../img/Bild002/Zoom/glitch/glitch-bsod07.png",
+  "../img/Bild002/Zoom/glitch/glitch-bsod08.png",
+  "../img/Bild002/Zoom/glitch/glitch-dos01.png",
+  "../img/Bild002/Zoom/glitch/glitch-dos02.png",
+  "../img/Bild002/Zoom/glitch/dos.png",
 ];
 let kontoSecretImages = [
-  "../content/img/Bild002/Zoom/CityCenter_Zoom_002_rl.png",
-  "../content/img/Bild002/Zoom/CityCenter_Zoom_003_rl.png",
-  "../content/img/Bild002/Zoom/CityCenter_Zoom_004_rl.png",
-  "../content/img/Bild002/Zoom/CityCenter_Zoom_005_rl.png",
-  "../content/img/Bild002/Zoom/CityCenter_Zoom_006_rl.png",
+  "../img/Bild002/Zoom/CityCenter_Zoom_002_rl.png",
+  "../img/Bild002/Zoom/CityCenter_Zoom_003_rl.png",
+  "../img/Bild002/Zoom/CityCenter_Zoom_004_rl.png",
+  "../img/Bild002/Zoom/CityCenter_Zoom_005_rl.png",
+  "../img/Bild002/Zoom/CityCenter_Zoom_006_rl.png",
 ];
 kontoSecretImages.forEach((e) => {
   let img = new Image();
