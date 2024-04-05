@@ -4,7 +4,7 @@ let screens = document.querySelector("#screens");
 let scrollin = false;
 
 let pos = 0;
-var sound03 = new Pizzicato.Sound("sound/269308__kwahmah_02__swoosh02.wav");
+var sound03 = new Pizzicato.Sound("sound/woop.wav");
 right.onclick = () => {
   if (scrollin) return;
   scrollin = true;
@@ -113,3 +113,53 @@ let shiftDivsUp = () => {
   // Verschiebe das letzte Kind-Element vor das erste Kind-Element
   screensParent.insertBefore(lastChild, firstChild);
 };
+
+// Inventar raus / rein
+let switchInventory = document.querySelectorAll(".switchInventory");
+let inventoryOut = true;
+switchInventory.forEach((sw) => {
+  sw.onclick = () => {
+    inventoryOut = !inventoryOut;
+    sound03.play();
+    if (inventoryOut) {
+      anime({
+        targets: ".switchInventory",
+        translate: ["50%","50%"],
+        rotate: [-270, -90],
+        // scale: [0.75,0.5],
+        scale: 0.5,
+        top: "-25%",
+        duration: 500,
+        easing: "easeOutSine",
+      });
+      anime({
+        targets: ".inventory",
+        bottom: 0,
+        // opacity: [0, 1],
+        duration: 500,
+        easing: "easeOutSine",
+      })
+    } else {
+      anime({
+        targets: ".switchInventory",
+        translate: ["50%","50%"],
+        rotate: [-90, -270],  
+        // scale: [0.5,0.75],
+        scale: 0.5,
+        top: "-50%",
+        duration: 500,
+        easing: "easeOutSine",
+      });
+      anime({
+        targets: ".inventory",
+        bottom: "-11vw",
+        // opacity: [1, 0],
+        duration: 500,
+        easing: "easeOutSine",
+      })
+    }
+   
+    
+ 
+  };
+});
