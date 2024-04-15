@@ -92,6 +92,51 @@ level1Ready.onclick = (e) => {
     },
   });
 };
+let level2Ready = document.querySelector("#level2Ready");
+level2Ready.onclick = (e) => {
+  e.preventDefault();
+  console.log("startLevel1");
+
+  anime({
+    targets: "#start-screen",
+    translateY: ["-100%", 0],
+    duration: 500,
+    easing: "easeInSine",
+    complete: () => {
+      window.location.href = "level02.html";
+    },
+  });
+};
+let level3Ready = document.querySelector("#level3Ready");
+level3Ready.onclick = (e) => {
+  e.preventDefault();
+  console.log("startLevel1");
+
+  anime({
+    targets: "#start-screen",
+    translateY: ["-100%", 0],
+    duration: 500,
+    easing: "easeInSine",
+    complete: () => {
+      window.location.href = "level03.html";
+    },
+  });
+};
+let level4Ready = document.querySelector("#level4Ready");
+level4Ready.onclick = (e) => {
+  e.preventDefault();
+  console.log("startLevel1");
+
+  anime({
+    targets: "#start-screen",
+    translateY: ["-100%", 0],
+    duration: 500,
+    easing: "easeInSine",
+    complete: () => {
+      window.location.href = "level04.html";
+    },
+  });
+};
 
 
 

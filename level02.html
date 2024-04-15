@@ -1,11 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bild01</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <script type="text/javascript" src="../js/SCORM_API_wrapper.js"></script>
+    <script type="text/javascript" src="../js/SCORM.js"></script> -->
+    <script type="text/javascript" src="libs/anime.min.js"></script>
+    <!-- <script type="text/javascript" src="libs/pixi.min.js"></script> -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/pizzicato/0.6.4/Pizzicato.min.js"></script>
+    <title>Campus</title>
 </head>
+
 <body>
-    
+    <div id="fullScreen" class="no-select">
+        <div id="start-screen">
+            <p id="start-titel">Campus</p>
+        </div>
+        <div id="volume">
+            <div id="options-text">
+                <p>Einstellungen</p>
+            </div>
+            <div id="slide">
+                <img src="img/options/BIB001_Einstellungen_Tonsymbol_01_hz.png" alt="" srcset="">
+                <input type="range" min="0" max="100" value="100" class="slider">
+            </div>
+            <div id="options-back">
+                <img src="img/options/Kreuz.png" alt="" srcset="">
+            </div>
+        </div>
+        <div id="glossar">
+            <div class="haupt-kat">
+                <div id="studium">S</div>
+                <div id="ausbildung">A</div>
+                <div id="herausforderungen">H</div>
+                <div id="erwachsen">E</div>
+            </div>
+            <div id="text-kat">
+                <div id="unter-kat"></div>
+                <div id="info-kat" include-html="glossar.html"></div>
+                <div id="sort">Studium</div>
+            </div>
+            <div id="glossar-back">
+                <img src="img/options/Kreuz.png" alt="" srcset="">
+            </div>
+        </div>
+        <div id="menu-wrapper">
+            <div class="optionspic">
+                <a href="index.html"><img src="img/options/Zurueck Pfeil.png" alt="" srcset=""></a>
+            </div>
+            <div id="options">
+                <img id="options-volume"
+                    src="img/Einstellungen/EinstellungenButton/BIB001_EinstellungenButton_01_hz.png" alt="" srcset="">
+                <img id="options-glossar" src="img/Glossar/GlossarButton/BIB001_GlossarButton_01_hz.png" alt=""
+                    srcset="">
+                <div id="options-info">
+                    <img src="img/Wimmbelbild/Objektbeschreibung Pop Up/BIB001_Objektbeschreibung_Box_01_hz.png" alt=""
+                    srcset="">
+                    <p id="foundInfo"></p>
+                </div>
+               
+            </div>
+        </div>
+       
+        <div id="screens">
+           
+            <div id="screen01"> 
+                <img id="screen01-image" src="img/Campus/Bild_001/Campus_Background_015_hz.png" alt=""> 
+                <div id="inventory-wrapper01" class="inventory">
+                    <img class="hint" src="img/inventar/BIB001_Inventar_Fragezeichen_01_hz.png" alt="">
+                    <img class="lupe" src="img/inventar/BIB001_Inventar_Lupe_01_hz.png" alt="">
+                    <img class="switchInventory" src="img/options/BIB001_Wimmelbild_UmsehenPfeil_01_hz.png" alt="">
+                </div>
+                <div class="backscreen" style="background-image: url(img/Campus/Bild_001/Campus_Background_WObjekte_015_hz.png);"></div>
+            </div>
+            <div id="screen02">
+                <img id="screen02-image" src="img/Campus/Bild_002/Campus_Background_014_hz.png" alt=""> 
+                <div id="inventory-wrapper02" class="inventory">
+                    <img class="hint" src="img/inventar/BIB001_Inventar_Fragezeichen_01_hz.png" alt="">
+                    <img class="lupe" src="img/inventar/BIB001_Inventar_Lupe_01_hz.png" alt="">
+                    <img class="switchInventory" src="img/options/BIB001_Wimmelbild_UmsehenPfeil_01_hz.png" alt="">
+                </div>
+                <div class="backscreen" style="background-image: url(img/Campus/Bild_002/Campus_Background_WObjekte_014_hz.png);"></div>
+            </div>
+            <div id="screen03">
+                <img id="screen03-image" src="img/Campus/Bild_003/Campus_Background_014_hz.png" alt=""> 
+                <div id="inventory-wrapper03" class="inventory">
+                    <img class="hint" src="img/inventar/BIB001_Inventar_Fragezeichen_01_hz.png" alt="">
+                    <img class="lupe" src="img/inventar/BIB001_Inventar_Lupe_01_hz.png" alt="">
+                    <img class="switchInventory" src="img/options/BIB001_Wimmelbild_UmsehenPfeil_01_hz.png" alt="">
+                </div>
+                <div class="backscreen" style="background-image: url(img/Campus/Bild_003/Campus_Background_WObjekte_014_hz.png);"></div>
+                <div id="secretInnenstadt">
+                    <div id="geldbeutel"></div>
+                    <div id="bankkarte"></div>
+                    <div id="bankschlitz"></div>
+                    <div id="optionen02"></div>
+                    <div id="optionen01"></div>    
+                    <div id="kontoauszug"></div>
+                    <div id="glitch01"></div>
+                </div>
+            </div>
+            <div id="screen04">
+                <img id="screen04-image" src="img/Campus/Bild_004/Campus_Background_016_hz.png" alt=""> 
+                <div id="inventory-wrapper04" class="inventory">
+                    <img class="hint" src="img/inventar/BIB001_Inventar_Fragezeichen_01_hz.png" alt="">
+                    <img class="lupe" src="img/inventar/BIB001_Inventar_Lupe_01_hz.png" alt="">
+                    <img class="switchInventory" src="img/options/BIB001_Wimmelbild_UmsehenPfeil_01_hz.png" alt="">
+                </div>
+                <div class="backscreen" style="background-image: url(img/Campus/Bild_004/Campus_Background_WObjekte_015_hz.png);"></div>
+                <img class="lupe" src="img/inventar/BIB001_Inventar_Lupe_01_hz.png" alt="">
+            </div>
+            <!-- <div id="rain"></div> -->
+        </div>
+       
+        <div id="zoom-screen"></div>
+        <div id="arrow-left">
+            <div id="hintCircleLeft"></div>
+        </div>
+        <div id="arrow-right">
+            <div id="hintCircleRight"></div>
+        </div>
+        <div id="backgroundDark"></div>
+    </div>
+    <script type="text/javascript" src="gamejs/options.js"></script>
+    <script type="text/javascript" src="gamejs/glossar.js"></script>
+    <script type="text/javascript" src="gamejs/scroll.js"></script>
+    <script type="text/javascript" src="gamejs/objectsCampus.js"></script>
+    <!-- <script type="text/javascript" src="gamejs/secretLevel.js"></script> -->
+    <!-- <script type="text/javascript" src="gamejs/rain.js"></script> -->
 </body>
+
 </html>
