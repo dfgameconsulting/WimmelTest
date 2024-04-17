@@ -84,6 +84,15 @@ window.addEventListener("resize", resetRatios);
 
 let objects = [];
 let secrets = [];
+let invCss = `
+height: var(--inventorySize);
+width: var(--inventorySize);
+background-image: url(img/${this.invImg});
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+filter: brightness(0.1) sepia(1) opacity(0.3); 
+`;
 
 class pickObject {
   constructor(name, x, y, place, text, img, invImg) {
@@ -344,48 +353,50 @@ class hintCircleObject {
 }
 let startGame = () => {
   blurAll();
-  //sound05.play();                                                                                                        
-  lautstaerkesymbol = new pickObject("Lautstärkesymbol", 0.429688, 0.040278, "screen01", "Das ist ein Lautstärkesymbol", "Campus/Bild_001/Szene1_LautstaerkeSymbol.png" , "Campus/Inventar/Bild_001/Szene1_LautstärkeSymbol_01_hz.png");
-  blindenbinde = new pickObject("Blindenbinde", 0.090625, 0.830556, "screen01", "Das ist eine Blindenbinde", "Campus/Bild_001/Szene1_Blindenbinde.png", "Campus/Inventar/Bild_001/Szene1_Blindenbinde_01_hz.png"); //Wimmelbild/content/img/Bild001/Objekte_ImBild/EinarmigerBandit.png
-  c1 = new pickObject("C1", 0.817708, 0.243519, "screen01", "Das ist C1", "Campus/Bild_001/Szene1_C1.png" , "Campus/Inventar/Bild_001/Szene1_C1_01_hz.png");
-  fragezeichen = new pickObject("Fragezeichen", 0.853906, 0.587500, "screen01", "Das ist ein Fragezeichen", "Campus/Bild_001/Szene1_Fragezeichen.png" , "Campus/Inventar/Bild_001/Szene1_Fragezeichen_01_hz.png");
-  globus = new pickObject("Globus", 0.813281, 0.157407, "screen01", "Das ist ein Globus", "Campus/Bild_001/Szene1_Globus.png" , "Campus/Inventar/Bild_001/Szene1_Globus_01_hz.png");
-  kinderwagen = new pickObject("Kinderwagen", 0.206, 0.668056, "screen01", "Das ist ein Kinderwagen", "Campus/Bild_001/Szene1_Kinderwagen.png" , "Campus/Inventar/Bild_001/Szene1_Kinderwagen_01_hz.png");
-  kuscheltier = new pickObject("Kuscheltier", 0.636198, 0.494907, "screen01", "Das ist ein Kuscheltier", "Campus/Bild_001/Szene1_Kuscheltier.png", "Campus/Inventar/Bild_001/Szene1_Kuscheltier_01_hz.png");
-  rollstuhl = new pickObject("Rollstuhl", 0.417708, 0.649074, "screen01", "Das ist ein Rollstuhl", "Campus/Bild_001/Szene1_Rollstuhl.png", "Campus/Inventar/Bild_001/Szene1_Rollstuhl_01_hz.png");
-  stoppschild = new pickObject("Stoppschild", 0.340625, 0.686574, "screen01", "Das ist ein Stoppschild", "Campus/Bild_001/Szene1_Stoppschild.png", "Campus/Inventar/Bild_001/Szene1_Stoppschild_01_hz.png");
-  windel = new pickObject("Windel", 0.723958, 0.668519, "screen01", "Das ist eine Windel", "Campus/Bild_001/Szene1_Windel.png", "Campus/Inventar/Bild_001/Szene1_Windel_01_hz.png");
+  //sound05.play();                                                                                                      
+  Aktienzeichen = new pickObject("Aktienzeichen", 0.452604, 0.063426, "screen01", "Das ist ein Aktienzeichen", "Altstadt/Bild_001/Objekte_imBild/Aktienzeichen.png" , "Altstadt/Bild_001/Objekte_Inventar/Aktienzeichen.png");
+  Bankzeichen = new pickObject("Bankzeichen", 0.249740, 0.330093, "screen01", "Das ist eine Bankzeichen", "Altstadt/Bild_001/Objekte_imBild/Bankzeichen.png" , "Altstadt/Bild_001/Objekte_Inventar/Bankzeichen.png");
+  Brieftasche = new pickObject("Brieftasche", 0.559115, 0.572685, "screen01", "Das ist eine Brieftasche", "Altstadt/Bild_001/Objekte_imBild/Brieftasche.png" , "Altstadt/Bild_001/Objekte_Inventar/Brieftasche.png");
+  Hosentaschenmann = new pickObject("Hosentaschen_Mann", 0.559115, 0.572685, "screen01", "Das ist ein Hosentaschen Mann", "Altstadt/Bild_001/Objekte_imBild/HosentaschenMann.png" , "Altstadt/Bild_001/Objekte_Inventar/HosentaschenMann.png");
+  Muenzhaufen = new pickObject("Münzhaufen", 0.453646, 0.319907, "screen01", "Das ist ein Münzhaufen", "Altstadt/Bild_001/Objekte_imBild/Muenzhaufen.png" , "Altstadt/Bild_001/Objekte_Inventar/Muenzhaufen.png");
+  Sparkontoauszug = new pickObject("Sparkontoauszug", 0.469531, 0.896759, "screen01", "Das ist ein Sparkontoauszug", "Altstadt/Bild_001/Objekte_imBild/Sparkontoauszug.png" , "Altstadt/Bild_001/Objekte_Inventar/Sparkontoauszug.png");
+  Sparschwein = new pickObject("Sparschwein", 0.747396, 0.603241, "screen01", "Das ist ein Sparschwein", "Altstadt/Bild_001/Objekte_imBild/Sparschwein.png" , "Altstadt/Bild_001/Objekte_Inventar/Sparschwein.png");
+  Vertragspapiere = new pickObject("Vertragspapiere", 0.363021, 0.111111, "screen01", "Das sind Vertagspapiere", "Altstadt/Bild_001/Objekte_imBild/Vertragspapiere.png" , "Altstadt/Bild_001/Objekte_Inventar/Vertragspapiere.png");
+  Waehrungszeichen = new pickObject ("Währungszeichen", 0.290625, 0.492593, "screen01", "Das ist ein Währungszeichen", "Altstadt/Bild_001/Objekte_imBild/Waehrungszeichen.png" , "Altstadt/Bild_001/Objekte_Inventar/Waehrungszeichen.png");
+  Zeitung = new pickObject("Zeitung", 0.578646, 0.443519, "screen01", "Das ist eine Zeitung", "Altstadt/Bild_001/Objekte_imBild/Zeitung.png" , "Altstadt/Bild_001/Objekte_Inventar/Zeitung.png");
 
-  buecherzelle = new pickObject("Bücherzelle", 0.946354, 0.626389, "screen02", "Das ist eine Bücherzelle", "Campus/Bild_002/Szene2_Buecherzelle.png" , "Campus/Inventar/Bild_002/Szene2_Buecherzelle_01_hz.png");
-  jubelndePerson = new pickObject("Jubelnde_Person", 0.695313, 0.368981, "screen02", "Das ist eine jubelnde Person", "Campus/Bild_002/Szene2_JubelndePerson.png" , "Campus/Inventar/Bild_002/Szene2_JubelndePerson_01_hz.png");
-  karteikarten = new pickObject("Karteikarten", 0.916146, 0.868981, "screen02", "Das sind Karteikarten", "Campus/Bild_002/Szene2_Karteikarten.png" , "Campus/Inventar/Bild_002/Szene2_Karteikarten_01_hz.png");
-  lerngruppe = new pickObject("Lerngruppe", 0.449219, 0.742593, "screen02", "Das ist eine Lerngruppe", "Campus/Bild_002/Szene2_Lerngruppe.png" , "Campus/Inventar/Bild_002/Szene2_Lerngruppe_01_hz.png");
-  ordnerstapel = new pickObject("Ordnerstapel", 0.521094, 0.141667, "screen02", "Das ist eine Ordnerstapel", "Campus/Bild_002/Szene2_Ordnerstapel.png" , "Campus/Inventar/Bild_002/Szene2_Ordnerstapel_01_hz.png");
-  personMitSchweiss = new pickObject("Person_mit_Schweiß", 0.013802, 0.685648, "screen02", "Das ist eine Person mit Schweiß", "Campus/Bild_002/Szene2_PersonMitSchweiss.png" , "Campus/Inventar/Bild_002/Szene2_PersonMitSchweiss_01_hz.png");
-  stoppuhr = new pickObject("Stoppuhr", 0.112760, 0.067593, "screen02", "Das ist eine Stoppuhr", "Campus/Bild_002/Szene2_Stoppuhr.png" , "Campus/Inventar/Bild_002/Szene2_Stoppuhr_01_hz.png");
-  stundenplan = new pickObject("Stundenplan", 0.950260, 0.118519, "screen02", "Das ist ein Sundenplan", "Campus/Bild_002/Szene2_Stundenplan.png" , "Campus/Inventar/Bild_002/Szene2_Stundenplan_01_hz.png");
-  todoliste = new pickObject("Todoliste", 0.607552, 0.443981, "screen02", "Das ist eine To Do Liste", "Campus/Bild_002/Szene2_ToDoListe.png", "Campus/Inventar/Bild_002/Szene2_ToDoListe_01_hz.png");
-  umleitungsschild = new pickObject("Umleitungsschild", 0.455469, 0.706944, "screen02", "Das ist ein Umleitungsschild", "Campus/Bild_002/Szene2_Umleitungsschild.png", "Campus/Inventar/Bild_002/Szene2_Umleitungsschild_01_hz.png");
+  Gewitterwolke = new pickObject("Gewitterwolke", 0.169010, 0.881019, "screen02", "Das ist eine Gewitterwolke", "Altstadt/Bild_002/Objekte_imBild/Gewitterwolke.png" , "Altstadt/Bild_002/Objekte_Inventar/Gewitterwolke.png");
+  Hoergeraet = new pickObject("Hörgerät", 0.641927, 0.379630, "screen02", "Das ist ein Hörgerät", "Altstadt/Bild_002/Objekte_imBild/Hoergeraet.png" , "Altstadt/Bild_002/Objekte_Inventar/Hoergeraet.png");
+  SchwangereFrau = new pickObject("Schwangere_Frau", 0.335156, 0.680093, "screen02", "Das ist eine schwangere Frau", "Altstadt/Bild_002/Objekte_imBild/SchwangereFrau.png" , "Altstadt/Bild_002/Objekte_Inventar/SchwangereFrau.png");
+  //Waage = new pickObject("Waage", 0.832813, 0.200463, "screen02", "Das ist eine Waage", "Altstadt/Bild_002/Objekte_imBild/Waage.png" , "Altstadt/Bild_002/Objekte_Inventar/Waage.png");
+  Gluehbirne = new pickObject("Glühbirne", 0.788802, 0.478704, "screen02", "Das ist eine Glühbirne", "Altstadt/Bild_002/Objekte_imBild/Gluehbirne.png" , "Altstadt/Bild_002/Objekte_Inventar/Gluehbirne.png");
+  HandhaltenSchild = new pickObject("HandhaltenSchild", 0.140104, 0.676389, "screen02", "Das ist eine Hand, die ein Schild hält", "Altstadt/Bild_002/Objekte_imBild/HandhaltenSchild.png" , "Altstadt/Bild_002/Objekte_Inventar/HandhaltenSchild.png");
+  Strassenschild = new pickObject("Straßenschild", 0.135937, 0.623148, "screen02", "Das ist ein Straßenschild", "Altstadt/Bild_002/Objekte_imBild/Strassenschild.png" , "Altstadt/Bild_002/Objekte_Inventar/Strassenschild.png");
+  NachdenklicherMann = new pickObject("Nachdenklicher_Mann", 0.388281, 0.066667, "screen02", "Das ist ein nachdenklicher Mann", "Altstadt/Bild_002/Objekte_imBild/NachdenklicherMann.png" , "Altstadt/Bild_002/Objekte_Inventar/NachdenklicherMann.png");
+  Paragraph = new pickObject("Paragraph", 0.528906, 0.532870, "screen02", "Das ist ein Paragraph", "Altstadt/Bild_002/Objekte_imBild/Paragraph.png" , "Altstadt/Bild_002/Objekte_Inventar/Paragraph.png");
+  Woerterbuch = new pickObject("Wörterbuch", 0.580990, 0.224074, "screen02", "Das ist ein Wörterbuch", "Altstadt/Bild_002/Objekte_imBild/Woerterbuch.png" , "Altstadt/Bild_002/Objekte_Inventar/Woerterbuch.png");
+  
+  ErsteHilfe = new pickObject("Erste_Hilfe", 0.934115, 0.287037, "screen03", "Das ist eine Erste Hilfe Kasten", "Altstadt/Bild_003/Objekte_imBild/ErsteHilfe.png" , "Altstadt/Bild_003/Objekte_Inventar/ErsteHilfe.png");
+  Flamme = new pickObject("Flamme", 0.800000, 0.271759, "screen03", "Das ist eine Flamme", "Altstadt/Bild_003/Objekte_imBild/Flamme.png" , "Altstadt/Bild_003/Objekte_Inventar/Flamme.png");
+  Blindenzeichen = new pickObject("Blindenzeichen", 0.543229, 0.018981, "screen03", "Das ist ein Blindenzeichen", "Altstadt/Bild_003/Objekte_imBild/Blindenzeichen.png" , "Altstadt/Bild_003/Objekte_Inventar/Blindenzeichen.png");
+  NassesBuch = new pickObject("Nasses_Buch", 0.358854, 0.811574, "screen03", "Das ist ein nasses Buch", "Altstadt/Bild_003/Objekte_imBild/NassesBuch.png" , "Altstadt/Bild_003/Objekte_Inventar/NassesBuch.png");
+  Stethoskop = new pickObject("Stethoskop", 0.218229, 0.517130, "screen03", "Das ist ein Stethoskop", "Altstadt/Bild_003/Objekte_imBild/Stethoskop.png" , "Altstadt/Bild_003/Objekte_Inventar/Stethoskop.png");
+  Haendedruck = new pickObject("Händedruck", 0.298438, 0.612963, "screen03", "Das ist ein Händedruck", "Altstadt/Bild_003/Objekte_imBild/Haendedruck.png" , "Altstadt/Bild_003/Objekte_Inventar/Haendedruck.png");
+  Rollstuhl = new pickObject("Rollstuhl", 0.542188, 0.629167, "screen03", "Das ist ein Rollstuhl", "Altstadt/Bild_003/Objekte_imBild/Rollstuhl.png" , "Altstadt/Bild_003/Objekte_Inventar/Rollstuhl.png");
+  Schild = new pickObject("Schild", 0.800781, 0.497222, "screen03", "Das ist ein Schild", "Altstadt/Bild_003/Objekte_imBild/Schild.png" , "Altstadt/Bild_003/Objekte_Inventar/Schild.png");
+  UhrGraffiti = new pickObject("Uhr_Graffiti", 0.422917, 0.725926, "screen03", "Das ist eine Uhr mit Graffiti", "Altstadt/Bild_003/Objekte_imBild/UhrGraffiti.png" , "Altstadt/Bild_003/Objekte_imBild/UhrGraffiti.png");
+  MonokelFrau = new pickObject("Monokel_Frau", 0.678385, 0.560648, "screen03", "Das ist eine Frau mit Monokel", "Altstadt/Bild_003/Objekte_imBild/MonokelFrau.png" , "Altstadt/Bild_003/Objekte_Inventar/MonokelFrau.png");
 
-  fuenfUndZwanzig = new pickObject("Fünfundzwanzig", 0.361719, 0.726852, "screen03", "Das ist 25", "Campus/Bild_003/Szene3_25.png" , "Campus/Inventar/Bild_003/Szene3_25_01_hz.png");
-  absolventenhut = new pickObject("Absolventenhut", 0.818490, 0.485648, "screen03", "Das ist ein Absolventenhut", "Campus/Bild_003/Szene3_Absolventenhut.png", "Campus/Inventar/Bild_003/Szene3_Absolventenhut_01_hz.png");
-  dosensuppe = new pickObject("Dosensuppe", 0.893490, 0.891204, "screen03", "Das ist eine Dosensuppe", "Campus/Bild_003/Szene3_Dosensuppe.png", "Campus/Inventar/Bild_003/Szene3_Dosensuppe_01_hz.png");
-  bafoeg = new pickObject("Bafög", 0.112500, 0.164352, "screen03", "Das ist eine Dosensuppe", "Campus/Bild_003/Szene3_Bafoeg.png", "Campus/Inventar/Bild_003/Szene3_Bafoeg_01_hz.png");
-  kleingeldhut = new pickObject("Kleingeldhut", 0.385938, 0.763426, "screen03", "Das ist ein Kleingeldhut", "Campus/Bild_003/Szene3_Kleingeldhut.png", "Campus/Inventar/Bild_003/Szene3_Kleingeldhut_01_hz.png");
-  mutterMitSchirm = new pickObject("Mutter_mit_Schirm", 0.520833, 0.702315, "screen03", "Das ist ein Mutter mit Schirm", "Campus/Bild_003/Szene3_MutterMitSchirm.png", "Campus/Inventar/Bild_003/Szene3_MutterMitSchirm_01_hz.png");
-  sparschwein = new pickObject("Sparschwein", 0.490104, 0.149074, "screen03", "Das ist ein Sparschwein", "Campus/Bild_003/Szene3_Sparschwein.png" , "Campus/Inventar/Bild_003/Szene3_Sparschwein_01_hz.png");
-
-  bus = new pickObject("Bus", 0.909375, 0.202315, "screen04", "Das ist ein Bus", "Campus/Bild_004/Szene4_Bus.png" , "Campus/Inventar/Bild_004/Szene4_Bus_01_hz.png");
-  fahrrad = new pickObject("Fahrrad", 0.753125, 0.465741, "screen04", "Das ist ein Fahrrad", "Campus/Bild_004/Szene4_Fahrrad.png", "Campus/Inventar/Bild_004/Szene4_Fahrrad_01_hz.png");
-  fahrschein = new pickObject("Fahrschein", 0.148698, 0.138889, "screen04", "Das ist ein Fahrschein", "Campus/Bild_004/Szene4_Fahrschein.png", "Campus/Inventar/Bild_004/Szene4_Fahrschein_01_hz.png");
-  flugzeug = new pickObject("Flugzeug", 0.088979, 0.082407, "screen04", "Das ist ein Flugzeug", "Campus/Bild_004/Szene4_Flugzeug.png", "Campus/Inventar/Bild_004/Szene4_Flugzeug_01_hz.png");
-  schluesselbund = new pickObject("Schluesselbund", 0.354688, 0.539815, "screen04", "Das ist ein Schluesselbund", "Campus/Bild_004/Szene4_Schluesselbund.png", "Campus/Inventar/Bild_004/Szene4_Schluesselbund_01_hz.png");
-  straßenbahn = new pickObject("Straßenbahn", 0.239844, 0.416667, "screen04", "Das ist eine Straßenbahn", "Campus/Bild_004/Szene4_Straßenbahn.png", "Campus/Inventar/Bild_004/Szene4_Straßenbahn_01_hz.png");
-  tuerklingel = new pickObject("Tuerklingel", 0.067708, 0.209259, "screen04", "Das ist eine Tuerklingel", "Campus/Bild_004/Szene4_Tuerklingel.png", "Campus/Inventar/Bild_004/Szene4_Tuerklingel_01_hz.png");
-  terminkalender = new pickObject("Terminkalender", 0.835677, 0.807407, "screen04", "Das ist ein Terminkalender", "Campus/Bild_004/Szene4_Terminkalender.png", "Campus/Bild_004/Szene4_Terminkalender.png");
-  umzugskisten = new pickObject("Umzugskisten", 0.334896, 0.693519, "screen04", "Das sind Umzugskisten", "Campus/Bild_004/Szene4_Umzugskisten.png", "Campus/Inventar/Bild_004/Szene4_Umzugskisten_01_hz.png");
-  umzugswagen = new pickObject("Umzugswagen", 0.651563, 0.113889, "screen04", "Das ist ein Umzugswagen", "Campus/Bild_004/Szene4_Umzugswagen.png", "Campus/Inventar/Bild_004/Szene4_Umzugswagen_01_hz.png");
-  zebrastreifen = new pickObject("Zebrastreifen", 0, 0.874537, "screen04", "Das ist eine Zebrastreifen", "Campus/Bild_004/Szene4_Zebrastreifen.png", "Campus/Inventar/Bild_004/Szene4_Zebrastreifen_01_hz.png");
+  RennenderMann = new pickObject("Rennender_Mann", 0.377865, 0.600000, "screen04", "Das ist ein rennender Mann", "Altstadt/Bild_004/Objekte_imBild/RennenderMann.png" , "Altstadt/Bild_004/Objekte_Inventar/RennenderMann.png");
+  Buecher = new pickObject("Bücher", 0.481771, 0.349074, "screen04", "Das sind Bücher", "Altstadt/Bild_004/Objekte_imBild/Buecher.png" , "Altstadt/Bild_004/Objekte_Inventar/Buecher.png");
+  Whiteboard = new pickObject("Whiteboard", 0.704427, 0.480556, "screen04", "Das ist ein Whiteboard", "Altstadt/Bild_004/Objekte_imBild/Whiteboard.png" , "Altstadt/Bild_004/Objekte_Inventar/Whiteboard.png");
+  Ortsschild = new pickObject("Ortsschild", 0.839844, 0.575463, "screen04", "Das ist ein Ortsschild", "Altstadt/Bild_004/Objekte_imBild/Ortsschild.png" , "Altstadt/Bild_004/Objekte_Inventar/Ortsschild.png");
+  Korb = new pickObject("Korb", 0.918750, 0.275463, "screen04", "Das ist ein Korb", "Altstadt/Bild_004/Objekte_imBild/Korb.png" , "Altstadt/Bild_004/Objekte_Inventar/Korb.png");
+  Feuerwehrauto = new pickObject("Feuerwehrauto", 0.671354, 0.422685, "screen04", "Das ist ein Feuerwehrauto", "Altstadt/Bild_004/Objekte_imBild/Feuerwehrauto.png" , "Altstadt/Bild_004/Objekte_Inventar/Feuerwehrauto.png");
+  Azubi = new pickObject("Azubi", 0.653125, 0.048148, "screen04", "Das ist ein Azubi", "Altstadt/Bild_004/Objekte_imBild/Azubi.png" , "Altstadt/Bild_004/Objekte_Inventar/Azubi.png");
+  KaputtesAuto = new pickObject("Kaputtes_Auto", 0.562500, 0.590741, "screen04", "Das ist ein kaputtes Auto", "Altstadt/Bild_004/Objekte_imBild/KaputtesAuto.png" , "Altstadt/Bild_004/Objekte_Inventar/KaputtesAuto.png");
+  Arbeitsagentur = new pickObject("Arbeitsagentur", 0.065365, 0.056481, "screen04", "Das ist eine Arbeitsagentur", "Altstadt/Bild_004/Objekte_imBild/Arbeitsagentur.png" , "Altstadt/Bild_004/Objekte_Inventar/Arbeitsagentur.png");
+  Bushaltestelle = new pickObject("Bushaltestelle", 0.231250, 0.338889, "screen04", "Das ist eine Bushaltestelle", "Altstadt/Bild_004/Objekte_imBild/Bushaltestelle.png" , "Altstadt/Bild_004/Objekte_Inventar/Bushaltestelle.png");
 
   resetRatios();
 

@@ -1,6 +1,6 @@
 let lupe = document.querySelectorAll(".lupe");
 let lupeAus = true;
-let secretLevelCampusDone = false;
+let secretLevelAltstadtDone = false;
 lupe.forEach((lupe) => {
   lupe.onclick = () => {
     anime({
@@ -21,19 +21,19 @@ lupe.forEach((lupe) => {
 });
 
 class secretEntry {
-  constructor(name, x, y, place, text/*, img*/) {
+  constructor(name, x, y, place, text, img) {
     this.name = name;
     this.x = x;
     this.y = y;
     this.place = place;
     this.text = text;
-    // this.img = img;
-    // this.wasFound = false;
-    // this.imgProxy = new Image();
-    // this.imgProxy.src = "img/" + this.img;
+    this.img = img;
+    this.wasFound = false;
+    this.imgProxy = new Image();
+    this.imgProxy.src = "img/" + this.img;
 
-    // this.w = this.imgProxy.width;
-    // this.h = this.imgProxy.height;
+    this.w = this.imgProxy.width;
+    this.h = this.imgProxy.height;
 
     // Suchbild
     let div = document.createElement("div");
@@ -46,29 +46,28 @@ class secretEntry {
     r.style.setProperty(`--${this.name}Y`, `${pos.top + screen01Height * this.y}px`);
     document.getElementById(this.name).style.cssText = `
       position: absolute;
-      width: 500px;
-      height: 200px;
+      width: ${this.w}px;
+      height: ${this.h}px;
       left: var(--${this.name}X);
       top: var(--${this.name}Y); 
       transform-origin: 0% 0%;
       transform: translate(0%, 0%) var(--scaleFactorObjects);
-
+      background-image: url(img/${this.img});
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
       outline: 3px solid green;
       `;
 
-      /*      background-image: url(img/${this.img});
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: contain; */
     // Inventory
 
     secrets.push(this);
 
     div.onclick = () => {
       if (lupeAus) return;
-      if (secretLevelCampusDone) return;
+      if (secretLevelAltstadtDone) return;
       //   fadeIn("#backgroundDark");
-      fadeIn("#secretCampus");
+      fadeIn("#secretAltstadt");
       document.body.style.cursor = "auto";
       lupeAus = !lupeAus;
       sound06.play();
@@ -77,41 +76,12 @@ class secretEntry {
 }
 let sound06 = new Pizzicato.Sound("sound/Secret.mp3");
 
-rotesAuto = new secretEntry("Auto", 0.660938, 0.70, "screen03", "Das ist ein Secret" /*, "Bild002/Objekte_ImBild/Geldautomat.png"*/);
+Waage = new secretEntry("Waage", 0.832813, 0.200463, "screen02", "Das ist eine Waage", "Altstadt/Bild_002/Objekte_imBild/Waage.png");
 
-// Secret Campus Logik
+// Secret Altstadt Logik
 
-let secretCampus = document.querySelector("#secretCampus");
+let secretAltstadt = document.querySelector("#secretAltstadt");
 
-let zauberer = document.querySelector("#zauberer");
-let dieb = document.querySelector("#dieb");
-let koch = document.querySelector("#koch");
-let secretItemsFound = 0;
-
-let foundAll = (amount) => {
-  if (amount < 3) return;
-  sound06.play();
-  secretLevelCampusDone = true;
-  setTimeout(() => {
-    fadeOut('#secretCampus');
-  }, 3000);
-}
-
-zauberer.onclick = () => {
-  secretItemsFound++;
-  zauberer.style.display = "none";
-  foundAll(secretItemsFound);
-};
-dieb.onclick = () => {
-  secretItemsFound++;
-  dieb.style.display = "none";
-  foundAll(secretItemsFound);
-};
-koch.onclick = () => {
-  secretItemsFound++;
-  koch.style.display = "none";
-  foundAll(secretItemsFound);
-};
 
 
 function fadeIn(selector) {

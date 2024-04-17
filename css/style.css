@@ -641,7 +641,7 @@ body::-webkit-scrollbar {
 
 .pickObject {
     image-rendering: crisp-edges;
-    /* outline: 3px solid red; */
+    outline: 3px solid blueviolet;
 }
 
 .hintCircle {
@@ -836,6 +836,20 @@ body::-webkit-scrollbar {
     background-repeat: no-repeat;
     background-size: contain;
     outline: 3px solid red;
+}
+
+#secretAltstadt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) var(--scaleFactor);
+    width: calc(3840px * 0.67);
+    height: calc(2160px * 0.67);
+    z-index: 1;
+    background: url(../img/Campus/Zoom/Campus_Zoom_016_hz.png); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: none;
 }
 
 
