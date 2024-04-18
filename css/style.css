@@ -641,7 +641,7 @@ body::-webkit-scrollbar {
 
 .pickObject {
     image-rendering: crisp-edges;
-    outline: 5px solid orange;
+    /* outline: 5px solid orange; */
 }
 
 .hintCircle {
