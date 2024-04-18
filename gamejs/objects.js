@@ -106,7 +106,7 @@ class PickObject {
       console.log('Image "' + this.name + '" loaded...' + " x: " + this.imgProxy.width + " y: " + this.imgProxy.height);
       setTimeout(() => {
         this.render();
-      }, 150);
+      }, 300);
     };
   }
 
