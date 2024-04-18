@@ -267,15 +267,15 @@ window.onload = () => {
       duration: 100,
     })
     .add({
-      begin: () => {
-        startGame();
-      },
+      // begin: () => {
+      //   startGame();
+      // },
       targets: "#start-screen",
       translateY: [0, "-100%"],
       duration: 500,
       easing: "easeInSine",
     });
-  // startGame();
+  startGame();
 };
 
 document.addEventListener("DOMContentLoaded", function () {});

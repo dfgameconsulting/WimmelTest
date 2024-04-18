@@ -250,6 +250,7 @@ function animateWin(div) {
 let isRunning = false;
 // let object01, object02, object03, object04, object05, object06, object07, object08, object09, object10, object11, object12, object13, object14, object15, object16, ;
 
+
 window.onload = () => {
   let tl = new anime.timeline();
   tl.add({
@@ -263,15 +264,15 @@ window.onload = () => {
       duration: 100,
     })
     .add({
-      begin: () => {
-        startGame();
-      },
+      // begin: () => {
+      //   startGame();
+      // },
       targets: "#start-screen",
       translateY: [0, "-100%"],
       duration: 500,
       easing: "easeInSine",
     });
-  // startGame();
+  startGame();
 };
 
 document.addEventListener("DOMContentLoaded", function() {
