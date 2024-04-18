@@ -84,6 +84,15 @@ window.addEventListener("resize", resetRatios);
 
 let objects = [];
 let secrets = [];
+let invCss = `
+height: var(--inventorySize);
+width: var(--inventorySize);
+background-image: url(img/${this.invImg});
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+filter: brightness(0.1) sepia(1) opacity(0.3); 
+`;
 
 class pickObject {
   constructor(name, x, y, place, text, img, invImg) {
@@ -98,13 +107,12 @@ class pickObject {
 
     this.imgProxy = new Image();
     this.imgProxy.src = "img/" + this.img;
+    this.w = this.imgProxy.width;
+    this.h = this.imgProxy.height;
+
     this.imgProxy.onload = () => {
-      this.w = this.imgProxy.width;
-      this.h = this.imgProxy.height;
       console.log('Image "' + this.name + '" loaded...' + " x: " + this.imgProxy.width + " y: " + this.imgProxy.height);
-      setTimeout(() => {
-        this.render();
-      }, 250);
+      this.render();
     };
   }
 
@@ -204,6 +212,7 @@ class pickObject {
     console.log(" ...was created!");
   }
 }
+
 
 // Objekte checken
 let objectCopy = [];

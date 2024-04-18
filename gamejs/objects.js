@@ -84,9 +84,8 @@ window.addEventListener("resize", resetRatios);
 
 let objects = [];
 let secrets = [];
-
-class pickObject {
-  constructor(name, x, y, place, text, img) {
+class PickObject {
+  constructor(name, x, y, place, text, img, invImg) {
     this.name = name;
     this.x = x;
     this.y = y;
@@ -94,17 +93,24 @@ class pickObject {
     this.text = text;
     this.img = img;
     this.wasFound = false;
+    this.invImg = invImg;
 
     this.imgProxy = new Image();
     this.imgProxy.src = "img/" + this.img;
-    this.w = this.imgProxy.width;
-    this.h = this.imgProxy.height;
+       // this.w = this.imgProxy.width;
+    // this.h = this.imgProxy.height;
 
     this.imgProxy.onload = () => {
+      this.w = this.imgProxy.width;
+      this.h = this.imgProxy.height;
       console.log('Image "' + this.name + '" loaded...' + " x: " + this.imgProxy.width + " y: " + this.imgProxy.height);
+      setTimeout(() => {
+        this.render();
+      }, 250);
     };
+  }
 
-    // Suchbild
+  render() {
     let div = document.createElement("div");
     div.id = this.name;
     div.className = "pickObject";
@@ -125,114 +131,229 @@ class pickObject {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;`;
-    // Inventory
+
     let divInventory = document.createElement("div");
     divInventory.id = this.name + "Inventory";
     divInventory.className = "inventoryObject";
-    if (this.place === "screen01") {
-      document.getElementById("inventory-wrapper01").appendChild(divInventory);
-      document.getElementById(this.name + "Inventory").style.cssText = `
-    height: var(--inventorySize);
-    width: var(--inventorySize);
-    background-image: url(img/${this.img});
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    filter: brightness(0.1) sepia(1) opacity(0.3); 
-    `; //  blur(3px)
-    } else if (this.place === "screen02") {
-      document.getElementById("inventory-wrapper02").appendChild(divInventory);
-      document.getElementById(this.name + "Inventory").style.cssText = `
-    height: var(--inventorySize);
-    width: var(--inventorySize);
-    background-image: url(img/${this.img});
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    filter: brightness(0.1) sepia(1) opacity(0.3); 
-    `; // blur(3px)
-    } else if (this.place === "screen03") {
-      document.getElementById("inventory-wrapper03").appendChild(divInventory);
-      document.getElementById(this.name + "Inventory").style.cssText = `
-    height: var(--inventorySize);
-    width: var(--inventorySize);
-    background-image: url(img/${this.img});
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    filter: brightness(0.1) sepia(1) opacity(0.3); 
-    `; //blur(3px)
-    } else if (this.place === "screen04") {
-      document.getElementById("inventory-wrapper04").appendChild(divInventory);
-      document.getElementById(this.name + "Inventory").style.cssText = `
-    height: var(--inventorySize);
-    width: var(--inventorySize);
-    background-image: url(img/${this.img});
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    filter: brightness(0.1) sepia(1) opacity(0.3); 
-    `; //blur(3px)
-    }
+    let inventoryWrapper = document.getElementById(`inventory-wrapper${this.place.slice(-2)}`);
+    inventoryWrapper.appendChild(divInventory);
+    divInventory.style.cssText = `
+      height: var(--inventorySize);
+      width: var(--inventorySize);
+      background-image: url(img/${this.invImg});
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      filter: brightness(0.1) sepia(1) opacity(0.3);`;
+
     div.onclick = () => {
       if (isRunning) return;
-      anime({
-        begin: () => {
-          isRunning = true;
-          this.wasFound = true;
-          // GameManager!
-          localStorage.setItem(this.name, "true");
-          console.log(this.name + " was found");
-          let tl = new anime.timeline();
-          tl.add({
-            begin: () => {
-              document.querySelector('#foundInfo').innerHTML = this.name.replace(/_/g, ' ') + " gefunden!";
-            },
-            targets: "#options-info",
-            opacity: [0, 1],
-            duration: 500,
-            easing: "easeInOutSine",
-          }).add({
-            duration: 1000,
-          }).add({
-            targets: "#options-info",
-            opacity: [1, 0],
-            duration: 500,
-            easing: "easeInOutSine",
-          })
-          
-        },
-        targets: "#" + this.name,
-        scale: [1.5, 1, 0.01],
-        translate: "-33% -33%",
-        transformOrigin: "50% 50%",
-        easing: "linear",
-        duration: 500,
-        complete: () => {
-          sound01.play();
-          let index = objects.indexOf(this);
-          objectCopy.push(...objects.splice(index, 1));
-          console.log(objectCopy);
-          document.getElementById(this.name).remove();
-          isRunning = false;
-          anime({
-            targets: `#${this.name + "Inventory"}`,
-            filter: ["brightness(0.1) sepia(1) opacity(0.3)", "brightness(1) sepia(0) opacity(1)"],
-            scale: [0.9, 1.3, 1],
-            easing: "easeInOutExpo",
-            duration: 300,
-            complete: () => {
-              checkAllObjectsFound();
-            },
-          });
-        },
-      });
+            anime({
+              begin: () => {
+                isRunning = true;
+                this.wasFound = true;
+                // GameManager!
+                localStorage.setItem(this.name, "true");
+                console.log(this.name + " was found");
+                let tl = new anime.timeline();
+                tl.add({
+                  begin: () => {
+                    document.querySelector('#foundInfo').innerHTML = this.name.replace(/_/g, ' ') + " gefunden!";
+                  },
+                  targets: "#options-info",
+                  opacity: [0, 1],
+                  duration: 500,
+                  easing: "easeInOutSine",
+                }).add({
+                  duration: 1000,
+                }).add({
+                  targets: "#options-info",
+                  opacity: [1, 0],
+                  duration: 500,
+                  easing: "easeInOutSine",
+                })
+                
+              },
+              targets: "#" + this.name,
+              scale: [1.5, 1, 0.01],
+              translate: "-33% -33%",
+              transformOrigin: "50% 50%",
+              easing: "linear",
+              duration: 500,
+              complete: () => {
+                sound01.play();
+                let index = objects.indexOf(this);
+                objectCopy.push(...objects.splice(index, 1));
+                console.log(objectCopy);
+                document.getElementById(this.name).remove();
+                isRunning = false;
+                anime({
+                  targets: `#${this.name + "Inventory"}`,
+                  filter: ["brightness(0.1) sepia(1) opacity(0.3)", "brightness(1) sepia(0) opacity(1)"],
+                  scale: [0.9, 1.3, 1],
+                  easing: "easeInOutExpo",
+                  duration: 300,
+                  complete: () => {
+                    checkAllObjectsFound();
+                  },
+                });
+              },
+            });
     };
+
     objects.push(this);
     console.log(this);
-    console.log(" ...was created!")
+    console.log(" ...was created!");
   }
 }
+// class PickObject {
+//   constructor(name, x, y, place, text, img) {
+//     this.name = name;
+//     this.x = x;
+//     this.y = y;
+//     this.place = place;
+//     this.text = text;
+//     this.img = img;
+//     this.wasFound = false;
+
+//     this.imgProxy = new Image();
+//     this.imgProxy.src = "img/" + this.img;
+//     this.w = this.imgProxy.width;
+//     this.h = this.imgProxy.height;
+
+//     this.imgProxy.onload = () => {
+//       console.log('Image "' + this.name + '" loaded...' + " x: " + this.imgProxy.width + " y: " + this.imgProxy.height);
+//     };
+
+//     // Suchbild
+//     let div = document.createElement("div");
+//     div.id = this.name;
+//     div.className = "PickObject";
+//     document.getElementById(this.place).appendChild(div);
+
+//     let pos = this.place === "screen01" ? screen01Pos : this.place == "screen02" ? screen02Pos : this.place == "screen03" ? screen03Pos : screen04Pos;
+//     r.style.setProperty(`--${this.name}X`, `${pos.left + screen01Width * this.x}px`);
+//     r.style.setProperty(`--${this.name}Y`, `${pos.top + screen01Height * this.y}px`);
+//     document.getElementById(this.name).style.cssText = `
+//     position: absolute;
+//     width: ${this.w}px;
+//     height: ${this.h}px;
+//     left: var(--${this.name}X);
+//     top: var(--${this.name}Y); 
+//     transform-origin: 0% 0%;
+//     transform: translate(0%, 0%) var(--scaleFactorObjects);
+//     background-image: url(img/${this.img});
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: contain;`;
+//     // Inventory
+//     let divInventory = document.createElement("div");
+//     divInventory.id = this.name + "Inventory";
+//     divInventory.className = "inventoryObject";
+//     if (this.place === "screen01") {
+//       document.getElementById("inventory-wrapper01").appendChild(divInventory);
+//       document.getElementById(this.name + "Inventory").style.cssText = `
+//     height: var(--inventorySize);
+//     width: var(--inventorySize);
+//     background-image: url(img/${this.img});
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: contain;
+//     filter: brightness(0.1) sepia(1) opacity(0.3); 
+//     `; //  blur(3px)
+//     } else if (this.place === "screen02") {
+//       document.getElementById("inventory-wrapper02").appendChild(divInventory);
+//       document.getElementById(this.name + "Inventory").style.cssText = `
+//     height: var(--inventorySize);
+//     width: var(--inventorySize);
+//     background-image: url(img/${this.img});
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: contain;
+//     filter: brightness(0.1) sepia(1) opacity(0.3); 
+//     `; // blur(3px)
+//     } else if (this.place === "screen03") {
+//       document.getElementById("inventory-wrapper03").appendChild(divInventory);
+//       document.getElementById(this.name + "Inventory").style.cssText = `
+//     height: var(--inventorySize);
+//     width: var(--inventorySize);
+//     background-image: url(img/${this.img});
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: contain;
+//     filter: brightness(0.1) sepia(1) opacity(0.3); 
+//     `; //blur(3px)
+//     } else if (this.place === "screen04") {
+//       document.getElementById("inventory-wrapper04").appendChild(divInventory);
+//       document.getElementById(this.name + "Inventory").style.cssText = `
+//     height: var(--inventorySize);
+//     width: var(--inventorySize);
+//     background-image: url(img/${this.img});
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: contain;
+//     filter: brightness(0.1) sepia(1) opacity(0.3); 
+//     `; //blur(3px)
+//     }
+//     div.onclick = () => {
+//       if (isRunning) return;
+//       anime({
+//         begin: () => {
+//           isRunning = true;
+//           this.wasFound = true;
+//           // GameManager!
+//           localStorage.setItem(this.name, "true");
+//           console.log(this.name + " was found");
+//           let tl = new anime.timeline();
+//           tl.add({
+//             begin: () => {
+//               document.querySelector('#foundInfo').innerHTML = this.name.replace(/_/g, ' ') + " gefunden!";
+//             },
+//             targets: "#options-info",
+//             opacity: [0, 1],
+//             duration: 500,
+//             easing: "easeInOutSine",
+//           }).add({
+//             duration: 1000,
+//           }).add({
+//             targets: "#options-info",
+//             opacity: [1, 0],
+//             duration: 500,
+//             easing: "easeInOutSine",
+//           })
+          
+//         },
+//         targets: "#" + this.name,
+//         scale: [1.5, 1, 0.01],
+//         translate: "-33% -33%",
+//         transformOrigin: "50% 50%",
+//         easing: "linear",
+//         duration: 500,
+//         complete: () => {
+//           sound01.play();
+//           let index = objects.indexOf(this);
+//           objectCopy.push(...objects.splice(index, 1));
+//           console.log(objectCopy);
+//           document.getElementById(this.name).remove();
+//           isRunning = false;
+//           anime({
+//             targets: `#${this.name + "Inventory"}`,
+//             filter: ["brightness(0.1) sepia(1) opacity(0.3)", "brightness(1) sepia(0) opacity(1)"],
+//             scale: [0.9, 1.3, 1],
+//             easing: "easeInOutExpo",
+//             duration: 300,
+//             complete: () => {
+//               checkAllObjectsFound();
+//             },
+//           });
+//         },
+//       });
+//     };
+//     objects.push(this);
+//     console.log(this);
+//     console.log(" ...was created!")
+//   }
+// }
 
 // Objekte checken
 let objectCopy = [];
@@ -341,55 +462,56 @@ class hintCircleObject {
     objects.push(this);
   }
 }
+
 let startGame = () => {
   blurAll();
   //sound05.play();
-  object01 = new pickObject("Bar", 0.19974, 0.269444, "screen01", "Das ist ein Barschild", "Bild001/Objekte_ImBild/Bar.png");
-  object02 = new pickObject("Burger", 0.279167, 0.53704, "screen01", "Das ist ein Burger Schild", "Bild001/Objekte_ImBild/Burger.png"); //Wimmelbild/content/img/Bild001/Objekte_ImBild/EinarmigerBandit.png
-  object03 = new pickObject("Bandit", 0.0, 0.601852, "screen01", "Das ist ein einarmiger Bandit", "Bild001/Objekte_ImBild/EinarmigerBandit.png");
-  object04 = new pickObject("Glasscontainer", 0.295052, 0.627315, "screen01", "Das ist ein ", "Bild001/Objekte_ImBild/Glasscontainer.png");
-  object05 = new pickObject("Lootbox", 0.183073, 0.609722, "screen01", "Das ist ein ", "Bild001/Objekte_ImBild/Lootbox.png");
-  object06 = new pickObject("Nasenspray", 0.883333, 0.607407, "screen01", "Das ist ein ", "Bild001/Objekte_ImBild/Nasenspray.png");
-  object07 = new pickObject("Pizza", 0.704427, 0.193519, "screen01", "Das ist ein ", "Bild001/Objekte_ImBild/Pizza.png");
-  object08 = new pickObject("Pokerchip", 0.519531, 0.418981, "screen01", "Das ist ein ", "Bild001/Objekte_ImBild/Pokerchip.png");
-  object09 = new pickObject("Sale", 0.247396, 0.04537, "screen01", "Das ist ein ", "Bild001/Objekte_ImBild/Sale.png");
-  object10 = new pickObject("Tüte", 0.599219, 0.591667, "screen01", "Das ist eine Tüte ", "Bild001/Objekte_ImBild/Tüte.png");
+  object01 = new PickObject("Bar", 0.19974, 0.269444, "screen01", "Das ist ein Barschild", "CityCenter/Bild001/Objekte_ImBild/Bar.png" , "CityCenter/Bild001/Objekte_Inventar/Bar.png");
+  object02 = new PickObject("Burger", 0.279167, 0.53704, "screen01", "Das ist ein Burger Schild", "CityCenter/Bild001/Objekte_ImBild/Burger.png" , "CityCenter/Bild001/Objekte_Inventar/Burger.png"); 
+  object03 = new PickObject("Bandit", 0.0, 0.601852, "screen01", "Das ist ein einarmiger Bandit", "CityCenter/Bild001/Objekte_ImBild/EinarmigerBandit.png" , "CityCenter/Bild001/Objekte_Inventar/EinarmigerBandit.png");
+  object04 = new PickObject("Glasscontainer", 0.295052, 0.627315, "screen01", "Das ist ein ", "CityCenter/Bild001/Objekte_ImBild/Glasscontainer.png" , "CityCenter/Bild001/Objekte_Inventar/Glasscontainer.png");
+  object05 = new PickObject("Lootbox", 0.183073, 0.609722, "screen01", "Das ist ein ", "CityCenter/Bild001/Objekte_ImBild/Lootbox.png", "CityCenter/Bild001/Objekte_Inventar/Lootbox.png");
+  object06 = new PickObject("Nasenspray", 0.883333, 0.607407, "screen01", "Das ist ein ", "CityCenter/Bild001/Objekte_ImBild/Nasenspray.png" , "CityCenter/Bild001/Objekte_Inventar/Nasenspray.png");
+  object07 = new PickObject("Pizza", 0.704427, 0.193519, "screen01", "Das ist ein ", "CityCenter/Bild001/Objekte_ImBild/Pizza.png" , "CityCenter/Bild001/Objekte_Inventar/Pizza.png");
+  object08 = new PickObject("Pokerchip", 0.519531, 0.418981, "screen01", "Das ist ein ", "CityCenter/Bild001/Objekte_ImBild/Pokerchip.png", "CityCenter/Bild001/Objekte_Inventar/Pokerchip.png");
+  object09 = new PickObject("Sale", 0.247396, 0.04537, "screen01", "Das ist ein ", "CityCenter/Bild001/Objekte_ImBild/Sale.png", "CityCenter/Bild001/Objekte_Inventar/Sale.png");
+  object10 = new PickObject("Tüte", 0.599219, 0.591667, "screen01", "Das ist eine Tüte ", "CityCenter/Bild001/Objekte_ImBild/Tüte.png", "CityCenter/Bild001/Objekte_Inventar/Tüte.png");
 
-  object11 = new pickObject("Apotheke", 0.734635, 0.506944, "screen02", "Das ist ein ", "Bild004/Objekte_ImBild/Apotheke.png"); //, "objects/BIB001_Inventar_Testobjektgefunden_01_hz.png"
-  object12 = new pickObject("Arbeitsausweis", 0.115625, 0.136111, "screen02", "Das ist ein ", "Bild004/Objekte_ImBild/Arbeitsausweis.png");
-  object13 = new pickObject("Erste_Hilfe_Kasten", 0.065625, 0.074074, "screen02", "Das ist ein ", "Bild004/Objekte_ImBild/ErsteHilfeKasten.png");
-  object14 = new pickObject("Gelber_Schein", 0.836198, 0.953704, "screen02", "Das ist ein ", "Bild004/Objekte_ImBild/GelberSchein.png");
-  object15 = new pickObject("Glühbirne", 0.083854, 0.618519, "screen02", "Das ist ein ", "Bild004/Objekte_ImBild/Glühbirne.png");
-  object16 = new pickObject("Jogger", 0.27526, 0.623148, "screen02", "Das ist ein ", "Bild004/Objekte_ImBild/Jogger.png");
-  object17 = new pickObject("Krücken", 0.839062, 0.344444, "screen02", "Das ist ein ", "Bild004/Objekte_ImBild/Krücken.png");
-  object18 = new pickObject("Mappe", 0.451042, 0.206944, "screen02", "Das ist ein ", "Bild004/Objekte_ImBild/Mappe.png");
-  object19 = new pickObject("Maske", 0.857292, 0.343519, "screen02", "Das ist ein ", "Bild004/Objekte_ImBild/Maske.png");
-  object20 = new pickObject("Sicherheitshinweise", 0.241927, 0.568519, "screen02", "Das ist ein ", "Bild004/Objekte_ImBild/Sicherheitshinweise.png");
-  object39 = new pickObject("Sportgerät", 0.704948, 0.172222, "screen02", "Das ist ein ", "Bild004/Objekte_ImBild/Sportgerät.png");
-  object40 = new pickObject("Tisch", 0.52474, 0.734722, "screen02", "Das ist ein ", "Bild004/Objekte_ImBild/Tisch.png");
+  object11 = new PickObject("Apotheke", 0.734635, 0.506944, "screen02", "Das ist ein ", "CityCenter/Bild004/Objekte_ImBild/Apotheke.png" , "CityCenter/Bild004/Objekte_Inventar/Apotheke.png"); 
+  object12 = new PickObject("Arbeitsausweis", 0.115625, 0.136111, "screen02", "Das ist ein ", "CityCenter/Bild004/Objekte_ImBild/Arbeitsausweis.png" , "CityCenter/Bild004/Objekte_Inventar/Arbeitsausweis.png");
+  object13 = new PickObject("Erste_Hilfe_Kasten", 0.065625, 0.074074, "screen02", "Das ist ein ", "CityCenter/Bild004/Objekte_ImBild/ErsteHilfeKasten.png", "CityCenter/Bild004/Objekte_Inventar/ErsteHilfeKasten.png");
+  object14 = new PickObject("Gelber_Schein", 0.836198, 0.953704, "screen02", "Das ist ein ", "CityCenter/Bild004/Objekte_ImBild/GelberSchein.png", "CityCenter/Bild004/Objekte_Inventar/GelberSchein.png");
+  object15 = new PickObject("Glühbirne", 0.083854, 0.618519, "screen02", "Das ist ein ", "CityCenter/Bild004/Objekte_ImBild/Glühbirne.png", "CityCenter/Bild004/Objekte_Inventar/Glühbirne.png");
+  object16 = new PickObject("Jogger", 0.27526, 0.623148, "screen02", "Das ist ein ", "CityCenter/Bild004/Objekte_ImBild/Jogger.png", "CityCenter/Bild004/Objekte_Inventar/Jogger.png");
+  object17 = new PickObject("Krücken", 0.839062, 0.344444, "screen02", "Das ist ein ", "CityCenter/Bild004/Objekte_ImBild/Krücken.png", "CityCenter/Bild004/Objekte_Inventar/Krücken.png");
+  object18 = new PickObject("Mappe", 0.451042, 0.206944, "screen02", "Das ist ein ", "CityCenter/Bild004/Objekte_ImBild/Mappe.png", "CityCenter/Bild004/Objekte_Inventar/Mappe.png");
+  object19 = new PickObject("Maske", 0.857292, 0.343519, "screen02", "Das ist ein ", "CityCenter/Bild004/Objekte_ImBild/Maske.png", "CityCenter/Bild004/Objekte_Inventar/Maske.png");
+  object20 = new PickObject("Sicherheitshinweise", 0.241927, 0.568519, "screen02", "Das ist ein ", "CityCenter/Bild004/Objekte_ImBild/Sicherheitshinweise.png", "CityCenter/Bild004/Objekte_Inventar/Sicherheitshinweise.png");
+  object39 = new PickObject("Sportgerät", 0.704948, 0.172222, "screen02", "Das ist ein ", "CityCenter/Bild004/Objekte_ImBild/Sportgerät.png", "CityCenter/Bild004/Objekte_Inventar/Sportgerät.png");
+  object40 = new PickObject("Tisch", 0.52474, 0.734722, "screen02", "Das ist ein ", "CityCenter/Bild004/Objekte_ImBild/Tisch.png", "CityCenter/Bild004/Objekte_Inventar/Tisch.png");
 
-  object21 = new pickObject("Briefkasten", 0.778906, 0.547685, "screen03", "Das ist ein ", "Bild002/Objekte_ImBild/Briefkasten.png");
-  object22 = new pickObject("Casino", 0.66224, 0.513426, "screen03", "Das ist ein ", "Bild002/Objekte_ImBild/Casino.png");
-  object23 = new pickObject("Einkaufswagen", 0.784115, 0.657407, "screen03", "Das ist ein ", "Bild002/Objekte_ImBild/Einkaufswagen.png");
-  //object24 = new pickObject("Geldautomat", 0.360938, 0.546759, "screen03", "Das ist ein ", "Bild002/Objekte_ImBild/Geldautomat.png");
-  object25 = new pickObject("Gerichtshammer", 0.229688, 0.24537, "screen03", "Das ist ein ", "Bild002/Objekte_ImBild/Gerichtshammer.png");
-  object26 = new pickObject("Handyvertrag", 0.378125, 0.272685, "screen03", "Das ist ein ", "Bild002/Objekte_ImBild/Handyvertrag.png");
-  object27 = new pickObject("Hund", 0.313802, 0.619444, "screen03", "Das ist ein ", "Bild002/Objekte_ImBild/Hund.png");
-  object28 = new pickObject("Lieferauto", 0.502604, 0.51713, "screen03", "Das ist ein ", "Bild002/Objekte_ImBild/Lieferauto.png");
-  object29 = new pickObject("Lottoschein", 0.083594, 0.885648, "screen03", "Das ist ein ", "Bild002/Objekte_ImBild/Lottoschein.png");
-  object30 = new pickObject("Rechnungen", 0.448698, 0.8875, "screen03", "Das ist ein ", "Bild002/Objekte_ImBild/Rechnungen.png");
+  object21 = new PickObject("Briefkasten", 0.778906, 0.547685, "screen03", "Das ist ein ", "CityCenter/Bild002/Objekte_ImBild/Briefkasten.png", "CityCenter/Bild002/Objekte_Inventar/Briefkasten.png");
+  object22 = new PickObject("Casino", 0.66224, 0.513426, "screen03", "Das ist ein ", "CityCenter/Bild002/Objekte_ImBild/Casino.png", "CityCenter/Bild002/Objekte_Inventar/Casino.png");
+  object23 = new PickObject("Einkaufswagen", 0.784115, 0.657407, "screen03", "Das ist ein ", "CityCenter/Bild002/Objekte_ImBild/Einkaufswagen.png", "CityCenter/Bild002/Objekte_Inventar/Einkaufswagen.png");
+  //object24 = new PickObject("Geldautomat", 0.360938, 0.546759, "screen03", "Das ist ein ", "CityCenter/Bild002/Objekte_ImBild/Geldautomat.png");
+  object25 = new PickObject("Gerichtshammer", 0.229688, 0.24537, "screen03", "Das ist ein ", "CityCenter/Bild002/Objekte_ImBild/Gerichtshammer.png", "CityCenter/Bild002/Objekte_Inventar/Gerichtshammer.png");
+  object26 = new PickObject("Handyvertrag", 0.378125, 0.272685, "screen03", "Das ist ein ", "CityCenter/Bild002/Objekte_ImBild/Handyvertrag.png", "CityCenter/Bild002/Objekte_Inventar/Handyvertrag.png");
+  object27 = new PickObject("Hund", 0.313802, 0.619444, "screen03", "Das ist ein ", "CityCenter/Bild002/Objekte_ImBild/Hund.png", "CityCenter/Bild002/Objekte_Inventar/Hund.png");
+  object28 = new PickObject("Lieferauto", 0.502604, 0.51713, "screen03", "Das ist ein ", "CityCenter/Bild002/Objekte_ImBild/Lieferauto.png", "CityCenter/Bild002/Objekte_Inventar/Lieferauto.png");
+  object29 = new PickObject("Lottoschein", 0.083594, 0.885648, "screen03", "Das ist ein ", "CityCenter/Bild002/Objekte_ImBild/Lottoschein.png", "CityCenter/Bild002/Objekte_Inventar/Lottoschein.png");
+  object30 = new PickObject("Rechnungen", 0.448698, 0.8875, "screen03", "Das ist ein ", "CityCenter/Bild002/Objekte_ImBild/Rechnungen.png", "CityCenter/Bild002/Objekte_Inventar/Rechnungen.png");
 
-  object31 = new pickObject("Agentur_für_Arbeit", 0.405469, 0.084259, "screen04", "Das ist ein ", "Bild003/Objekte_ImBild/AgenturArbeit.png"); //, "objects/BIB001_Inventar_Testobjektgefunden_01_hz.png"
-  object32 = new pickObject("HausvomNikolaus", 0.557292, 0.585648, "screen04", "Das ist ein ", "Bild003/Objekte_ImBild/HausvomNikolaus.png");
-  object33 = new pickObject("Kartons", 0.696094, 0.704167, "screen04", "Das ist ein ", "Bild003/Objekte_ImBild/Kartons.png");
-  object34 = new pickObject("Krawatte", 0.645573, 0.440741, "screen04", "Das ist ein ", "Bild003/Objekte_ImBild/Krawatte.png");
-  object35 = new pickObject("Leichenwagen", 0, 0.636574, "screen04", "Das ist ein ", "Bild003/Objekte_ImBild/Leichenwagen.png");
-  object36 = new pickObject("Schlafsack", 0.676562, 0.872222, "screen04", "Das ist ein ", "Bild003/Objekte_ImBild/Schlafsack.png");
-  object37 = new pickObject("Schlüssel", 0.216146, 0.760648, "screen04", "Das ist ein ", "Bild003/Objekte_ImBild/Schlüssel.png");
-  object38 = new pickObject("Zeitung", 0.565104, 0.82037, "screen04", "Das ist ein ", "Bild003/Objekte_ImBild/Zeitung.png");
-  // object48 = new pickObject("object54", Math.random() * 0.9, Math.random() * 0.9, "screen04", "Das ist ein ", "Bild003/Objekte_ImBild/");
-  // object49 = new pickObject("object55", Math.random() * 0.9, Math.random() * 0.9, "screen04", "Das ist ein ", "Bild003/Objekte_ImBild/");
-  // object50 = new pickObject("object56", Math.random() * 0.9, Math.random() * 0.9, "screen04", "Das ist ein ", "Bild003/Objekte_ImBild/");
+  object31 = new PickObject("Agentur_für_Arbeit", 0.405469, 0.084259, "screen04", "Das ist ein ", "CityCenter/Bild003/Objekte_ImBild/AgenturArbeit.png", "CityCenter/Bild003/Objekte_Inventar/AgenturArbeit.png");
+  object32 = new PickObject("HausvomNikolaus", 0.557292, 0.585648, "screen04", "Das ist ein ", "CityCenter/Bild003/Objekte_ImBild/HausvomNikolaus.png", "CityCenter/Bild003/Objekte_Inventar/HausvomNikolaus.png");
+  object33 = new PickObject("Kartons", 0.696094, 0.704167, "screen04", "Das ist ein ", "CityCenter/Bild003/Objekte_ImBild/Kartons.png", "CityCenter/Bild003/Objekte_Inventar/Kartons.png");
+  object34 = new PickObject("Krawatte", 0.645573, 0.440741, "screen04", "Das ist ein ", "CityCenter/Bild003/Objekte_ImBild/Krawatte.png", "CityCenter/Bild003/Objekte_Inventar/Krawatte.png");
+  object35 = new PickObject("Leichenwagen", 0, 0.636574, "screen04", "Das ist ein ", "CityCenter/Bild003/Objekte_ImBild/Leichenwagen.png", "CityCenter/Bild003/Objekte_Inventar/Leichenwagen.png");
+  object36 = new PickObject("Schlafsack", 0.676562, 0.872222, "screen04", "Das ist ein ", "CityCenter/Bild003/Objekte_ImBild/Schlafsack.png", "CityCenter/Bild003/Objekte_Inventar/Schlafsack.png");
+  object37 = new PickObject("Schlüssel", 0.216146, 0.760648, "screen04", "Das ist ein ", "CityCenter/Bild003/Objekte_ImBild/Schlüssel.png", "CityCenter/Bild003/Objekte_Inventar/Schlüssel.png");
+  object38 = new PickObject("Zeitung", 0.565104, 0.82037, "screen04", "Das ist ein ", "CityCenter/Bild003/Objekte_ImBild/Zeitung.png", "CityCenter/Bild003/Objekte_Inventar/Zeitung.png");
+  // object48 = new PickObject("object54", Math.random() * 0.9, Math.random() * 0.9, "screen04", "Das ist ein ", "Bild003/Objekte_ImBild/");
+  // object49 = new PickObject("object55", Math.random() * 0.9, Math.random() * 0.9, "screen04", "Das ist ein ", "Bild003/Objekte_ImBild/");
+  // object50 = new PickObject("object56", Math.random() * 0.9, Math.random() * 0.9, "screen04", "Das ist ein ", "Bild003/Objekte_ImBild/");
 
   resetRatios();
 
