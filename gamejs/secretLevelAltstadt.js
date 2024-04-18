@@ -21,7 +21,7 @@ lupe.forEach((lupe) => {
 });
 
 class secretEntry {
-  constructor(name, x, y, place, text, img) {
+  constructor(name, x, y, place, text, img, invImg) {
     this.name = name;
     this.x = x;
     this.y = y;
@@ -29,17 +29,24 @@ class secretEntry {
     this.text = text;
     this.img = img;
     this.wasFound = false;
+    this.invImg = invImg;
+
     this.imgProxy = new Image();
     this.imgProxy.src = "img/" + this.img;
-
-    this.w = this.imgProxy.width;
-    this.h = this.imgProxy.height;
-
-    // Suchbild
+    this.imgProxy.onload = () => {
+      this.w = this.imgProxy.width;
+      this.h = this.imgProxy.height;
+      console.log('Image "' + this.name + '" loaded...' + " x: " + this.imgProxy.width + " y: " + this.imgProxy.height);
+      setTimeout(() => {
+        this.render();
+      }, 250);
+    };
+  }
+  render() {
     let div = document.createElement("div");
     div.id = this.name;
     div.className = "secretEntry";
-    document.getElementById(place).appendChild(div);
+    document.getElementById(this.place).appendChild(div);
 
     let pos = this.place === "screen01" ? screen01Pos : this.place == "screen02" ? screen02Pos : this.place == "screen03" ? screen03Pos : screen04Pos;
     r.style.setProperty(`--${this.name}X`, `${pos.left + screen01Width * this.x}px`);
@@ -73,6 +80,7 @@ class secretEntry {
       sound06.play();
     };
   }
+  // Suchbild
 }
 let sound06 = new Pizzicato.Sound("sound/Secret.mp3");
 
@@ -81,8 +89,6 @@ Waage = new secretEntry("Waage", 0.832813, 0.200463, "screen02", "Das ist eine W
 // Secret Altstadt Logik
 
 let secretAltstadt = document.querySelector("#secretAltstadt");
-
-
 
 function fadeIn(selector) {
   anime({

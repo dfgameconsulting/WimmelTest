@@ -513,7 +513,7 @@ body::-webkit-scrollbar {
     width: 80vw;
     height: calc(80vw * (514 / 3868));
     z-index: 1;
-    background-image: url(../img/Wimmbelbild/Inventar/BIB001_Inventar_10Icons_01_hz.png);
+    background-image: url(../img/Wimmbelbild/Inventar/BIB001_Inventar_Hintergrund_01_hz.png); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -641,7 +641,7 @@ body::-webkit-scrollbar {
 
 .pickObject {
     image-rendering: crisp-edges;
-    outline: 3px solid blueviolet;
+    outline: 5px solid orange;
 }
 
 .hintCircle {
