@@ -705,7 +705,7 @@ body::-webkit-scrollbar {
     width: calc(3840px * 0.67);
     height: calc(2160px * 0.67);
     z-index: 1;
-    background: url(../img/Bild002/Zoom/CityCenter_Zoom_001_rl.png);
+    background: url(../img/CityCenter/Zoom/CityCenter_Zoom_001_rl.png);
     background-repeat: no-repeat;
     background-size: contain;
     display: none;
