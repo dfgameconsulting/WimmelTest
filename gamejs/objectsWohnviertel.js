@@ -340,16 +340,23 @@ let startGame = () => {
   teilnahmezertifikat = new pickObject("Teilnahmezertifikat", 0.529688, 0.693981, "screen02", "Das ist ein Teilnahmezertifikat", "Wohnviertel/Bild_002/Objekte_imBild/Teilnahmezertifikat.png", "Wohnviertel/Bild_002/Objekte_Inventar/Teilnahmezertifikat.png");
 
   meditierendeperson = new pickObject("MeditierendePerson", 0.796615, 0.586574, "screen03", "Das ist eine meditierende Person", "Wohnviertel/Bild_003/Objekte_imBild/MeditierendePerson.png", "Wohnviertel/Bild_003/Objekte_Inventar/MeditierendePerson.png");
-stressball = new pickObject("Stressball", 0.433854, 0.198611, "screen03", "Das ist ein Stressball", "Wohnviertel/Bild_003/Objekte_imBild/Stressball.png", "Wohnviertel/Bild_003/Objekte_Inventar/Stressball.png");
-kompass = new pickObject("Kompass", 0.505990, 0.947685, "screen03", "Das ist ein Kompass", "Wohnviertel/Bild_003/Objekte_imBild/Kompass.png", "Wohnviertel/Bild_003/Objekte_Inventar/Kompass.png");
-gendersymbole = new pickObject("GenderSymbole", 0.658333, 0.019907, "screen03", "Das sind Gender-Symbole", "Wohnviertel/Bild_003/Objekte_imBild/GenderSymbole.png", "Wohnviertel/Bild_003/Objekte_Inventar/GenderSymbole.png");
-wahrsagekugel = new pickObject("Wahrsagekugel", 0.791406, 0.379630, "screen03", "Das ist eine Wahrsagekugel", "Wohnviertel/Bild_003/Objekte_imBild/Wahrsagekugel.png", "Wohnviertel/Bild_003/Objekte_Inventar/Wahrsagekugel.png");
-achterbahn = new pickObject("Achterbahn", 0.308854, 0.416204, "screen03", "Das ist eine Achterbahn", "Wohnviertel/Bild_003/Objekte_imBild/Achterbahn.png", "Wohnviertel/Bild_003/Objekte_Inventar/Achterbahn.png");
-herzkissen = new pickObject("Herzkissen", 0.318490, 0.640741, "screen03", "Das ist ein Herzkissen", "Wohnviertel/Bild_003/Objekte_imBild/Herzkissen.png", "Wohnviertel/Bild_003/Objekte_Inventar/Herzkissen.png");
-blitzableiter = new pickObject("Blitzableiter", 0.189062, 0.130556, "screen03", "Das ist ein Blitzableiter", "Wohnviertel/Bild_003/Objekte_imBild/Blitzableiter.png", "Wohnviertel/Bild_003/Objekte_Inventar/Blitzableiter.png");
-traene = new pickObject("Träne", 0.241146, 0.263889, "screen03", "Das ist eine Träne", "Wohnviertel/Bild_003/Objekte_imBild/Traene.png", "Wohnviertel/Bild_003/Objekte_Inventar/Traene.png");
-daumen = new pickObject("Daumen", 0.112240, 0.056944, "screen03", "Das ist ein Daumen", "Wohnviertel/Bild_003/Objekte_imBild/Daumen.png", "Wohnviertel/Bild_003/Objekte_Inventar/Daumen.png");
+  stressball = new pickObject("Stressball", 0.433854, 0.198611, "screen03", "Das ist ein Stressball", "Wohnviertel/Bild_003/Objekte_imBild/Stressball.png", "Wohnviertel/Bild_003/Objekte_Inventar/Stressball.png");
+  kompass = new pickObject("Kompass", 0.505990, 0.947685, "screen03", "Das ist ein Kompass", "Wohnviertel/Bild_003/Objekte_imBild/Kompass.png", "Wohnviertel/Bild_003/Objekte_Inventar/Kompass.png");
+  gendersymbole = new pickObject("GenderSymbole", 0.658333, 0.019907, "screen03", "Das sind Gender-Symbole", "Wohnviertel/Bild_003/Objekte_imBild/GenderSymbole.png", "Wohnviertel/Bild_003/Objekte_Inventar/GenderSymbole.png");
+  wahrsagekugel = new pickObject("Wahrsagekugel", 0.791406, 0.379630, "screen03", "Das ist eine Wahrsagekugel", "Wohnviertel/Bild_003/Objekte_imBild/Wahrsagekugel.png", "Wohnviertel/Bild_003/Objekte_Inventar/Wahrsagekugel.png");
+  achterbahn = new pickObject("Achterbahn", 0.308854, 0.416204, "screen03", "Das ist eine Achterbahn", "Wohnviertel/Bild_003/Objekte_imBild/Achterbahn.png", "Wohnviertel/Bild_003/Objekte_Inventar/Achterbahn.png");
+  herzkissen = new pickObject("Herzkissen", 0.318490, 0.640741, "screen03", "Das ist ein Herzkissen", "Wohnviertel/Bild_003/Objekte_imBild/Herzkissen.png", "Wohnviertel/Bild_003/Objekte_Inventar/Herzkissen.png");
+  blitzableiter = new pickObject("Blitzableiter", 0.189062, 0.130556, "screen03", "Das ist ein Blitzableiter", "Wohnviertel/Bild_003/Objekte_imBild/Blitzableiter.png", "Wohnviertel/Bild_003/Objekte_Inventar/Blitzableiter.png");
+  traene = new pickObject("Träne", 0.241146, 0.263889, "screen03", "Das ist eine Träne", "Wohnviertel/Bild_003/Objekte_imBild/Traene.png", "Wohnviertel/Bild_003/Objekte_Inventar/Traene.png");
+  daumen = new pickObject("Daumen", 0.112240, 0.056944, "screen03", "Das ist ein Daumen", "Wohnviertel/Bild_003/Objekte_imBild/Daumen.png", "Wohnviertel/Bild_003/Objekte_Inventar/Daumen.png");
   
+  vogelimnest = new pickObject("Vogel_im_Nest", 0.280208, 0.375000, "screen04", "Das ist ein Vogel im Nest", "Wohnviertel/Bild_004/Objekte_imBild/Vogel_im_Nest.png", "Wohnviertel/Bild_004/Objekte_Inventar/Vogel_im_Nest.png");
+  stromkabel = new pickObject("Stromkabel", 0.489062, 0.450000, "screen04", "Das ist ein Stromkabel", "Wohnviertel/Bild_004/Objekte_imBild/Stromkabel.png", "Wohnviertel/Bild_004/Objekte_Inventar/Stromkabel.png");
+  radio = new pickObject("Radio", 0.591927, 0.670833, "screen04", "Das ist ein Radio", "Wohnviertel/Bild_004/Objekte_imBild/Radio.png", "Wohnviertel/Bild_004/Objekte_Inventar/Radio.png");
+  reisekoffer = new pickObject("Reisekoffer", 0.198698, 0.654167, "screen04", "Das ist ein Reisekoffer", "Wohnviertel/Bild_004/Objekte_imBild/Reisekoffer.png", "Wohnviertel/Bild_004/Objekte_Inventar/Reisekoffer.png");
+  fliegendegeldscheine = new pickObject("FliegendeGeldscheine", 0.045833, 0.035648, "screen04", "Das sind fliegende Geldscheine", "Wohnviertel/Bild_004/Objekte_imBild/FliegendeGeldscheine.png", "Wohnviertel/Bild_004/Objekte_Inventar/FliegendeGeldscheine.png");
+  fernseher = new pickObject("Fernseher", 0.879688, 0.179167, "screen04", "Das ist ein Fernseher", "Wohnviertel/Bild_004/Objekte_imBild/Fernseher.png", "Wohnviertel/Bild_004/Objekte_Inventar/Fernseher.png");
+  umzugskisten = new pickObject("Umzugskisten", 0.569010, 0.142130, "screen04", "Das sind Umzugskisten", "Wohnviertel/Bild_004/Objekte_imBild/Umzugskisten.png", "Wohnviertel/Bild_004/Objekte_Inventar/Umzugskisten.png");
 resetRatios();
 
   // Hint System

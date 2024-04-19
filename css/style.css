@@ -55,6 +55,26 @@ body::-webkit-scrollbar {
     justify-content: center;
     align-items: center;
     font-size: 5vw;
+    background-image: url(../img/Zyn/Zyn-3-rella_Normal_.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: center;
+    animation: loading 1s infinite linear;
+}
+
+@keyframes loading{
+    0%{
+        background-image: url(../img/Zyn/Zyn-3-rella_Normal_Blinzeln.png);
+    }
+    40%{
+        background-image: url(../img/Zyn/Zyn-3-rella_GoodJob.png);
+    }
+    60%{
+        background-image: url(../img/Zyn/Zyn-3-rella_Nachdenklich.png);
+    }
+    80%{
+        background-image: url(../img/Zyn/Zyn-3-rella_Talking.png);
+    }
 }
 
 #start-titel {
@@ -628,6 +648,16 @@ body::-webkit-scrollbar {
     background-size: cover;
     z-index: -1;
     filter: blur(5px) opacity(0.618);
+}
+.backscreen2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat:repeat;
+    background-position: center center;
+    background-size: 33%;
+    z-index: -1;
+   /* filter: opacity(0.618); blur(5px)*/
 }
 
 .no-select {

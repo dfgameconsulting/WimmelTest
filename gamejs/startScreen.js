@@ -208,15 +208,15 @@ let resetRatiosStartScreen = () => {
   rMs.style.setProperty("--rainWidth", mainScreenPos.width);
 
   rMs.style.setProperty(`--${"level1"}X`, `${mainScreenPos.left + mainScreenWidth * 0.3}px`);
-  rMs.style.setProperty(`--${"level1"}Y`, `${mainScreenPos.top + mainScreenHeight * 0.6}px`);
-  rMs.style.setProperty(`--${"level2"}X`, `${mainScreenPos.left + mainScreenWidth * 0.6}px`);
-  rMs.style.setProperty(`--${"level2"}Y`, `${mainScreenPos.top + mainScreenHeight * 0.4}px`);
+  rMs.style.setProperty(`--${"level1"}Y`, `${mainScreenPos.top + mainScreenHeight * 0.8}px`);
+  rMs.style.setProperty(`--${"level2"}X`, `${mainScreenPos.left + mainScreenWidth * 0.7}px`);
+  rMs.style.setProperty(`--${"level2"}Y`, `${mainScreenPos.top + mainScreenHeight * 0.3}px`);
   rMs.style.setProperty(`--${"level3"}X`, `${mainScreenPos.left + mainScreenWidth * 0.67}px`);
   rMs.style.setProperty(`--${"level3"}Y`, `${mainScreenPos.top + mainScreenHeight * 0.6}px`);
-  rMs.style.setProperty(`--${"level4"}X`, `${mainScreenPos.left + mainScreenWidth * 0.4}px`);
+  rMs.style.setProperty(`--${"level4"}X`, `${mainScreenPos.left + mainScreenWidth * 0.5}px`);
   rMs.style.setProperty(`--${"level4"}Y`, `${mainScreenPos.top + mainScreenHeight * 0.2}px`);
   rMs.style.setProperty(`--infoX`, `${mainScreenPos.left + mainScreenWidth * 0.15}px`);
-  rMs.style.setProperty(`--infoY`, `${mainScreenPos.top + mainScreenHeight * 0.2}px`);
+  rMs.style.setProperty(`--infoY`, `${mainScreenPos.top + mainScreenHeight * 0.3}px`);
 };
 window.addEventListener("resize", resetRatiosStartScreen);
 window.onload = resetRatiosStartScreen;

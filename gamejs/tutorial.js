@@ -109,7 +109,7 @@ function closeTutorial() {
           });
     }, 500);
 }
-
+let zyd3rella = document.querySelector("#avatar img"); // `url(${loadedzynImages[0].src})`;
 function showTutorial(step) {
   switch (step) {
     case 0:
@@ -125,10 +125,12 @@ function showTutorial(step) {
       tutBild1.classList.add("highlight2");
       fadeIn(tutBild1);
       fadeIn(tutBild2);
+      zyd3rella.src = loadedzynImages[0].src;
       break;
     case 1:
       fadeOut(tutBild1);
       fadeOut(tutBild2);
+      zyd3rella.src = loadedzynImages[1].src;
       setTimeout(() => {
         tutBild1.classList.remove("highlight2");
         tutBild1.style.backgroundImage = "url(../img/Glossar/GlossarButton/BIB001_GlossarButton_01_hz.png)";
@@ -139,6 +141,7 @@ function showTutorial(step) {
       break;
     case 2:
       fadeOut(tutBild1);
+      zyd3rella.src = loadedzynImages[2].src;
       setTimeout(() => {
         tutBild1.style.backgroundImage = "url(../img/options/BIB001_Wimmelbild_UmsehenPfeil_01_hz.png)";
         fadeIn(tutBild1);
@@ -146,6 +149,7 @@ function showTutorial(step) {
       break;
     case 3:
       fadeOut(tutBild1);
+      zyd3rella.src = loadedzynImages[0].src;
       setTimeout(() => {
         tutBild1.style.backgroundImage = "url(../img/inventar/BIB001_Inventar_Lupe_01_hz.png)";
         fadeIn(tutBild1);
@@ -153,6 +157,7 @@ function showTutorial(step) {
       break;
     case 4:
       fadeOut(tutBild1);
+      zyd3rella.src = loadedzynImages[5].src;
       setTimeout(() => {
         tutBild1.style.backgroundImage = "url(../img/inventar/BIB001_Inventar_Fragezeichen_01_hz.png)";
         fadeIn(tutBild1);
@@ -177,3 +182,19 @@ function fadeOut(selector) {
     easing: "easeInOutSine",
   });
 }
+
+//Preload Tutorial Images
+let loadedzynImages = [];
+let zynImages = [
+  "../img/Zyn/Zyn-3-rella_Normal_Blinzeln.png", 
+  "../img/Zyn/Zyn-3-rella_GoodJob.png",
+  "../img/Zyn/Zyn-3-rella_Nachdenklich.png",
+  "../img/Zyn/Zyn-3-rella_Talking.png",
+  "../img/Zyn/Zyn-3-rella_Talking_Blinzeln.png",
+  "../img/Zyn/Zyn-3-rella_Normal_.png",
+];
+zynImages.forEach((e) => {
+  let img = new Image();
+  img.src = e;
+  loadedzynImages.push(img);
+});
