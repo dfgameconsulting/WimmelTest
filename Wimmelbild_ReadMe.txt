@@ -25,3 +25,5 @@ danach einfach immer mit dem Befehl ' ./start_wimmelbild.sh ' starten.
 
 
 
+Falls sich kein Browser öffnen sollte, bitte Browser manuell öffnen in der Adresszeile 
+' http://localhost:8000/index.html ' eingeben und bestätigen.
