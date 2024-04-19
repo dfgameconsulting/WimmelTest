@@ -484,7 +484,7 @@ let startGame = () => {
   object14 = new PickObject("Gelber_Schein", 0.836198, 0.953704, "screen02", "Das ist ein ", "CityCenter/Bild004/Objekte_ImBild/GelberSchein.png", "CityCenter/Bild004/Objekte_Inventar/GelberSchein.png");
   object15 = new PickObject("Glühbirne", 0.083854, 0.618519, "screen02", "Das ist ein ", "CityCenter/Bild004/Objekte_ImBild/Glühbirne.png", "CityCenter/Bild004/Objekte_Inventar/Glühbirne.png");
   object16 = new PickObject("Jogger", 0.27526, 0.623148, "screen02", "Das ist ein ", "CityCenter/Bild004/Objekte_ImBild/Jogger.png", "CityCenter/Bild004/Objekte_Inventar/Jogger.png");
-  object17 = new PickObject("Krücken", 0.839062, 0.344444, "screen02", "Das ist ein ", "CityCenter/Bild004/Objekte_ImBild/Krücken.png", "CityCenter/Bild004/Objekte_Inventar/Krücken.png");
+  object17 = new PickObject("Krücken", 0.839062, 0.719444, "screen02", "Das ist ein ", "CityCenter/Bild004/Objekte_ImBild/Krücken.png", "CityCenter/Bild004/Objekte_Inventar/Krücken.png");
   object18 = new PickObject("Mappe", 0.451042, 0.206944, "screen02", "Das ist ein ", "CityCenter/Bild004/Objekte_ImBild/Mappe.png", "CityCenter/Bild004/Objekte_Inventar/Mappe.png");
   object19 = new PickObject("Maske", 0.857292, 0.343519, "screen02", "Das ist ein ", "CityCenter/Bild004/Objekte_ImBild/Maske.png", "CityCenter/Bild004/Objekte_Inventar/Maske.png");
   object20 = new PickObject("Sicherheitshinweise", 0.241927, 0.568519, "screen02", "Das ist ein ", "CityCenter/Bild004/Objekte_ImBild/Sicherheitshinweise.png", "CityCenter/Bild004/Objekte_Inventar/Sicherheitshinweise.png");
