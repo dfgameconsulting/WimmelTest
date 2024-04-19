@@ -228,12 +228,12 @@ function checkAllObjectsFound() {
     objectCopy = objectCopy.filter((element) => element.place != "screen02");
     animateWin("#inventory-wrapper02");
   }
-  if (countedObjects03.length >= 6) {
+  if (countedObjects03.length >= 7) {
     sound04.play();
     objectCopy = objectCopy.filter((element) => element.place != "screen03");
     animateWin("#inventory-wrapper03");
   }
-  if (countedObjects04.length >= 9) {
+  if (countedObjects04.length >= 11) {
     sound04.play();
     objectCopy = objectCopy.filter((element) => element.place != "screen04");
     animateWin("#inventory-wrapper04");

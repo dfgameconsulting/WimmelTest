@@ -670,8 +670,8 @@ body::-webkit-scrollbar {
 }
 
 .pickObject {
-    image-rendering: crisp-edges;
-    /* outline: 5px solid orange; */
+    /* image-rendering: crisp-edges; */
+    /* outline: 3px solid rgb(255, 165, 0, 0.67); */
 }
 
 .hintCircle {
