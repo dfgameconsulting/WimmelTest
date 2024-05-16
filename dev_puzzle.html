@@ -126,6 +126,7 @@
                 this.sizeY = sizeY
                 this.activeCard = null
                 this.startingIndex = null
+                this.active = true
             }
 
             init = () => {
@@ -148,6 +149,8 @@
                     div.style.verticalAlign = "middle"
 
                     div.onclick = (e) => {
+                        if(!this.active) return
+
                         if (this.activeCard !== null) {
 
                             let a = this.findIndex(this.cards, e.target)
@@ -180,6 +183,7 @@
                                 this.activeCard = null
                                 this.startingIndex = null
                                 if(this.checkIfFinished(this.cards)){
+                                    this.active = false
                                    console.log("YOU WIN!!!")
                                 }
                             }
@@ -228,7 +232,7 @@
             }
         }
 
-        let p = new Puzzle(cards, 848/2, 529/2)
+        let p = new Puzzle(cards, 848/3, 529/3)
         p.init()
 
     </script>
