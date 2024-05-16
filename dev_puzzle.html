@@ -12,6 +12,7 @@
 
         .card {
             position: absolute;
+            background-size: cover;
         }
 
         .active {
@@ -33,47 +34,47 @@
         let cards = [
             {
                 id: 1,
-                uri: "red",
+                uri: "img/Altstadt/Puzzle/Puzzle_Altstadt_Slice_001.jpg",
                 current_pos: null,
             },
             {
                 id: 2,
-                uri: "green",
+                uri: "img/Altstadt/Puzzle/Puzzle_Altstadt_Slice_002.jpg",
                 current_pos: null,
             },
             {
                 id: 3,
-                uri: "blue",
+                uri: "img/Altstadt/Puzzle/Puzzle_Altstadt_Slice_003.jpg",
                 current_pos: null,
             },
             {
                 id: 4,
-                uri: "yellow",
+                uri: "img/Altstadt/Puzzle/Puzzle_Altstadt_Slice_004.jpg",
                 current_pos: null,
             },
             {
                 id: 5,
-                uri: "pink",
+                uri: "img/Altstadt/Puzzle/Puzzle_Altstadt_Slice_005.jpg",
                 current_pos: null,
             },
             {
                 id: 6,
-                uri: "purple",
+                uri: "img/Altstadt/Puzzle/Puzzle_Altstadt_Slice_006.jpg",
                 current_pos: null,
             },
             {
                 id: 7,
-                uri: "blueviolet",
+                uri: "img/Altstadt/Puzzle/Puzzle_Altstadt_Slice_007.jpg",
                 current_pos: null,
             },
             {
                 id: 8,
-                uri: "gray",
+                uri: "img/Altstadt/Puzzle/Puzzle_Altstadt_Slice_008.jpg",
                 current_pos: null,
             },
             {
                 id: 9,
-                uri: "orange",
+                uri: "img/Altstadt/Puzzle/Puzzle_Altstadt_Slice_009.jpg",
                 current_pos: null,
             },
 
@@ -129,7 +130,6 @@
 
             init = () => {
                 console.log("Init puzzle")
-                console.log(this.cards)
 
                 this.cards.forEach((card, index) => {
                     let div = document.createElement('div')
@@ -138,10 +138,10 @@
                     div.className = "card"
                     div.style.width = this.sizeX;
                     div.style.height = this.sizeY;
-                    div.style.background = card.uri
+                    div.style.backgroundImage = "url("+card.uri+")"
                     div.style.top = this.cardPositions[index].top
                     div.style.left = this.cardPositions[index].left
-                    div.textContent = card.id
+                    // div.textContent = card.id
                     div.style.textAlign = "center"
                     div.style.fontSize = 20
                     div.style.color = "#fff"
@@ -228,7 +228,7 @@
             }
         }
 
-        let p = new Puzzle(cards, 400, 300)
+        let p = new Puzzle(cards, 848/2, 529/2)
         p.init()
 
     </script>
