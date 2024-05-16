@@ -1,0 +1,237 @@
+<html>
+
+<head>
+    <style>
+        body {
+            background: #000;
+        }
+
+        #puzzle_wrapper {
+            position: relative;
+        }
+
+        .card {
+            position: absolute;
+        }
+
+        .active {
+            border: 3px outset #FFD100;
+            z-index: 999;
+        }
+       
+        #win_layer h1{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="puzzle_wrapper">
+        <!-- cards will be rendered on puzzle init -->
+    </div>
+    <script>
+        let cards = [
+            {
+                id: 1,
+                uri: "red",
+                current_pos: null,
+            },
+            {
+                id: 2,
+                uri: "green",
+                current_pos: null,
+            },
+            {
+                id: 3,
+                uri: "blue",
+                current_pos: null,
+            },
+            {
+                id: 4,
+                uri: "yellow",
+                current_pos: null,
+            },
+            {
+                id: 5,
+                uri: "pink",
+                current_pos: null,
+            },
+            {
+                id: 6,
+                uri: "purple",
+                current_pos: null,
+            },
+            {
+                id: 7,
+                uri: "blueviolet",
+                current_pos: null,
+            },
+            {
+                id: 8,
+                uri: "gray",
+                current_pos: null,
+            },
+            {
+                id: 9,
+                uri: "orange",
+                current_pos: null,
+            },
+
+        ]
+
+        class Puzzle {
+            constructor(cards, sizeX, sizeY) {
+                this.cards = this.shuffle(cards)
+                this.cardPositions = [
+                    {
+                        top: 0,
+                        left: 0
+                    },
+                    {
+                        top: 0,
+                        left: sizeX
+                    },
+                    {
+                        top: 0,
+                        left: sizeX * 2
+                    },
+                    {
+                        top: sizeY,
+                        left: 0
+                    },
+                    {
+                        top: sizeY,
+                        left: sizeX
+                    },
+                    {
+                        top: sizeY,
+                        left: sizeX * 2
+                    },
+                    {
+                        top: sizeY * 2,
+                        left: 0
+                    },
+                    {
+                        top: sizeY * 2,
+                        left: sizeX
+                    },
+                    {
+                        top: sizeY * 2,
+                        left: sizeX * 2
+                    },
+
+                ]
+                this.sizeX = sizeX
+                this.sizeY = sizeY
+                this.activeCard = null
+                this.startingIndex = null
+            }
+
+            init = () => {
+                console.log("Init puzzle")
+                console.log(this.cards)
+
+                this.cards.forEach((card, index) => {
+                    let div = document.createElement('div')
+                    div.id = "f" + card.id;
+                    div.setAttribute("data-id", card.id)
+                    div.className = "card"
+                    div.style.width = this.sizeX;
+                    div.style.height = this.sizeY;
+                    div.style.background = card.uri
+                    div.style.top = this.cardPositions[index].top
+                    div.style.left = this.cardPositions[index].left
+                    div.textContent = card.id
+                    div.style.textAlign = "center"
+                    div.style.fontSize = 20
+                    div.style.color = "#fff"
+                    div.style.verticalAlign = "middle"
+
+                    div.onclick = (e) => {
+                        if (this.activeCard !== null) {
+
+                            let a = this.findIndex(this.cards, e.target)
+
+                            if (e.target == this.activeCard) {
+                                this.activeCard.classList.remove("active")
+                                this.activeCard = null
+                                this.startingIndex = null
+                            }
+                            else if (
+                                this.startingIndex == (a + 1) ||
+                                this.startingIndex == (a - 1) ||
+                                this.startingIndex == (a + 3) ||
+                                this.startingIndex == (a - 3)
+                            ) {
+                                let pos = {
+                                    top: e.target.style.top,
+                                    left: e.target.style.left
+                                }
+                                e.target.style.top = this.activeCard.style.top
+                                e.target.style.left = this.activeCard.style.left
+
+                                this.activeCard.style.top = pos.top
+                                this.activeCard.style.left = pos.left
+
+                                e.target.classList.remove("active")
+                                this.activeCard.classList.remove("active")
+
+                                this.switchIndexes(this.cards, this.startingIndex, a)
+                                this.activeCard = null
+                                this.startingIndex = null
+                                if(this.checkIfFinished(this.cards)){
+                                   console.log("YOU WIN!!!")
+                                }
+                            }
+
+                        } else {
+                            e.target.classList.add("active")
+                            this.activeCard = e.target
+                            this.startingIndex = this.findIndex(this.cards, e.target)
+                        }
+                    }
+
+                    document.getElementById("puzzle_wrapper").appendChild(div)
+                });
+            }
+
+            findIndex = (arr, target) => {
+                return arr.findIndex((element) => {
+                    return "f" + element.id == target.id
+                })
+            }
+
+            shuffle = (array) => {
+                for (var i = array.length - 1; i > 0; i--) {
+                    var j = Math.floor(Math.random() * (i + 1));
+                    var temp = array[i];
+                    array[i] = array[j];
+                    array[j] = temp;
+                }
+                return array
+            }
+
+            switchIndexes = (arr, i, j) => {
+                const temp = arr[i]
+                arr[i] = arr[j]
+                arr[j] = temp
+            }
+
+            checkIfFinished = (arr) => {
+                let done = true
+                arr.forEach((element, index) => {
+                    if(element.id !== (index+1)){
+                        done = false
+                    }
+                })
+                return done
+            }
+        }
+
+        let p = new Puzzle(cards, 400, 300)
+        p.init()
+
+    </script>
+</body>
+
+</html>
