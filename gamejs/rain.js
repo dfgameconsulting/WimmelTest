@@ -6,27 +6,27 @@ rain.appendChild(app.view);
 
 let rainDrops = [];
 
-var sound05 = new Pizzicato.Sound("sound/rain_loop.mp3");
+// var sound05 = new Pizzicato.Sound("sound/rain_loop.mp3");
 
-sound05.on("stop", function () {
-  sound05.play();
-});
+// sound05.on("stop", function () {
+//   sound05.play();
+// });
 
 function createRainDrops() {
   rainDrops = [];
   for (i = 0; i < 2000; i++) {
     rainDrops[i] = new PIXI.Sprite.from("img/rain-drop.png");
     rainDrops[i].anchor.set(0.5);
-    rainDrops[i].width = random() * 2 + 1;
-    rainDrops[i].height = random() * 10 + 10;
+    rainDrops[i].width = Math.random() * 2 + 1;
+    rainDrops[i].height = Math.random() * 10 + 10;
     rainDrops[i].rotation = 0.1;
     rainDrops[i].alpha = 0.5;
     rainDrops[i].x = Math.random() * app.screen.width;
     rainDrops[i].y = Math.random() * app.screen.height;
     app.stage.addChild(rainDrops[i]);
   }
-  sound05.pause();
-  sound05.play();
+  // sound05.pause();
+  // sound05.play();
 }
 
 createRainDrops();
