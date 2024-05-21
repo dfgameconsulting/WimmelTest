@@ -4,8 +4,8 @@ var path = require('path');
 const config = {
   version: '1.2',
   organization: 'QM',
-  title: 'BIB',
-  language: 'en-US',
+  title: 'Bundesinstitut für Berufsbildung',
+  language: 'de-DE',
   masteryScore: 80,
   startingPage: 'index.html',
   source: path.join(__dirname, 'content'),
