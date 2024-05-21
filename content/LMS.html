@@ -1,0 +1,63 @@
+<html>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        var API = {};
+
+        (function ($) {
+            $(document).ready(setupScormApi());
+
+            function setupScormApi() {
+                API.LMSInitialize = LMSInitialize;
+                API.LMSGetValue = LMSGetValue;
+                API.LMSSetValue = LMSSetValue;
+                API.LMSCommit = LMSCommit;
+                API.LMSFinish = LMSFinish;
+                API.LMSGetLastError = LMSGetLastError;
+                API.LMSGetDiagnostic = LMSGetDiagnostic;
+                API.LMSGetErrorString = LMSGetErrorString;
+
+                window.open("index.html", "popupname","resizable,scrollbars,status");
+            }
+            function LMSInitialize(initializeInput) {
+                displayLog("LMSInitialize: " + initializeInput);
+                return true;
+            }
+            function LMSGetValue(varname) {
+                displayLog("LMSGetValue: " + varname);
+                return "";
+            }
+            function LMSSetValue(varname, varvalue) {
+                displayLog("LMSSetValue: " + varname + "=" + varvalue);
+                return "";
+            }
+            function LMSCommit(commitInput) {
+                displayLog("LMSCommit: " + commitInput);
+                return true;
+            }
+            function LMSFinish(finishInput) {
+                displayLog("LMSFinish: " + finishInput);
+                return true;
+            }
+            function LMSGetLastError() {
+                displayLog("LMSGetLastError: ");
+                return 0;
+            }
+            function LMSGetDiagnostic(errorCode) {
+                displayLog("LMSGetDiagnostic: " + errorCode);
+                return "";
+            }
+            function LMSGetErrorString(errorCode) {
+                displayLog("LMSGetErrorString: " + errorCode);
+                return "";
+            }
+            function displayLog(textToDisplay){
+                var loggerWindow = document.getElementById("logDisplay");
+                var item = document.createElement("div");
+                item.innerText = textToDisplay;
+                loggerWindow.appendChild(item);
+            }
+        })(jQuery);
+    </script>
+    <div id="logDisplay">
+    </div>
+</html>

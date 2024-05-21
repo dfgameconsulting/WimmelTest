@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "package-scorm": "node scoPackager.js"
+  },
+  "dependencies": {
+    "simple-scorm-packager": "^0.2.7"
+  }
+}
