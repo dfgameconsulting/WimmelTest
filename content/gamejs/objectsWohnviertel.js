@@ -415,7 +415,7 @@ resetRatios();
         anime({
           targets: ".hintCircle",
           scale: [2, 4, 3],
-          opacity: [0, 1, 1, 1, 1, 0],
+          opacity: [1, 1, 1, 1, 1, 0],
           rotate: [randRot, randRot + leftRight],
           translateY: [0, -10, 0, 10],
           translateX: [10, 0, -10, 0],
