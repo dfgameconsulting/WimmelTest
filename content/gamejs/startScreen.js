@@ -1,6 +1,9 @@
 //Levelstart Logik
 
+let activeElement = null
 let levelInfo = document.querySelector("#level-info");
+
+let body = document.querySelector("body")
 
 let startLevel1 = document.querySelector("#startLevel1");
 let startLevel2 = document.querySelector("#startLevel2");
@@ -8,6 +11,9 @@ let startLevel3 = document.querySelector("#startLevel3");
 let startLevel4 = document.querySelector("#startLevel4");
 
 startLevel1.onclick = (e) => {
+
+  setActiveElement(e.target)
+
   levelInfo.getElementsByTagName("h2")[0].innerHTML = "Innenstadt";
   levelInfo.getElementsByTagName("p")[0].innerHTML = "Das Stadtzentrum glänzt mit einer modernen und futuristischen Ausstrahlung. Hier können Themen wie die Arbeitsagentur, Jobagenturen oder ähnliches platziert werden.";
   document.querySelector("#level2Ready").style.display = "none";
@@ -20,8 +26,14 @@ startLevel1.onclick = (e) => {
     }, 300 * (index + 1));
   });
   jumpLevelInfo('#level1Ready');
+  levelInfo.style.display = 'block'
+  rMs.style.setProperty(`--infoX`, `${mainScreenPos.left + mainScreenWidth * 0.7}px`);
+  rMs.style.setProperty(`--infoY`, `${mainScreenPos.top + mainScreenHeight * 0.3}px`);
 };
 startLevel2.onclick = (e) => {
+
+  setActiveElement(e.target)
+
   levelInfo.getElementsByTagName("h2")[0].innerHTML = "Campus";
   levelInfo.getElementsByTagName("p")[0].innerHTML = "Das Campus-Gebiet muss sich nicht ausschließlich um Studium, Studiumgänge und -arten drehen, sondern kann alles der schulischen Weiterbildung thematisieren: Schulabschlüsse (Quali vs. Mittlere Reife vs. (Fach-)Abitur), Ausbildungen, Praktikumsstellen, usw.";
   document.querySelector("#level2Ready").style.display = "block";
@@ -34,8 +46,14 @@ startLevel2.onclick = (e) => {
     }, 300 * (index + 1));
   });
   jumpLevelInfo('#level2Ready');
+  levelInfo.style.display = 'block'
+  rMs.style.setProperty(`--infoX`, `${mainScreenPos.left + mainScreenWidth * 0.325}px`);
+  rMs.style.setProperty(`--infoY`, `${mainScreenPos.top + mainScreenHeight * 0.3}px`);
 };
 startLevel3.onclick = (e) => {
+
+  setActiveElement(e.target)
+
   levelInfo.getElementsByTagName("h2")[0].innerHTML = "Altstadt";
   levelInfo.getElementsByTagName("p")[0].innerHTML = "Die Altstadt könnte Themen wie handwerkliche Berufe und das Berufsleben in kleinen Geschäften (Verkauf, Bistro, etc.) thematisieren, aber auch freiwilliges Engagement (Feuerwehr, Sozial, und mehr) .Ein gutes Äquivalent zur Inspiration wäre beispielsweise Altperlach (München).";
   document.querySelector("#level2Ready").style.display = "none";
@@ -48,8 +66,14 @@ startLevel3.onclick = (e) => {
     }, 300 * (index + 1));
   });
   jumpLevelInfo('#level3Ready');
+  levelInfo.style.display = 'block'
+  rMs.style.setProperty(`--infoX`, `${mainScreenPos.left + mainScreenWidth * 0.65}px`);
+  rMs.style.setProperty(`--infoY`, `${mainScreenPos.top + mainScreenHeight * 0.6}px`);
 };
 startLevel4.onclick = (e) => {
+
+  setActiveElement(e.target)
+
   levelInfo.getElementsByTagName("h2")[0].innerHTML = "Wohnviertel";
   levelInfo.getElementsByTagName("p")[0].innerHTML = "Im Wohnviertel wird das 'Zuhause' des Spielers dargestellt - oder zumindest von einem Teenager, der genau so gut der Spieler sein könnte. An diesem Ort können Themen wie (das Schreiben von) Bewerbungen, Portfolio-Erstellung Internet-Präsenz und ähnliches aufgenommen werden.";
   document.querySelector("#level2Ready").style.display = "none";
@@ -62,6 +86,9 @@ startLevel4.onclick = (e) => {
     }, 300 * (index + 1));
   });
   jumpLevelInfo('#level4Ready');
+  levelInfo.style.display = 'block'
+  rMs.style.setProperty(`--infoX`, `${mainScreenPos.left + mainScreenWidth * 0.175}px`);
+  rMs.style.setProperty(`--infoY`, `${mainScreenPos.top + mainScreenHeight * 0.5}px`);
 };
 
 let jumpLevelInfo = (target) => {
@@ -207,16 +234,25 @@ let resetRatiosStartScreen = () => {
   rMs.style.setProperty("--scaleFactor", `scale(${scaleFactor})`);
   rMs.style.setProperty("--rainWidth", mainScreenPos.width);
 
-  rMs.style.setProperty(`--${"level1"}X`, `${mainScreenPos.left + mainScreenWidth * 0.3}px`);
-  rMs.style.setProperty(`--${"level1"}Y`, `${mainScreenPos.top + mainScreenHeight * 0.8}px`);
-  rMs.style.setProperty(`--${"level2"}X`, `${mainScreenPos.left + mainScreenWidth * 0.7}px`);
+  rMs.style.setProperty(`--${"level1"}X`, `${mainScreenPos.left + mainScreenWidth * 0.7}px`);
+  rMs.style.setProperty(`--${"level1"}Y`, `${mainScreenPos.top + mainScreenHeight * 0.35}px`);
+  rMs.style.setProperty(`--${"level2"}X`, `${mainScreenPos.left + mainScreenWidth * 0.35}px`);
   rMs.style.setProperty(`--${"level2"}Y`, `${mainScreenPos.top + mainScreenHeight * 0.3}px`);
   rMs.style.setProperty(`--${"level3"}X`, `${mainScreenPos.left + mainScreenWidth * 0.67}px`);
   rMs.style.setProperty(`--${"level3"}Y`, `${mainScreenPos.top + mainScreenHeight * 0.6}px`);
-  rMs.style.setProperty(`--${"level4"}X`, `${mainScreenPos.left + mainScreenWidth * 0.5}px`);
-  rMs.style.setProperty(`--${"level4"}Y`, `${mainScreenPos.top + mainScreenHeight * 0.2}px`);
+  rMs.style.setProperty(`--${"level4"}X`, `${mainScreenPos.left + mainScreenWidth * 0.2}px`);
+  rMs.style.setProperty(`--${"level4"}Y`, `${mainScreenPos.top + mainScreenHeight * 0.5}px`);
   rMs.style.setProperty(`--infoX`, `${mainScreenPos.left + mainScreenWidth * 0.15}px`);
   rMs.style.setProperty(`--infoY`, `${mainScreenPos.top + mainScreenHeight * 0.3}px`);
 };
+
+let setActiveElement = (target) => {
+  if(activeElement !== null){
+    activeElement.style.display = 'flex'
+  }
+  activeElement = target
+  activeElement.style.display = 'none'
+}
+
 window.addEventListener("resize", resetRatiosStartScreen);
 window.onload = resetRatiosStartScreen;

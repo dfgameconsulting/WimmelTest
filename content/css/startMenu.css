@@ -135,7 +135,7 @@ body::-webkit-scrollbar {
     padding: var(--padding);
     transform: translate(-50%, -50%) var(--scaleFactor);
    
-    font-size: 3vw;
+    font-size: 2vw;
     /* background: black; */
     background-image: url(../img/Stadt/BIB001_Stadt_Ort2_01_hz.png);
     background-position: center;
@@ -145,16 +145,17 @@ body::-webkit-scrollbar {
     touch-action: all;
     width: fit-content;
     pointer-events: all;
-    width: 30vw;
+    width: 25vw;
     height: 10vw;
     display: flex;
     align-items: center;
     justify-content: center;
     /* outline: 3px solid green; */
-    padding-top: 2vw;
+    padding-top: 1.5vw;
 }
 
 #level-info{
+    display: none;
     position: absolute;
     padding: var(--padding);
     top: var(--infoY);
