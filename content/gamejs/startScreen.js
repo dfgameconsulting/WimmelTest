@@ -67,7 +67,7 @@ startLevel3.onclick = (e) => {
   });
   jumpLevelInfo('#level3Ready');
   levelInfo.style.display = 'block'
-  rMs.style.setProperty(`--infoX`, `${mainScreenPos.left + mainScreenWidth * 0.65}px`);
+  rMs.style.setProperty(`--infoX`, `${mainScreenPos.left + mainScreenWidth * 0.5}px`);
   rMs.style.setProperty(`--infoY`, `${mainScreenPos.top + mainScreenHeight * 0.6}px`);
 };
 startLevel4.onclick = (e) => {
