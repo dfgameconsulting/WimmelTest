@@ -135,7 +135,7 @@ body::-webkit-scrollbar {
     padding: var(--padding);
     transform: translate(-50%, -50%) var(--scaleFactor);
    
-    font-size: 2vw;
+    font-size: 3vw;
     /* background: black; */
     background-image: url(../img/Stadt/BIB001_Stadt_Ort2_01_hz.png);
     background-position: center;
@@ -145,13 +145,13 @@ body::-webkit-scrollbar {
     touch-action: all;
     width: fit-content;
     pointer-events: all;
-    width: 25vw;
-    height: 10vw;
+    width: 40vw;
+    height: 20vw;
     display: flex;
     align-items: center;
     justify-content: center;
     /* outline: 3px solid green; */
-    padding-top: 1.5vw;
+    padding-top: 2vw;
 }
 
 #level-info{
@@ -177,7 +177,7 @@ body::-webkit-scrollbar {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: contain;
-    width: clamp(400px, 40vw, 800px);
+    width: clamp(100px, 40vw, 800px);
     height: clamp( 100px,10vw , 200px);
     display: flex;
     align-items: center;
@@ -213,8 +213,12 @@ body::-webkit-scrollbar {
     display: none;
     font-size: 7vw;
     width: clamp(400px, 40vw, 800px); 
-    background-color: rgba(0,0,0,0.25);
+    height: clamp(50px, 10vw, 200px);
+    /* background-color: rgba(0,0,0,0.25); */
+    background: url(../img/Dialog/BIB001_Dialog_Weiter_01_hz.png) 50% 0 no-repeat;
+    background-size: clamp(10%, 30%, 50%);
     border-radius: 15px;
+    margin-top: -150px;
 }
 
 #startLevel1 {
