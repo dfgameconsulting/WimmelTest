@@ -344,25 +344,25 @@ let startGame = () => {
   // todoliste = new PickObject('Todoliste', 0.607552, 0.443981, 'screen02', 'Das ist eine To Do Liste', 'Campus/Bild_002/Szene2_ToDoListe.png', 'Campus/Inventar/Bild_002/Szene2_ToDoListe_01_hz.png');
   // umleitungsschild = new PickObject('Umleitungsschild', 0.455469, 0.706944, 'screen02', 'Das ist ein Umleitungsschild', 'Campus/Bild_002/Szene2_Umleitungsschild.png', 'Campus/Inventar/Bild_002/Szene2_Umleitungsschild_01_hz.png');
 
-  fuenfUndZwanzig = new PickObject('Fünfundzwanzig', 0.361719, 0.726852, 'screen03', 'Das ist 25', 'Campus/Bild_003/Szene3_25.png', 'Campus/Inventar/Bild_003/Szene3_25_01_hz.png');
-  absolventenhut = new PickObject('Absolventenhut', 0.81849, 0.485648, 'screen03', 'Das ist ein Absolventenhut', 'Campus/Bild_003/Szene3_Absolventenhut.png', 'Campus/Inventar/Bild_003/Szene3_Absolventenhut_01_hz.png');
-  dosensuppe = new PickObject('Dosensuppe', 0.89349, 0.891204, 'screen03', 'Das ist eine Dosensuppe', 'Campus/Bild_003/Szene3_Dosensuppe.png', 'Campus/Inventar/Bild_003/Szene3_Dosensuppe_01_hz.png');
-  bafoeg = new PickObject('Bafög', 0.1125, 0.164352, 'screen03', 'Das ist eine Dosensuppe', 'Campus/Bild_003/Szene3_Bafoeg.png', 'Campus/Inventar/Bild_003/Szene3_Bafoeg_01_hz.png');
-  kleingeldhut = new PickObject('Kleingeldhut', 0.385938, 0.763426, 'screen03', 'Das ist ein Kleingeldhut', 'Campus/Bild_003/Szene3_Kleingeldhut.png', 'Campus/Inventar/Bild_003/Szene3_Kleingeldhut_01_hz.png');
-  mutterMitSchirm = new PickObject('Mutter_mit_Schirm', 0.520833, 0.702315, 'screen03', 'Das ist ein Mutter mit Schirm', 'Campus/Bild_003/Szene3_MutterMitSchirm.png', 'Campus/Inventar/Bild_003/Szene3_MutterMitSchirm_01_hz.png');
-  sparschwein = new PickObject('Sparschwein', 0.490104, 0.149074, 'screen03', 'Das ist ein Sparschwein', 'Campus/Bild_003/Szene3_Sparschwein.png', 'Campus/Inventar/Bild_003/Szene3_Sparschwein_01_hz.png');
+  fuenfUndZwanzig = new PickObject('Fünfundzwanzig', 0.361719, 0.726852, 'screen03', 'Das ist 25', 'Campus/Bild_003/Objekte_ImBild/25.png', 'Campus/Bild_003/Objekte_Inventar/25.png');
+  absolventenhut = new PickObject('Absolventenhut', 0.81849, 0.485648, 'screen03', 'Das ist ein Absolventenhut', 'Campus/Bild_003/Objekte_ImBild/absolventenhut.png', 'Campus/Bild_003/Objekte_Inventar/absolventenhut.png');
+  dosensuppe = new PickObject('Dosensuppe', 0.89349, 0.891204, 'screen03', 'Das ist eine Dosensuppe', 'Campus/Bild_003/Objekte_ImBild/dosensuppe.png', 'Campus/Bild_003/Objekte_Inventar/dosensuppe.png');
+  bafoeg = new PickObject('Bafög', 0.1125, 0.164352, 'screen03', 'Das ist eine Dosensuppe', 'Campus/Bild_003/Objekte_ImBild/bafoeg.png', 'Campus/Bild_003/Objekte_Inventar/bafoeg.png');
+  kleingeldhut = new PickObject('Kleingeldhut', 0.385938, 0.763426, 'screen03', 'Das ist ein Kleingeldhut', 'Campus/Bild_003/Objekte_ImBild/kleingeldhut.png', 'Campus/Bild_003/Objekte_Inventar/kleingeldhut.png');
+  mutterMitKind = new PickObject('Mutter_mit_Schirm', 0.520833, 0.702315, 'screen03', 'Das ist ein Mutter mit Schirm', 'Campus/Bild_003/Objekte_ImBild/muttermitkind.png', 'Campus/Bild_003/Objekte_Inventar/muttermitkind.png');
+  sparschwein = new PickObject('Sparschwein', 0.490104, 0.149074, 'screen03', 'Das ist ein Sparschwein', 'Campus/Bild_003/Objekte_ImBild/sparschwein.png', 'Campus/Bild_003/Objekte_Inventar/sparschwein.png');
 
-  bus = new PickObject('Bus', 0.909375, 0.202315, 'screen04', 'Das ist ein Bus', 'Campus/Bild_004/Szene4_Bus.png', 'Campus/Inventar/Bild_004/Szene4_Bus_01_hz.png');
-  fahrrad = new PickObject('Fahrrad', 0.753125, 0.465741, 'screen04', 'Das ist ein Fahrrad', 'Campus/Bild_004/Szene4_Fahrrad.png', 'Campus/Inventar/Bild_004/Szene4_Fahrrad_01_hz.png');
-  fahrschein = new PickObject('Fahrschein', 0.148698, 0.138889, 'screen04', 'Das ist ein Fahrschein', 'Campus/Bild_004/Szene4_Fahrschein.png', 'Campus/Inventar/Bild_004/Szene4_Fahrschein_01_hz.png');
-  flugzeug = new PickObject('Flugzeug', 0.088979, 0.082407, 'screen04', 'Das ist ein Flugzeug', 'Campus/Bild_004/Szene4_Flugzeug.png', 'Campus/Inventar/Bild_004/Szene4_Flugzeug_01_hz.png');
-  schluesselbund = new PickObject('Schluesselbund', 0.354688, 0.539815, 'screen04', 'Das ist ein Schluesselbund', 'Campus/Bild_004/Szene4_Schluesselbund.png', 'Campus/Inventar/Bild_004/Szene4_Schluesselbund_01_hz.png');
-  straßenbahn = new PickObject('Straßenbahn', 0.239844, 0.416667, 'screen04', 'Das ist eine Straßenbahn', 'Campus/Bild_004/Szene4_Straßenbahn.png', 'Campus/Inventar/Bild_004/Szene4_Straßenbahn_01_hz.png');
-  tuerklingel = new PickObject('Tuerklingel', 0.067708, 0.209259, 'screen04', 'Das ist eine Tuerklingel', 'Campus/Bild_004/Szene4_Tuerklingel.png', 'Campus/Inventar/Bild_004/Szene4_Tuerklingel_01_hz.png');
-  terminkalender = new PickObject('Terminkalender', 0.835677, 0.807407, 'screen04', 'Das ist ein Terminkalender', 'Campus/Bild_004/Szene4_Terminkalender.png', 'Campus/Bild_004/Szene4_Terminkalender.png');
-  umzugskisten = new PickObject('Umzugskisten', 0.334896, 0.693519, 'screen04', 'Das sind Umzugskisten', 'Campus/Bild_004/Szene4_Umzugskisten.png', 'Campus/Inventar/Bild_004/Szene4_Umzugskisten_01_hz.png');
-  umzugswagen = new PickObject('Umzugswagen', 0.651563, 0.113889, 'screen04', 'Das ist ein Umzugswagen', 'Campus/Bild_004/Szene4_Umzugswagen.png', 'Campus/Inventar/Bild_004/Szene4_Umzugswagen_01_hz.png');
-  zebrastreifen = new PickObject('Zebrastreifen', 0, 0.874537, 'screen04', 'Das ist eine Zebrastreifen', 'Campus/Bild_004/Szene4_Zebrastreifen.png', 'Campus/Inventar/Bild_004/Szene4_Zebrastreifen_01_hz.png');
+  bus = new PickObject('Bus', 0.909375, 0.202315, 'screen04', 'Das ist ein Bus', 'Campus/Bild_004/Objekte_ImBild/bus.png', 'Campus/Bild_004/Objekte_Inventar/bus.png');
+  fahrrad = new PickObject('Fahrrad', 0.753125, 0.465741, 'screen04', 'Das ist ein Fahrrad', 'Campus/Bild_004/Objekte_ImBild/fahrrad.png', 'Campus/Bild_004/Objekte_Inventar/fahrrad.png');
+  fahrschein = new PickObject('Fahrschein', 0.148698, 0.138889, 'screen04', 'Das ist ein Fahrschein', 'Campus/Bild_004/Objekte_ImBild/fahrschein.png', 'Campus/Bild_004/Objekte_Inventar/fahrschein.png');
+  flugzeug = new PickObject('Flugzeug', 0.088979, 0.082407, 'screen04', 'Das ist ein Flugzeug', 'Campus/Bild_004/Objekte_ImBild/flugzeug.png', 'Campus/Bild_004/Objekte_Inventar/flugzeug.png');
+  schluesselbund = new PickObject('Schluesselbund', 0.354688, 0.539815, 'screen04', 'Das ist ein Schluesselbund', 'Campus/Bild_004/Objekte_ImBild/schluesselbund.png', 'Campus/Bild_004/Objekte_Inventar/schluesselbund.png');
+  straßenbahn = new PickObject('Straßenbahn', 0.239844, 0.416667, 'screen04', 'Das ist eine Straßenbahn', 'Campus/Bild_004/Objekte_ImBild/strassenbahn.png', 'Campus/Bild_004/Objekte_Inventar/strassenbahn.png');
+  tuerklingel = new PickObject('Tuerklingel', 0.067708, 0.209259, 'screen04', 'Das ist eine Tuerklingel', 'Campus/Bild_004/Objekte_ImBild/tuerklingel.png', 'Campus/Bild_004/Objekte_Inventar/tuerklingel.png');
+  terminkalender = new PickObject('Terminkalender', 0.835677, 0.807407, 'screen04', 'Das ist ein Terminkalender', 'Campus/Bild_004/Objekte_ImBild/terminkalender.png', 'Campus/Bild_004/Objekte_Inventar/terminkalender.png');
+  umzugskisten = new PickObject('Umzugskisten', 0.334896, 0.693519, 'screen04', 'Das sind Umzugskisten', 'Campus/Bild_004/Objekte_ImBild/umzugskisten.png', 'Campus/Bild_004/Objekte_Inventar/umzugskisten.png');
+  umzugswagen = new PickObject('Umzugswagen', 0.651563, 0.113889, 'screen04', 'Das ist ein Umzugswagen', 'Campus/Bild_004/Objekte_ImBild/umzugswagen.png', 'Campus/Bild_004/Objekte_Inventar/umzugswagen.png');
+  zebrastreifen = new PickObject('Zebrastreifen', 0, 0.874537, 'screen04', 'Das ist eine Zebrastreifen', 'Campus/Bild_004/Objekte_ImBild/zebrastreifen.png', 'Campus/Bild_004/Objekte_Inventar/zebrastreifen.png');
 
   resetRatios();
 
