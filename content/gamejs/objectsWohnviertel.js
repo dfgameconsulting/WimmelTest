@@ -350,7 +350,7 @@ let startGame = () => {
   traene = new pickObject("Träne", 0.241146, 0.263889, "screen03", "Das ist eine Träne", "Wohnviertel/Bild_003/Objekte_imBild/Traene.png", "Wohnviertel/Bild_003/Objekte_Inventar/Traene.png");
   daumen = new pickObject("Daumen", 0.112240, 0.056944, "screen03", "Das ist ein Daumen", "Wohnviertel/Bild_003/Objekte_imBild/Daumen.png", "Wohnviertel/Bild_003/Objekte_Inventar/Daumen.png");
   
-  vogelimnest = new pickObject("Vogel_im_Nest", 0.280208, 0.375000, "screen04", "Das ist ein Vogel im Nest", "Wohnviertel/Bild_004/Objekte_imBild/Vogel_im_Nest.png", "Wohnviertel/Bild_004/Objekte_Inventar/Vogel_im_Nest.png");
+  vogelimnest = new pickObject("Vogel_im_Nest", 0.280208, 0.375000, "screen04", "Das ist ein Vogel im Nest", "Wohnviertel/Bild_004/Objekte_imBild/vogelimnest.png", "Wohnviertel/Bild_004/Objekte_Inventar/vogelimnest.png");
   stromkabel = new pickObject("Stromkabel", 0.489062, 0.450000, "screen04", "Das ist ein Stromkabel", "Wohnviertel/Bild_004/Objekte_imBild/Stromkabel.png", "Wohnviertel/Bild_004/Objekte_Inventar/Stromkabel.png");
   radio = new pickObject("Radio", 0.591927, 0.670833, "screen04", "Das ist ein Radio", "Wohnviertel/Bild_004/Objekte_imBild/Radio.png", "Wohnviertel/Bild_004/Objekte_Inventar/Radio.png");
   reisekoffer = new pickObject("Reisekoffer", 0.198698, 0.654167, "screen04", "Das ist ein Reisekoffer", "Wohnviertel/Bild_004/Objekte_imBild/Reisekoffer.png", "Wohnviertel/Bild_004/Objekte_Inventar/Reisekoffer.png");
