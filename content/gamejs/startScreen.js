@@ -4,18 +4,18 @@ let activeElement = null
 let levelInfo = document.querySelector("#level-info");
 
 let body = document.querySelector("body")
-
 let startLevel1 = document.querySelector("#startLevel1");
 let startLevel2 = document.querySelector("#startLevel2");
 let startLevel3 = document.querySelector("#startLevel3");
 let startLevel4 = document.querySelector("#startLevel4");
 
 startLevel1.onclick = (e) => {
-
+  e.stopPropagation()
+  console.log(e)
   setActiveElement(e.target)
 
-  levelInfo.getElementsByTagName("h2")[0].innerHTML = "Innenstadt";
-  levelInfo.getElementsByTagName("p")[0].innerHTML = "Das Stadtzentrum glänzt mit einer modernen und futuristischen Ausstrahlung. Hier können Themen wie die Arbeitsagentur, Jobagenturen oder ähnliches platziert werden.";
+  levelInfo.getElementsByTagName("h2")[0].innerHTML = "Stadtzentrum";
+  levelInfo.getElementsByTagName("p")[0].innerHTML = "Es geht um sehr unterschiedliche Problemlagen und Schwierigkeiten. Aber vielmehr um Angebote der Hilfe und Unterstützung. Bitte geh in diesen Stadtteil nur, wenn über 16 Jahre alt bist und es dir gerade gut geht oder du in guter Gesellschaft bist!";
   document.querySelector("#level2Ready").style.display = "none";
   document.querySelector("#level3Ready").style.display = "none";
   document.querySelector("#level4Ready").style.display = "none";
@@ -35,7 +35,7 @@ startLevel2.onclick = (e) => {
   setActiveElement(e.target)
 
   levelInfo.getElementsByTagName("h2")[0].innerHTML = "Campus";
-  levelInfo.getElementsByTagName("p")[0].innerHTML = "Das Campus-Gebiet muss sich nicht ausschließlich um Studium, Studiumgänge und -arten drehen, sondern kann alles der schulischen Weiterbildung thematisieren: Schulabschlüsse (Quali vs. Mittlere Reife vs. (Fach-)Abitur), Ausbildungen, Praktikumsstellen, usw.";
+  levelInfo.getElementsByTagName("p")[0].innerHTML = "Es geht ums Studieren: Finanzierung, Wohnen, Schwierigkeiten und das Studieren unter besonders herausfordernden Bedingungen.";
   document.querySelector("#level2Ready").style.display = "block";
   document.querySelector("#level3Ready").style.display = "none";
   document.querySelector("#level4Ready").style.display = "none";
@@ -55,7 +55,7 @@ startLevel3.onclick = (e) => {
   setActiveElement(e.target)
 
   levelInfo.getElementsByTagName("h2")[0].innerHTML = "Altstadt";
-  levelInfo.getElementsByTagName("p")[0].innerHTML = "Die Altstadt könnte Themen wie handwerkliche Berufe und das Berufsleben in kleinen Geschäften (Verkauf, Bistro, etc.) thematisieren, aber auch freiwilliges Engagement (Feuerwehr, Sozial, und mehr) .Ein gutes Äquivalent zur Inspiration wäre beispielsweise Altperlach (München).";
+  levelInfo.getElementsByTagName("p")[0].innerHTML = "Es geht um Ausbildungen: Welche Rechte und Pflichten habe ich? Welche finanzielle Unterstützung gibt es trotz Gehalt? Wer hilft bei Schwierigkeiten mit den Inhalten oder im Betrieb? Und vieles mehr.";
   document.querySelector("#level2Ready").style.display = "none";
   document.querySelector("#level3Ready").style.display = "block";
   document.querySelector("#level4Ready").style.display = "none";
@@ -75,7 +75,7 @@ startLevel4.onclick = (e) => {
   setActiveElement(e.target)
 
   levelInfo.getElementsByTagName("h2")[0].innerHTML = "Wohnviertel";
-  levelInfo.getElementsByTagName("p")[0].innerHTML = "Im Wohnviertel wird das 'Zuhause' des Spielers dargestellt - oder zumindest von einem Teenager, der genau so gut der Spieler sein könnte. An diesem Ort können Themen wie (das Schreiben von) Bewerbungen, Portfolio-Erstellung Internet-Präsenz und ähnliches aufgenommen werden.";
+  levelInfo.getElementsByTagName("p")[0].innerHTML = "Es geht ums Erwachsenwerden: Selbstständigkeit, die erste eigene Wohnung, Versicherungen, Gefühle, Skills und und und...";
   document.querySelector("#level2Ready").style.display = "none";
   document.querySelector("#level3Ready").style.display = "none";
   document.querySelector("#level4Ready").style.display = "block";
@@ -230,7 +230,8 @@ let resetRatiosStartScreen = () => {
   mainScreenHeight = mainScreenPos.bottom - mainScreenPos.top;
   mainScreenWidth = mainScreenPos.right - mainScreenPos.left;
 
-  scaleFactor = Math.floor((mainScreenPos.width + mainScreenPos.height) / 2) / 2000;
+  scaleFactor = Math.floor((mainScreenPos.width + mainScreenPos.height) / 2) / 2500;
+
   rMs.style.setProperty("--scaleFactor", `scale(${scaleFactor})`);
   rMs.style.setProperty("--rainWidth", mainScreenPos.width);
 
@@ -250,7 +251,11 @@ let setActiveElement = (target) => {
   if(activeElement !== null){
     activeElement.style.display = 'flex'
   }
-  activeElement = target
+  if(target.localName == "p"){
+    activeElement = target.parentElement
+  }else{
+    activeElement = target
+  }
   activeElement.style.display = 'none'
 }
 
