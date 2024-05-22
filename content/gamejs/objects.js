@@ -467,16 +467,16 @@ class hintCircleObject {
 let startGame = () => {
   blurAll();
   //sound05.play();
-  object01 = new PickObject("Bar", 0.19974, 0.269444, "screen01", "Das ist ein Barschild", "CityCenter/Bild001/Objekte_ImBild/bar.png" , "CityCenter/Bild001/Objekte_Inventar/bar.png");
-  object02 = new PickObject("Burger", 0.279167, 0.53704, "screen01", "Das ist ein Burger Schild", "CityCenter/Bild001/Objekte_ImBild/burger.png" , "CityCenter/Bild001/Objekte_Inventar/burger.png"); 
-  object03 = new PickObject("Bandit", 0.0, 0.601852, "screen01", "Das ist ein einarmiger Bandit", "CityCenter/Bild001/Objekte_ImBild/einarmigerbandit.png" , "CityCenter/Bild001/Objekte_Inventar/einarmigerbandit.png");
-  object04 = new PickObject("Glasscontainer", 0.295052, 0.627315, "screen01", "Das ist ein ", "CityCenter/Bild001/Objekte_ImBild/glasscontainer.png" , "CityCenter/Bild001/Objekte_Inventar/glasscontainer.png");
-  object05 = new PickObject("Lootbox", 0.183073, 0.609722, "screen01", "Das ist ein ", "CityCenter/Bild001/Objekte_ImBild/lootbox.png", "CityCenter/Bild001/Objekte_Inventar/lootbox.png");
-  object06 = new PickObject("Nasenspray", 0.883333, 0.607407, "screen01", "Das ist ein ", "CityCenter/Bild001/Objekte_ImBild/nasenspray.png" , "CityCenter/Bild001/Objekte_Inventar/nasenspray.png");
-  object07 = new PickObject("Pizza", 0.704427, 0.193519, "screen01", "Das ist ein ", "CityCenter/Bild001/Objekte_ImBild/pizza.png" , "CityCenter/Bild001/Objekte_Inventar/pizza.png");
-  object08 = new PickObject("Pokerchip", 0.519531, 0.418981, "screen01", "Das ist ein ", "CityCenter/Bild001/Objekte_ImBild/pokerchip.png", "CityCenter/Bild001/Objekte_Inventar/pokerchip.png");
-  object09 = new PickObject("Sale", 0.247396, 0.04537, "screen01", "Das ist ein ", "CityCenter/Bild001/Objekte_ImBild/sale.png", "CityCenter/Bild001/Objekte_Inventar/sale.png");
-  object10 = new PickObject("Tüte", 0.599219, 0.591667, "screen01", "Das ist eine Tüte ", "CityCenter/Bild001/Objekte_ImBild/tuete.png", "CityCenter/Bild001/Objekte_Inventar/tuete.png");
+  object01 = new PickObject("Bar", 0.19974, 0.269444, "screen01", "Das ist ein Barschild", "CityCenter/Bild_001/Objekte_ImBild/bar.png" , "CityCenter/Bild_001/Objekte_Inventar/bar.png");
+  object02 = new PickObject("Burger", 0.279167, 0.53704, "screen01", "Das ist ein Burger Schild", "CityCenter/Bild_001/Objekte_ImBild/burger.png" , "CityCenter/Bild_001/Objekte_Inventar/burger.png"); 
+  object03 = new PickObject("Bandit", 0.0, 0.601852, "screen01", "Das ist ein einarmiger Bandit", "CityCenter/Bild_001/Objekte_ImBild/einarmigerbandit.png" , "CityCenter/Bild_001/Objekte_Inventar/einarmigerbandit.png");
+  object04 = new PickObject("Glasscontainer", 0.295052, 0.627315, "screen01", "Das ist ein ", "CityCenter/Bild_001/Objekte_ImBild/glasscontainer.png" , "CityCenter/Bild_001/Objekte_Inventar/glasscontainer.png");
+  object05 = new PickObject("Lootbox", 0.183073, 0.609722, "screen01", "Das ist ein ", "CityCenter/Bild_001/Objekte_ImBild/lootbox.png", "CityCenter/Bild_001/Objekte_Inventar/lootbox.png");
+  object06 = new PickObject("Nasenspray", 0.883333, 0.607407, "screen01", "Das ist ein ", "CityCenter/Bild_001/Objekte_ImBild/nasenspray.png" , "CityCenter/Bild_001/Objekte_Inventar/nasenspray.png");
+  object07 = new PickObject("Pizza", 0.704427, 0.193519, "screen01", "Das ist ein ", "CityCenter/Bild_001/Objekte_ImBild/pizza.png" , "CityCenter/Bild_001/Objekte_Inventar/pizza.png");
+  object08 = new PickObject("Pokerchip", 0.519531, 0.418981, "screen01", "Das ist ein ", "CityCenter/Bild_001/Objekte_ImBild/pokerchip.png", "CityCenter/Bild_001/Objekte_Inventar/pokerchip.png");
+  object09 = new PickObject("Sale", 0.247396, 0.04537, "screen01", "Das ist ein ", "CityCenter/Bild_001/Objekte_ImBild/sale.png", "CityCenter/Bild_001/Objekte_Inventar/sale.png");
+  object10 = new PickObject("Tüte", 0.599219, 0.591667, "screen01", "Das ist eine Tüte ", "CityCenter/Bild_001/Objekte_ImBild/tuete.png", "CityCenter/Bild_001/Objekte_Inventar/tuete.png");
 
   object11 = new PickObject("Apotheke", 0.734635, 0.506944, "screen02", "Das ist ein ", "CityCenter/Bild_004/Objekte_ImBild/apotheke.png" , "CityCenter/Bild_004/Objekte_Inventar/apotheke.png"); 
   object12 = new PickObject("Arbeitsausweis", 0.115625, 0.136111, "screen02", "Das ist ein ", "CityCenter/Bild_004/Objekte_ImBild/arbeitsausweis.png" , "CityCenter/Bild_004/Objekte_Inventar/arbeitsausweis.png");
