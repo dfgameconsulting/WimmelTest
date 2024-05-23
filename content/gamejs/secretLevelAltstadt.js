@@ -12,7 +12,7 @@ lupe.forEach((lupe) => {
     lupeAus = !lupeAus;
     if (!lupeAus) {
       console.log("LUPE AN");
-      document.body.style.cursor = "url(../img/inventar/LupeCursor.svg), auto";
+      document.body.style.cursor = "url(img/inventar/LupeCursor.svg), auto";
     } else {
       console.log("LUPE AUS");
       document.body.style.cursor = "auto";
@@ -120,47 +120,47 @@ function fadeOut(selector) {
 let cards = [
     {
         id: 1,
-        uri: "../img/Altstadt/Bild_002/ZoomPuzzle/puzzle_altstadt_sliced_002_01.png",
+        uri: "img/Altstadt/Bild_002/ZoomPuzzle/puzzle_altstadt_sliced_002_01.png",
         current_pos: null,
     },
     {
         id: 2,
-        uri: "../img/Altstadt/Bild_002/ZoomPuzzle/puzzle_altstadt_sliced_002_02.png",
+        uri: "img/Altstadt/Bild_002/ZoomPuzzle/puzzle_altstadt_sliced_002_02.png",
         current_pos: null,
     },
     {
         id: 3,
-        uri: "../img/Altstadt/Bild_002/ZoomPuzzle/puzzle_altstadt_sliced_002_03.png",
+        uri: "img/Altstadt/Bild_002/ZoomPuzzle/puzzle_altstadt_sliced_002_03.png",
         current_pos: null,
     },
     {
         id: 4,
-        uri: "../img/Altstadt/Bild_002/ZoomPuzzle/puzzle_altstadt_sliced_002_04.png",
+        uri: "img/Altstadt/Bild_002/ZoomPuzzle/puzzle_altstadt_sliced_002_04.png",
         current_pos: null,
     },
     {
         id: 5,
-        uri: "../img/Altstadt/Bild_002/ZoomPuzzle/puzzle_altstadt_sliced_002_05.png",
+        uri: "img/Altstadt/Bild_002/ZoomPuzzle/puzzle_altstadt_sliced_002_05.png",
         current_pos: null,
     },
     {
         id: 6,
-        uri: "../img/Altstadt/Bild_002/ZoomPuzzle/puzzle_altstadt_sliced_002_06.png",
+        uri: "img/Altstadt/Bild_002/ZoomPuzzle/puzzle_altstadt_sliced_002_06.png",
         current_pos: null,
     },
     {
         id: 7,
-        uri: "../img/Altstadt/Bild_002/ZoomPuzzle/puzzle_altstadt_sliced_002_07.png",
+        uri: "img/Altstadt/Bild_002/ZoomPuzzle/puzzle_altstadt_sliced_002_07.png",
         current_pos: null,
     },
     {
         id: 8,
-        uri: "../img/Altstadt/Bild_002/ZoomPuzzle/puzzle_altstadt_sliced_002_08.png",
+        uri: "img/Altstadt/Bild_002/ZoomPuzzle/puzzle_altstadt_sliced_002_08.png",
         current_pos: null,
     },
     {
         id: 9,
-        uri: "../img/Altstadt/Bild_002/ZoomPuzzle/puzzle_altstadt_sliced_002_09.png",
+        uri: "img/Altstadt/Bild_002/ZoomPuzzle/puzzle_altstadt_sliced_002_09.png",
         current_pos: null,
     },
 
