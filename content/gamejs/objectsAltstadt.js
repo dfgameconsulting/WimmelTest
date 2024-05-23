@@ -345,7 +345,7 @@ let startGame = () => {
   Stethoskop = new pickObject("Stethoskop", 0.218229, 0.517130, "screen03", "Das ist ein Stethoskop", "Altstadt/Bild_003/Objekte_imBild/stethoskop.png" , "Altstadt/Bild_003/Objekte_Inventar/stethoskop.png");
   Haendedruck = new pickObject("Händedruck", 0.298438, 0.612963, "screen03", "Das ist ein Händedruck", "Altstadt/Bild_003/Objekte_imBild/haendedruck.png" , "Altstadt/Bild_003/Objekte_Inventar/haendedruck.png");
   Rollstuhl = new pickObject("Rollstuhl", 0.542188, 0.629167, "screen03", "Das ist ein Rollstuhl", "Altstadt/Bild_003/Objekte_imBild/rollstuhl.png" , "Altstadt/Bild_003/Objekte_Inventar/rollstuhl.png");
-  Schild = new pickObject("Schild", 0.800781, 0.497222, "screen03", "Das ist ein Schild", "Altstadt/Bild_003/Objekte_imBild/schild.png" , "Altstadt/Bild_003/Objekte_Inventar/Schild.png");
+  Schild = new pickObject("Schild", 0.800781, 0.497222, "screen03", "Das ist ein Schild", "Altstadt/Bild_003/Objekte_imBild/schild.png" , "Altstadt/Bild_003/Objekte_Inventar/schild.png");
   UhrGraffiti = new pickObject("Uhr_Graffiti", 0.422917, 0.725926, "screen03", "Das ist eine Uhr mit Graffiti", "Altstadt/Bild_003/Objekte_imBild/uhrgraffiti.png" , "Altstadt/Bild_003/Objekte_imBild/uhrgraffiti.png");
   MonokelFrau = new pickObject("Monokel_Frau", 0.678385, 0.560648, "screen03", "Das ist eine Frau mit Monokel", "Altstadt/Bild_003/Objekte_imBild/monokelfrau.png" , "Altstadt/Bild_003/Objekte_Inventar/monokelfrau.png");
 
