@@ -95,25 +95,25 @@ let kontoauszug = document.querySelector("#kontoauszug");
 let loadedSecret = [];
 let lodedGlitchImages = [];
 let glitch01Images = [
-  "../img/CityCenter/Zoom/glitch/bsod.png",
-  "../img/CityCenter/Zoom/glitch/glitch-bsod01.png",
-  "../img/CityCenter/Zoom/glitch/glitch-bsod02.png",
-  "../img/CityCenter/Zoom/glitch/glitch-bsod03.png",
-  "../img/CityCenter/Zoom/glitch/glitch-bsod04.png",
-  "../img/CityCenter/Zoom/glitch/glitch-bsod05.png",
-  "../img/CityCenter/Zoom/glitch/glitch-bsod06.png",
-  "../img/CityCenter/Zoom/glitch/glitch-bsod07.png",
-  "../img/CityCenter/Zoom/glitch/glitch-bsod08.png",
-  "../img/CityCenter/Zoom/glitch/glitch-dos01.png",
-  "../img/CityCenter/Zoom/glitch/glitch-dos02.png",
-  "../img/CityCenter/Zoom/glitch/dos.png",
+  "img/CityCenter/Zoom/glitch/bsod.png",
+  "img/CityCenter/Zoom/glitch/glitch-bsod01.png",
+  "img/CityCenter/Zoom/glitch/glitch-bsod02.png",
+  "img/CityCenter/Zoom/glitch/glitch-bsod03.png",
+  "img/CityCenter/Zoom/glitch/glitch-bsod04.png",
+  "img/CityCenter/Zoom/glitch/glitch-bsod05.png",
+  "img/CityCenter/Zoom/glitch/glitch-bsod06.png",
+  "img/CityCenter/Zoom/glitch/glitch-bsod07.png",
+  "img/CityCenter/Zoom/glitch/glitch-bsod08.png",
+  "img/CityCenter/Zoom/glitch/glitch-dos01.png",
+  "img/CityCenter/Zoom/glitch/glitch-dos02.png",
+  "img/CityCenter/Zoom/glitch/dos.png",
 ];
 let kontoSecretImages = [
-  "../img/CityCenter/Zoom/CityCenter_Zoom_002_rl.png", 
-  "../img/CityCenter/Zoom/CityCenter_Zoom_003_rl.png",
-  "../img/CityCenter/Zoom/CityCenter_Zoom_004_rl.png",
-  "../img/CityCenter/Zoom/CityCenter_Zoom_005_rl.png",
-  "../img/CityCenter/Zoom/CityCenter_Zoom_006_rl.png",
+  "img/CityCenter/Zoom/CityCenter_Zoom_002_rl.png", 
+  "img/CityCenter/Zoom/CityCenter_Zoom_003_rl.png",
+  "img/CityCenter/Zoom/CityCenter_Zoom_004_rl.png",
+  "img/CityCenter/Zoom/CityCenter_Zoom_005_rl.png",
+  "img/CityCenter/Zoom/CityCenter_Zoom_006_rl.png",
 ];
 kontoSecretImages.forEach((e) => {
   let img = new Image();
