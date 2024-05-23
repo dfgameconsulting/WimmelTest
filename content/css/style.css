@@ -881,6 +881,30 @@ body::-webkit-scrollbar {
     background-size: contain;
     display: none;
 }
+#puzzle_wrapper {
+    position: relative;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%) var(--scaleFactor);
+    width: calc(2440px* 0.79);
+    height: calc(1504px* 0.79);
+
+}
+
+.card {
+    position: absolute;
+    background-size: contain;
+}
+
+.active {
+    border: 3px outset #FFD100;
+    z-index: 999;
+}
+
+#win_layer h1{
+    text-align: center;
+}
+
 
 
 #backgroundDark {

@@ -186,12 +186,12 @@ function fadeOut(selector) {
 //Preload Tutorial Images
 let loadedzynImages = [];
 let zynImages = [
-  "../img/Zyn/Zyn-3-rella_Normal_Blinzeln.png", 
-  "../img/Zyn/Zyn-3-rella_GoodJob.png",
-  "../img/Zyn/Zyn-3-rella_Nachdenklich.png",
-  "../img/Zyn/Zyn-3-rella_Talking.png",
-  "../img/Zyn/Zyn-3-rella_Talking_Blinzeln.png",
-  "../img/Zyn/Zyn-3-rella_Normal_.png",
+  "img/Zyn/Zyn-3-rella_Normal_Blinzeln.png", 
+  "img/Zyn/Zyn-3-rella_GoodJob.png",
+  "img/Zyn/Zyn-3-rella_Nachdenklich.png",
+  "img/Zyn/Zyn-3-rella_Talking.png",
+  "img/Zyn/Zyn-3-rella_Talking_Blinzeln.png",
+  "img/Zyn/Zyn-3-rella_Normal_.png",
 ];
 zynImages.forEach((e) => {
   let img = new Image();
