@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script src="gamejs/scormfunctions.js" type="text/javascript"></script>
+    <!-- <script src="gamejs/scormfunctions.js" type="text/javascript"></script> -->
     <script type="text/javascript" src="libs/anime.min.js"></script>
     <!-- <script type="text/javascript" src="libs/pixi.min.js"></script> -->
     <script type="text/javascript"
@@ -86,6 +86,9 @@
                 <!-- <div class="backscreen" style="background-image: url(img/Altstadt/Bild_002/Altstadt_Wobj_002_rl.jpg);"></div> -->
                 <div class="backscreen2" style="background-image: url(img/BIB001_Rand_01_hz.png);"></div>
                 <div id="secretAltstadt">
+                    <div id="puzzle_wrapper">
+                        <!-- cards will be rendered on puzzle init -->
+                    </div>
                 </div>
             </div>
             <div id="screen03">
@@ -121,9 +124,9 @@
         </div>
         <div id="backgroundDark"></div>
     </div>
-    <script>
+    <!-- <script>
             ScormProcessInitialize("Altstadt");
-    </script>
+    </script> -->
     <script type="text/javascript" src="gamejs/options.js"></script>
     <script type="text/javascript" src="gamejs/glossar.js"></script>
     <script type="text/javascript" src="gamejs/scroll.js"></script>
