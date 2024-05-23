@@ -341,7 +341,7 @@ let startGame = () => {
   ErsteHilfe = new pickObject("Erste_Hilfe", 0.934115, 0.287037, "screen03", "Das ist eine Erste Hilfe Kasten", "Altstadt/Bild_003/Objekte_ImBild/erstehilfe.png" , "Altstadt/Bild_003/Objekte_Inventar/erstehilfe.png");
   Flamme = new pickObject("Flamme", 0.800000, 0.271759, "screen03", "Das ist eine Flamme", "Altstadt/Bild_003/Objekte_ImBild/flamme.png" , "Altstadt/Bild_003/Objekte_Inventar/flamme.png");
   Blindenzeichen = new pickObject("Blindenzeichen", 0.543229, 0.018981, "screen03", "Das ist ein Blindenzeichen", "Altstadt/Bild_003/Objekte_ImBild/blindenzeichen.png" , "Altstadt/Bild_003/Objekte_Inventar/blindenzeichen.png");
-  NassesBuch = new pickObject("Nasses_Buch", 0.358854, 0.811574, "screen03", "Das ist ein nasses Buch", "Altstadt/Bild_003/Objekte_ImBild/nassesBuch.png" , "Altstadt/Bild_003/Objekte_Inventar/nassesbuch.png");
+  NassesBuch = new pickObject("Nasses_Buch", 0.358854, 0.811574, "screen03", "Das ist ein nasses Buch", "Altstadt/Bild_003/Objekte_ImBild/nassesbuch.png" , "Altstadt/Bild_003/Objekte_Inventar/nassesbuch.png");
   Stethoskop = new pickObject("Stethoskop", 0.218229, 0.517130, "screen03", "Das ist ein Stethoskop", "Altstadt/Bild_003/Objekte_ImBild/stethoskop.png" , "Altstadt/Bild_003/Objekte_Inventar/stethoskop.png");
   Haendedruck = new pickObject("Händedruck", 0.298438, 0.612963, "screen03", "Das ist ein Händedruck", "Altstadt/Bild_003/Objekte_ImBild/haendedruck.png" , "Altstadt/Bild_003/Objekte_Inventar/haendedruck.png");
   Rollstuhl = new pickObject("Rollstuhl", 0.542188, 0.629167, "screen03", "Das ist ein Rollstuhl", "Altstadt/Bild_003/Objekte_ImBild/rollstuhl.png" , "Altstadt/Bild_003/Objekte_Inventar/rollstuhl.png");

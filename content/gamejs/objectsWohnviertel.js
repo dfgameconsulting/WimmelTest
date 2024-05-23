@@ -332,7 +332,7 @@ let startGame = () => {
   notizbuch = new pickObject("Notizbuch", 0.770052, 0.131019, "screen02", "Das ist ein Notizbuch", "Wohnviertel/Bild_002/Objekte_ImBild/notizbuch.png", "Wohnviertel/Bild_002/Objekte_Inventar/notizbuch.png");
   highfive = new pickObject("HighFive", 0.794792, 0.327778, "screen02", "Das ist ein HighFive", "Wohnviertel/Bild_002/Objekte_ImBild/highfive.png", "Wohnviertel/Bild_002/Objekte_Inventar/highfive.png");
   checkliste = new pickObject("Checkliste", 0.564583, 0.170833, "screen02", "Das ist eine Checkliste", "Wohnviertel/Bild_002/Objekte_ImBild/checkliste.png", "Wohnviertel/Bild_002/Objekte_Inventar/checkliste.png");
-  erstehilfe = new pickObject("ErsteHilfe", 0.328125, 0.483796, "screen02", "Das ist Erste Hilfe", "Wohnviertel/Bild_002/Objekte_ImBild/erstehilfe.png", "Wohnviertel/Bild_002/Objekte_Inventar/ersteHilfe.png");
+  erstehilfe = new pickObject("ErsteHilfe", 0.328125, 0.483796, "screen02", "Das ist Erste Hilfe", "Wohnviertel/Bild_002/Objekte_ImBild/erstehilfe.png", "Wohnviertel/Bild_002/Objekte_Inventar/erstehilfe.png");
   uhr = new pickObject("Uhr", 0.295312, 0.097685, "screen02", "Das ist eine Uhr", "Wohnviertel/Bild_002/Objekte_ImBild/uhr.png", "Wohnviertel/Bild_002/Objekte_Inventar/uhr.png");
   whiteboard = new pickObject("Whiteboard", 0.131510, 0.357407, "screen02", "Das ist ein Whiteboard", "Wohnviertel/Bild_002/Objekte_ImBild/whiteboard.png", "Wohnviertel/Bild_002/Objekte_Inventar/whiteboard.png");
   gruppenfoto = new pickObject("Gruppenfoto", 0.241406, 0.757870, "screen02", "Das ist ein Gruppenfoto", "Wohnviertel/Bild_002/Objekte_ImBild/gruppenfoto.png", "Wohnviertel/Bild_002/Objekte_Inventar/gruppenfoto.png");

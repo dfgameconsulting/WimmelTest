@@ -12,7 +12,7 @@ lupe.forEach((lupe) => {
     lupeAus = !lupeAus;
     if (!lupeAus) {
       console.log("LUPE AN");
-      document.body.style.cursor = "url(../img/inventar/LupeCursor.svg), auto";
+      document.body.style.cursor = "url(img/inventar/LupeCursor.svg), auto";
     } else {
       console.log("LUPE AUS");
       document.body.style.cursor = "auto";
