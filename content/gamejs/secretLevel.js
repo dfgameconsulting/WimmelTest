@@ -81,7 +81,7 @@ class secretEntry {
 }
 let sound06 = new Pizzicato.Sound("sound/Secret.mp3");
 let auszugSound = new Pizzicato.Sound("sound/kontoauszug.mp3");
-object24 = new secretEntry("Geldautomat", 0.360938, 0.546759, "screen03", "Das ist ein ", "CityCenter/Bild_002/Objekte_ImBild/Geldautomat.png");
+object24 = new secretEntry("Geldautomat", 0.360938, 0.546759, "screen03", "Das ist ein ", "CityCenter/Bild_002/Objekte_ImBild/geldautomat.png");
 
 // Secret Innenstadt Logik
 
