@@ -480,8 +480,8 @@ let startGame = () => {
 
   object11 = new PickObject("Apotheke", 0.734635, 0.506944, "screen02", "Das ist ein ", "CityCenter/Bild_004/Objekte_ImBild/apotheke.png" , "CityCenter/Bild_004/Objekte_Inventar/apotheke.png"); 
   object12 = new PickObject("Arbeitsausweis", 0.115625, 0.136111, "screen02", "Das ist ein ", "CityCenter/Bild_004/Objekte_ImBild/arbeitsausweis.png" , "CityCenter/Bild_004/Objekte_Inventar/arbeitsausweis.png");
-  object13 = new PickObject("Erste_Hilfe_Kasten", 0.065625, 0.074074, "screen02", "Das ist ein ", "CityCenter/Bild_004/Objekte_ImBild/ersteHilfeKasten.png", "CityCenter/Bild_004/Objekte_Inventar/ersteHilfeKasten.png");
-  object14 = new PickObject("Gelber_Schein", 0.836198, 0.953704, "screen02", "Das ist ein ", "CityCenter/Bild_004/Objekte_ImBild/gelberSchein.png", "CityCenter/Bild_004/Objekte_Inventar/gelberSchein.png");
+  object13 = new PickObject("Erste_Hilfe_Kasten", 0.065625, 0.074074, "screen02", "Das ist ein ", "CityCenter/Bild_004/Objekte_ImBild/erstehilfekasten.png", "CityCenter/Bild_004/Objekte_Inventar/erstehilfekasten.png");
+  object14 = new PickObject("Gelber_Schein", 0.836198, 0.953704, "screen02", "Das ist ein ", "CityCenter/Bild_004/Objekte_ImBild/gelberschein.png", "CityCenter/Bild_004/Objekte_Inventar/gelberschein.png");
   object15 = new PickObject("Glühbirne", 0.083854, 0.618519, "screen02", "Das ist ein ", "CityCenter/Bild_004/Objekte_ImBild/gluehbirne.png", "CityCenter/Bild_004/Objekte_Inventar/gluehbirne.png");
   object16 = new PickObject("Jogger", 0.27526, 0.623148, "screen02", "Das ist ein ", "CityCenter/Bild_004/Objekte_ImBild/jogger.png", "CityCenter/Bild_004/Objekte_Inventar/jogger.png");
   object17 = new PickObject("Krücken", 0.839062, 0.719444, "screen02", "Das ist ein ", "CityCenter/Bild_004/Objekte_ImBild/kruecken.png", "CityCenter/Bild_004/Objekte_Inventar/kruecken.png");
@@ -502,8 +502,8 @@ let startGame = () => {
   object29 = new PickObject("Lottoschein", 0.083594, 0.885648, "screen03", "Das ist ein ", "CityCenter/Bild_002/Objekte_ImBild/lottoschein.png", "CityCenter/Bild_002/Objekte_Inventar/lottoschein.png");
   object30 = new PickObject("Rechnungen", 0.448698, 0.8875, "screen03", "Das ist ein ", "CityCenter/Bild_002/Objekte_ImBild/rechnungen.png", "CityCenter/Bild_002/Objekte_Inventar/rechnungen.png");
 
-  object31 = new PickObject("Agentur_für_Arbeit", 0.405469, 0.084259, "screen04", "Das ist ein ", "CityCenter/Bild_003/Objekte_ImBild/agenturArbeit.png", "CityCenter/Bild_003/Objekte_Inventar/agenturArbeit.png");
-  object32 = new PickObject("HausvomNikolaus", 0.557292, 0.585648, "screen04", "Das ist ein ", "CityCenter/Bild_003/Objekte_ImBild/hausvomNikolaus.png", "CityCenter/Bild_003/Objekte_Inventar/hausvomNikolaus.png");
+  object31 = new PickObject("Agentur_für_Arbeit", 0.405469, 0.084259, "screen04", "Das ist ein ", "CityCenter/Bild_003/Objekte_ImBild/agenturarbeit.png", "CityCenter/Bild_003/Objekte_Inventar/agenturarbeit.png");
+  object32 = new PickObject("HausvomNikolaus", 0.557292, 0.585648, "screen04", "Das ist ein ", "CityCenter/Bild_003/Objekte_ImBild/hausvomnikolaus.png", "CityCenter/Bild_003/Objekte_Inventar/hausvomnikolaus.png");
   object33 = new PickObject("Kartons", 0.696094, 0.704167, "screen04", "Das ist ein ", "CityCenter/Bild_003/Objekte_ImBild/kartons.png", "CityCenter/Bild_003/Objekte_Inventar/kartons.png");
   object34 = new PickObject("Krawatte", 0.645573, 0.440741, "screen04", "Das ist ein ", "CityCenter/Bild_003/Objekte_ImBild/krawatte.png", "CityCenter/Bild_003/Objekte_Inventar/krawatte.png");
   object35 = new PickObject("Leichenwagen", 0, 0.636574, "screen04", "Das ist ein ", "CityCenter/Bild_003/Objekte_ImBild/leichenwagen.png", "CityCenter/Bild_003/Objekte_Inventar/leichenwagen.png");
