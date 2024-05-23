@@ -886,8 +886,8 @@ body::-webkit-scrollbar {
     top: 48%;
     left: 50%;
     transform: translate(-50%, -50%) var(--scaleFactor);
-    width: calc(2440px* 0.885);
-    height: calc(1504px* 0.885);
+    width: calc(2440px* 0.79);
+    height: calc(1504px* 0.79);
 
 }
 
