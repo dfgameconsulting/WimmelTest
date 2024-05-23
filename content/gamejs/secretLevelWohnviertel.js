@@ -76,7 +76,7 @@ class secretEntry {
 }
 let sound06 = new Pizzicato.Sound("sound/Secret.mp3");
 
-//Waage = new secretEntry("Waage", 0.832813, 0.200463, "screen02", "Das ist eine Waage", "Wohnviertel/Bild_002/Objekte_imBild/Waage.png");
+//Waage = new secretEntry("Waage", 0.832813, 0.200463, "screen02", "Das ist eine Waage", "Wohnviertel/Bild_002/Objekte_ImBild/Waage.png");
 
 // Secret Wohnviertel Logik
 
