@@ -1,205 +1,78 @@
-// Kategorien und Info Anzeige
-let unterKat = document.querySelector("#unter-kat");
-let infoKat = document.querySelector("#info-kat");
 
-let studiumDiv = document.querySelector("#studium");
-let ausbildungDiv = document.querySelector("#ausbildung");
-let herausforderungenDiv = document.querySelector("#herausforderungen");
-let erwachsenDiv = document.querySelector("#erwachsen");
-let sortDiv = document.querySelector("#sort");
-
-let glossarButton = document.querySelector("#options-glossar");
-glossarButton.onclick = () => {
-  addGlossarToHTML();
-};
-
-// Kategorien Logik
-sortDiv.onclick = () => {
-  sortDiv.innerHTML = "A-Z";
-  sortDiv.style.background = "white";
-  unterKat.innerHTML = `
-<div class="unterKat" id="erwachsen-auszug-click"><p>auszug</p></div>
-<div class="unterKat" id="erwachsen-emotionen-click"><p>emotionen</p></div>
-<div class="unterKat" id="ausbildung-finanzierung-click"><p>finanzierung</p></div>
-<div class="unterKat" id="studium-finanzierung-click"><p>finanzierung</p></div>
-<div class="unterKat" id="ausbildung-gesundheit-click"><p>gesundheit</p></div>
-<div class="unterKat" id="herausforderungen-gesundheit-click"><p>gesundheit</p></div>
-<div class="unterKat" id="ausbildung-herausforderung-click"><p>herausforderung</p></div>
-<div class="unterKat" id="studium-herausforderung-click"><p>herausforderung</p></div>
-<div class="unterKat" id="erwachsen-kompetenzen-click"><p>kompetenzen</p></div>
-<div class="unterKat" id="studium-lernen-click"><p>lernen</p></div>
-<div class="unterKat" id="herausforderungen-schulden-click"><p>schulden</p></div>
-<div class="unterKat" id="erwachsen-selbstfindung-click"><p>selbstfindung</p></div>
-<div class="unterKat" id="herausforderungen-sucht-click"><p>sucht</p></div>
-<div class="unterKat" id="herausforderungen-verlust-click"><p>verlust</p></div>
-<div class="unterKat" id="ausbildung-vorbereitung-click"><p>vorbereitung</p></div>
-<div class="unterKat" id="studium-vorbereitung-click"><p>vorbereitung</p></div>`;
-  document.querySelector("#studium-vorbereitung-click").onclick = () => {
-    document.querySelector("#studium-vorbereitung").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#studium-finanzierung-click").onclick = () => {
-    document.querySelector("#studium-finanzierung").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#studium-lernen-click").onclick = () => {
-    document.querySelector("#studium-lernen").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#studium-herausforderung-click").onclick = () => {
-    document.querySelector("#studium-herausforderung").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#ausbildung-vorbereitung-click").onclick = () => {
-    document.querySelector("#ausbildung-vorbereitung").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#ausbildung-finanzierung-click").onclick = () => {
-    document.querySelector("#ausbildung-finanzierung").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#ausbildung-gesundheit-click").onclick = () => {
-    document.querySelector("#ausbildung-gesundheit").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#ausbildung-herausforderung-click").onclick = () => {
-    document.querySelector("#ausbildung-herausforderung").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#herausforderungen-sucht-click").onclick = () => {
-    document.querySelector("#herausforderungen-sucht").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#herausforderungen-schulden-click").onclick = () => {
-    document.querySelector("#herausforderungen-schulden").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#herausforderungen-verlust-click").onclick = () => {
-    document.querySelector("#herausforderungen-verlust").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#herausforderungen-gesundheit-click").onclick = () => {
-    document.querySelector("#herausforderungen-gesundheit").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#erwachsen-auszug-click").onclick = () => {
-    document.querySelector("#erwachsen-auszug").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#erwachsen-emotionen-click").onclick = () => {
-    document.querySelector("#erwachsen-emotionen").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#erwachsen-selbstfindung-click").onclick = () => {
-    document.querySelector("#erwachsen-selbstfindung").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#erwachsen-kompetenzen-click").onclick = () => {
-    document.querySelector("#erwachsen-kompetenzen").scrollIntoView({ behavior: "smooth" });
-  };
-};
-
-studiumDiv.onclick = () => {
-  sortDiv.innerHTML = "Studium";
-  sortDiv.style.background = "red";
-  unterKat.innerHTML = `
-<div class="unterKat" id="studium-vorbereitung-click"><p>vorbereitung</p></div>
-<div class="unterKat" id="studium-finanzierung-click"><p>finanzierung</p></div>
-<div class="unterKat" id="studium-lernen-click"><p>lernen</p></div>
-<div class="unterKat" id="studium-herausforderung-click"><p>herausforderung</p></div>`;
-  document.querySelector("#studium-vorbereitung-click").onclick = () => {
-    document.querySelector("#studium-vorbereitung").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#studium-finanzierung-click").onclick = () => {
-    document.querySelector("#studium-finanzierung").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#studium-lernen-click").onclick = () => {
-    document.querySelector("#studium-lernen").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#studium-herausforderung-click").onclick = () => {
-    document.querySelector("#studium-herausforderung").scrollIntoView({ behavior: "smooth" });
-  };
-};
-
-ausbildungDiv.onclick = () => {
-  sortDiv.innerHTML = "Ausbildung";
-  sortDiv.style.background = "yellow";
-  unterKat.innerHTML = `
-<div class="unterKat" id="ausbildung-vorbereitung-click"><p>vorbereitung</p></div>
-<div class="unterKat" id="ausbildung-finanzierung-click"><p>finanzierung</p></div>
-<div class="unterKat" id="ausbildung-gesundheit-click"><p>gesundheit</p></div>
-<div class="unterKat" id="ausbildung-herausforderung-click"><p>herausforderung</p></div>`;
-  document.querySelector("#ausbildung-vorbereitung-click").onclick = () => {
-    document.querySelector("#ausbildung-vorbereitung").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#ausbildung-finanzierung-click").onclick = () => {
-    document.querySelector("#ausbildung-finanzierung").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#ausbildung-gesundheit-click").onclick = () => {
-    document.querySelector("#ausbildung-gesundheit").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#ausbildung-herausforderung-click").onclick = () => {
-    document.querySelector("#ausbildung-herausforderung").scrollIntoView({ behavior: "smooth" });
-  };
-};
-
-herausforderungenDiv.onclick = () => {
-  sortDiv.innerHTML = "Herausforderungen";
-  sortDiv.style.background = "blue";
-  unterKat.innerHTML = `
-<div class="unterKat" id="herausforderungen-sucht-click"><p>sucht</p></div>
-<div class="unterKat" id="herausforderungen-schulden-click"><p>schulden</p></div>
-<div class="unterKat" id="herausforderungen-verlust-click"><p>verlust</p></div>
-<div class="unterKat" id="herausforderungen-gesundheit-click"><p>gesundheit</p></div>`;
-  document.querySelector("#herausforderungen-sucht-click").onclick = () => {
-    document.querySelector("#herausforderungen-sucht").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#herausforderungen-schulden-click").onclick = () => {
-    document.querySelector("#herausforderungen-schulden").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#herausforderungen-verlust-click").onclick = () => {
-    document.querySelector("#herausforderungen-verlust").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#herausforderungen-gesundheit-click").onclick = () => {
-    document.querySelector("#herausforderungen-gesundheit").scrollIntoView({ behavior: "smooth" });
-  };
-};
-
-erwachsenDiv.onclick = () => {
-  sortDiv.innerHTML = "Erwachsen werden";
-  sortDiv.style.background = "green";
-  unterKat.innerHTML = `
-<div class="unterKat" id="erwachsen-auszug-click"><p>auszug</p></div>
-<div class="unterKat" id="erwachsen-kompetenzen-click"><p>kompetenzen</p></div>
-<div class="unterKat" id="erwachsen-emotionen-click"><p>emotionen</p></div>
-<div class="unterKat" id="erwachsen-selbstfindung-click"><p>selbstfindung</p></div>`;
-  document.querySelector("#erwachsen-auszug-click").onclick = () => {
-    document.querySelector("#erwachsen-auszug").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#erwachsen-emotionen-click").onclick = () => {
-    document.querySelector("#erwachsen-emotionen").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#erwachsen-selbstfindung-click").onclick = () => {
-    document.querySelector("#erwachsen-selbstfindung").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#erwachsen-kompetenzen-click").onclick = () => {
-    document.querySelector("#erwachsen-kompetenzen").scrollIntoView({ behavior: "smooth" });
-  };
-};
-
-let addGlossarToHTML = function () {
-  var z, i, elmnt, file, xhttp;
-  /* Loop through a collection of all HTML elements: */
-  z = document.getElementsByTagName("*");
-  for (i = 0; i < z.length; i++) {
-    elmnt = z[i];
-    /*search for elements with a certain atrribute:*/
-    file = elmnt.getAttribute("include-html");
-    if (file) {
-      /* Make an HTTP request using the attribute value as the file name: */
-      xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function () {
-        if (this.readyState == 4) {
-          if (this.status == 200) {
-            elmnt.innerHTML = this.responseText;
-          }
-          if (this.status == 404) {
-            elmnt.innerHTML = "Page not found.";
-          }
-          /* Remove the attribute, and call this function once more: */
-          elmnt.removeAttribute("w3-include-html");
-          //addGlossarToHTML();
-        }
-      };
-      xhttp.open("GET", file, true);
-      xhttp.send();
-      /* Exit the function: */
-      return;
-    }
+class Glossar {
+  constructor(jsonUrl) {
+    this.glossar = null
+    this.init()
+    this.jsonUrl = jsonUrl
   }
-};
+
+  init = async () => {
+    let glossarWrap = document.querySelector('#glossar-html')
+    let glossarNavWrap = document.querySelector('#unter-kat')
+
+    this.glossarJSON = await this.loadJSON()
+
+    this.glossarJSON.forEach(category => {
+
+      let wrap = document.createElement('div')
+      wrap.id = `#glossar-` + category.category
+
+      let wrapHeadline = document.createElement('h1')
+      wrapHeadline.textContent = category.category
+      wrap.appendChild(wrapHeadline)
+
+
+      category.subcategories.forEach(subcategory => {
+        let subcatNavEntry = document.createElement('div')
+        subcatNavEntry.insertAdjacentHTML('beforeend', '<p>' + subcategory.name + '</p>')
+        subcatNavEntry.id = subcategory.id + '-click'
+        subcatNavEntry.onclick = (e) => {
+          e.preventDefault()
+          document.querySelector('#' + subcategory.id).scrollIntoView({ behavior: "smooth" })
+        }
+
+        glossarNavWrap.appendChild(subcatNavEntry)
+
+        let subcatWrap = document.createElement('div')
+        subcatWrap.id = subcategory.id
+
+        let subcatWrapHeadline = document.createElement('h2')
+        subcatWrapHeadline.textContent = subcategory.name
+
+        subcatWrap.appendChild(subcatWrapHeadline)
+
+        let subcatContent = document.createElement('p')
+        subcatContent.textContent = subcategory.content
+        subcatWrap.appendChild(subcatContent)
+        
+        subcategory.additional_informations.forEach(ai => {
+          let additionalInfoList = document.createElement('ul')
+          additionalInfoList.insertAdjacentHTML('beforeend','<li><b>'+ai.label+'</b></li>')
+          
+          ai.content.forEach(aic => {
+            if(aic.type === 'text'){
+              additionalInfoList.insertAdjacentHTML('beforeend','<li><p>'+aic.text+'</p></li>')
+            }else if(aic.type === 'link'){
+              additionalInfoList.insertAdjacentHTML('beforeend','<li><a href="'+aic.text+' target="blank">'+aic.label+'</a></li>')
+            }
+          })
+
+          subcatWrap.appendChild(additionalInfoList)
+
+        })
+
+        
+        wrap.append(subcatWrap)
+      });
+      glossarWrap.appendChild(wrap)
+    });
+
+  }
+
+  loadJSON = async () => {
+    const response = await fetch(this.jsonUrl);
+    return await response.json();
+  }
+}
+
+new Glossar('gamejs/glossar.json')
