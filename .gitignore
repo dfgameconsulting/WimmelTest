@@ -7,3 +7,4 @@ imscp_rootv1p1p2.xsd
 imsmanifest.xml
 imsmd_rootv1p2p1.xsd
 metadata.xml
+*.DS_Store
