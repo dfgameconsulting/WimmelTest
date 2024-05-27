@@ -1,9 +1,7 @@
 
 class Glossar {
-  constructor(jsonUrl) {
-    this.glossar = null
+  constructor() {
     this.init()
-    this.jsonUrl = jsonUrl
   }
 
   init = async () => {
@@ -70,9 +68,9 @@ class Glossar {
   }
 
   loadJSON = async () => {
-    const response = await fetch(this.jsonUrl);
+    const response = await fetch('./gamejs/glossar.json');
     return await response.json();
   }
 }
 
-new Glossar('gamejs/glossar.json')
+new Glossar()
