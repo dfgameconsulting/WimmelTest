@@ -1,0 +1,889 @@
+[
+    {
+        "category": "Studium",
+        "subcategories": [
+            {
+                "id": "finanzierung-studium",
+                "name": "Finanzierung des Studiums",
+                "content": "Bei einem Studium kommen neben den Studiengebühren auch Kosten für Unterkunft und Essen auf dich zu, weil du oft nicht mehr zu Hause  wohnen kannst. Die meisten Studierenden nutzen verschiedene Geldquellen, um sich ihr Studium zu finanzieren. Manche Geldleistungen bekommst du nur unter bestimmten Voraussetzungen. Einen ersten Überblick, welche finanzielle Unterstützung für dich in Frage kommen kann, findest du hier: [Link] Darüber hinaus gibt es auch Stipendien oder Nebenjobs.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Berufliche Schule"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "http://www.google.de",
+                                "label": "Der Linktext"
+                            },
+                            {
+                                "type": "link",
+                                "text": "http://www.web.de",
+                                "label": "noch ein Link"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "online WG-Suche",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "http://wwww.wgsuche.de",
+                                "label": "WG Suche"
+                            }
+                        ]
+                    }
+                ]
+            },{
+                "id": "bewerbung-studienplatz",
+                "name": "Bewerbung um einen Studienplatz",
+                "content": "Wer die (Fach-)Hochschulreife hat, darf an einer deutschen (Fach-)Hochschule studieren – je nach Abschluss (fachgebundene vs. allgemeine Hochschulreife) 'nur' bestimme Fächer. Es gibt außerdem zulassungsfreie und örtlich oder bundesweit zulassungsbeschränkte Studiengänge. Auf den Internetseiten der Hochschulen findest du Bewerbungsfristen und Informationen, welche Bedingungen du erfüllen musst (z. B. Sporttest, Arbeitsproben ...), um den Studienplatz zu erhalten. Manche Studiengänge starten nur zum Wintersemester. Andere kannst du auch im Sommersemester beginnen.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Hochschule"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://miro.com/app/board/uXjVNIm7O4Y=/?moveToWidget=3458764586277071897&cot=14",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "studienwahl",
+                "name": "Studienwahl",
+                "content": "Die Auswahl ist riesig: Es gibt allein fast 10.000 Bachelor-Studiengänge in Deutschland! Hast du deine Wahl anhand deiner Interessen und Begabungen eingrenzt, können Hochschulinformationstage, ein Schnupperstudium und die Studienberatung an den Unis weiterhelfen.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Hochschule"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://miro.com/app/board/uXjVNIm7O4Y=/?moveToWidget=3458764586277071897&cot=14",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "freiwilligendienste",
+                "name": "Freiwilligendienste",
+                "content": "Freiwilligendienste sind großartig: Du kannst dich für andere Menschen und/oder die Umwelt engagieren, Erfahrungen sammeln, die dir bei der Entscheidung für oder gegen ein Studium bzw. eine Ausbildung helfen oder Wartezeit sinnvoll überbrücken. Du bist währenddessen sozial versichert und bekommst ein Taschengeld. Es gibt Angebote im In- und Ausland. Sie richten sich teils an verschiedene Altersgruppen. Für die Bewerbung wendest du dich an den Träger.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://miro.com/app/board/uXjVNIm7O4Y=/?moveToWidget=3458764586277071897&cot=14",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "nebenjob",
+                "name": "Nebenjob",
+                "content": "Es gibt unterschiedliche Gründe für einen Job neben dem Studium. Die Arbeitszeit und die Tätigkeiten können ebenfalls sehr unterschiedlich sein (Minijob vs. Stelle als Werkstudent/-in). Eine typische, geringfügige Beschäftigung ist das Kellnern in Restaurants, Cafés oder Bars. Aber auch an der Uni gibt es Hilfstätigkeit. Der Vorteil hier: Als studentische Hilfskraft sammelst du nebenher direkt noch studienfachbezogene Erfahrung. Stellen findest du in Online-Jobbörsen (Tipp: benutz die Filter) oder über Aushänge in der Stadt oder deiner Hochschule. Achtung: Die Höhe des Gehalts kann sich auf BAföG-Zahlungen und Versicherungsbeitrage auswirken und vielleicht musst du sogar Steuern zahlen.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://miro.com/app/board/uXjVNIm7O4Y=/?moveToWidget=3458764586277071897&cot=14",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "ersten-schulabschluss",
+                "name": "Ersten Schulabschluss",
+                "content": "Wenn es beim ersten Mal nicht klappt, gibt es unterschiedliche Möglichkeiten deinen ersten Schulabschluss (Hauptschulabschluss, HSA) nachzuholen. Wenn du noch schulpflichtig bist, geht das z. B. in einem Berufsvorbereitungsjahr an einer beruflichen Schule. Informiere dich auf der Internetseite der Schule. Manchmal kannst du den HSA auch in einer Berufsvorbereitenden Bildungsmaßnahme (BvB) nachholen. Frag hierzu die Berufsberatung. Außerdem erhältst du mit dem Abschluss einer Ausbildung einen Hauptschulabschluss – schließlich hast du ja die Berufsschule gemeistert.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Berufliche Schule, Berufsberatung"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://miro.com/app/board/uXjVNIm7O4Y=/?moveToWidget=3458764586277071897&cot=14",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "weiterfuehrende-schulische-angebote",
+                "name": "Weiterführende schulische Angebote",
+                "content": "Du möchtest nach dem Hauptschulabschluss noch einen höheren Schulabschluss erlangen, wie den Mittleren Schulabschluss oder eine (fachgebundene) Hochschulreife erlangen? Das geht nicht nur an allgemeinbildenden Schulen, sondern z. B. auch in Berufsfachschulen bzw. Fachoberschulen (FOS). Achtung: Das Angebot ist von Bundesland zu Bundesland unterschiedlich.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Berufliche Schule, Berufberatung"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://miro.com/app/board/uXjVNIm7O4Y=/?moveToWidget=3458764586277071897&cot=14",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "wohnberechtigungsschein",
+                "name": "Wohnberechtigungsschein",
+                "content": "Miete kann echt teuer sein. Mit einem Wohnberechtigungsschein (WBS) darfst du sich auf öffentlich geförderte und daher günstigere Wohnungen bewerben. Den WBS beantragst du bei der zuständigen Stelle im Wohn- oder Bürgeramt beantragen. Sie prüft, ob jemand einen WBS erhalten kann. Der WBS ist in der Regel 1 Jahr gültig. Eine zusätzliche BAföG-Förderung ist möglich.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Wohn- oder Bürgeramt"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://verwaltung.bund.de/leistungsverzeichnis/de/leistung/99107022012000 ",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://wbs-rechner.de/",
+                                "label": "Link 2"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "wohngemeinschaft",
+                "name": "Wohngemeinschaft",
+                "content": "Wohngemeinschaften haben einige Vorteile: Man kann sich die Mietkosten teilen und lernt neue Leute kennen. Aushänge findest du in der Uni oder du tust dich direkt mit einem Freund/einer Freundin zusammen und ihr teilt euch die Kosten der ersten Wohnung.",
+                "additional_informations": [
+                    {
+                        "label": "online WG-Suche:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.wg-gesucht.de/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "haftpflichtversicherung",
+                "name": "Haftpflichtversicherung",
+                "content": "Eine Haftpflichtversicherung sollte jede/r haben. Sie springt ein, solltest du Schaden anrichten (Sach- und Personenschaden, z B. durch einen Unfall). Hast du sie nicht, könnte es echt teuer werden. Prüfe als erstes, ob du als Student/-in über deine Eltern mitversichert bist. Wenn nicht, kümmere dich um eine Haftpflichtversicherung für Studierende.Vergleichsportale geben dir einen Überblick über verschiedene Anbieter. Überlege dabei gut, was für dich sinnvoll ist (erweiterte Tarife, höhere Deckungssumme).",
+                "additional_informations": []
+            },
+            {
+                "id": "hausratversicherung",
+                "name": "Hausratversicherung",
+                "content": "Ob dein Besitz als Student/-in schon so wertvoll ist, dass du ihn gegen Feuer, Diebstahl und Co. versichern möchtest, musst du selbst entscheiden (aber denk auch an die Elektrogeräte und Hardware!). Je nachdem, wie deine neue Wohnsituation und die Hausratversicherung deiner Eltern gestaltet ist, bist du mitversichert oder musst eine eigene Hausratversicherung abschließen. Vergleichsportale im Internet helfen, ein gutes Angebot zu finden. Wie immer gilt: vorher gründlich durchlesen, was (nicht) zum Angebot zählt. Wichtig: Bei einem Umzug musst du der Versicherung die neue Adresse mitteilen. Vielleicht ändert sich nach dem Umzug die Versicherungssumme.",
+                "additional_informations": []
+            },
+            {
+                "id": "bafoeg",
+                "name": "BAföG",
+                "content": "BAföG ist eine finanzielle Unterstützung des Staats: Es soll allen ein Studium ermöglichen. Aber nicht alle können BAföG bekommen. Es müssen bestimmte Voraussetzungen erfüllt sein. Auch als Schüler/-in in einer schulischen Ausbildung kannst du BAföG erhalten. Die Hälfte des BAföG musst du nach dem Studium wieder zurückzahlen, ein bewilligter Antrag gilt für 1 Jahr. Wenn du nicht durch BAföG gefördert werden kannst, gibt es andere Möglichkeiten wie ein Stipendium oder den Bildungskredit.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Studierendenwerk"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://miro.com/app/board/uXjVNIm7O4Y=/?moveToWidget=3458764586277071897&cot=14",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "bildungskredit",
+                "name": "Bildungskredit",
+                "content": "Der Bildungskredit kann für Studierende und Auszubildende unter bestimmten Bedingungen in der Abschlussphase (auch zusätzlich zum BAföG) in Frage kommen. Es gibt auch Studienkredite der Kreditanstalt für Wiederaufbau (KfW) und der Darlehenskassen. Achtung: Die Zinsen hier sind meist höher! Kredite helfen, wenn du im Moment nicht genügend Geld hast, es aber brauchst. Du musst den Kredit später (mit Zinsen) zurückzahlen, wenn du z. B. nach dem Studium Geld verdienst. Sei dir dessen bewusst! Vielleicht reicht ja schon ein Nebenjob, um deine Finanzen zu verbessern ...",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Bundesverwaltungsamt (BVA)"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.xn--bafg-7qa.de/bafoeg/de/weitere-foerdermoeglichkeiten/bildungskredit/bildungskredit_node.html",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "stipendium",
+                "name": "Begabtenförderung/Stipendium",
+                "content": "Wenn du gute Noten hast und dich neben deinem Studium noch für die Gesellschaft einbringst (z. B. durch ein Ehrenamt), kommt auch ein Stipendium zur Finanzierung deines Studiums für dich in Frage. Du musst dich dafür bewerben. Das erhaltene Geld muss nicht zurückgezahlt werden. Neben dem Deutschlandstipendium gibt es auch Stipendien von Begabtenförderungswerken, die unterschiedliche Schwerpunkte bei der ideellen Förderung setzen. Achtung: Du kannst nicht gleichzeitig durch ein Begabtenförderungswerk und BAföG gefördert werden! Beim Deutschlandstipendium geht das.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Begabtenförderungswerke bzw. Hochschulen"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.bafög.de/bafoeg/de/weitere-foerdermoeglichkeiten/begabtenfoerderung/begabtenfoerderung_node.html",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "kindergeld",
+                "name": "Kindergeld",
+                "content": "Erziehungsberechtigte erhalten für Kinder in Ausbildung oder Studium sogar bis zum 25. Lebensjahr Kindergeld. Wenn du von den Kindergeldberechtigten nicht genügend finanzielle Unterstützung bekommst, kannst du einen Abzweigungsantrag stellen. Dann bekommst du dein Kindergeld selbst und kannst es in deine berufliche Zukunft investieren.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Familienkasse"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/familie-und-kinder/infos-rund-um-kindergeld/kindergeld-ab-18-jahren",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "wohngeld",
+                "name": "Wohngeld",
+                "content": "Bei geringem Einkommen kannst du Wohngeld als Zuschuss zu den Wohnkosten beantragen. Studierende können nur in besonderen Fällen Wohngeld erhalten. Deinen Antrag stellst du (teils online) bei der Wohngeldstelle der zuständigen Behörde. Dort wird geprüft, ob und wie viel Wohngeld du bekommst. Rechner im Internet können dir vorab schon eine grobe Einschätzung geben. Einen Antrag muss man jährlich stellen.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Wohngeldstelle der Gemeinde-, Stadt- oder Kreisverwaltung"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.bmwsb.bund.de/Webs/BMWSB/DE/themen/stadt-wohnen/wohnraumfoerderung/wohngeld/wohngeld-node.html",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.absolventa.de/karriereguide/studium/wohngeld-fuer-studenten",
+                                "label": "Link 2"
+                            }
+                            
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "werkstudierende",
+                "name": "Werkstudierende",
+                "content": "Es gibt Stellenangebote, die sich ausschließlich an Studierende richten. Manchmal ist ein Bezug zu deinem Studienfach wichtig, manchmal nicht. Es gibt einige Besonderheiten, die Jobs für Werkstudierende von anderen Nebenjobs abgrenzen: Als Werkstudent/-in darfst du in der Vorlesungszeit maximal 20 Stunden pro Woche arbeiten, in den Semesterferien auch Vollzeit. Um deine Krankenversicherung (je nach Gehalt eigene studentische oder beitragsfrei in der Familienversicherung) musst du dich selbst kümmern. Als Werkstudent/-in bist du und dein Arbeitgeber von Sozialversicherungsbeiträgen befreit, Beiträge zur Rentenversicherung musst du aber zahlen. Neben dem Einkommen profitierst du von der Arbeitserfahrung.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.studierendenwerke.de/themen/finanzierungsmoeglichkeiten/uebersicht-jobben/werkstudenten",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "buergergeld",
+                "name": "Bürgergeld",
+                "content": "Bürgergeld ist eine staatliche Sozialleistung. Es soll Menschen helfen, die nicht genug Geld zum Leben haben. Anträge können beim zuständigen Jobcenter gestellt werden. Unter bestimmten Umständen können auch Studierende Bürgergeld erhalten: Du musst bei deinen Eltern wohnen und es zuerst mit BAföG versuchen.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Jobcenter"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/buergergeld/finanziell-absichern/voraussetzungen-einkommen-vermoegen",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/datei/grundsicherung-einfach-erklaer_ba032300.pdf",
+                                "label": "Link 2"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "krankenversicherung",
+                "name": "Krankenversicherung als Student/-in ",
+                "content": "Kinder und Jugendliche bis 18 Jahre sind über die Erziehungsberechtigten krankenversichert. Wer studiert, kann sogar bis zum Alter von 25 Jahren familienversichert sein - aber nur wenn das monatliche Einkommen einen bestimmten Wert nicht übersteigt. Achtung: Wie immer gibt es Sonderfälle und Ausnahmen! Spätestens mit 25 Jahren musst du dich auch als Student/-in selbst bei einer Krankenkasse versichern. Es gibt die sogenannte studentische Krankenversicherung. Du kannst dich auch freiwillig bei einer gesetzlichen Krankenkasse oder privat versichern. Auf Vergleichsportalen kannst du dich über die verschiedenen Zusatzbeiträge und -leistungen der Krankenkassen informieren. Such auf der Internetseite deines Favoriten nach einem Angebot für Studierende.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Krankenkasse"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/krankenversicherung/studentische-krankenversicherung-diese-moeglichkeiten-gibt-es-10352",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "semesterticket",
+                "name": "Semesterticket",
+                "content": "Studierende erhalten verschiedene Vergünstigungen. Oftmals beinhaltet der Semesterbeitrag z. B. schon ein Ticket für den Öffentlichen Personennahverkehr (ÖPNV) der Stadt bzw. der Umgebung. Manchmal auch noch weiter. Auch ein günstiges Upgrade zum Deutschland-Ticket ist oft möglich (Stand: 2024). Da das alles von Uni zu Uni unterschiedlich ist, informiere dich am besten direkt auf der Seite der entsprechenden Hochschule zum Thema 'Mobilität'.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Verkehrsverbünde"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Internetseite deiner Hochschule bzw. des jeweiligen Studierendenwerks (Stichwort: Mobilität)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "studientipps",
+                "name": "Studientipps / Lernen",
+                "content": "Im Studium musst du eigenverantwortlich lernen. Tutorien und Lerngruppe helfen dir dabei. Mit Lernplänen hast du einen guten Überblick über deine Lernziele und vermeidest Stress, indem du rechtzeitig anfängst zu lernen. Probier verschiedene Methoden aus. Wenn du merkst, dass du überfordert bist, such dir Nachhilfe oder professionelle Hilfe. Meistens findest du Informationen oder Anlaufstellen auf der Internetseite deiner Uni.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Zentrale Studienberatung/ Fachstudienberatung"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Internetseite deiner Hochschule"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "regelstudienzeit",
+                "name": "Regelstudienzeit",
+                "content": "Die Dauer des Studiums hängt vom Studiengang und der Hochschule ab. Bachelorstudiengänge dauern normalerweise 6 Semester (= 3 Jahre), Masterstudiengänge 4 Semester (= 2 Jahre). In der Regelstudienzeit sollte ein Studienabschluss gut zu erreichen sein. Einen Vorschlag zur Gestaltung der einzelnen Semester findest du im sogenannten Modulplan des Studiengangs. Es gibt unterschiedlich Gründe, weshalb die Studienzeit verlängert oder verkürzt werden kann oder muss. Achtung: Die Förderhöchstdauer von BAföG hängt der Regelstudienzeit ab.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Zentrale Studienberatung der Hochschule "
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "behoerdentipps",
+                "name": "Tipps zum Umgang mit Behörden",
+                "content": "Für staatliche Leistungen wie das Wohngeld oder das Bürgergeld musst du einen Antrag stellen. Um über einen Anspruch zu entscheiden, werden viele Informationen und Nachweise benötigt. Selten ist ein Antrag direkt vollständig und in der Bearbeitung werden weitere Unterlagen von dir angefordert. Daher dauert es manchmal bis du deinen Bescheid erhältst. Um bei anhaltendem Unterstützungsbedarf nicht in finanzielle Not zu geraten, stelle Weiterleistungsanträge frühzeitig, ca. zwei Monate vor Ablauf des Bewilligungszeitraums.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "jeweilige Behörde"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "pruefungsangst",
+                "name": "Prüfungsangst",
+                "content": "Respekt vor Prüfungen ist normal und auch sinnvoll, denn nur so kannst du beste Leistungen erbringen. Zu viel Angst wirkt sich negativ aus und schränkt dich ein. Und dann solltest du dir Hilfe holen! Deine Uni bietet mit Sicherheit erste Anlaufstellen an.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Psychosoziale Beratungstelle /Psychologische Beratungsstelle der Hochschule"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos und Anlaufstellensuche:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.studienabbruch-und-dann.de/studienabbruch/de/home/home_node.html",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/bildung/studium/probleme-im-studium",
+                                "label": "Link 2"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Internetseite deiner Hochschule"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "mutterschutz",
+                "name": "Mutterschutz",
+                "content": "Auch für Studentinnen gilt der Mutterschutz! Eine Schwangerschaft sollte der Hochschule mitgeteilt werden, damit Mutter und Kind bestmöglich geschützt sind und sich aus der Schwangerschaft keine Nachteile für das Studium ergeben.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Familienbüro der Hochschule"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://familienportal.de/familienportal/familienleistungen/mutterschutz/gibt-es-mutterschutz-fuer-studentinnen--125100",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "fernstudium",
+                "name": "Fernstudium/Onlinestudium",
+                "content": "Manchmal ist es unmöglich, für ein Studium den Wohnort zu wechseln oder regelmäßig zu Veranstaltungen an der Hochschule zu gehen. Zum Beispiel, wenn man Kinder oder andere Angehörige pflegt. Dann ist ein Fernstudium eine Möglichkeit. Es gibt spezielle Fernhochschulen. Aber auch die Präsenz-Hochschulen bieten teilweise Fernstudiengänge an – allerdings nicht in allen Fächern. Die Vorlesungen und Seminare finden meist online statt.Nicht immer gibt es feste Termine mit den Lehrenden und manchmal gibt es eben doch Veranstaltungen in Präsenz. Das bedeutet, dass Studierende sich sehr gut selbst organisieren und diszipliniert sein müssen. Ein Fernstudium ist grundsätzlich in Vollzeit gestaltet. Berufsbegleitende Fernstudiengänge werden häufig als Teilzeitstudium angeboten. Achtung: Informiere dich über die Studienbeiträge. Diese können insbesondere bei privaten Hochschulen ziemlich teuer sein.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://studienwahl.de/studieninfos/besondere-studienformen/fern-online-studium",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.hochschulkompass.de/studium/rund-ums-studieren/studienformen/fernstudium.html",
+                                "label": "Link 2"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "teilzeitstudium",
+                "name": "Teilzeitstudium",
+                "content": "Ein Teilzeitstudium ermöglicht ein Studium neben Betreuungsaufgaben oder einem Beruf. Es wird berufsbegleitend (z. B. online-und/oder in Abendveranstaltungen) oder berufsintegrierend (Studium und Beruf sind aufeinander abgestimmt) angeboten. Die Regelstudienzeit verlängert sich entsprechend. Bei einem Teilzeitstudium hat man keinen BAföG-Anspruch.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://studienwahl.de/studieninfos/besondere-studienformen/teilzeitstudium",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.hochschulkompass.de/studium/rund-ums-studieren/studienformen/teilzeitstudium.html",
+                                "label": "Link 2"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "kinderbetreuung",
+                "name": "Kinderbetreuung",
+                "content": "Du möchtest ein Studium und deine Familie unter einen Hut bekommen? Manche Hochschulen bieten Krabbelgruppen und Kindergärten auf dem Campus und manchmal sogar flexible Kinderbetreuung an. In der Regel müssen Studierende auch keine Elternbeiträge in Regel-KITAs zahlen.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Familienbüro der Hochschule"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "Internetseite der Hochschule",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "finanzierung-schwangerschaft",
+                "name": "Finanzierung in der Schwangerschaft",
+                "content": "Studentinnen können Mutterschaftsgeld erhalten, wenn sie einen Nebenerwerb hatten. Auch unter anderen Voraussetzungen und in besonderen Notlagen kann es finanzielle Unterstützung und Zuschüsse geben. Auch nach der Schwangerschaft gibt es unterschiedliche Familienleistungen, die finanziell helfen.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Krankenkasse bzw. Bundesamt für Soziale Sicherung"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://familienportal.de/familienportal/familienleistungen/mutterschutz/gibt-es-mutterschutz-fuer-studentinnen--125100",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.bundesstiftung-mutter-und-kind.de/",
+                                "label": "Link 2"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "unterstuetzung-studium-kind",
+                "name": "Weitere Unterstützung beim Studium mit Kind",
+                "content": "In Studierendenwohnheimen gibt es meist auch günstige Wohnmöglichkeiten für Studierende mit Kind. Je nach Hochschule gibt es noch weitere, finanzielle oder materielle Unterstützung.  Informiere dich auf der Seite deiner Uni unter dem Navigationspunkt 'Wohnen' oder 'Studieren mit Kind'. Außerdem gibt es noch weitere Möglichkeiten zur Finanzierung in der Schwangerschaft.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Familienbüro/Studierendenwerk deiner Hochschule"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Internetseite deiner Hochschule"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "nachteilsausgleich",
+                "name": "Nachteilsausgleich",
+                "content": "Eine Behinderung oder Erkrankung erschwert dir das Studium? Prüfungsbedingungen können manchmal individuell angepasst werden. Die Inhalte dürfen dadurch aber nicht leichter werden! Das nennt man Nachteilsausgleich. Du brauchst dafür keinen Schwerbehindertenausweis, musst aber deine Beeinträchtigung und Lösungsvorschläge im Antrag an das Hochschulprüfungsamt beschreiben.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Beauftragte für Studierende mit Behinderung oder chronischer Erkrankung, Hochschule"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.studierendenwerke.de/themen/studieren-mit-behinderung/beratung-studierender-mit-behinderungen/beratungssuche",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "studienplatzbewerbung-behinderung",
+                "name": "Studienplatzbewerbung mit Behinderung",
+                "content": "Wer eine Behinderung oder eine chronische Erkrankung hat, kann bei der Bewerbung auf einen zulassungsbeschränkten Studiengang einen Sonderantrag auf hochschulstart.de stellen. Auch im Studium kann/sollte man sich unbedingt Unterstützung nehmen, z. B. den Nachteilsausgleich.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Beauftragte für Studierende mit Behinderung oder chronischer Erkrankung"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/bildung/studium/studieren-mit-behinderungen",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://hochschulstart.de/unterstuetzung/downloads",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Internetseite deiner Hochschule"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "studienplatzbewerbung-auslaendischer-abschluss",
+                "name": "Studienplatzbewerbung mit ausländischem Abschluss",
+                "content": "Wer an einer deutschen Hochschule studieren möchte, braucht eine Hochschulzugangsberechtigung. Vielleicht hast du deine Berechtigung in einem anderen Land erworben. Dann kannst du versuchen, sie anerkennen zu lassen. Manchmal muss man auch ein Studienkolleg durchlaufen um eine fachgebundene Hochschulzugangsberechtigung zu erhalten.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.study-in-germany.de/de/studium-planen/voraussetzungen/hochschulzugangsberechtigung/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "jugendberufsagentur",
+                "name": "Jugendberufsagentur",
+                "content": "Egal ob du Probleme in der Schule, der Ausbildung, mit deinen Eltern oder Geld hast: Du kannst mit allen Themen, die dich beschäftigen, in eine Jugendberufsagentur kommen. Hier arbeiten Fachkräfte aus der Jugendhilfe, der Agentur für Arbeit und dem Jobcenter zusammen und es kann schnell geklärt werden, wer dich am besten unterstützen kann.",
+                "additional_informations": [
+                   
+                    {
+                        "label": "Suche in deiner Nähe:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.servicestelle-jba.de/wws/9.php",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "berufsberatung",
+                "name": "Berufsberatung",
+                "content": "Die Berufsberatung ist ein kostenloses Angebot der Bundesagentur für Arbeit. Berufsberater/-innen helfen zum Beispiel bei Fragen rund um die Ausbildungs- oder Studienwahl, die Bewerbung auf entsprechende Plätze und Fördermöglichkeiten. Die Beratung erfolgt persönlich vor Ort oder per Video. Wer sich eigenständig informieren möchte, kann zu den Öffnungszeiten auch das Berufsinformationszentrum (BiZ) der örtlichen Agentur für Arbeit besuchen.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/bildung/berufsberatung",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "sprachnachweise",
+                "name": "Sprachnachweise für ein Studium",
+                "content": "Inzwischen werden einige Studiengänge (insbesondere Master) komplett in Englisch angeboten.Bei den meisten Studiengängen in Deutschland findet der Unterricht auf Deutsch statt. Damit du zumindest sprachlich alles verstehst, fordern Hochschulen einen DSH-2 oder gleichwertige Sprachnachweise.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Hochschule"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.study-in-germany.de/de/studium-planen/voraussetzungen/deutschkenntnisse/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "",
+                "name": "",
+                "content": "",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": ""
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
