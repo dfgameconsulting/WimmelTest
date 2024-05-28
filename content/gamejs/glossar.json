@@ -1704,5 +1704,587 @@
                 "additional_informations": []
             }
         ]
+    },
+    {
+        "category": "Lebenskrisen",
+        "subcategories": [
+            {
+                "id": "sucht",
+                "name": "Sucht",
+                "content": "Sucht ist eine Krankheit, die jede/n treffen kann. Unterschiedliche Stoffe (Suchtmittel), aber auch Verhalten kann süchtig machen. Es gibt verschiedene Anzeichen, an denen man süchtige Menschen erkennt – egal wonach sie süchtig sind. Zum Beispiel möchten sie unbedingt konsumieren, auch wenn sie wissen, dass das nicht gut ist oder sie vernachlässigen andere Dinge. Wenn du so etwas bei dir selbst oder Freund/-innen bemerkst, such dir Hilfe!",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Suchthilfe oder Drogenberatungsstelle"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos und Beratungsstellensuche:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.kmdd.de/infopool-und-hilfe/sucht",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.drugcom.de/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "online-sucht",
+                "name": "Online-Sucht",
+                "content": "Die Übergänge von einer häufigen, aber noch unproblematischen Internetnutzung zu einer Abhängigkeit sind fließend. Internetnutzung ist zum Beispiel dann schädlich, wenn die Schule, der Beruf und andere Freizeitaktivitäten deshalb vernachlässigt werden. Zu Online-Sucht (man sagt auch Internetnutzungsstörung oder Handysucht) können ganz unterschiedliche Beschäftigungen im Internet zählen: Online-Shopping, Social-Media-Nutzung oder Computerspiele.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://gesund.bund.de/online-sucht",
+                                "label": "Link 1"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Infoportal für Mediennutzung & Medienkompetenz:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.ins-netz-gehen.de/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "glueckspielsucht",
+                "name": "(Online) Glücksspielsucht",
+                "content": "Glücksspiel ist in Deutschland ab 18 Jahren erlaubt. Auch im Internet gibt es Glücksspiele, die schnell verfügbar sind. Zwar konsumiert man kein Suchtmittel, aber auch Verhalten (also das Spielen) kann eine Sucht sein. Menschen, die glücksspielsüchtig sind, können nicht aufhören zu spielen, obwohl es schon schlechte Erfahrungen gab. Häufig führt Glücksspiel nämlich zu Schulden und anderen Problemen im Leben. Neben verschiedenen Beratungsangeboten gibt es die Möglichkeit, sich selbst für Glücksspielangebote sperren zu lassen. Auch Angehörige können eine Fremdsperre beantragen.",
+                "additional_informations": [
+                   
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://gesund.bund.de/gluecksspielsucht#auf-einen-blick",
+                                "label": "Link 1"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Noch mehr Infos, Selbsttest und Hilfe:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.check-dein-spiel.de/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "psychotherapie",
+                "name": "Psychotherapie",
+                "content": "Psychotherapie soll bei psychischen Erkrankungen wie Depression, Angststörung und vielem mehr helfen, damit es den Betroffenen wieder besser geht. Sie kann ambulant oder stationär stattfinden und von Psychotherapeut/-innen oder Fachärzt/-innen (= Psychiater/-innen) durchgeführt werden. Es gibt verschiedene Therapieformen: z. B. die analytische Psychotherapie oder die Verhaltenstherapie. Jede/r muss selbst entscheiden, mit welchem Ansatz er/sie sich am wohlsten fühlt.  Die Kosten für die Therapie zahlt die Krankenkasse.",
+                "additional_informations": [
+                  
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.wege-zur-psychotherapie.org/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Terminsuche:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://arztsuche.116117.de/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "cannabis",
+                "name": "Cannabis (Kiffen)",
+                "content": "Für Jugendliche unter 18 Jahren ist der Konsum von Cannabis (rauchen/kiffen, dampfen oder essen) verboten! Die Wirkung von Cannabis kann sehr unterschiedlich sein. Lass dich nicht zum Konsum überreden und such das Gespräch bzw. professionelle Hilfe, wenn du dir Sorgen um Freund/-innen machst.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.cannabispraevention.de/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "legale-drogen",
+                "name": "Legale Drogen (Alkohol und Zigaretten)",
+                "content": "Alkohol und Zigaretten sind ab 18 Jahren in Deutschland nicht verboten und in der Gesellschaft sehr weit akzeptiert. Bier und weinhaltige Getränke sind bereits ab 16 Jahren erlaubt. Unverantwortlicher Konsum in extremen Mengen ist trotzdem sehr schädlich. Auch E-Zigaretten sind problematisch und häufig der Einstieg zum Rauchen. Aber nicht nur die Gesundheit leidet darunter: Wer viel konsumiert, gibt auch viel Geld aus. ",
+                "additional_informations": [
+                  
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.kmdd.de/infopool-und-hilfe/suchtmittel/alkohol",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.null-alkohol-voll-power.de/",
+                                "label": "Link 2"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.rauch-frei.info/",
+                                "label": "Link 3"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "esstoerung",
+                "name": "Esstörung",
+                "content": "Zu den Essstörungen zählen z. B. Bulimie, Anorexie (auch bekannt als Magersucht) und Binge-Eating (Essanfälle). Zu viel oder zu wenig essen, schadet dem Körper und kann lebensgefährlich sein!",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos und Beratungsstellen:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.bzga-essstoerungen.de/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "schulden",
+                "name": "Schulden",
+                "content": "Schulden entstehen, wenn man mehr Geld ausgibt, als man verdient. Du hast Schulden und bist von der Situation und der dazugehörigen Post überfordert? Es gibt eigentlich in jeder Stadt eine Schuldnerberatung von verschiedenen Trägern, die dir dabei hilft, deine finanzielle Lage zu klären.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Schuldnerberatung"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.caritas.de/hilfeundberatung/ratgeber/schulden/mietschulden/tipps",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.diakonie.de/informieren/infothek/2023/dezember/wissen-kompakt-schuldnerberatung",
+                                "label": "Link 2"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "beratungsstellen",
+                "name": "Beratungsstellen",
+                "content": "Manchmal befindet man sich in einer Situation, in der man sich überfordert und hilflos fühlt und es schwierig ist, ein unangenehmes Thema mit einer bekannten, verwandten oder befreundeten Person oder einer Fachkraft zu besprechen. Aber es gibt öffentliche, kostenlose und oft anonyme Angebote für jede Lebenslage. Teilweise gibt es sogar online Beratung.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos und Beratungsstellensuche:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.caritas.de/hilfeundberatung/hilfeundberatung",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.diakonie.de/",
+                                "label": "Link 2"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.malteser.de/",
+                                "label": "Link 3"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.johanniter.de/",
+                                "label": "Link 4"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.heilsarmee.de/",
+                                "label": "Link 5"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.berufenavi.de/orientierung/beratung",
+                                "label": "Link 6"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://awo.org/",
+                                "label": "Link 7"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.volkssolidaritaet.de/",
+                                "label": "Link 8"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.nummergegenkummer.de/kinder-und-jugendberatung/online-beratung/",
+                                "label": "Link 9"
+                            }
+
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "wohnungslosigkeit",
+                "name": "(Drohende) Wohnungslosigkeit",
+                "content": "Solltest du aufgrund von Mietschulden möglicherweise deine Wohnung verlieren, kann das Jobcenter oder das Sozialamt auf Antrag vielleicht ein Darlehen für Mietschulden gewähren, damit das nicht passiert. Ein Darlehen muss man wieder komplett zurückzahlen. Wer wohnungslos geworden ist, kann kostenlose Angebote wie Notunterkünfte für die Nacht und Aufenthaltsmöglichkeiten tagsüber nutzen. Auch duschen, waschen und essen ist dort oft kostenlos möglich. Außerdem gibt es Angebote der Suppenküchen und der Tafel.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Jugendamt (bis 21 Jahre), Sozial- oder Wohnungsamt"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Hilfefinder",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.mokli-help.de/#/",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.woundwie.de/de/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "abonnemont",
+                "name": "Abonnement (Abo)",
+                "content": "Abos (z.B. für Streaming-Dienste, Fahrkarten) sind praktisch, aber denk dran: Es handelt sich um wiederkehrende Ausgaben! Ein Abo kann nach der Mindestlaufzeit monatlich gekündigt werden. Prüfe daher, wie lange das Abo mindestens laufen wird und generell, ob der Anbieter seriös ist. Oft werden vorab kostenlose/günstige Probeabos zum Testen angeboten. Achte darauf, wie lange das (kostenfreie) Angebot gilt und gegebenenfalls an eine rechtzeitige Kündigung, denn meistens sind die Bezahl-Abos teurer. Für Studierende und Auszubildende gibt es manchmal günstigere Abo-Angebote. Wichtig: Minderjährige können Abos und Handyverträge nur mit der Zustimmung der Erziehungsberechtigten abschließen.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.evz.de/einkaufen-internet/online-einkauf/was-sind-online-abos-wie-kann-ich-diese-kuendigen.html",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "handyvertrag",
+                "name": "Handyvertrag",
+                "content": "Handyverträge wirken praktisch, denn immerhin kommst du manchmal sogar ein Smartphone dazu. Aber: Du verpflichtest dich, den Betrag monatlich in der Laufzeit zu zahlen. Erst nach dieser Mindestlaufzeit kannst du monatlich kündigen. Manchmal gibt es auch versteckte oder unnötige Kosten. Daher immer genau lesen und Angebote vergleichen!  Tipp: Prüfe regelmäßig günstigere Optionen und z. B. auch, ob ein Prepaid-Angebot vielleicht für dich reicht. Ausgaben hat man so leichter im Blick. Wichtig: Minderjährige können Handyverträge und Abos nur mit der Zustimmung der Erziehungsberechtigten abschließen.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.evz.de/einkaufen-internet/vorsicht-falle/abofallen/vertraege-mit-minderjaehrigen.html",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "straffaelligkeit",
+                "name": "Straffälligkeit",
+                "content": "Ab 14 Jahren ist man in Deutschland strafmündig. Das heißt: Wer eine Straftat begeht, kann dafür belangt werden. Die Jugendgerichtshilfe kann 14- bis 17-Jährige und unter Umständen auch 18- bis 20-Jährige in einem Strafverfahren unterstützen.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Jugendhilfe"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "arbeitslosengeld",
+                "name": "Arbeitslosengeld ",
+                "content": "Arbeitslosengeld 1 (ALG 1) bekommen nur Personen, die innerhalb der letzten 30 Monate 12 Monate lang in die Arbeitslosenversicherung eingezahlt haben. Die Höhe des Arbeitslosengeldes beträgt in der Regel 60 % des letzten Bruttogehalts und wird 12 Monate lang gezahlt. Eine rechtzeitige bzw. direkte Arbeitslosmeldung ist sehr wichtig, um dich vor finanziellen Engpässen zu schützen. Eine vorübergehende Sperrung kommt auf dich zu, wenn du die Arbeitslosigkeit selbst verschuldet hast (z. B. weil du dich schlecht verhalten, einen Aufhebungsvertrag unterschrieben oder den Job selbst gekündigt hast). Bürgergeld können alle beantragen, die noch keine 12 Monate eingezahlt haben, mindestens 15 Jahre alt sind und pro Tag mindestens 3 Stunden arbeiten könnten. Wenn man nach 12 Monaten ALG 1- Bezug noch keine Arbeit gefunden hat, muss man Bürgergeld beantragen.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Bundesagentur für Arbeit"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/arbeitslosengeld/finanzielle-hilfen/arbeitslosengeld-anspruch-hoehe-dauer",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "krankenversicherung-ausbildung",
+                "name": "Krankenversicherung (KV)",
+                "content": "In Deutschland muss jede/r krankenversichert sein. So kann man im Krankheitsfall versorgt werden, ohne Angst vor den Kosten der Behandlung haben zu müssen. Diese wird nämlich ganz oder teilweise von der Krankenkasse erstattet. Normalerweise teilen sich Arbeitnehmer und Arbeitgeber den Beitrag zur Krankenversicherung (deshalb ist das Nettogehalt übrigens niedriger: Diese wichtigen Sozialversicherungsbeiträge überweist der Arbeitgeber direkt an die Versicherungen). Für arbeitslose Menschen übernimmt die Agentur für Arbeit bzw. das Jobcenter die Beiträge zur Krankenversicherung. Da eine Krankenversicherung wichtig aber teuer ist, melde dich direkt bei der Agentur für Arbeit bzw. dem Jobcenter, wenn du arbeitslos geworden bist.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Agentur für Arbeit (Arbeitslosengeld 1) bzw. Jobcenter (Bürgergeld) Jobcenter"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/buergergeld/finanziell-absichern/gesundheit-versicherung",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "krankmeldung",
+                "name": "Krankmeldung",
+                "content": "Wenn du in einem Arbeitsverhältnis bist und mal krank wirst, gib deinem Arbeitgeber sofort Bescheid und melde dich bei deinem Hausarzt/deiner Hausärztin. Dort wird dir eine Arbeitsunfähigkeitsbescheinigung (AU) ausgestellt. Dort steht, wie lange du krank bist. Mittlerweile erhalten Krankenkassen (und darüber der Arbeitgeber) diesen Nachweis in der Regel elektronisch.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Hausarzt/Hausärztin"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/aerzte-und-kliniken/digitale-krankschreibung-elektronische-arbeitsunfaehigkeitsbescheinigung-65488",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "jugendberufsagentur-ausbildung",
+                "name": "Jugendberufsagentur",
+                "content": "Egal ob du Probleme in der Schule, der Ausbildung, mit deinen Eltern oder Geld hast: Du kannst mit allen Themen, die dich beschäftigen, in eine Jugendberufsagentur kommen. Hier arbeiten Fachkräfte aus der Jugendhilfe, der Agentur für Arbeit und dem Jobcenter zusammen und es kann schnell geklärt werden, wer dich am besten unterstützen kann.",
+                "additional_informations": [
+                    {
+                        "label": "Suchen in der Nähe:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.servicestelle-jba.de/wws/9.php",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "krankengeld",
+                "name": "Krankengeld",
+                "content": "Wenn du krank bist, erhältst du 6 Wochen lang erstmal weiterhin ganz normal Gehalt von deinem Arbeitgeber (Entgeltfortzahlung). Ab der 7. Woche beziehst du dann Krankengeld: Die Krankenkasse zahlt dir 70% deines regelmäßigen Bruttogehalts.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Krankenkasse"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.bundesgesundheitsministerium.de/krankengeld.html",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/krankenversicherung/krankengeld-ab-wann-sie-es-bekommen-und-wie-sie-es-beantragen-38939",
+                                "label": "Link 2"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "google-recherche-gesundheit",
+                "name": "Google-Recherche zu Gesundheit",
+                "content": "Es ist so leicht, die Antwort auf eine Frage direkt zu bekommen: Alle googlen alles Mögliche. Das ist meistens praktisch und unkompliziert. Allerdings wird man manchmal mit falschen Informationen konfrontiert, die man erstmal erkennen muss. Auch Suchmaschine und Sucheingabe haben Einfluss auf die Ergebnisse, die wir erhalten. Besonders kritisch ist das, wenn es um Gesundheitsthemen geht.  Wichtig: Eine Online-Recherche ersetzt NIE den Arztbesuch.",
+                "additional_informations": [
+                    {
+                        "label": "Tipps zur Recherche von Gesundheitsthemen im Internet und hilfreiche Links:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.gesund-im-netz.net/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "berufsunfaehigkeit",
+                "name": "Berufsunfähigkeitsversicherung (BU)",
+                "content": "Miete, Essen, Freizeit – all diese Dinge kosten Geld. Ein regelmäßiges Einkommen ist daher sehr wichtig. Es kann zu finanziellen Problemen kommen, wenn du z. B. durch eine Krankheit oder einen Unfall auf Dauer nicht mehr arbeiten kannst: Die üblichen Ausgaben bleiben, aber es gibt nicht mehr genügend Einnahmen. Für diesen Fall kann man eine Berufsunfähigkeitsversichung (BU) abschließen. Die Höhe der versicherten Rente legt man selbst fest. Daraus ergibt sich dann wiederum der monatliche Beitrag. Das Thema ist sehr kompliziert. Der Abschluss einer BU am Anfang des Berufslebens kann Vorteile mit sich bringen.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.verbraucherzentrale.de/wissen/geld-versicherungen/weitere-versicherungen/berufsunfaehigkeit-wie-sie-sich-gegen-verlust-des-einkommens-absichern-13931",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "burnout-syndrom",
+                "name": "Burn-out-Syndrom",
+                "content": "Menschen mit einem Burn-out-Syndrom fühlen sich innerlich leer und haben keine Energie mehr. Es gibt unterschiedliche Gründe für ein Burn-out: Eine belastende Arbeitssituation kann einer davon sein. Damit es einem wieder besser geht, reicht es manchmal schon, Kleinigkeiten zu verändern. Wenn man das nicht alleine schafft, kann eine Psychotherapie helfen. ",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Arzt/Ärztin"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos (mit Erklärvideo):",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://gesund.bund.de/burn-out-syndrom#diagnostik",
+                                "label": "Link 1"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Tipps für einen guten Umgang mit Belastungen:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.inqa.de/DE/themen/gesundheit/psychische-gesundheit-am-arbeitsplatz/kein-stress-mit-dem-stress-beschaeftigte.html",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "work-live-balance",
+                "name": "Work-Live-Balance",
+                "content": "Work-Live-Balance beschreibt das Gleichgewicht von verschiedenen Lebensbereichen. Sie ist wichtig für unsere Gesundheit. Arbeit nimmt einen Großteil unserer Zeit ein und wird deshalb durch gesetzliche Vorgaben geregelt. In der Regel darf man z. B. maximal 10 Stunden am Tag arbeiten, man muss nach 6 Stunden Arbeit eine Pause und  bestimmte Ruhezeiten zwischen den Arbeitseinsätzen liegen müssen. Für Minderjährige gelten noch strengere Vorgaben (JArbSchG). Darüber hinaus ist es aber auch wichtig, einen guten Ausgleich im Privatleben zu schaffen: Freund/-innen treffen, Sport machen oder was dir sonst gut tut.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Betriebliches Gesundheitsmanagement"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 ]
