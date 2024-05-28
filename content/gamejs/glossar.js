@@ -40,7 +40,7 @@ class Glossar {
         subcatWrap.appendChild(subcatWrapHeadline)
 
         let subcatContent = document.createElement('p')
-        subcatContent.textContent = subcategory.content
+        subcatContent.innerHTML = subcategory.content
         subcatWrap.appendChild(subcatContent)
         
         subcategory.additional_informations.forEach(ai => {
