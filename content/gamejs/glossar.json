@@ -2286,5 +2286,616 @@
                 ]
             }
         ]
+    },
+    {
+        "category": "Erwachsen-werden",
+        "subcategories": [
+            {
+                "id": "wohnungssuche",
+                "name": "Wohnungssuche",
+                "content": "Im Internet gibt es besondere Suchmaschinen oder Seiten für die Wohnungssuche. Tatsächlich gibt es in Tageszeitungen häufig noch Anzeigen. Manchmal hängen auch welche in der Uni aus. Oder vielleicht haben Bekannte oder Freund/-innen was gehört?<br><br>Es kann hilfreich sein, sich bereits vorab Gedanken darüber zu machen, wie deine zukünftige Wohnung mindestens aussehen sollte.<ul><li>Soll sie einen Balkon und/oder einen Keller haben?</li><li>Wie hoch darf die Miete maximal sein?</li><li>Soll es eine WG (Wohngemeinschaft) oder eine eigene Wohnung sein?</li><li>Soll sie eine Badewanne oder eine Dusche haben?</li>Und falls du Haustiere hast: Dürfen diese in der Wohnung gehalten werden? Kleintiere (Hasen, Hamster, Fische, etc.) dürfen ohne Erlaubnis einziehen. Bei Hunden und Katzen steht es in Wohnungsanzeigen meist dabei, ob sie erlaubt sind.</li></ul>",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.wohnungsboerse.net/",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.kleinanzeigen.de/s-immobilien/c195",
+                                "label": "Link 2"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.null-provision.de/",
+                                "label": "Link 3"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "buergschaft",
+                "name": "Bürgschaft",
+                "content": "Die Miete ist eine wiederkehrende Ausgabe. Vermieter/-innen möchten daher die Sicherheit haben, dass sie ihr Geld zuverlässig erhalten. Vor allen Dingen bei jungen Menschen, deren finanzielle Situation noch nicht immer ganz stabil ist, wird oftmals ein Bürge verlangt. Ein Bürge versichert, dass die Zahlung notfalls durch ihn/sie erfolgt. So hat der junge Mensch eine bessere Chance die Wohnung zu bekommen. Bürgen könnten Pritvatpersonen sein, wie Eltern oder gute Freunde, oder auch eine Bank oder eine Versicherung (Mietkautionsversicherung).",
+                "additional_informations": []
+            },
+            {
+                "id": "auszug-umzug",
+                "name": "Auszug/Umzug",
+                "content": "Endlich ausziehen! Doch bevor du es dir in einer neuen Wohnung bequem machen kannst, gibt es einige Dinge zu beachten. Kannst du viele deiner Möbel in die neue Wohnung mitnehmen? Wenn du aus dem Elternhaus ausziehst, hast du vermutlich noch nicht viel mehr Besitz, als das, was sich in deinem Kinderzimmer befindet. Wenn du ein Zimmer eines Wohnheimes ziehst, kann es sein, dass es eingerichtet ist und du nicht viel brauchst. Auch wenn du in bestehende WGs einziehst, musst du vermutlich nur noch wenig, abgesehen von deinen persönlichen Dingen mitbringen. Sollte der Umzug aber größer ausfallen, kann es sein, dass ein Koffer oder ein normales Auto nicht ausreicht. Falls du keine Unterstützung von Familie und Freund/-innen bekommen kannst, gibt es auch professionelle Umzugsunternehmen. Informiere dich vorab gut über die Kosten.",
+                "additional_informations": []
+            },
+            {
+                "id": "wohnungsbesichtigung",
+                "name": "Wohnungsbesichtigung",
+                "content": "Der nächste Schritt nach der Wohnungssuche ist die Besichtigung. Diese findet manchmal alleine, manchmal in großen Runden statt. Nimm dir eine zweite Person mit! Vielleicht bist du so überwältigt von der Vorstellung deiner ersten eigenen Wohnung, dass du Mängel übersiehst. Vier Augen sehen mehr als zwei!<br> Bei WGs gibt es oft auch ein 'WG-Casting'. Wenn es nicht nur darum geht, sich die Miete zu teilen, sondern auch gemeinsam Zeit zu verbringen und sich gut versteht, ist es wichtig, sich vorab ein bisschen kennenzulernen und zu sehen, ob es passt.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": ""
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "mietvertrag",
+                "name": "Mietvertrag",
+                "content": "Ein Mietvertrag enthällt alle Details zur Wohnung und den Pflichten der Mietenden. Neben der Angabe von Kaltmiete, Nebenkosten und Kaution, sollte ersichtlich werden, ob du zum Beispiel Gas selbstständig anmelden musst.<br><br>Zudem sollten die Kündigungsfristen, weitere Kosten (beispielweise für die Küchennutzung), Renovierungsarbeiten vor Auszug und sonstige Aufgaben, wie z.B. das Reinigen des Treppenhauses darin vermerkt sein. Falls etwas anders als besprochen im Mietvertrag steht oder du etwas nicht verstehst, frag VOR der Unterschrift nach.",
+                "additional_informations": []
+            },
+            {
+                "id": "mieterselbstauskunft",
+                "name": "Mieterselbstauskunft",
+                "content": "Die Mieterselbstauskunft ist ein Formular, das von Vermieter/-innen genutzt wird, um sicherzugehen, dass jemand die Miete zuverlässig zahlen kann. Ganz häufig müssen mietende Personen Angaben machen zu:<ul><li>Information zu persönlichen Daten</li><li>Angaben zum Arbeitsverhältnis</li><li>Angaben zur finanziellen Situation</li><li>Angaben zur derzeitigen Wohnsituation mit Namen etwaiger Vorvermieter/-innen</li></ul>Es wird empfohlen, die Mieterselbstauskunft sorgfältig auszufüllen, da sie die Chancen auf eine Wohnung erhöht. Fragen, die über die Punkte hinausgehen, wie Familienstand, Religionszugehörigkeit, etc. darf nicht abgefragt werden und müssen Mieter/-innen nicht beantworten. ",
+                "additional_informations": []
+            },
+            {
+                "id": "kaution",
+                "name": "Kaution",
+                "content": "Kautionen gibt es in unterschiedlichen Situationen. Immer wenn man übergangsweise etwas von einer anderen Person nutzt – egal ob Wohnung oder Billiardtisch – wird üblicherweise eine Geldsumme für den Fall hinterlegt, dass durch die Nutzung Schäden entstehen. Zu den sogenannten 'Mietschäden' gehören nicht gezahlte Miete oder Betriebskosten, oder Schäden, die durch die Mieter/-innen verursacht wurden.  In der Regel beträgt die Mietkaution für eine Wohnung maximal drei Kaltmieten. Um neue Schäden von alten zu unterscheiden, gibt es ein Übergabeprotokoll.",
+                "additional_informations": []
+            },
+            {
+                "id": "wohnungsuebergabeprotokoll",
+                "name": "Wohnungsübergabeprotokoll",
+                "content": "Das Übergabeprotokoll wird am Tag der Schlüsselübergabe erstellt. Gemeinsam mit der vermietenden Person oder der Immobiliengesellschaft werden alle Räume angeschaut. Es wird schriftlich festgehalten, welche Mängel vor der Übergabe bereits vorhanden waren und sicher nicht von dir stammen. Schau dir daher die Wohnung aufmerksam an und nimm vielleicht auch eine zweite Person mit oder frag deine Vormieter/-innen, worauf du achten könntest. Das Übergabeprotokoll wird von allen vermietenden und mietenden Personen unterschrieben. Jeder erhält eine Kopie des Dokuments. Am Tag es Auszugs wird erneut ein Übergabeprotokoll erstellt, um zu prüfen, ob durch dich Schäden entstanden sind. Je nachdem erhältst du deine Kaution ganz oder teilweise wieder.",
+                "additional_informations": []
+            },
+            {
+                "id": "wohnungskuendigung",
+                "name": "Wohnungskündigung ",
+                "content": "Wenn du aus deiner Wohnung ausziehen möchtest, musst du der vermietenden Person oder Firma eine Kündigung zuschicken. Vorlagen dafür gibt es im Internet. Lass dir das Kündigungsdatum schriftlich bestätigen. Bei einer Kündigung musst du die Fristen beachten – normalerweise beträgt diese 3 Monate. Solltest du früher ausziehen wollen, gibt es meist die Möglichkeit, dass du dich selbst um eine nachmietende Person kümmerst. Sprich dazu mit deiner Vermietung. <br><br>Es gibt aber auch den Fall, dass DIR die Wohnung gekündigt wird. Vermieter/-innen brauchen dazu aber einen wichtigen Grund. Je länger du in der Wohnung gelebt hast, desto länger ist auch die Kündigungsfrist. Fristlose Kündigungen sind nur unter bestimmten Bedingungen möglich. Dann ist es wichtig den Kündigungsgrund zu prüfen und gegebenenfalls zu widersprechen.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.umzug.de/tipps/mietrecht/kuendigungsfristen.html",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "anmelden-ummelden",
+                "name": "Anmelden/Ummelden",
+                "content": "Nach einem Umzug muss man sich laut Bundesmeldegesetz (BMG) im neuen Wohnort innerhalb von 14 Tagen anmelden. Dazu ist ein Termin bei der Meldebehörde nötig. Ab 16 Jahren muss man selbst dorthin, vorher können Eltern die Anmeldung übernehmen. Für die Ummeldung werden folgende Sachen benötigt:<ul><li>alle Ausweisdokumente</li><li>von Vermieter/-in bzw. Eigentümer/-in der neuen Wohnung ausgefüllte und unterschriebene Wohnungsgeber/-innenbestätigung</li></ul>",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner:",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Meldebehörde der Gemeinde (heißt manchmal auch: Einwohnermeldeamt und befindet sich im Rathaus, dem Bürgeramt oder einem anderen Gebäude deiner Stadt- oder Gemeindeverwaltung)"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.bmi.bund.de/DE/themen/moderne-verwaltung/verwaltungsrecht/meldewesen/meldewesen-node.html",
+                                "label": "Link 1"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Wichtig:",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Auch dein Arbeitgeber, deine Uni, deine Bank, deine Krankenkasse sowie Versicherungen und andere wichtige Stellen solltest du über deine neue Adresse informieren."
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "wohnungsausstattung",
+                "name": "Wohnungsausstattung",
+                "content": "Wenn du ausziehst, musst du plötzlich mehr Räume einrichten, als bloß dein Schlafzimmer. Einige Dinge brauchst du unbedingt, andere sind nur Bonus. Am Anfang reicht:<ul><li>Matratze, Spannbetttuch, Bettwäsche</li><li>Messer, Gabel und Löffel, 1 Küchenhandtuch, Glas, Tasse, tiefer und flacher Teller, 1 Topf, 1 Pfanne und ein Servier/-Kochlöffel</li><li>1 großes und 2 kleine Handtücher</li></ul>Du musst vieles vermutlich nicht einmal neu kaufen. In Haushalten sammelt sich über die Jahre einiges in vielfacher Ausführung an. Frag bei deiner Familien nach, vielleicht möchten sie etwas loswerden. Schwieriger wird es bei Möbeln, Elektrogeräten wie Waschmaschine, Herd oder generell eine Küche, Schränke, etc. Für wenig Geld kannst du viele Dinge bei Ebay-Kleinanzeigen, auf Flohmärkten oder in Sozialkaufhäusern kaufen. Manchmal gibt es auch in sozialen Netzwerken Gruppen, in denen Küchen- oder Einrichtungsgegenstände zum Verschenken angeboten werden. ",
+                "additional_informations": []
+            },
+            {
+                "id": "rundfunkbeitrag",
+                "name": "Rundfunkbeitrag",
+                "content": "Der öffentlich-rechtliche Rundfunk ist unter anderem für eine unabhängige Berichterstattung zuständig. Das ist sehr wichtig und daher sollen auch alle Menschen diese Sender nutzen können. Für die Finanzierung der Sender wird der Rundfunkbeitrag vom Beitragsservice erhoben. Dieser ist pro Wohnung zu entrichten, egal wie viele Personen dort leben. Unter bestimmten Bedingungen kann der Beitrag ermäßigt werden. Oder du kannst dich komplett davon befreien lassen, z. B., wenn du BAföG oder BAB beziehst.  Kurz nach deiner Anmeldung im Bürgeramt erhältst du Post vom Beitragsservice mit der Bitte um Rückmeldung, wenn du keiner angemeldeten Wohnung zugeordnet werden konntest. In einer WG kann es dann mal kurz kompliziert werden. Zu klären ist: Wer ist von der Beitragszahlung befreit? Zahlt bereits jemand den Rundfunkbeitrag für die Wohnung? ",
+                "additional_informations": [
+                    
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.rundfunkbeitrag.de/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "kaltmiete",
+                "name": "Kaltmiete",
+                "content": "Die Kaltmiete bezeichnet die Kosten, die monatlich an den oder die  Vermieter/-in für die Nutzung einer Wohnung gezahlt werden. Dazu kommen aber immer auch Vorauszahlungen für die Nebenkosten. Das zusammen ist dann die Warmmiete. Darüber hinaus gibt es noch weitere Kosten, die nicht zur Warmmiete gehören, wie z.B. Strom und deine Internetleitung. ",
+                "additional_informations": []
+            },
+            {
+                "id": "nebenkosten",
+                "name": "Nebenkosten",
+                "content": "Nebenkosten werden manchmal auch als 'zweite Miete' oder auch 'Warmmiete' bezeichnet. Gemeint sind damit alle Kosten, die neben den reinen Mietkosten (Kaltmiete) anfallen. Zu den Nebenkosten gehören: Heiz- und Warmwasserkosten, Straßenreinigung und Müllabfuhr, Grundsteuer, Fahrstuhl und Gebäudeversicherung. Das sind Kosten, die die vermietende Person regelmäßig hat und die sie von den Mieter/-innen zurückerhält. Diese müssen im Mietvertrag stehen und auch die Art der Bezahlung. Meist wird eine sogenannte 'Vorauszahlung' vereinbart. Das bedeutet, die mietende Person überweist monatlichen einen vereinbarten Betrag zusammen mit der Miete. Jedes Jahr muss durch die Vermieter/-innen geprüft werden, ob die Kosten durch die Vorauszahlungen gedeckt werden können. Haben die Mieter/-innen mehr im Voraus gezahlt, bekommen sie ein Guthaben ausgezahlt. Reichen die Vorauszahlungen nicht, muss nachgezahlt werden. ",
+                "additional_informations": []
+            },
+            {
+                "id": "strom-anmelden",
+                "name": "Strom anmelden",
+                "content": "Wer eine Wohnung neu bezieht, muss sich sebst um die Anmeldung von Strom kümmern. Das geht online ziemlich unkompliziert. Neben persönlichen Daten und der neuen Adresse  werden für die Anmeldungen Zählerstand und -nummer ab Einzugstag benötigt. Vergleichsportale helfen dabei, einen passenden Stromanbieter zu finden.<br><br>Tipp: Ein jährlicher Wechsel des Stromanbieters lohnt sich oft! Daher wichtig: Vertragslaufzeit von höchstens 12 Monaten vereinbaren. Der neue Stromanbieter kümmert sich dann auch meist um die Kündigung beim alten. <br><br>Achtung: Vermietende Personen kümmern sich meistens um Heizung und Warmwasser. Manchmal ist aber auch das Aufgabe der Mieter/-innen. Auskunft darüber findest du im Mietvertrag oder du fragst direkt den Vermieter/-innen.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.bundesnetzagentur.de/DE/Vportal/Energie/Vertragsarten/start.html",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "internet-an-ummelden",
+                "name": "Internet an- oder ummelden",
+                "content": "Ein Leben ohne Internet ist heute kaum vorstellbar. Bei einem Umzug solltest du bei einem bereits vorhandenen Vertrag möglichst früh klären, ob der derzeitige Anbieter dich gleichermaßen auch an der neuen Adresse versorgen kann (Achtung: Umzugsgebühr) oder gegenenfalls den Anbieter wechseln bzw. den Neuanschluss beauftragen.",
+                "additional_informations": [
+                   
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.bundesnetzagentur.de/DE/Vportal/TK/InternetTelefon/Wechsel/start.html ",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.check24.de/internet/umzug/",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.check24.de/internet/anschluss/neuanschluss/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "selbstorganisation",
+                "name": "Selbstorganisation",
+                "content": "Selbstorganisation ist für das Berufsleben wichtig und beschreibt, wie gut du ohne Vorgaben von anderen deine eigene Arbeit (Termine, Aufgaben etc.) bewältigst. Dabei geht es um Planung, Disziplin und Flexibilität. Wenn dir Selbstorganisation schwer fällt, bitte um Aufgaben, die klar beschrieben sind und bei denen es regelmäßig Feedback von außen gibt. Oder benutze Strategien, die dir dabei helfen, dich zu organisieren. Selbstorganisation hilft dir natürlich auch im Privatleben: Die eigene Wohnung sauberzuhalten, Arzttermine und Verabredungen mit Freund/-innen einzuhalten, Rechnungen pünktlich zu überweisen, wichtige Unterlagen jederzeit zu finden ...",
+                "additional_informations": []
+            },
+            {
+                "id": "teamfaehigkeit",
+                "name": "Teamfähigkeit",
+                "content": "Teamfähigkeit ist für das Berufsleben wichtig. Sie gehört zu den sogenannten 'Sozialkompetenzen' und beschreibt, wie gut man in einem Team arbeiten bzw. mit einem Team zusammenarbeiten kann. Bei der Teamfähigkeit spielen verschiedene Eigenschaften eine Rolle, die alle Teammitglieder gleichermaßen haben sollten: Kommunikationsstärke, Kompromissbereitschaft, Kooperationsbereitschaft, Rücksichtnahme und gute Aufgabenverteilung, Zeitmanagement, Zuverlässigkeit und so weiter.",
+                "additional_informations": []
+            },
+            {
+                "id": "konfliktfaehigkeit",
+                "name": "Konfliktfähigkeit",
+                "content": "Konfliktfähigkeit ist für das Berufsleben wichtig. Sie gehört zu den sogenannten 'Sozialkompetenzen' und beschreibt, wie gut man unterschiedlichen Meinungen umgehen kann. Nicht immer werden alle Teammitglieder das Gleiche denken. Dann ist es wichtig, sich gegenseitig respektvoll zuzuhören und angemessen zu diskutieren, auch wenn man es eigentlich lieber harmonisch und unkompliziert mag. Von seiner eigenen Überzeugung abzuweichen, um einen gemeinsamen Kompromiss zu finden, aber in anderen Momenten auch nicht einzuknicken, die eigene Ansicht zu vertreten, auch wenn nicht alle sie teilen und Kritik nicht persönlich nehmen bzw. anbringen – diese Bandbreite gehört zur Konfliktfähigkeit.",
+                "additional_informations": []
+            },
+            {
+                "id": "freiwilligendienste-bundesweit",
+                "name": "Freiwilligendienste bundesweit",
+                "content": "Freiwilligendienste sind eine gute Möglichkeit, erste Berufserfahrungen zu sammeln. Du kannst ehrenamtliche im sozialen, ökologischen, kulturellen oder im sportlichen Bereich sowie im Zivil- und Katastrophenschutz arbeiten. Es gibt 3 große Dienste: das Freiwillige Soziale Jahr (FSJ), das Freiwillige Ökologische Jahr (FÖJ) und den Bundesfreiwilligendienst (BFD).<br><br>Ein FSJ/FÖJ kannst du zwischen 16 und 27 Jahren machen. Alle Freiwilligendienste dauern in der Regel 12 Monate.  Diese ehrenamtlichen Tätigkeiten werden von sogenannten Trägerorganisationen angeboten. Wenn dich also ein Freiwilligendienst interessiert, schickst du dein Bewerbungsschreiben direkt an einen Träger für Freiwilligendienste.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Trägerorganisation für Freiwilligendienste des jeweiligen Bundeslandes"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/bildung/zwischenzeit/freiwilligendienst-leisten",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.bundesfreiwilligendienst.de/bundesfreiwilligendienst/ueber-den-bfd",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "freiwilligendienste-ausland",
+                "name": "Freiwilligendienste im Ausland",
+                "content": "Einen Freiwilligendienst wie das FSJ oder FÖJ kann man auch im Ausland machen. Wie beim Freiwilligendienst innerhalb von Deutschland wendest  du dich an den Träger, der die ehrenamtliche Tätigkeiten koordiniert. Daneben gibt es aber auch noch eine ganze Reihe an weiteren Tätigkeiten im Ausland wie ein Volunteering oder ein Au-Pair-Aufenthalt. Alle Tätigkeiten haben unterschiedliche Rahmenbedingungen z. B. in welchem Alter man das machen darf, wie viel es kostet, welche Aufgaben man machen muss und wie man sich darauf bewirbt.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Berufsberater oder Trägerorganisationen für Freiwilligendienste im Ausland"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/bildung/zwischenzeit/freiwilligendienst-leisten",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.wege-ins-ausland.de/wege-ins-ausland/au-pair-im-ausland",
+                                "label": "Link 2"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "zukunftsangst",
+                "name": "Zukunftsangst",
+                "content": "Die Vorstellung von der eigenen Zukunft kann beänstigend sein. In den Medien wird täglich von verschiedensten Krisen berichtet, die gefühlt immer näher kommen und das eigene Leben eines Tages vielleicht auch direkt betreffen. Neben den großen Weltproblemen kommen für junge Menschen auch noch die persönlichen Themen dazu. Eine Frage, die z. B. viele Junge Menschen stresst: Wie soll es nach der Schule weitergehen? Vieles ist ungewiss. Und Ungewissheit kann Angst machen. Sprich mit anderen darüber und du wirst sehen, dass es dir nicht alleine so geht. Das ist ein bisschen beruhigend und auch bis zu einem gewissen Grad normal. Vielleicht kannst du die Offenheit der Zukunft als deine eigenen Möglichkeiten zur Gestaltung erkennen. Sollte deine Angst dich aber nicht loslassen, hol dir professionelle Hilfe! Zum Beispiel durch eine Psychotherapie. ",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos und Podcast:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.mdr.de/wissen/generation-zukunftsangst-100.html",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "enttaeuschung ",
+                "name": "Enttäuschung ",
+                "content": "Auch wenn der Arbeitsmarkt sich gut für Bewerber/-innen entwickelt hat, darfst du nicht davon ausgehen, dass auf jede deiner Bewerbungen eine positive Antwort folgt. Nach wie vor sind einige wenige Berufe bei vergleichsweise vielen jungen Menschen beliebt, während andere Stellen unbesetzt bleiben. Lass dich von einer Absage auf jeden Fall nicht runterziehen. Schau dir deine Bewerbungsunterlagen noch einmal genau an: Was kannst du hier verbessern? Scheidest du nach dem Vorstellungsgespräch aus, überlege, was du dort beim nächsten Mal besser machen könntest. Üben hilft. Manchmal überzeugt aber trotz aller Bemühungen jemand anders mehr. Dann ist es noch wichtiger, dass du dran bleibst!",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://planet-beruf.de/schuelerinnen/wie-bewerbe-ich-mich/so-gehts-weiter/absage https://abi.de/bewerbung/zusage-oder-absage",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "konflikte",
+                "name": "Konflikte",
+                "content": "Streitigkeiten können immer entstehen, wenn Menschen aufeinander treffen. Auch in der Ausbildung kann die Zusammenarbeit mit bestimmten Kolleg/-innen schwierig sein. Konfliktfähigkeit hilft beim Umgang miteinander. Sollten die Konflikte im Betrieb nicht allein oder mit dem Ausbilder/der Ausbilderin gelöst werden können, kann die Ausbildungberatung der Kammer (IHK bzw. HWK) vielleicht helfen. Versuche den Konflikt (mit Unterstützung) zu lösen, damit deine Ausbildung nicht unter zwischenmenschlichen Problemen leidet. ",
+                "additional_informations": []
+            },
+            {
+                "id": "klischeefreie-berufswahl",
+                "name": "Klischeefreie Berufswahl",
+                "content": "Auch wenn sich aktuell einiges in der Gesellschaft tut, so hast du vielleicht auch schon deine Erfahrungen gemacht, was angeblich typisch männlich oder weiblich sein soll. Wie so vieles andere sollte auch die Berufswahl nicht vom biologischen Geschlecht abhängen. Sondern allein von Interessen und Fähigkeiten. Es ist absolut legitim, als Mann Erzieher werden zu wollen oder als Frau KFZ-Mechatronikerin. ",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.klischee-frei.de/de/klischeefrei_101886.php",
+                                "label": "Link 1"
+                            }, {
+                                "type": "link",
+                                "text": " https://www.handwerk.de/infos-zur-ausbildung/berufsinsider",
+                                "label": "Link 2"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "stress-berufswahl",
+                "name": "Stress bei der Berufswahl",
+                "content": "Wirst du auch oft gefragt, was du denn mal werden willst? Oder deine Eltern schlagen dir andauernd Studiengänge oder Ausbildungen vor? Meistens sind diese Dinge gut gemeint, aber trotzdem können sie stressen. Das Thema Berufsorientierung ist für viele junge Menschen sehr emotional. Nach der Schule, in der jeder Schritt vorbestimmt war, soll man plötzlich selbst wissen, was man beruflich werden möchte. Und das bei gefühlt hundettausend Möglichkeiten. Kein Wunder, dass man sich überfordert fühlt. Auch wenn die Berufswahl wichtig ist: Mach dir nicht zu viel Stress! Du kannst dich eigentlich jederzeit neu beruflich verändern und es gibt viele beratende Stellen, bei denen du dir Hilfe holen kannst.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Berufsberatung"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "freunde-va-familie",
+                "name": "Freund/-innen vs. Familie",
+                "content": "In der Jugend ist es ganz normal, dass man sich ein wenig von den Eltern distanziert und Freund/-innen sehr wichtige Bezugspersonen werden. Vieles ist jetzt ganz neu und wird ausprobiert. Auch wenn 'alle' z. B. beim Kiffen mitmachen, musst du das noch lange nicht! Eine Gruppe kann ganz schön Druck ausüben – selbst wenn es die eigenen Freund/-innen sind. Auch wenn du Angst vor Zurückweisung hast: Trau deinem Bauchgefühl und tu nichts, was du nicht möchtest. Echte Freund/-innen werden das respektieren.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.loveline.de/themen/freunde-familie/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "sexualitaet",
+                "name": "Sexualität",
+                "content": "In der Jugend stehen viele Entwicklungen an. Auch der Körper verändert sich und Sexualität wird ein Thema. Man hat viele Fragen, aber traut sich manchmal nicht sie zu stellen. Vielen ist das irgendwie peinlich, aber ganz ehrlich: Das ist das Natürlichste auf der Welt. ",
+                "additional_informations": [
+                    
+                    {
+                        "label": "Weitere Infos und Anlaufstellen:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.liebesleben.de/",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://interventionen.dissens.de/fuer-jugendliche/links-anlaufstellen",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "verhuetung-schwangerschaft",
+                "name": "Verhütung und Schwangerschaft",
+                "content": "Als Jugendliche macht man erste Erfahrungen mit Sexualität. Dazu gehört auch die Auseinandersetzung mit Verhütungsmethoden. Und im Fall der Fälle auch mit dem Thema Schwangerschaft. Konfliktberatung, Abtreibung und ganz viele andere Fragen zum neuen Leben und (finanzieller) Unterstützung können einen dann beschäftigen. Übrigens: Auch alles relevant für Männer!",
+                "additional_informations": [
+                   
+                    {
+                        "label": "Weitere Infos und Beratung:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.jung-und-schwanger.de/",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.familienplanung.de/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "einsamkeit",
+                "name": "Einsamkeit",
+                "content": "Einsamkeit ist das Gefühl, dass man nicht genug Beziehungen zu anderen Menschen hat oder diese Beziehungen nicht tief genug gehen. Einsamkeit kann für jeden Menschen etwas anderes bedeuten. Das Gefühl ist aber immer ungut und langfristig schlecht für die Gesundheit. Auch junge Menschen können sich einsam fühlen. Es gibt verschiedene Strategien oder Angebote, um gegen Einsamkeit vorzugehen.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://kompetenznetz-einsamkeit.de/einsamkeit",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "diskriminierung",
+                "name": "Diskriminierung",
+                "content": "Niemand darf aufgrund rassistischer Gründe oder wegen der Herkunft, des Geschlechtes, der Religion, Weltanschauung, einer Behindung, des Alters oder der sexuellen Identität diskriminiert werden. Falls du das Gefühl hast, ungleich behandelt zu werden oder aber jemanden in deinem Umfeld siehst, der diskriminiert wird, ist es Zeit zu handeln. Dafür ist der erste beste Schritt, eine Person deines Vertrauens aufzusuchen und mit ihr über deine Beobachtungen oder Erfahrungen zu reden. Häufig bekommst du da schon hilfreiche Tipps zum Umgang. Ein nächster Schritt wäre es, die Person unter vier Augen anzusprechen, die in Verdacht steht, diskriminierende Handlungen durchzuführen. Im besten Fall, ist es der Person nicht bewusst und ihr findet gemeinsam eine Lösung, damit die Diskriminierung aufhört. Sollte keine Besserung deiner Situation eintreten, hilft oft noch ein Gespräch mit dem/der Chef/-in oder dem Betriebsrat.  Diese sind verpflichtet, deine Sorgen ernst zu nehmen und nach einer zufriedenstellenden Lösung zu suchen.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.antidiskriminierungsstelle.de/DE/wir-beraten-sie/diskriminierungs-check/wegweiser/diskriminierungs-check-node.html",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "jugendberufsagentur-erwachsen",
+                "name": "Jugendberufsagentur",
+                "content": "Egal ob du Probleme in der Schule, der Ausbildung, mit deinen Eltern oder Geld hast: Du kannst mit allen Themen, die dich beschäftigen, in eine Jugendberufsagentur kommen. Hier arbeiten Fachkräfte aus der Jugendhilfe, der Agentur für Arbeit und dem Jobcenter zusammen und es kann schnell geklärt werden, wer dich am besten unterstützen kann.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.servicestelle-jba.de/wws/9.php",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "girokonto",
+                "name": "Girokonto",
+                "content": "Spätestens zum Ausbildungsbeginn bzw. wenn du als Student/-in BAföG oder Gehalt aus einem Nebenjob erhältst, brauchst du ein Konto. Oft werden für die Kontoführung von der Bank Gebühren erhoben. Für Auszubildene und Studierende gibt es aber kostenlose Angebote. Einige Services werden aber erst für Volljährige oder ab einem gewissen Einkommen angeboten. Informiere dich, ob die Filialbank um die Ecke oder eine Direktbank (langfristig) für dich sinnvoll ist.",
+                "additional_informations": []
+            },
+            {
+                "id": "jobcenter",
+                "name": "Jobcenter",
+                "content": "Die Jobcenter sind für die Grundsicherung für Arbeitssuchende zuständig: Wenn jemand nicht genügend Geld hat, um den eigenen Lebensunterhalt zu sichern, sichert das Bürgergeld die Existenz. Erwerbsfähige Menschen (alle, die über 15 Jahre alt sind und mehr als 3 Stunden täglich arbeiten können) können Bürgergeld beim für den Wohnort zuständigen Jobcenter beantragen. Neben der finanziellen Unterstützung erhalten Arbeissuchende auch Unterstützung durch die Arbeitsvermittlung. Als Bezieher/-in von Bürgergeld hat man sowohl Rechte, als auch Pflichten. ",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.jobcenter-ge.de/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "berufsberatung",
+                "name": "Berufsberatung",
+                "content": "Die Berufsberatung ist ein kostenloses Angebot der Bundesagentur für Arbeit. Berufsberater/-innen helfen z.B. bei Fragen rund um die Ausbildungs- oder Studienwahl, die Bewerbung auf entsprechende Plätze und Fördermöglichkeiten. Die Beratung erfolgt persönlich vor Ort oder per Video. Wer sich eigenständig informieren möchte, kann zu den Öffnungszeiten auch das Berufsinformationszentrum (BiZ) der örtlichen Agentur für Arbeit besuchen.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/bildung/berufsberatung",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "jugendmigrationsdienst",
+                "name": "Jugendmigrationsdienst",
+                "content": "Jugendmigrationsdienste (JMD) unterstützen junge Menschen mit Migrationshintergrund, in Deutschland anzukommen. Es gibt (online) Beratung, Bildungs- und Freizeitangebote. Sie helfen, damit es in der Schule und danach mit einer Ausbildung oder einem Beruf klappt.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos - auch in verschiedenen Sprachen:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.jugendmigrationsdienste.de/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "biz",
+                "name": "BIZ",
+                "content": "Das Bundesinformationszentrum ist ein kostenloses Informationsangebot von der Bundesagentur für Arbeit, das für Jugendliche bei der ersten Berufswahl oder Erwachsenen, die sich Neuorientieren wollen, Beratungen und Informationen anbieten. Anlaufstellen des BIZ befinden sich immer da, wo es auch die Bundesagentur für Arbeit gibt. ",
+                "additional_informations": [
+                    
+                    {
+                        "label": "Weitere Infos sowie eine Suchmaschine für Anlaufstellen in deiner Nähe gibt es hier:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/bildung/berufsinformationszentrum-biz",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "bundesagentur-arbeit",
+                "name": "Bundesagentur für Arbeit",
+                "content": "Die Bundesagentur für Arbeit (BA) bzw. die Geschäftsstellen in den jeweiligen Städten sind für Leistungen für den Arbeitsmarkt zuständig. Dazu zählen unter anderem das Arbeitslosengeld 1 und die Berufsberatung. Auch die Familienkasse, die das Kindergeld verwalten, gehört zur BA.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 ]
