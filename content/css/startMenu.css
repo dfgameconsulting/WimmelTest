@@ -365,7 +365,7 @@ body::-webkit-scrollbar {
     background-size: contain;
 }
 
-.haupt-kat {
+#haupt-kat {
     position: absolute;
     top: 10%;
     left: -2%;
@@ -388,13 +388,13 @@ body::-webkit-scrollbar {
     background: yellow;
 }
 
-#herausforderungen {
+#lebenskrisen {
     width: 50px;
     height: 50px;
     background: blue;
 }
 
-#erwachsen {
+#erwachsen-werden {
     width: 50px;
     height: 50px;
     background: green;

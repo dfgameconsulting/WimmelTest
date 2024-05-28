@@ -1,6 +1,7 @@
 [
     {
         "category": "Studium",
+        "active": true,
         "subcategories": [
             {
                 "id": "finanzierung-studium",
@@ -857,37 +858,12 @@
                         ]
                     }
                 ]
-            },
-            {
-                "id": "",
-                "name": "",
-                "content": "",
-                "additional_informations": [
-                    {
-                        "label": "Ansprechpartner",
-                        "content": [
-                            {
-                                "type": "text",
-                                "text": ""
-                            }
-                        ]
-                    },
-                    {
-                        "label": "Weitere Infos:",
-                        "content": [
-                            {
-                                "type": "link",
-                                "text": "",
-                                "label": "Link 1"
-                            }
-                        ]
-                    }
-                ]
             }
         ]
     },
     {
         "category": "Ausbildung",
+        "active": false,
         "subcategories": [
             {
                 "id": "ausbildungsvertrag",
@@ -1707,6 +1683,7 @@
     },
     {
         "category": "Lebenskrisen",
+        "active": false,
         "subcategories": [
             {
                 "id": "sucht",
@@ -2289,6 +2266,7 @@
     },
     {
         "category": "Erwachsen-werden",
+        "active": false,
         "subcategories": [
             {
                 "id": "wohnungssuche",
