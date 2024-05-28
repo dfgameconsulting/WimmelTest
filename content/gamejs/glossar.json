@@ -885,5 +885,824 @@
                 ]
             }
         ]
+    },
+    {
+        "category": "Ausbildung",
+        "subcategories": [
+            {
+                "id": "ausbildungsvertrag",
+                "name": "Ausbildungsvertrag/Arbeitsvertrag",
+                "content": "Es gibt eine Unterscheidung zwischen einem Ausbildungsvertrag und einem Arbeitsvertrag. In einem Ausbildungsvertrag werden alle für die Ausbildung wichtigen Punkte festgehalten. Darunter fallen auch die Ausbildungsziele, Dauer der Ausbildungszeit und so weiter. Ein Ausbildungsvertrag wird zwischen dem ausbildenden Betrieb und dem Auszubildenden geschlossen. Wenn du nach deinem Abschluss übernommen wirst oder in einen anderen Betrieb wechselst, bekommst du einen Arbeitsvertrag. ",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": ""
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://planet-beruf.de/schuelerinnen/was-kommt-nach-der-schule/ausbildungsvertrag-unterschrieben-und-jetzt",
+                                "label": "Der Linktext"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsrecht.org/arbeitnehmer/arbeitsvertrag/berufsausbildung-und-unterschiede-zum-arbeitsverhaeltnis/",
+                                "label": "Der Linktext"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "ausbildungsverguetung",
+                "name": "Ausbildungsvergütung",
+                "content": "Während einer betrieblichen Ausbildung bekommst du eine Ausbildungsvergütung. Diese ist je nach Ausbildungsberuf unterschiedlich, aber auch von weiteren Faktoren abhängig, wie Bundesland und ggf. Größe des Ausbildungsbetriebes. Die Höhe deines Gehaltes steht im Arbeitsvertrag. Bitte beachte hierbei das Thema Brutto-/Netto-Gehalt. Die Ausbildungsvergütung wird am Ende des Monats ausgezahlt.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Dein Ausbildungsbetrieb"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.bibb.de/de/12209.php",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "steuererklaerung-ausbildung",
+                "name": "Steuererklärung in der Ausbildung",
+                "content": "Tatsächlich kann sich eine Steuererklärung schon während einer Ausbildung lohnen. Auszubildende können Kosten für Lernmaterialien, Fahrtkosten, Kosten für Arbeitskleidung, Umzugskosten und Bewerbungskosten absetzen. Das sind Ausgaben, die du hast, um deine Arbeit auszuführen. Man nennt sie auch Werbungskosten. Eine Steuererklärung als Auszubildende/-r ist freiwillig und auch bis zu vier Jahre rückwirkend möglich. Die Formulare bekommst du beim Finanzamt oder auf der Internetseite des Finanzamtes.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Finanzamt"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.ausbildung.de/ratgeber/steuern-abgaben-azubi/steuererklaerung-als-azubi/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "arbeitslosen-rentenversicherung",
+                "name": "Arbeitslosen- und Rentenversicherung ",
+                "content": "Während einer Ausbildung bist du sozialversicherungspflichtig, d.b. du muss Beiträge für Versicherungen zahlen. Dazu gehören, neben Kranken- und Pflegeversicherung, auch die Arbeitslosen- und Rentenversicherung. Diese Beiträge werden auch als 'Sozialabgaben' bezeichnet. Sie werden direkt von deiner Ausbildungsvergütung abgezogen.  Daher bekommt man Netto weniger als Brutto. In die Rentenversicherung zahlst du ein, damit du im Alter ein Einkommen hast. In die Arbeitslosenversicherung zahlst du ein, für den Fall, dass du deinen Job verlierst. Dann hast du Anspruch auf Arbeitslosengeld. ",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Bürgertelefon"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.azubiyo.de/azubi-wissen/sozialabgaben/",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.bmas.de/DE/Service/Kontakt/Buergertelefon/buergertelefon.html",
+                                "label": "Bürgertelefon"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "krankenversicherung",
+                "name": "Krankenversicherung",
+                "content": "Sobald du eine Ausbildung beginnst, bei der du ein Arbeitsentgelt bekommst, musst du dich um eine eigene Krankenversicherung kümmern. Bei einer schulischen Ausbildung kannst du weiter familienversichert sein, wenn gewisse Voraussetzungen erfüllt sind. Wenn du dich selbst bei einer Krankenkasse versicherst, musst du regelmäßig Beiträge zahlen. Die Beiträge werden direkt von deinem Ausbildungsgehalt abgezogen. Mit der Krankenversicherung ist automatisch auch die Pflegeversicherung gewährleistet. ",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Krankenkasse"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "jugendschutzgesetz",
+                "name": "Jugendarbeitsschutzgesetz (JArbSchG)",
+                "content": "Das Jugendarbeitsschutzgesetz (JArbSchG) gilt für alle im Alter von 15–18 Jahre und enthält alle Regelungen, die dich vor Überlastung in der Arbeitswelt schützen. Es gilt für Ausbildung, Nebenjobs, Ferienjobs und auch im Praktikum. Es regelt, wie lange und wie oft du arbeiten, welche Aufgaben du übernehmen darfst und welche Pausen eingehalten werden müssen. Diese Regelungen gelten nicht mehr, sobald du 18 Jahre alt bist.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.azubiyo.de/azubi-wissen/jugendarbeitsschutzgesetz/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "praktika",
+                "name": "Praktika",
+                "content": "Praktika sind eine gute Möglichkeit, Berufe und ihre Tagesabläufe kennen zu lernen und erste Berufserfahrungen zu sammeln. Es gibt eine ganze Reihe von Praktika-Arten:<ul><li>freiwilliges vs. Pflichtpraktikum</li><li>Schülerpraktikum oder Praktikum für Schülerinnen und Schüler?</li><li>Vorpraktikum (muss manchmal vor einer Ausbildung oder einem Studium geleistet werden)</li><li>Praxissemester/studienbegleitendes Praktikum (während eines Studiums)</li><li>Anerkennungspraktikum (muss in bestimmten Ausbildungen nach Abschluss geleistet werden)</li><li>Stellen für ein Praktikum kannst du in Einrichtungen direkt erfragen oder du nutzt Stellenportale und Online-Praktikumsbörsen.</li></ul>",
+                "additional_informations": [
+                    {
+                        "label": "Praktikumsbörsensuche:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://praktika-berufsorientierung.de/",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.berufenavi.de/orientierung/praktikum ",
+                                "label": "Link 2"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "nebenjobs",
+                "name": "Nebenjobs",
+                "content": "Es ist meistens kein Problem, einen Nebenjob neben der Ausbildung zu machen. Allerdings muss das mit deinem Ausbildungsbetrieb abgesprochen werden. Dein Ausbildungsbetrieb dürfte dir einen Nebenjob verbieten, wenn es deinen Ausbildungsinhalten entgegensteht oder die Gefahr besteht, dass du die Ausbildung nicht mit voller Leistung machen kannst. Außerdem musst du aufpassen, nicht zu viel zu arbeiten. Wenn du unter 18 Jahre alt bist, darfst du nicht mehr als 8 Stunden am Tag /40 Stunden in der Woche arbeiten. Außerdem: Wenn du zu viel verdienst, musst du vielleicht Abgaben leisten. Eventuell lohnt sich dann der Nebenjob nicht mehr. ",
+                "additional_informations": []
+            },
+            {
+                "id": "bewerben",
+                "name": "Bewerben",
+                "content": "Egal ob schulische oder betriebliche Ausbildung - für einen Ausbildungsplatz muss man sich bewerben. Viele Stellenportale im Internet bieten extra Suchkategorien für freie Ausbildungsplätze an. Achte hier auch auf die Bewerbungsfristen. Die können von Ausbildungsberuf zu Ausbildungsberuf variieren. Die Bewerbung für einen Ausbildungsplatz besteht meist aus mehreren Teilen:<ul><li>Anschreiben</li><li>tabellarischer Lebenslauf</li><li>Kopie deines letzten Schulzeugnisses</li><li>Nachweis über absolvierte Praktika</li></ul>Oft gibt es mehrere Bewerbungsrunden: Nach einer schriftlichen Bewerbung folgt ein weiteres Auswahlverfahren, z. B. ein Test. Mit diesen Tests und Aufgaben soll herausgefunden werden, ob du auf die Stelle passt. Im Internet gibt es zahlreiche Hilfestellungen zum Thema Bewerben und Auswahlverfahren.",
+                "additional_informations": [
+                    {
+                        "label": "Anlaufstellen",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/jobsuche/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "bewerben",
+                "name": "Bewerben",
+                "content": "Egal ob schulische oder betriebliche Ausbildung - für einen Ausbildungsplatz muss man sich bewerben. Viele Stellenportale im Internet bieten extra Suchkategorien für freie Ausbildungsplätze an. Achte hier auch auf die Bewerbungsfristen. Die können von Ausbildungsberuf zu Ausbildungsberuf variieren. Die Bewerbung für einen Ausbildungsplatz besteht meist aus mehreren Teilen:<ul><li>Anschreiben</li><li>tabellarischer Lebenslauf</li><li>Kopie deines letzten Schulzeugnisses</li><li></li><li>Nachweis über absolvierte Praktika</li></ul>Oft gibt es mehrere Bewerbungsrunden: Nach einer schriftlichen Bewerbung folgt ein weiteres Auswahlverfahren, z. B. ein Test. Mit diesen Tests und Aufgaben soll herausgefunden werden, ob du auf die Stelle passt. Im Internet gibt es zahlreiche Hilfestellungen zum Thema Bewerben und Auswahlverfahren.",
+                "additional_informations": [
+
+                    {
+                        "label": "Anlaufstellen:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/jobsuche/",
+                                "label": "Agentur für Arbeit, Berufsinformationszentrum (BiZ)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "azubi-jugendwohnen",
+                "name": "Azubi- und Jugendwohnen",
+                "content": "Wenn die schulische oder betriebliche Ausbildungsstätte zu weit von zuhause weg ist, steht vielleicht der Auszug an. Eine gute erste Wohnmöglichkeit sind Einrichtungen des Jugendwohnens. Hier gibt es (geteilte) möblierte Zimmer, Essen und eine sozialpädagogische Betreuung. Du stehst bei Herausforderungen, die dieser neue Lebensabschnitt mit sich bringt also nicht alleine da. Plätze gibt es für junge Menschen zwischen 14 und 17 Jahren. Der Preis ist unterschiedlich und hängt auch von den Zuschüssen wie BAB bzw. BAföG ab. Alternativen zum Jugendwohnen sind Wohngemeinschaften (WGs) oder auch eine eigene kleine Wohnung/Apartment.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner:",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Azubi- oder Jugendwohneim"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos und Suche:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://auswaerts-zuhause.de/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "wohngeld",
+                "name": "Wohngeld",
+                "content": "Die Frage, was Wohngeld ist und wann man Anspruch darauf hat, ist nicht ganz einfach. Wohngeld eine staatliche Unterstützung, die helfen soll, deine Kosten für angemessen großen Wohnraum zu stemmen. Es gibt einige Voraussetzungen: Als Azubi kannst du Wohngeld nur beantragen, wenn du keinen Anspruch auf Berufsausbildungsbeihilfe hast. Das ist meistens der Fall, wenn du eine zweite Ausbildung machst oder eine Ausbildung für einen staatlich nicht anerkannten Beruf machst. Außerdem musst du älter als 18 Jahre alt sein und darfst nicht mehr bei deinen Eltern wohnen.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Wohngeldstelle deiner Gemeinde"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.bmwsb.bund.de/Webs/BMWSB/DE/themen/stadt-wohnen/wohnraumfoerderung/wohngeld/wohngeld-node.html",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "kindergeld",
+                "name": "Kindergeld",
+                "content": "Kindergeld ist eine finanzielle Hilfe, die Eltern bis zum 18. Lebensjahr ihres Kindes/ihrer Kinder bekommen. Das Kindergeld kann auch dann nach dem 18. Lebensjahr ausgezahlt werden, wenn du eine Ausbildung oder ein Studium machst, oder einer geringfügigen Beschäftigung (Minijob) nachgehst. ",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Bundesagentur für Arbeit"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/familie-und-kinder/infos-rund-um-kindergeld/kindergeld-ab-18-jahren",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "bafoeg-schueler",
+                "name": "BAföG für Schülerinnen und Schüler",
+                "content": "BAföG als Finanzierungsmöglichkeit für ein Studium hast du bestimmt schon mal gehört. Aber es gibt auch BAföG für die Ausbildung. Das nennt sich dann 'Schüler-BAföG'. Auszubildende können BAföG für Schülerinnen und Schüler nur beantragen, wenn sie eine schulische Ausbildung machen. Das kommt daher, dass du bei einer schulischen Ausbildung einen Ausbildungsvertrag mit der Schule schließt und nicht mit einem Ausbildungsunternehmen. Daher wirst du in der schulischen Ausbildung auch als Schülerin/ Schüler bezeichnet, obwohl du eine Ausbildung machst.  Im Vergleich zum Studierenden-BAföG gibt es einige Unterschiede.  Ähnlich wie beim Studierenden-BAföG kannst du den Zuschuss beantragen, wenn du den Aufwand finanziell nicht alleine oder mit deinen Eltern stemmen kannst.  Als Schüler/-in musst du das BAföG du im Unterschied zum Studierenden-BAföG nicht zurückzahlen.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Amt für Ausbildungsförderung"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.xn--bafg-7qa.de/bafoeg/de/home/home_node.html",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.ausbildung.de/ratgeber/finanzielle-unterstuetzung-ausbildung/schueler-bafoeg/",
+                                "label": "Link 2"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "berufsausbildungsbeihilfe",
+                "name": "Berufsausbildungsbeihilfe",
+                "content": "Berufsausbildungsbeihilfe (BAB) ist ein Zuschuss, den du bei besonderen Voraussetzungen bei der Bundesagentur für Arbeit beantragen kannst. Die Voraussetzungen sind unter anderem, dass du an einer Berufsvorbereitenden Bildungsmaßnahme teilnimmst, eine betriebliche Ausbildung machst, du über 18 Jahre alt bist und nicht mehr bei deinen Eltern wohnst. Es gibt aber noch andere Gründe für einen Anspruch auf BAB, z. B. wenn man schon Kinder hat oder verheiratet ist.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Bundesagentur für Arbeit"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/bildung/ausbildung/berufsausbildungsbeihilfe-bab",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "ausbildungsticket",
+                "name": "Ausbildungsticket",
+                "content": "In vielen Bundesländern bieten die Verkehrsbetriebe für Azubis besondere Tickets an, mit denen sie vergünstigt öffentliche Verkehrsmittel nutzen können. Meist musst du dafür nachweisen, dass du wirklich in einer Ausbildung bist. Diese Bescheinigung stellt dir deine Ausbildungsstätte aus. Eine gute Alternative ist auch das Deutschlandticket, das vergünstigt bei der Deutschen Bahn angeboten wird.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "die Verkehrsbetriebe deiner Stadt/deines Landkreises"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.handwerksblatt.de/betriebsfuehrung/azubi-ticket-kostenguenstig-durchs-ganze-bundesland",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.bahn.de/angebot/pendler/azubi-tickets",
+                                "label": "Link 2"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "probezeit",
+                "name": "Probezeit",
+                "content": "Deine Ausbildung beginnt mit einer Probezeit. In der Probezeit können du und dein Ausbildungsbetrieb einander kennenlernen. So kannst du testen, ob der Ausbildungsplatz der richtige für dich ist. Und der Ausbildungsbetrieb kann herausfinden, ob du als Azubi passt. Eine Probezeit dauert in der Regel zwischen 1–4 Monate. Es kann Ausnahmen geben und eine kürzere oder längere Probezeit vereinbart werden. Solltet ihr herausfinden, dass etwas nicht passt, kann das Ausbildungsverhältnis in der Probezeit von beiden Seiten fristlos gekündigt werden.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://jugend.dgb.de/ausbildung/beratung/zwoelf-fragen-zum-beginn-der-ausbildung",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "probleme-ausbildungsinhalte",
+                "name": "Probleme mit Ausbildungsinhalten",
+                "content": "Solltest du während der Ausbildung Schwierigkeiten mit dem Lernstoff haben oder eine Prüfungen nicht schaffen, könnte die 'Assistierte Ausbildung' (Kurz: AsA) interessant für dich sein. Die AsA ist eine Maßnahme der Bundesagentur für Arbeit, die zum Ziel hat, junge Menschen in einer Ausbildung bis zu einem erfolgreichen Abschluss zu unterstützen. Die AsA unterstützt dich aber nicht nur während einer Ausbildung, sondern auch schon davor: wenn du z. B. auf der Suche nach einem Praktikum bist, um dich für eine Ausbildung vorzubereiten oder dich bei einem Betrieb bewirbst.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Berufsberatung der Agentur für Arbeit"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.rehadat-bildung.de/berufseinstieg/unterstuetzungsangebote/nachhilfe-in-theorie-und-praxis/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "probleme-betrieb",
+                "name": "Probleme mit Betrieb",
+                "content": "In einer Ausbildung kann es hin und wieder zu Schwierigkeiten und Problemen kommen. Egal, ob es Probleme mit Ausbildungsinhalten gibt, du dich überfordert oder unterfordert fühlst, oder du unzufrieden mit der Ausbildung oder bestimmten Tätigkeiten bist - Lösungsansätze und Möglichkeiten mit den Problemen umzugehen gibt es viele. Ein guter Schritt ist das persönliche Gespräch mit deinem Ausbilder/ deiner Ausbilderin zu suchen. Sprich deine Probleme sachlich und ruhig an und versucht gemeinsam eine Lösung zu finden. Bei Problemen, die mit dem Ausbilder/ der Ausbilderin nicht zu lösen sind, kannst du dich auch an weitere Stellen wenden, wie den Betriebsrat oder extern bei den Ausbildungsberatern der Kammern (Industrie- und Handelskammer; Handwerkskammer)",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://macht-immer-sinn.de/probleme-in-der-ausbildung/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "verlaengerung-ausbildung",
+                "name": "Verlängerung der Ausbildung",
+                "content": "Die Dauer einer Ausbildung kann in Ausnahmefällen verlängert werden. Z.B. wenn du länger krank warst, die Abschlussprüfung nicht bestanden hast, während der Ausbildung schwanger geworden bist und du dadurch ausfällst oder deine Ausbildung in Teilzeit machst, weil du ein Kind betreust oder Angehörige pflegst. Dazu musst du während der Ausbildung einen Antrag bei der zuständigen Handwerks-, Industrie- oder Handelskammer stellen. Die Kammer prüft deinen Fall dann zusammen mit deinem Ausbildungsbetrieb. Bei Verlängerung erhältst du weiterhin die Ausbildungsvergütung des letzten Ausbildungsjahres.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Handwerks-, Industrie- und Handelskammer"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.aubi-plus.de/ausbildung/verlaengerung/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "brutto-netto",
+                "name": "Brutto/Netto",
+                "content": "In deinem Ausbildungsvertrag steht ein anderes Gehalt, als das was du auf deinem Konto siehst? Das ist normal und hängt mit den Begriffen 'Brutto' und 'Netto' zusammen. In deinem Ausbildungsvertrag wird ein Bruttobetrag notiert und dieser lässt sich beschreiben als 'Gehalt vor Abzug aller Steuern und Sozialabgaben'. Von diesem Bruttogehalt gehen also noch Beträge ab für Lohnsteuer und vielleicht Kirchensteuer sowie Beiträge für die Renten-, Kranken-, Pflege- und Arbeitslosenversicherung.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.azubiyo.de/azubi-wissen/brutto-und-netto/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "kuendigung",
+                "name": "Kündigung",
+                "content": "Eine Kündigung beendet das Arbeitsverhältnis. Dafür kann es ganz unterschiedliche Gründe geben: Die Ausbildung ist nicht das, was du dir vorgestellt hast oder es gibt unlösbare Probleme im Betrieb.  Eine Kündigung sollte erst das allerletztes Mittel sein. Zuvor sollte man versuchen, Probleme im Ausbildungsbetrieb anders zu lösen. In der Probezeit gibt es die Regelung, dass das Ausbildungsverhältnis 'jederzeit ohne Einhalten einer Kündigungsfrist gekündigt werden kann'. Das bedeutet, dass schon einen Tag nach Abgabe der Kündigung, die Ausbildung beendet ist. Nach der Probezeit beträgt die Kündigungsfrist 4 Wochen. Natürlich kann der Arbeitgeber auch dir kündigen. Solltest du das für unbegründet halten, kannst du eine Kündigungsschutzklage einreichen. Dazu beraten z. B. Gewerkschaften. Achtung: Eine eigenständige Kündigung und auch das Unterschreiben eines Aufhebungsvertrags kann zu einer Sperrzeit beim Arbeitslosengeld führen, solltest du nicht direkt eine neue Beschäftigung haben. Rechtlich geregelt wird das Thema Kündigung im Berufsbildungsgesetz (BBiG).",
+                "additional_informations": [ 
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/arbeitslosengeld/das-muessen-sie-beachten/kuendigung-abfindung-freistellung",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "buergergeld-ausbildung",
+                "name": "Bürgergeld",
+                "content": "Bürgergeld ist eine staatliche Sozialleistung. Es soll Menschen helfen, die nicht genug Geld zum Leben haben. Anträge können beim zuständigen Jobcenter (abhängig vom Wohnort) gestellt werden. Bevor Auszubildende Anspruch auf Bürgergeld haben, muss geprüft werden, ob Berufsausbildungsbeihilfe oder BAföG für Schülerinnen und Schüler in Frage kommen.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Jobcenter"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/buergergeld/finanziell-absichern/voraussetzungen-einkommen-vermoegen",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/datei/grundsicherung-einfach-erklaer_ba032300.pdf",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "quereinstieg-studium",
+                "name": "Quereinstieg Studium",
+                "content": "Studieren ohne (Fach-)Abitur? Ja, das ist möglich. Unter bestimmten Voraussetzungen ist es möglich, nach einer Ausbildung zu studieren. Dazu  zählen u.a.:<ul><li>eine abgeschlossene (mind. 2-jährige) Berufsausbildung mit ggf. 3 Jahren Berufserfahrung</li><li>ein Meistertitel</li><li>vergleichbare Qualifikationen</li></ul>Oft ist eine Einschreibung dann möglich, wenn deine Ausbildung/ bisherige Berufserfahrung thematisch ähnlich zu dem ist, was du studieren möchtest.  Die Voraussetzungen und Möglichkeiten sind von Bundesland zu Bundesland unterschiedlich und manchmal sogar von Hochschule zu Hochschule. ",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Zentrale Studienberatung"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://studieren-ohne-abitur.de/check-qualifikation/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "aufstiegsfortbildung",
+                "name": "Aufstiegsfortbildung",
+                "content": "Aufstiegsfortbildungen sind besondere berufliche Weiterbildungen. Dadurch kannst du z. B. einen Meister- oder Technikertitel erwerben. Beide Weiterbildungen können nach einer Ausbildung mit ggf. mehrjähriger Berufserfahrung absolviert werden. Einen Techniker-Titel kann man vor allem im technisch-industriellen Zweig erlangen, während der Meister ein Titel in einem Handwerksberuf ist.  Beide Weiterbildungen dauern zwischen 1 und 2 Jahren, haben verschiedene Voraussetzungen und Fördermöglichkeiten. Nach Vollendung einer der beiden Weiterbildungen besteht die Chance, ein höheres Einkommen zu bekommen und mehr Verantwortung in einem Beruf zu übernehmen.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "http://www.fortbildung.net/ratgeber/techniker-oder-meister",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "beendigung-arbeitsverhaeltnis",
+                "name": "Beendigung des Arbeitsverhältnisses",
+                "content": "Wenn deine Ausbildung sich dem Ende zuneigt, wirst du von deinem Ausbildungsbetrieb vielleicht darauf hingewiesen, dich beim Arbeitsamt 'arbeitssuchend' zu melden. Das ist nicht ungewöhnlich und muss tatsächlich sowohl bei der Ausbildung, als auch später in einem Beruf gemacht werden. Ohne diese Meldung beim Arbeitsamt, wird dein Anspruch auf Arbeitslosengeld vermindert. Die Meldung muss spätestens 3 Monate vor Beendigung der Ausbildung gemacht werden.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Agentur für Arbeit"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/arbeitslos-melden/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "nachteilsausgleich-ausbildung",
+                "name": "Nachteilsausgleich",
+                "content": "Nachteilsausgleiche sind verschiedene Unterstützungsmaßnahmen die in einer Ausbildung beantragt werden können, wenn Menschen von (chronischen) Krankheiten oder von Behinderung betroffen sind. Zu den Maßnahmen in einer Ausbildung gehört z. B. die Möglichkeit, die Ausbildungszeit zu verlängern oder die Prüfungsituation anzupassen. Um einen Nachteilsausgleich zu bekommen, musst du einen Antrag und verschiedene Nachweise über die Krankheit oder Behinderung bei der jeweiligen Kammer abgeben.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Agentur für Arbeit"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.rehadat-bildung.de/berufseinstieg/unterstuetzungsangebote/unterstuetzung-bei-pruefungen/",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.bibb.de/dienst/publikationen/de/7407",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "fachpraktikerausbildung",
+                "name": "Fachpraktikerausbildung",
+                "content": "Junge Menschen, die aufgrund einer Behinderung nicht an einer regulären Ausbildung teilnehmen können, weil ihnen z. B. auch ein Nachteilsausgleich nicht weiterhilft, können eine Fachpraktikerausbildung machen. Eine Fachpraktikerausbildung orientiert sich an den Inhalten anerkannter Ausbildungsberufe, ist aber stellenweise im Umfang der Theorie ein bisschen reduziert. Auch bei einer Fachpraktikerprüfung (oder -ausbildung?) muss eine Prüfung bei der jeweiligen Kammer abgelegt werden. Eine Fachpraktikerausbildung dauert in der Regel 2-3 Jahre. ",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Reha-Beratung der Agentur für Arbeit, zuständige Kammer"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://planet-beruf.de/schuelerinnen/berufe-finden/uebersicht-der-ausbildungsberufe-fuer-menschen-mit-behinderungen",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "jugendberufsagentur",
+                "name": "Jugendberufsagentur",
+                "content": "Egal ob du Probleme in der Schule, der Ausbildung, mit deinen Eltern oder Geld hast: Du kannst mit allen Themen, die dich beschäftigen, in eine Jugendberufsagentur kommen. Hier arbeiten Fachkräfte aus der Jugendhilfe, der Agentur für Arbeit und dem Jobcenter zusammen und es kann schnell geklärt werden, wer dich am besten unterstützen kann.",
+                "additional_informations": [
+                    
+                    {
+                        "label": "Suche in deiner Nähe:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.servicestelle-jba.de/wws/9.php",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "teilzeitausbildung",
+                "name": "Teilzeitausbildung",
+                "content": "Manchmal lässt es die eigene Situation nicht zu, eine Ausbildung in Vollzeit zu machen. Zum Beispiel, wenn man ein Kind erwartet, kleinere Kinder versorgen oder Familienmitglieder betreuen muss. In solchen Fällen gibt es die Möglichkeit einer Teilzeit-Ausbildung. Dazu muss mit dem Ausbildungsbetrieb ein angepasster Ausbildungsplan erstellt werden, der eine neue Arbeits- und Ausbildungszeit beschreibt. Bei einer Teilzeit-Ausbildung verlängert sich die Ausbildungszeit entsprechend. Für die Beantragung der Teilzeit-Ausbildung muss der angepasste Ausbildungsplan von der jeweiligen Handwerks-, Industrie- und Handelskammer genehmigt werden. Auch bei einer Teilzeit-Ausbildung wirst du entsprechend bezahlt. Deine Vergütung richtet sich dann meist nach den vereinbarten Arbeitsstunden. Bei einer schulischen Ausbildung ist es übrigens nicht so einfach Teilzeit zu beantragen. Aber vielleicht gibt es Ausnahmeregelungen, wenn die Ausbildung in Vollzeit nicht machbar ist. Frage hierfür in deiner Berufsschule nach.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Ausbildungsbetrieb, Handwerks-, Industrie- und Handelskammer, Berufsschule"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.bibb.de/de/1304.php",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/lexikon/teilzeit-berufsausbildung",
+                                "label": "Link 2"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "mutterschaftsgeld",
+                "name": "Mutterschaftsgeld",
+                "content": "Wenn du in der Ausbildung schwanger geworden bist und spätestens in der Mutterschutzfrist nicht mehr arbeiten darfst, kannst du (aber-> weglassen) Mutterschaftsgeld beantragen. Den Antrag stellst du bei deiner Krankenkasse. Dort musst du auch einige Dokumente einreichen. Dazu gehören die 'Bescheinigung des voraussichtlichen Geburtstermins', die dir dein behandelnder Arzt/Ärztin oder deine Hebamme ausstellen kann und eine Geburtsurkunde nach der Geburt deines Kindes.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "deine gesetzliche Krankenkasse"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://familienportal.de/familienportal/familienleistungen/ mutterschaftsleistungen",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "berufsberatung",
+                "name": "Berufsberatung",
+                "content": "Die Berufsberatung ist ein kostenloses Angebot der Bundesagentur für Arbeit. Berufsberater/-innen helfen zum Beispiel bei Fragen rund um die Ausbildungs- oder Studienwahl, die Bewerbung auf entsprechende Plätze und Fördermöglichkeiten. Die Beratung erfolgt persönlich vor Ort oder per Video. Wer sich eigenständig informieren möchte, kann zu den Öffnungszeiten auch das Berufsinformationszentrum (BiZ) der örtlichen Agentur für Arbeit besuchen.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/bildung/berufsberatung",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "mutterschutz-ausbildung",
+                "name": "Mutterschutz",
+                "content": "Mutterschutz gilt auch für Ausbildungen und wird im sogenannten Mutterschutzgesetz (MuSchG) geregelt. Der Mutterschutz soll Mutter und Kind vor gesundheitlichen Schäden schützen und beinhaltet daher besondere Regelungen zu Arbeitszeiten, Ausführungen von Tätigkeiten, Kündigungsschutz und finanziellen Leistungen. Der Mutterschutz gilt ab dem Zeitpunkt, an dem der Betrieb von der Schwangerschaft erfährt. Demnach ist es also ratsam, den Arbeitgeber so früh wie möglich darüber in Kenntnis zu setzen.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "dein Ausbildungsbetrieb"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.ausbildung.info/ausbildung/ausbildung-mit-kind/mutterschutz",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://familienportal.de/familienportal/familienleistungen/mutterschutz",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "kammern",
+                "name": "Kammern",
+                "content": "",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Die Industrie- und Handelskammer (kurz: IHK) und Handwerkskammer (HWK) sind gute Anlaufstellen, bei vielen Fragen rund um die Ausbildung. Die Kammern sind die Interessenvertretung für Industrie- und Handelsunternehmen bzw. von Handwerksunternehmen. Lediglich Unternehmen aus der Landwirtschaft sowie Ärzte sind nicht Mitglied der IHK pder HWK. Für sie gibt es eigene Kammern.  Die Kammern haben ein großes Informationsangebot rund um die Themen Ausbildungssuche, Ausbildungsvergütung, Prüfungen, Abschluss, Zeugnis und Weiterbildung. Die Kammern haben Standorte verteilt in ganz vielen Städten. In dem untenstehenden Links kannst du ganz leicht den passenden Standort für dich finden. "
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.ihk.de",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/adressen-der-handwerkskammern/",
+                                "label": "Link 2"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "sprachniveau-ausbildung",
+                "name": "Sprachniveau in der Ausbildung ",
+                "content": "Deutsche Sprachkenntnisse sind entscheidend, damit die Berufsausbildung gelingt. Die Kammern empfehlen mindestens das Sprachniveau B2 bei der Aufnahme einer Berufsausbildung und mindestens das Sprachniveau B1 bei einer Einstiegsqualifizierung (B2 bei einer Einstiegsqualifizierung im kaufmännischen Bereich). Das Sprachniveau sollte in allen Bereichen („Hören“, „Lesen“, „Sprechen“ und „Schreiben“) vorliegen.",
+                "additional_informations": []
+            }
+        ]
     }
 ]
