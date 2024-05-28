@@ -4,6 +4,7 @@ class Glossar {
     this.init()
     this.activeChapter = null
     this.activeContent = null
+    this.mainCategory = null
   }
 
   init = async () => {
@@ -39,7 +40,9 @@ class Glossar {
        */
       let mainNavEntry = document.createElement('div')
       mainNavEntry.id = category.category.toLowerCase()
+      mainNavEntry.textContent = category.category.charAt(0)
       glossarMainNavWrap.appendChild(mainNavEntry)
+
 
       /**
        * Main wrapper for the glossar on the right
@@ -132,6 +135,8 @@ class Glossar {
       document.querySelector('#' + category.category.toLowerCase()).onclick = (e) => {
         e.preventDefault()
         this.changeChapter(e)
+        document.getElementById('sort').textContent = category.category
+
       }
 
 
