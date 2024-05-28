@@ -76,6 +76,7 @@ class Glossar {
         let subcatNavEntry = document.createElement('div')
         subcatNavEntry.insertAdjacentHTML('beforeend', '<p>' + subcategory.name + '</p>')
         subcatNavEntry.id = subcategory.id + '-click'
+        subcatNavEntry.className = 'subCatNavEntry'
         subcatNavEntry.onclick = (e) => {
           e.preventDefault()
           document.querySelector('#' + subcategory.id).scrollIntoView({ behavior: "smooth" })
