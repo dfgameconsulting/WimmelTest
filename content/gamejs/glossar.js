@@ -40,8 +40,11 @@ class Glossar {
        */
       let mainNavEntry = document.createElement('div')
       mainNavEntry.id = category.category.toLowerCase()
+      if(mainNavEntry.id === 'studium'){
+        mainNavEntry.classList.add('active')
+      }
       let mainNavEntryIcon = document.createElement('div')
-      mainNavEntryIcon.className = 'mainNavEntryIcon'
+      mainNavEntryIcon.classList.add('mainNavEntryIcon')
 
       mainNavEntry.appendChild(mainNavEntryIcon)
 
@@ -78,7 +81,7 @@ class Glossar {
          * Creates a chapter
          */
         let subcatNavEntry = document.createElement('div')
-        subcatNavEntry.insertAdjacentHTML('beforeend', '<p>' + subcategory.name + '</p>')
+        subcatNavEntry.insertAdjacentHTML('beforeend', '<span>' + subcategory.name + '</span>')
         subcatNavEntry.id = subcategory.id + '-click'
         subcatNavEntry.className = 'subCatNavEntry'
         subcatNavEntry.onclick = (e) => {
@@ -137,26 +140,32 @@ class Glossar {
       });
       glossarNavWrap.appendChild(subCatNavWrap)
       glossarWrap.appendChild(wrap)
-      document.querySelector('#' + category.category.toLowerCase()).onclick = (e) => {
-        e.preventDefault()
-        this.changeChapter(e)
-        document.getElementById('sort').textContent = category.category
-
+      document.querySelector('#'+category.category.toLowerCase()).onclick = (e) => {
+        this.changeChapter(e.currentTarget.id)
+        document.getElementById('cat-name').textContent = category.category
       }
-
+        
+       
 
     });
   }
 
-  changeChapter = (e) => {
+  changeChapter = (id) => {
     if(this.activeChapter != null){
+      document.getElementById(this.activeChapter).classList.remove('active')
       document.getElementById('subcat-'+this.activeChapter).style.display = 'none'
       document.getElementById('glossar-'+this.activeChapter).style.display = 'none'
     }
 
-    this.activeChapter = e.target.id
+    this.activeChapter = id
+    document.getElementById(this.activeChapter).classList.add('active')
     document.getElementById('subcat-'+this.activeChapter).style.display = 'block'
     document.getElementById('glossar-'+this.activeChapter).style.display = 'block'
+    // this.changeZyndr3lla()
+  }
+
+  changeZyndr3lla = () => {
+
   }
 
   loadJSON = async () => {
