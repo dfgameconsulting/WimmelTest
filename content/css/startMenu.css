@@ -4,6 +4,16 @@
     font-weight: 500;
 }
 
+@font-face {
+    font-family: 'FragmentCore';
+    src: url(../fonts/Fragmentcore.otf);
+}
+
+@font-face {
+    font-family: 'Museum';
+    src: url(../fonts/LTMuseum-Reg.ttf);
+}
+
 :root {
     --padding: .5rem;
     --size: 0;
@@ -21,7 +31,7 @@
 }
 
 body {
-    font-family: 'Inter';
+    font-family: 'FragmentCore';
     overflow-y: hidden;
     overflow-x: hidden;
     -ms-overflow-style: none;
@@ -359,59 +369,128 @@ body::-webkit-scrollbar {
     gap: .3rem;
     width: calc(3539px * 0.67);
     height: calc(2075px * 0.67);
+    z-index: 1;
+    
     z-index: 2;
+}
+
+#glossar .background{
     background: url(../img/Glossar/GlossarBuch/BIB001_GlossarBuch_Buch_01_hz.png);
     background-repeat: no-repeat;
     background-size: contain;
+    width: 100%;
+    height: 100%;
 }
 
 #haupt-kat {
     position: absolute;
-    top: 10%;
-    left: -2%;
+    top: 15%;
+    left: -4%;
     font-size: 3rem;
     color: white;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 30px;
+    z-index: -1;
 }
 
 #studium {
-    width: 50px;
-    height: 50px;
-    background: red;
+    background: url('../img/Glossar/GlossarBuch/BIB001_GlossarBuch_Lesezeichen_gelb_01_hz.png');
+    width: 175px;
+    height: 100px;
+    background-size: cover;
+    position: relative;
+    left: 0;
+    transition: left .5s ;
+}
+
+#studium .mainNavEntryIcon{
+    background: url(../img/Glossar/GlossarBuch/BIB001_GlossarBuch_Symbol\ 3_01_hz.png) 0px 0px no-repeat;
+    height: 45px;
+    background-size: contain;
+    position: relative;
+    top: 25px;
+    left: 44px;
 }
 
 #ausbildung {
-    width: 50px;
-    height: 50px;
-    background: yellow;
+    background: url('../img/Glossar/GlossarBuch/BIB001_GlossarBuch_Lesezeichen_grün_01_hz.png');
+    width: 175px;
+    height: 100px;
+    background-size: cover;
+    position: relative;
+    left: 0;
+    transition: left .5s ;
+
+}
+#ausbildung .mainNavEntryIcon{
+    background: url(../img/Glossar/GlossarBuch/BIB001_GlossarBuch_Symbol\ 4_01_hz.png) 0px 0px no-repeat;
+    height: 45px;
+    background-size: contain;
+    position: relative;
+    top: 25px;
+    left: 44px;
 }
 
 #lebenskrisen {
-    width: 50px;
-    height: 50px;
-    background: blue;
+    background: url('../img/Glossar/GlossarBuch/BIB001_GlossarBuch_Lesezeichen_blau_01_hz.png');
+    width: 175px;
+    height: 100px;
+    background-size: cover;
+    position: relative;
+    left: 0;
+    transition: left .5s ;
+
+}
+#lebenskrisen .mainNavEntryIcon{
+    background: url(../img/Glossar/GlossarBuch/BIB001_GlossarBuch_Symbol\ 2_01_hz.png) 0px 0px no-repeat;
+    height: 45px;
+    background-size: contain;
+    position: relative;
+    top: 25px;
+    left: 44px;
 }
 
 #erwachsen-werden {
-    width: 50px;
-    height: 50px;
-    background: green;
+    background: url('../img/Glossar/GlossarBuch/BIB001_GlossarBuch_Lesezeichen_orange_01_hz.png');
+    width: 175px;
+    height: 100px;
+    background-size: cover;
+    position: relative;
+    left: 0;
+    transition: left .5s ;
+
+}
+#erwachsen-werden .mainNavEntryIcon{
+    background: url(../img/Glossar/GlossarBuch/BIB001_GlossarBuch_Symbol\ 1_01_hz.png) 0px 0px no-repeat;
+    height: 45px;
+    background-size: contain;
+    position: relative;
+    top: 25px;
+    left: 44px;
+}
+
+#studium:hover,
+#lebenskrisen:hover,
+#ausbildung:hover,
+#erwachsen-werden:hover{
+    left:-30px;
+    
 }
 
 #text-kat #sort {
     position: absolute;
-    top: 6%;
-    left: 2%;
+    top: 14%;
+    left: 33px;
     height: 10%;
-    width: 16%;
-
-    font-size: 1.5rem;
+    width: 17%;
+    font-size: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: all .2s ease-in-out;
+    color: #fff;
+    font-family: 'Museum';
 }
 
 #text-kat #unter-kat {
@@ -435,6 +514,7 @@ body::-webkit-scrollbar {
     background-size: contain;
     display: flex;
     flex-direction: column;
+    font-family: 'Museum';
 }
 #text-kat #unter-kat div p {
     font-size: 1.5rem;

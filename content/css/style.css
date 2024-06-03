@@ -1,7 +1,19 @@
 @font-face {
     font-family: 'Inter';
-    src: url(../fonts/Inter/Inter-VariableFont_slnt,wght.ttf);
+    src: url(../fonts/Inter/Inter-VariableFont_slnt,wght.ttf) format("truetype");
     font-weight: 500;
+}
+
+@font-face {
+    font-family: 'FragmentCore';
+    font-style: normal;
+  font-weight: normal;
+  src: local('FragmentCore'), url(../fonts/Fragmentcore.otf) format("opentype");
+}
+
+@font-face {
+    font-family: 'FragmentCore';
+    src: url(../fonts/LTMuseum-Reg.ttf);
 }
 
 :root {
@@ -20,7 +32,7 @@
 }
 
 body {
-    font-family: 'Inter';
+    font-family: 'FragmentCore', serif;
     overflow-y: hidden;
     overflow-x: hidden;
     -ms-overflow-style: none;
@@ -253,10 +265,14 @@ body::-webkit-scrollbar {
     width: calc(3539px * 0.67);
     height: calc(2075px * 0.67);
     z-index: 1;
+    
+    z-index: 2;
+}
+
+#glossar .background{
     background: url(../img/Glossar/GlossarBuch/BIB001_GlossarBuch_Buch_01_hz.png);
     background-repeat: no-repeat;
     background-size: contain;
-    z-index: 2;
 }
 
 #haupt-kat {

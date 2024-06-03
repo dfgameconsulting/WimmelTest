@@ -40,7 +40,11 @@ class Glossar {
        */
       let mainNavEntry = document.createElement('div')
       mainNavEntry.id = category.category.toLowerCase()
-      mainNavEntry.textContent = category.category.charAt(0)
+      let mainNavEntryIcon = document.createElement('div')
+      mainNavEntryIcon.className = 'mainNavEntryIcon'
+
+      mainNavEntry.appendChild(mainNavEntryIcon)
+
       glossarMainNavWrap.appendChild(mainNavEntry)
 
 
