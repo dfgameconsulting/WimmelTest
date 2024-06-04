@@ -2,21 +2,16 @@
 class Glossar {
   constructor() {
     this.init()
+    this.sortType = 'cat'
     this.activeChapter = null
     this.activeContent = null
     this.mainCategory = null
+    this.glossarChapters = []
+    this.glossarContent = []
+    this.glossarCategories = []
   }
 
   init = async () => {
-    // document.querySelector('#studium').onclick((e) => {
-    //   this.changeChapter()
-    // })
-    // document.querySelector('#studium').onclick((e) => {
-    //   this.changeChapter()
-    // })
-    // document.querySelector('#studium').onclick((e) => {
-    //   this.changeChapter()
-    // })
     /**
      * Set the glossar wrapper and glossar navigation wrapper
      */
@@ -40,7 +35,7 @@ class Glossar {
        */
       let mainNavEntry = document.createElement('div')
       mainNavEntry.id = category.category.toLowerCase()
-      if(mainNavEntry.id === 'studium'){
+      if (mainNavEntry.id === 'studium') {
         mainNavEntry.classList.add('active')
       }
       let mainNavEntryIcon = document.createElement('div')
@@ -50,6 +45,13 @@ class Glossar {
 
       glossarMainNavWrap.appendChild(mainNavEntry)
 
+      this.glossarChapters.push(category.category.toLowerCase())
+      this.glossarContent.push(`glossar-` + category.category.toLowerCase())
+      this.glossarCategories.push(`subcat-` + category.category.toLowerCase())
+
+      if(this.activeChapter == null){
+        this.activeChapter = category.category.toLowerCase()
+      }
 
       /**
        * Main wrapper for the glossar on the right
@@ -140,28 +142,70 @@ class Glossar {
       });
       glossarNavWrap.appendChild(subCatNavWrap)
       glossarWrap.appendChild(wrap)
-      document.querySelector('#'+category.category.toLowerCase()).onclick = (e) => {
+      document.querySelector('#' + category.category.toLowerCase()).onclick = (e) => {
         this.changeChapter(e.currentTarget.id)
         document.getElementById('cat-name').textContent = category.category
       }
-        
-       
+
+
 
     });
+
+    document.getElementById('sort').onclick = () => {
+      this.sort()
+    }
   }
 
   changeChapter = (id) => {
-    if(this.activeChapter != null){
+    if (this.activeChapter != null) {
       document.getElementById(this.activeChapter).classList.remove('active')
-      document.getElementById('subcat-'+this.activeChapter).style.display = 'none'
-      document.getElementById('glossar-'+this.activeChapter).style.display = 'none'
+      document.getElementById('subcat-' + this.activeChapter).style.display = 'none'
+      document.getElementById('glossar-' + this.activeChapter).style.display = 'none'
     }
 
     this.activeChapter = id
     document.getElementById(this.activeChapter).classList.add('active')
-    document.getElementById('subcat-'+this.activeChapter).style.display = 'block'
-    document.getElementById('glossar-'+this.activeChapter).style.display = 'block'
+    document.getElementById('subcat-' + this.activeChapter).style.display = 'block'
+    document.getElementById('glossar-' + this.activeChapter).style.display = 'block'
     // this.changeZyndr3lla()
+  }
+
+  sort = () => {
+    if (this.sortType === 'cat') {
+      this.sortType = 'az'
+
+      this.glossarChapters.forEach((element) => {
+        document.getElementById(element).className = 'inactive'
+      })
+
+      document.getElementById('sort').textContent = 'A-Z'
+      this.glossarCategories.forEach((element, index) => {
+        document.getElementById(element).style.display = 'block'
+      })
+
+      this.glossarContent.forEach((element, index) => {
+        document.getElementById(element).style.display = 'block'
+      })
+    } else if(this.sortType === 'az') {
+      this.sortType = 'cat'
+
+      this.glossarChapters.forEach((element) => {
+        document.getElementById(element).className = ''
+      })
+
+      document.getElementById('sort').textContent = 'Kategorie'
+      this.glossarCategories.forEach((element, index) => {
+        document.getElementById(element).style.display = 'none'
+      })
+  
+      this.glossarContent.forEach((element, index) => {
+        document.getElementById(element).style.display = 'none'
+      })
+
+      document.getElementById(this.activeChapter).className = 'active'
+      document.getElementById('subcat-' + this.activeChapter).style.display = 'block'
+      document.getElementById('glossar-' + this.activeChapter).style.display = 'block'
+    }
   }
 
   changeZyndr3lla = () => {
