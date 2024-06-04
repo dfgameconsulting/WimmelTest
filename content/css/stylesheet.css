@@ -592,6 +592,7 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 25%;
     left: 20%;
+    opacity: .5;
 }
 
 #haupt-kat {
@@ -630,7 +631,7 @@ body::-webkit-scrollbar {
 }
 
 #ausbildung {
-    background: url('../img/Glossar/GlossarBuch/BIB001_GlossarBuch_Lesezeichen_grün_01_hz.png');
+    background: url('../img/Glossar/GlossarBuch/BIB001_GlossarBuch_Lesezeichen_gruen_01_hz.png');
     width: 175px;
     height: 100px;
     background-size: cover;
@@ -742,6 +743,7 @@ body::-webkit-scrollbar {
     line-height: 1;
   display: inline-block;
   vertical-align: middle;
+  padding: 0 15px;
 }
 
 #text-kat #info-kat {
