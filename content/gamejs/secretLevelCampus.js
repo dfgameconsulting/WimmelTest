@@ -83,6 +83,10 @@ rotesAuto = new secretEntry("Auto", 0.660938, 0.70, "screen03", "Das ist ein Sec
 
 let secretCampus = document.querySelector("#secretCampus");
 
+document.querySelector('.close').onclick = () => {
+  fadeOut('#secretCampus')
+}
+
 let zauberer = document.querySelector("#zauberer");
 let dieb = document.querySelector("#dieb");
 let koch = document.querySelector("#koch");

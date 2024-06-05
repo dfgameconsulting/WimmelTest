@@ -86,6 +86,11 @@ object24 = new secretEntry("Geldautomat", 0.360938, 0.546759, "screen03", "Das i
 // Secret Innenstadt Logik
 
 let secretInnenstadt = document.querySelector("#secretInnenstadt");
+
+document.querySelector('.close').onclick = () => {
+  fadeOut('#secretInnenstadt')
+}
+
 let geldBeutel = document.querySelector("#geldbeutel");
 let bankkarte = document.querySelector("#bankkarte");
 let bankschlitz = document.querySelector("#bankschlitz");
