@@ -1180,6 +1180,17 @@ body::-webkit-scrollbar {
     background-size: contain;
     display: none;
 }
+#secretAltstadt .close{
+    background: url(../img/options/Kreuz.png);
+    position: absolute;
+    top: 3%;
+    right: 12%;
+    width: 8vw;
+    height: 8vw;
+    background-size: contain;
+    cursor: pointer;
+
+}
 
 #puzzle_wrapper {
     position: relative;
