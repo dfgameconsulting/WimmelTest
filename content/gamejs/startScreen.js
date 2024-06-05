@@ -230,8 +230,8 @@ let resetRatiosStartScreen = () => {
   mainScreenHeight = mainScreenPos.bottom - mainScreenPos.top;
   mainScreenWidth = mainScreenPos.right - mainScreenPos.left;
 
-  scaleFactor = Math.floor((mainScreenPos.width + mainScreenPos.height) / 2) / 2500;
-
+  scaleFactor = Math.floor((mainScreenPos.width + mainScreenPos.height) / 2) / 2000;
+  console.log(mainScreenPos.height)
   rMs.style.setProperty("--scaleFactor", `scale(${scaleFactor})`);
   rMs.style.setProperty("--rainWidth", mainScreenPos.width);
 

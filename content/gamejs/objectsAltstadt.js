@@ -41,6 +41,7 @@ function resetRatios() {
   screen04Width = screen04Pos.right - screen04Pos.left;
 
   scaleFactor = Math.floor((screen01Pos.width + screen01Pos.height) / 2) / 2000;
+  console.log(screen01Pos.height)
   r.style.setProperty("--scaleFactor", `scale(${scaleFactor})`);
   r.style.setProperty("--scaleFactorObjects", `scale(${scaleFactor * 0.667})`);
   r.style.setProperty("--size", `${screen01Width * 0.055}px`); // 0.0309

@@ -1,205 +1,221 @@
-// Kategorien und Info Anzeige
-let unterKat = document.querySelector("#unter-kat");
-let infoKat = document.querySelector("#info-kat");
 
-let studiumDiv = document.querySelector("#studium");
-let ausbildungDiv = document.querySelector("#ausbildung");
-let herausforderungenDiv = document.querySelector("#herausforderungen");
-let erwachsenDiv = document.querySelector("#erwachsen");
-let sortDiv = document.querySelector("#sort");
+class Glossar {
+  constructor() {
+    this.init()
+    this.sortType = 'cat'
+    this.activeChapter = null
+    this.activeContent = null
+    this.mainCategory = null
+    this.glossarChapters = []
+    this.glossarContent = []
+    this.glossarCategories = []
+  }
 
-let glossarButton = document.querySelector("#options-glossar");
-glossarButton.onclick = () => {
-  addGlossarToHTML();
-};
+  init = async () => {
+    /**
+     * Set the glossar wrapper and glossar navigation wrapper
+     */
+    let glossarWrap = document.querySelector('#glossar-html')
+    let glossarNavWrap = document.querySelector('#unter-kat')
+    let glossarMainNavWrap = document.querySelector('#haupt-kat')
 
-// Kategorien Logik
-sortDiv.onclick = () => {
-  sortDiv.innerHTML = "A-Z";
-  sortDiv.style.background = "white";
-  unterKat.innerHTML = `
-<div class="unterKat" id="erwachsen-auszug-click"><p>auszug</p></div>
-<div class="unterKat" id="erwachsen-emotionen-click"><p>emotionen</p></div>
-<div class="unterKat" id="ausbildung-finanzierung-click"><p>finanzierung</p></div>
-<div class="unterKat" id="studium-finanzierung-click"><p>finanzierung</p></div>
-<div class="unterKat" id="ausbildung-gesundheit-click"><p>gesundheit</p></div>
-<div class="unterKat" id="herausforderungen-gesundheit-click"><p>gesundheit</p></div>
-<div class="unterKat" id="ausbildung-herausforderung-click"><p>herausforderung</p></div>
-<div class="unterKat" id="studium-herausforderung-click"><p>herausforderung</p></div>
-<div class="unterKat" id="erwachsen-kompetenzen-click"><p>kompetenzen</p></div>
-<div class="unterKat" id="studium-lernen-click"><p>lernen</p></div>
-<div class="unterKat" id="herausforderungen-schulden-click"><p>schulden</p></div>
-<div class="unterKat" id="erwachsen-selbstfindung-click"><p>selbstfindung</p></div>
-<div class="unterKat" id="herausforderungen-sucht-click"><p>sucht</p></div>
-<div class="unterKat" id="herausforderungen-verlust-click"><p>verlust</p></div>
-<div class="unterKat" id="ausbildung-vorbereitung-click"><p>vorbereitung</p></div>
-<div class="unterKat" id="studium-vorbereitung-click"><p>vorbereitung</p></div>`;
-  document.querySelector("#studium-vorbereitung-click").onclick = () => {
-    document.querySelector("#studium-vorbereitung").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#studium-finanzierung-click").onclick = () => {
-    document.querySelector("#studium-finanzierung").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#studium-lernen-click").onclick = () => {
-    document.querySelector("#studium-lernen").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#studium-herausforderung-click").onclick = () => {
-    document.querySelector("#studium-herausforderung").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#ausbildung-vorbereitung-click").onclick = () => {
-    document.querySelector("#ausbildung-vorbereitung").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#ausbildung-finanzierung-click").onclick = () => {
-    document.querySelector("#ausbildung-finanzierung").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#ausbildung-gesundheit-click").onclick = () => {
-    document.querySelector("#ausbildung-gesundheit").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#ausbildung-herausforderung-click").onclick = () => {
-    document.querySelector("#ausbildung-herausforderung").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#herausforderungen-sucht-click").onclick = () => {
-    document.querySelector("#herausforderungen-sucht").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#herausforderungen-schulden-click").onclick = () => {
-    document.querySelector("#herausforderungen-schulden").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#herausforderungen-verlust-click").onclick = () => {
-    document.querySelector("#herausforderungen-verlust").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#herausforderungen-gesundheit-click").onclick = () => {
-    document.querySelector("#herausforderungen-gesundheit").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#erwachsen-auszug-click").onclick = () => {
-    document.querySelector("#erwachsen-auszug").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#erwachsen-emotionen-click").onclick = () => {
-    document.querySelector("#erwachsen-emotionen").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#erwachsen-selbstfindung-click").onclick = () => {
-    document.querySelector("#erwachsen-selbstfindung").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#erwachsen-kompetenzen-click").onclick = () => {
-    document.querySelector("#erwachsen-kompetenzen").scrollIntoView({ behavior: "smooth" });
-  };
-};
+    /**
+     * Load the glossar json file (located in gamejs/glossar.json)
+     */
+    this.glossarJSON = await this.loadJSON()
 
-studiumDiv.onclick = () => {
-  sortDiv.innerHTML = "Studium";
-  sortDiv.style.background = "red";
-  unterKat.innerHTML = `
-<div class="unterKat" id="studium-vorbereitung-click"><p>vorbereitung</p></div>
-<div class="unterKat" id="studium-finanzierung-click"><p>finanzierung</p></div>
-<div class="unterKat" id="studium-lernen-click"><p>lernen</p></div>
-<div class="unterKat" id="studium-herausforderung-click"><p>herausforderung</p></div>`;
-  document.querySelector("#studium-vorbereitung-click").onclick = () => {
-    document.querySelector("#studium-vorbereitung").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#studium-finanzierung-click").onclick = () => {
-    document.querySelector("#studium-finanzierung").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#studium-lernen-click").onclick = () => {
-    document.querySelector("#studium-lernen").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#studium-herausforderung-click").onclick = () => {
-    document.querySelector("#studium-herausforderung").scrollIntoView({ behavior: "smooth" });
-  };
-};
 
-ausbildungDiv.onclick = () => {
-  sortDiv.innerHTML = "Ausbildung";
-  sortDiv.style.background = "yellow";
-  unterKat.innerHTML = `
-<div class="unterKat" id="ausbildung-vorbereitung-click"><p>vorbereitung</p></div>
-<div class="unterKat" id="ausbildung-finanzierung-click"><p>finanzierung</p></div>
-<div class="unterKat" id="ausbildung-gesundheit-click"><p>gesundheit</p></div>
-<div class="unterKat" id="ausbildung-herausforderung-click"><p>herausforderung</p></div>`;
-  document.querySelector("#ausbildung-vorbereitung-click").onclick = () => {
-    document.querySelector("#ausbildung-vorbereitung").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#ausbildung-finanzierung-click").onclick = () => {
-    document.querySelector("#ausbildung-finanzierung").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#ausbildung-gesundheit-click").onclick = () => {
-    document.querySelector("#ausbildung-gesundheit").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#ausbildung-herausforderung-click").onclick = () => {
-    document.querySelector("#ausbildung-herausforderung").scrollIntoView({ behavior: "smooth" });
-  };
-};
+    /**
+     * Loop over the json, get all main categories
+     */
+    this.glossarJSON.forEach(category => {
 
-herausforderungenDiv.onclick = () => {
-  sortDiv.innerHTML = "Herausforderungen";
-  sortDiv.style.background = "blue";
-  unterKat.innerHTML = `
-<div class="unterKat" id="herausforderungen-sucht-click"><p>sucht</p></div>
-<div class="unterKat" id="herausforderungen-schulden-click"><p>schulden</p></div>
-<div class="unterKat" id="herausforderungen-verlust-click"><p>verlust</p></div>
-<div class="unterKat" id="herausforderungen-gesundheit-click"><p>gesundheit</p></div>`;
-  document.querySelector("#herausforderungen-sucht-click").onclick = () => {
-    document.querySelector("#herausforderungen-sucht").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#herausforderungen-schulden-click").onclick = () => {
-    document.querySelector("#herausforderungen-schulden").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#herausforderungen-verlust-click").onclick = () => {
-    document.querySelector("#herausforderungen-verlust").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#herausforderungen-gesundheit-click").onclick = () => {
-    document.querySelector("#herausforderungen-gesundheit").scrollIntoView({ behavior: "smooth" });
-  };
-};
+      /**
+       * Main navigation
+       */
+      let mainNavEntry = document.createElement('div')
+      mainNavEntry.id = category.category.toLowerCase()
+      if (mainNavEntry.id === 'studium') {
+        mainNavEntry.classList.add('active')
+      }
+      let mainNavEntryIcon = document.createElement('div')
+      mainNavEntryIcon.classList.add('mainNavEntryIcon')
 
-erwachsenDiv.onclick = () => {
-  sortDiv.innerHTML = "Erwachsen werden";
-  sortDiv.style.background = "green";
-  unterKat.innerHTML = `
-<div class="unterKat" id="erwachsen-auszug-click"><p>auszug</p></div>
-<div class="unterKat" id="erwachsen-kompetenzen-click"><p>kompetenzen</p></div>
-<div class="unterKat" id="erwachsen-emotionen-click"><p>emotionen</p></div>
-<div class="unterKat" id="erwachsen-selbstfindung-click"><p>selbstfindung</p></div>`;
-  document.querySelector("#erwachsen-auszug-click").onclick = () => {
-    document.querySelector("#erwachsen-auszug").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#erwachsen-emotionen-click").onclick = () => {
-    document.querySelector("#erwachsen-emotionen").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#erwachsen-selbstfindung-click").onclick = () => {
-    document.querySelector("#erwachsen-selbstfindung").scrollIntoView({ behavior: "smooth" });
-  };
-  document.querySelector("#erwachsen-kompetenzen-click").onclick = () => {
-    document.querySelector("#erwachsen-kompetenzen").scrollIntoView({ behavior: "smooth" });
-  };
-};
+      mainNavEntry.appendChild(mainNavEntryIcon)
 
-let addGlossarToHTML = function () {
-  var z, i, elmnt, file, xhttp;
-  /* Loop through a collection of all HTML elements: */
-  z = document.getElementsByTagName("*");
-  for (i = 0; i < z.length; i++) {
-    elmnt = z[i];
-    /*search for elements with a certain atrribute:*/
-    file = elmnt.getAttribute("include-html");
-    if (file) {
-      /* Make an HTTP request using the attribute value as the file name: */
-      xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function () {
-        if (this.readyState == 4) {
-          if (this.status == 200) {
-            elmnt.innerHTML = this.responseText;
-          }
-          if (this.status == 404) {
-            elmnt.innerHTML = "Page not found.";
-          }
-          /* Remove the attribute, and call this function once more: */
-          elmnt.removeAttribute("w3-include-html");
-          //addGlossarToHTML();
+      glossarMainNavWrap.appendChild(mainNavEntry)
+
+      this.glossarChapters.push(category.category.toLowerCase())
+      this.glossarContent.push(`glossar-` + category.category.toLowerCase())
+      this.glossarCategories.push(`subcat-` + category.category.toLowerCase())
+
+      if(this.activeChapter == null){
+        this.activeChapter = category.category.toLowerCase()
+      }
+
+      /**
+       * Main wrapper for the glossar on the right
+       */
+      let wrap = document.createElement('div')
+      wrap.id = `glossar-` + category.category.toLowerCase()
+      wrap.style.display = category.active ? 'block' : 'none'
+
+      /**
+       * Navigation wrapper for the glossar chapters
+       */
+      let subCatNavWrap = document.createElement('div')
+      subCatNavWrap.id = `subcat-` + category.category.toLowerCase()
+      subCatNavWrap.style.display = category.active ? 'block' : 'none'
+
+      /**
+       * Glossar headlines
+       */
+      let wrapHeadline = document.createElement('h1')
+      wrapHeadline.textContent = category.category
+      wrap.appendChild(wrapHeadline)
+
+
+      /**
+       * Loop over all subcategories
+       */
+      category.subcategories.forEach(subcategory => {
+        /**
+         * Creates a chapter
+         */
+        let subcatNavEntry = document.createElement('div')
+        subcatNavEntry.insertAdjacentHTML('beforeend', '<span>' + subcategory.name + '</span>')
+        subcatNavEntry.id = subcategory.id + '-click'
+        subcatNavEntry.className = 'subCatNavEntry'
+        subcatNavEntry.onclick = (e) => {
+          e.preventDefault()
+          document.querySelector('#' + subcategory.id).scrollIntoView({ behavior: "smooth" })
         }
-      };
-      xhttp.open("GET", file, true);
-      xhttp.send();
-      /* Exit the function: */
-      return;
+
+        subCatNavWrap.appendChild(subcatNavEntry)
+
+        /**
+         * Creates the topic wrapper for the content on the right
+         */
+        let subcatWrap = document.createElement('div')
+        subcatWrap.id = subcategory.id
+
+        /**
+         * Creates the subheadline of each subtopic
+         */
+        let subcatWrapHeadline = document.createElement('h2')
+        subcatWrapHeadline.textContent = subcategory.name
+
+        subcatWrap.appendChild(subcatWrapHeadline)
+
+        /**
+         * Creates the paragraphs for the content on the right
+         */
+        let subcatContent = document.createElement('p')
+        subcatContent.innerHTML = subcategory.content
+        subcatWrap.appendChild(subcatContent)
+
+        /**
+         * Loop over additional information from each subtopic
+         */
+        subcategory.additional_informations.forEach(ai => {
+          let additionalInfoList = document.createElement('ul')
+          additionalInfoList.insertAdjacentHTML('beforeend', '<li><b>' + ai.label + '</b></li>')
+
+
+          ai.content.forEach(aic => {
+            /**
+             * Here were're checking if the additional information is a normal text info or a link
+             */
+            if (aic.type === 'text') {
+              additionalInfoList.insertAdjacentHTML('beforeend', '<li><p>' + aic.text + '</p></li>')
+            } else if (aic.type === 'link') {
+              additionalInfoList.insertAdjacentHTML('beforeend', '<li><a href="' + aic.text + ' target="blank">' + aic.label + '</a></li>')
+            }
+          })
+
+          subcatWrap.appendChild(additionalInfoList)
+
+        })
+
+
+        wrap.append(subcatWrap)
+      });
+      glossarNavWrap.appendChild(subCatNavWrap)
+      glossarWrap.appendChild(wrap)
+      document.querySelector('#' + category.category.toLowerCase()).onclick = (e) => {
+        this.changeChapter(e.currentTarget.id)
+        document.getElementById('cat-name').textContent = category.category
+      }
+
+
+
+    });
+
+    document.getElementById('sort').onclick = () => {
+      this.sort()
     }
   }
-};
+
+  changeChapter = (id) => {
+    if (this.activeChapter != null) {
+      document.getElementById(this.activeChapter).classList.remove('active')
+      document.getElementById('subcat-' + this.activeChapter).style.display = 'none'
+      document.getElementById('glossar-' + this.activeChapter).style.display = 'none'
+    }
+
+    this.activeChapter = id
+    document.getElementById(this.activeChapter).classList.add('active')
+    document.getElementById('subcat-' + this.activeChapter).style.display = 'block'
+    document.getElementById('glossar-' + this.activeChapter).style.display = 'block'
+    // this.changeZyndr3lla()
+  }
+
+  sort = () => {
+    if (this.sortType === 'cat') {
+      this.sortType = 'az'
+
+      this.glossarChapters.forEach((element) => {
+        document.getElementById(element).className = 'inactive'
+      })
+
+      document.getElementById('sort').textContent = 'A-Z'
+      this.glossarCategories.forEach((element, index) => {
+        document.getElementById(element).style.display = 'block'
+      })
+
+      this.glossarContent.forEach((element, index) => {
+        document.getElementById(element).style.display = 'block'
+      })
+    } else if(this.sortType === 'az') {
+      this.sortType = 'cat'
+
+      this.glossarChapters.forEach((element) => {
+        document.getElementById(element).className = ''
+      })
+
+      document.getElementById('sort').textContent = 'Kategorie'
+      this.glossarCategories.forEach((element, index) => {
+        document.getElementById(element).style.display = 'none'
+      })
+  
+      this.glossarContent.forEach((element, index) => {
+        document.getElementById(element).style.display = 'none'
+      })
+
+      document.getElementById(this.activeChapter).className = 'active'
+      document.getElementById('subcat-' + this.activeChapter).style.display = 'block'
+      document.getElementById('glossar-' + this.activeChapter).style.display = 'block'
+    }
+  }
+
+  changeZyndr3lla = () => {
+
+  }
+
+  loadJSON = async () => {
+    const response = await fetch('./gamejs/glossar.json');
+    return await response.json();
+  }
+}
+
+new Glossar()

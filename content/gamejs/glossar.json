@@ -1,0 +1,2879 @@
+[
+    {
+        "category": "Studium",
+        "active": true,
+        "subcategories": [
+            {
+                "id": "finanzierung-studium",
+                "name": "Finanzierung des Studiums",
+                "content": "Bei einem Studium kommen neben den Studiengebühren auch Kosten für Unterkunft und Essen auf dich zu, weil du oft nicht mehr zu Hause  wohnen kannst. Die meisten Studierenden nutzen verschiedene Geldquellen, um sich ihr Studium zu finanzieren. Manche Geldleistungen bekommst du nur unter bestimmten Voraussetzungen. Einen ersten Überblick, welche finanzielle Unterstützung für dich in Frage kommen kann, findest du hier: [Link] Darüber hinaus gibt es auch Stipendien oder Nebenjobs.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Berufliche Schule"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "http://www.google.de",
+                                "label": "Der Linktext"
+                            },
+                            {
+                                "type": "link",
+                                "text": "http://www.web.de",
+                                "label": "noch ein Link"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "online WG-Suche",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "http://wwww.wgsuche.de",
+                                "label": "WG Suche"
+                            }
+                        ]
+                    }
+                ]
+            },{
+                "id": "bewerbung-studienplatz",
+                "name": "Bewerbung um einen Studienplatz",
+                "content": "Wer die (Fach-)Hochschulreife hat, darf an einer deutschen (Fach-)Hochschule studieren – je nach Abschluss (fachgebundene vs. allgemeine Hochschulreife) 'nur' bestimme Fächer. Es gibt außerdem zulassungsfreie und örtlich oder bundesweit zulassungsbeschränkte Studiengänge. Auf den Internetseiten der Hochschulen findest du Bewerbungsfristen und Informationen, welche Bedingungen du erfüllen musst (z. B. Sporttest, Arbeitsproben ...), um den Studienplatz zu erhalten. Manche Studiengänge starten nur zum Wintersemester. Andere kannst du auch im Sommersemester beginnen.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Hochschule"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://miro.com/app/board/uXjVNIm7O4Y=/?moveToWidget=3458764586277071897&cot=14",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "studienwahl",
+                "name": "Studienwahl",
+                "content": "Die Auswahl ist riesig: Es gibt allein fast 10.000 Bachelor-Studiengänge in Deutschland! Hast du deine Wahl anhand deiner Interessen und Begabungen eingrenzt, können Hochschulinformationstage, ein Schnupperstudium und die Studienberatung an den Unis weiterhelfen.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Hochschule"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://miro.com/app/board/uXjVNIm7O4Y=/?moveToWidget=3458764586277071897&cot=14",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "freiwilligendienste",
+                "name": "Freiwilligendienste",
+                "content": "Freiwilligendienste sind großartig: Du kannst dich für andere Menschen und/oder die Umwelt engagieren, Erfahrungen sammeln, die dir bei der Entscheidung für oder gegen ein Studium bzw. eine Ausbildung helfen oder Wartezeit sinnvoll überbrücken. Du bist währenddessen sozial versichert und bekommst ein Taschengeld. Es gibt Angebote im In- und Ausland. Sie richten sich teils an verschiedene Altersgruppen. Für die Bewerbung wendest du dich an den Träger.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://miro.com/app/board/uXjVNIm7O4Y=/?moveToWidget=3458764586277071897&cot=14",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "nebenjob",
+                "name": "Nebenjob",
+                "content": "Es gibt unterschiedliche Gründe für einen Job neben dem Studium. Die Arbeitszeit und die Tätigkeiten können ebenfalls sehr unterschiedlich sein (Minijob vs. Stelle als Werkstudent/-in). Eine typische, geringfügige Beschäftigung ist das Kellnern in Restaurants, Cafés oder Bars. Aber auch an der Uni gibt es Hilfstätigkeit. Der Vorteil hier: Als studentische Hilfskraft sammelst du nebenher direkt noch studienfachbezogene Erfahrung. Stellen findest du in Online-Jobbörsen (Tipp: benutz die Filter) oder über Aushänge in der Stadt oder deiner Hochschule. Achtung: Die Höhe des Gehalts kann sich auf BAföG-Zahlungen und Versicherungsbeitrage auswirken und vielleicht musst du sogar Steuern zahlen.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://miro.com/app/board/uXjVNIm7O4Y=/?moveToWidget=3458764586277071897&cot=14",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "ersten-schulabschluss",
+                "name": "Ersten Schulabschluss",
+                "content": "Wenn es beim ersten Mal nicht klappt, gibt es unterschiedliche Möglichkeiten deinen ersten Schulabschluss (Hauptschulabschluss, HSA) nachzuholen. Wenn du noch schulpflichtig bist, geht das z. B. in einem Berufsvorbereitungsjahr an einer beruflichen Schule. Informiere dich auf der Internetseite der Schule. Manchmal kannst du den HSA auch in einer Berufsvorbereitenden Bildungsmaßnahme (BvB) nachholen. Frag hierzu die Berufsberatung. Außerdem erhältst du mit dem Abschluss einer Ausbildung einen Hauptschulabschluss – schließlich hast du ja die Berufsschule gemeistert.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Berufliche Schule, Berufsberatung"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://miro.com/app/board/uXjVNIm7O4Y=/?moveToWidget=3458764586277071897&cot=14",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "weiterfuehrende-schulische-angebote",
+                "name": "Weiterführende schulische Angebote",
+                "content": "Du möchtest nach dem Hauptschulabschluss noch einen höheren Schulabschluss erlangen, wie den Mittleren Schulabschluss oder eine (fachgebundene) Hochschulreife erlangen? Das geht nicht nur an allgemeinbildenden Schulen, sondern z. B. auch in Berufsfachschulen bzw. Fachoberschulen (FOS). Achtung: Das Angebot ist von Bundesland zu Bundesland unterschiedlich.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Berufliche Schule, Berufberatung"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://miro.com/app/board/uXjVNIm7O4Y=/?moveToWidget=3458764586277071897&cot=14",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "wohnberechtigungsschein",
+                "name": "Wohnberechtigungsschein",
+                "content": "Miete kann echt teuer sein. Mit einem Wohnberechtigungsschein (WBS) darfst du sich auf öffentlich geförderte und daher günstigere Wohnungen bewerben. Den WBS beantragst du bei der zuständigen Stelle im Wohn- oder Bürgeramt beantragen. Sie prüft, ob jemand einen WBS erhalten kann. Der WBS ist in der Regel 1 Jahr gültig. Eine zusätzliche BAföG-Förderung ist möglich.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Wohn- oder Bürgeramt"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://verwaltung.bund.de/leistungsverzeichnis/de/leistung/99107022012000 ",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://wbs-rechner.de/",
+                                "label": "Link 2"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "wohngemeinschaft",
+                "name": "Wohngemeinschaft",
+                "content": "Wohngemeinschaften haben einige Vorteile: Man kann sich die Mietkosten teilen und lernt neue Leute kennen. Aushänge findest du in der Uni oder du tust dich direkt mit einem Freund/einer Freundin zusammen und ihr teilt euch die Kosten der ersten Wohnung.",
+                "additional_informations": [
+                    {
+                        "label": "online WG-Suche:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.wg-gesucht.de/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "haftpflichtversicherung",
+                "name": "Haftpflichtversicherung",
+                "content": "Eine Haftpflichtversicherung sollte jede/r haben. Sie springt ein, solltest du Schaden anrichten (Sach- und Personenschaden, z B. durch einen Unfall). Hast du sie nicht, könnte es echt teuer werden. Prüfe als erstes, ob du als Student/-in über deine Eltern mitversichert bist. Wenn nicht, kümmere dich um eine Haftpflichtversicherung für Studierende.Vergleichsportale geben dir einen Überblick über verschiedene Anbieter. Überlege dabei gut, was für dich sinnvoll ist (erweiterte Tarife, höhere Deckungssumme).",
+                "additional_informations": []
+            },
+            {
+                "id": "hausratversicherung",
+                "name": "Hausratversicherung",
+                "content": "Ob dein Besitz als Student/-in schon so wertvoll ist, dass du ihn gegen Feuer, Diebstahl und Co. versichern möchtest, musst du selbst entscheiden (aber denk auch an die Elektrogeräte und Hardware!). Je nachdem, wie deine neue Wohnsituation und die Hausratversicherung deiner Eltern gestaltet ist, bist du mitversichert oder musst eine eigene Hausratversicherung abschließen. Vergleichsportale im Internet helfen, ein gutes Angebot zu finden. Wie immer gilt: vorher gründlich durchlesen, was (nicht) zum Angebot zählt. Wichtig: Bei einem Umzug musst du der Versicherung die neue Adresse mitteilen. Vielleicht ändert sich nach dem Umzug die Versicherungssumme.",
+                "additional_informations": []
+            },
+            {
+                "id": "bafoeg",
+                "name": "BAföG",
+                "content": "BAföG ist eine finanzielle Unterstützung des Staats: Es soll allen ein Studium ermöglichen. Aber nicht alle können BAföG bekommen. Es müssen bestimmte Voraussetzungen erfüllt sein. Auch als Schüler/-in in einer schulischen Ausbildung kannst du BAföG erhalten. Die Hälfte des BAföG musst du nach dem Studium wieder zurückzahlen, ein bewilligter Antrag gilt für 1 Jahr. Wenn du nicht durch BAföG gefördert werden kannst, gibt es andere Möglichkeiten wie ein Stipendium oder den Bildungskredit.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Studierendenwerk"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://miro.com/app/board/uXjVNIm7O4Y=/?moveToWidget=3458764586277071897&cot=14",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "bildungskredit",
+                "name": "Bildungskredit",
+                "content": "Der Bildungskredit kann für Studierende und Auszubildende unter bestimmten Bedingungen in der Abschlussphase (auch zusätzlich zum BAföG) in Frage kommen. Es gibt auch Studienkredite der Kreditanstalt für Wiederaufbau (KfW) und der Darlehenskassen. Achtung: Die Zinsen hier sind meist höher! Kredite helfen, wenn du im Moment nicht genügend Geld hast, es aber brauchst. Du musst den Kredit später (mit Zinsen) zurückzahlen, wenn du z. B. nach dem Studium Geld verdienst. Sei dir dessen bewusst! Vielleicht reicht ja schon ein Nebenjob, um deine Finanzen zu verbessern ...",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Bundesverwaltungsamt (BVA)"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.xn--bafg-7qa.de/bafoeg/de/weitere-foerdermoeglichkeiten/bildungskredit/bildungskredit_node.html",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "stipendium",
+                "name": "Begabtenförderung/Stipendium",
+                "content": "Wenn du gute Noten hast und dich neben deinem Studium noch für die Gesellschaft einbringst (z. B. durch ein Ehrenamt), kommt auch ein Stipendium zur Finanzierung deines Studiums für dich in Frage. Du musst dich dafür bewerben. Das erhaltene Geld muss nicht zurückgezahlt werden. Neben dem Deutschlandstipendium gibt es auch Stipendien von Begabtenförderungswerken, die unterschiedliche Schwerpunkte bei der ideellen Förderung setzen. Achtung: Du kannst nicht gleichzeitig durch ein Begabtenförderungswerk und BAföG gefördert werden! Beim Deutschlandstipendium geht das.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Begabtenförderungswerke bzw. Hochschulen"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.bafög.de/bafoeg/de/weitere-foerdermoeglichkeiten/begabtenfoerderung/begabtenfoerderung_node.html",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "kindergeld",
+                "name": "Kindergeld",
+                "content": "Erziehungsberechtigte erhalten für Kinder in Ausbildung oder Studium sogar bis zum 25. Lebensjahr Kindergeld. Wenn du von den Kindergeldberechtigten nicht genügend finanzielle Unterstützung bekommst, kannst du einen Abzweigungsantrag stellen. Dann bekommst du dein Kindergeld selbst und kannst es in deine berufliche Zukunft investieren.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Familienkasse"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/familie-und-kinder/infos-rund-um-kindergeld/kindergeld-ab-18-jahren",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "wohngeld",
+                "name": "Wohngeld",
+                "content": "Bei geringem Einkommen kannst du Wohngeld als Zuschuss zu den Wohnkosten beantragen. Studierende können nur in besonderen Fällen Wohngeld erhalten. Deinen Antrag stellst du (teils online) bei der Wohngeldstelle der zuständigen Behörde. Dort wird geprüft, ob und wie viel Wohngeld du bekommst. Rechner im Internet können dir vorab schon eine grobe Einschätzung geben. Einen Antrag muss man jährlich stellen.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Wohngeldstelle der Gemeinde-, Stadt- oder Kreisverwaltung"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.bmwsb.bund.de/Webs/BMWSB/DE/themen/stadt-wohnen/wohnraumfoerderung/wohngeld/wohngeld-node.html",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.absolventa.de/karriereguide/studium/wohngeld-fuer-studenten",
+                                "label": "Link 2"
+                            }
+                            
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "werkstudierende",
+                "name": "Werkstudierende",
+                "content": "Es gibt Stellenangebote, die sich ausschließlich an Studierende richten. Manchmal ist ein Bezug zu deinem Studienfach wichtig, manchmal nicht. Es gibt einige Besonderheiten, die Jobs für Werkstudierende von anderen Nebenjobs abgrenzen: Als Werkstudent/-in darfst du in der Vorlesungszeit maximal 20 Stunden pro Woche arbeiten, in den Semesterferien auch Vollzeit. Um deine Krankenversicherung (je nach Gehalt eigene studentische oder beitragsfrei in der Familienversicherung) musst du dich selbst kümmern. Als Werkstudent/-in bist du und dein Arbeitgeber von Sozialversicherungsbeiträgen befreit, Beiträge zur Rentenversicherung musst du aber zahlen. Neben dem Einkommen profitierst du von der Arbeitserfahrung.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.studierendenwerke.de/themen/finanzierungsmoeglichkeiten/uebersicht-jobben/werkstudenten",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "buergergeld",
+                "name": "Bürgergeld",
+                "content": "Bürgergeld ist eine staatliche Sozialleistung. Es soll Menschen helfen, die nicht genug Geld zum Leben haben. Anträge können beim zuständigen Jobcenter gestellt werden. Unter bestimmten Umständen können auch Studierende Bürgergeld erhalten: Du musst bei deinen Eltern wohnen und es zuerst mit BAföG versuchen.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Jobcenter"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/buergergeld/finanziell-absichern/voraussetzungen-einkommen-vermoegen",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/datei/grundsicherung-einfach-erklaer_ba032300.pdf",
+                                "label": "Link 2"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "krankenversicherung",
+                "name": "Krankenversicherung als Student/-in ",
+                "content": "Kinder und Jugendliche bis 18 Jahre sind über die Erziehungsberechtigten krankenversichert. Wer studiert, kann sogar bis zum Alter von 25 Jahren familienversichert sein - aber nur wenn das monatliche Einkommen einen bestimmten Wert nicht übersteigt. Achtung: Wie immer gibt es Sonderfälle und Ausnahmen! Spätestens mit 25 Jahren musst du dich auch als Student/-in selbst bei einer Krankenkasse versichern. Es gibt die sogenannte studentische Krankenversicherung. Du kannst dich auch freiwillig bei einer gesetzlichen Krankenkasse oder privat versichern. Auf Vergleichsportalen kannst du dich über die verschiedenen Zusatzbeiträge und -leistungen der Krankenkassen informieren. Such auf der Internetseite deines Favoriten nach einem Angebot für Studierende.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Krankenkasse"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/krankenversicherung/studentische-krankenversicherung-diese-moeglichkeiten-gibt-es-10352",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "semesterticket",
+                "name": "Semesterticket",
+                "content": "Studierende erhalten verschiedene Vergünstigungen. Oftmals beinhaltet der Semesterbeitrag z. B. schon ein Ticket für den Öffentlichen Personennahverkehr (ÖPNV) der Stadt bzw. der Umgebung. Manchmal auch noch weiter. Auch ein günstiges Upgrade zum Deutschland-Ticket ist oft möglich (Stand: 2024). Da das alles von Uni zu Uni unterschiedlich ist, informiere dich am besten direkt auf der Seite der entsprechenden Hochschule zum Thema 'Mobilität'.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Verkehrsverbünde"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Internetseite deiner Hochschule bzw. des jeweiligen Studierendenwerks (Stichwort: Mobilität)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "studientipps",
+                "name": "Studientipps / Lernen",
+                "content": "Im Studium musst du eigenverantwortlich lernen. Tutorien und Lerngruppe helfen dir dabei. Mit Lernplänen hast du einen guten Überblick über deine Lernziele und vermeidest Stress, indem du rechtzeitig anfängst zu lernen. Probier verschiedene Methoden aus. Wenn du merkst, dass du überfordert bist, such dir Nachhilfe oder professionelle Hilfe. Meistens findest du Informationen oder Anlaufstellen auf der Internetseite deiner Uni.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Zentrale Studienberatung/ Fachstudienberatung"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Internetseite deiner Hochschule"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "regelstudienzeit",
+                "name": "Regelstudienzeit",
+                "content": "Die Dauer des Studiums hängt vom Studiengang und der Hochschule ab. Bachelorstudiengänge dauern normalerweise 6 Semester (= 3 Jahre), Masterstudiengänge 4 Semester (= 2 Jahre). In der Regelstudienzeit sollte ein Studienabschluss gut zu erreichen sein. Einen Vorschlag zur Gestaltung der einzelnen Semester findest du im sogenannten Modulplan des Studiengangs. Es gibt unterschiedlich Gründe, weshalb die Studienzeit verlängert oder verkürzt werden kann oder muss. Achtung: Die Förderhöchstdauer von BAföG hängt der Regelstudienzeit ab.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Zentrale Studienberatung der Hochschule "
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "behoerdentipps",
+                "name": "Tipps zum Umgang mit Behörden",
+                "content": "Für staatliche Leistungen wie das Wohngeld oder das Bürgergeld musst du einen Antrag stellen. Um über einen Anspruch zu entscheiden, werden viele Informationen und Nachweise benötigt. Selten ist ein Antrag direkt vollständig und in der Bearbeitung werden weitere Unterlagen von dir angefordert. Daher dauert es manchmal bis du deinen Bescheid erhältst. Um bei anhaltendem Unterstützungsbedarf nicht in finanzielle Not zu geraten, stelle Weiterleistungsanträge frühzeitig, ca. zwei Monate vor Ablauf des Bewilligungszeitraums.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "jeweilige Behörde"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "pruefungsangst",
+                "name": "Prüfungsangst",
+                "content": "Respekt vor Prüfungen ist normal und auch sinnvoll, denn nur so kannst du beste Leistungen erbringen. Zu viel Angst wirkt sich negativ aus und schränkt dich ein. Und dann solltest du dir Hilfe holen! Deine Uni bietet mit Sicherheit erste Anlaufstellen an.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Psychosoziale Beratungstelle /Psychologische Beratungsstelle der Hochschule"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos und Anlaufstellensuche:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.studienabbruch-und-dann.de/studienabbruch/de/home/home_node.html",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/bildung/studium/probleme-im-studium",
+                                "label": "Link 2"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Internetseite deiner Hochschule"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "mutterschutz",
+                "name": "Mutterschutz",
+                "content": "Auch für Studentinnen gilt der Mutterschutz! Eine Schwangerschaft sollte der Hochschule mitgeteilt werden, damit Mutter und Kind bestmöglich geschützt sind und sich aus der Schwangerschaft keine Nachteile für das Studium ergeben.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Familienbüro der Hochschule"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://familienportal.de/familienportal/familienleistungen/mutterschutz/gibt-es-mutterschutz-fuer-studentinnen--125100",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "fernstudium",
+                "name": "Fernstudium/Onlinestudium",
+                "content": "Manchmal ist es unmöglich, für ein Studium den Wohnort zu wechseln oder regelmäßig zu Veranstaltungen an der Hochschule zu gehen. Zum Beispiel, wenn man Kinder oder andere Angehörige pflegt. Dann ist ein Fernstudium eine Möglichkeit. Es gibt spezielle Fernhochschulen. Aber auch die Präsenz-Hochschulen bieten teilweise Fernstudiengänge an – allerdings nicht in allen Fächern. Die Vorlesungen und Seminare finden meist online statt.Nicht immer gibt es feste Termine mit den Lehrenden und manchmal gibt es eben doch Veranstaltungen in Präsenz. Das bedeutet, dass Studierende sich sehr gut selbst organisieren und diszipliniert sein müssen. Ein Fernstudium ist grundsätzlich in Vollzeit gestaltet. Berufsbegleitende Fernstudiengänge werden häufig als Teilzeitstudium angeboten. Achtung: Informiere dich über die Studienbeiträge. Diese können insbesondere bei privaten Hochschulen ziemlich teuer sein.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://studienwahl.de/studieninfos/besondere-studienformen/fern-online-studium",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.hochschulkompass.de/studium/rund-ums-studieren/studienformen/fernstudium.html",
+                                "label": "Link 2"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "teilzeitstudium",
+                "name": "Teilzeitstudium",
+                "content": "Ein Teilzeitstudium ermöglicht ein Studium neben Betreuungsaufgaben oder einem Beruf. Es wird berufsbegleitend (z. B. online-und/oder in Abendveranstaltungen) oder berufsintegrierend (Studium und Beruf sind aufeinander abgestimmt) angeboten. Die Regelstudienzeit verlängert sich entsprechend. Bei einem Teilzeitstudium hat man keinen BAföG-Anspruch.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://studienwahl.de/studieninfos/besondere-studienformen/teilzeitstudium",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.hochschulkompass.de/studium/rund-ums-studieren/studienformen/teilzeitstudium.html",
+                                "label": "Link 2"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "kinderbetreuung",
+                "name": "Kinderbetreuung",
+                "content": "Du möchtest ein Studium und deine Familie unter einen Hut bekommen? Manche Hochschulen bieten Krabbelgruppen und Kindergärten auf dem Campus und manchmal sogar flexible Kinderbetreuung an. In der Regel müssen Studierende auch keine Elternbeiträge in Regel-KITAs zahlen.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Familienbüro der Hochschule"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "Internetseite der Hochschule",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "finanzierung-schwangerschaft",
+                "name": "Finanzierung in der Schwangerschaft",
+                "content": "Studentinnen können Mutterschaftsgeld erhalten, wenn sie einen Nebenerwerb hatten. Auch unter anderen Voraussetzungen und in besonderen Notlagen kann es finanzielle Unterstützung und Zuschüsse geben. Auch nach der Schwangerschaft gibt es unterschiedliche Familienleistungen, die finanziell helfen.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Krankenkasse bzw. Bundesamt für Soziale Sicherung"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://familienportal.de/familienportal/familienleistungen/mutterschutz/gibt-es-mutterschutz-fuer-studentinnen--125100",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.bundesstiftung-mutter-und-kind.de/",
+                                "label": "Link 2"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "unterstuetzung-studium-kind",
+                "name": "Weitere Unterstützung beim Studium mit Kind",
+                "content": "In Studierendenwohnheimen gibt es meist auch günstige Wohnmöglichkeiten für Studierende mit Kind. Je nach Hochschule gibt es noch weitere, finanzielle oder materielle Unterstützung.  Informiere dich auf der Seite deiner Uni unter dem Navigationspunkt 'Wohnen' oder 'Studieren mit Kind'. Außerdem gibt es noch weitere Möglichkeiten zur Finanzierung in der Schwangerschaft.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Familienbüro/Studierendenwerk deiner Hochschule"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Internetseite deiner Hochschule"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "nachteilsausgleich",
+                "name": "Nachteilsausgleich",
+                "content": "Eine Behinderung oder Erkrankung erschwert dir das Studium? Prüfungsbedingungen können manchmal individuell angepasst werden. Die Inhalte dürfen dadurch aber nicht leichter werden! Das nennt man Nachteilsausgleich. Du brauchst dafür keinen Schwerbehindertenausweis, musst aber deine Beeinträchtigung und Lösungsvorschläge im Antrag an das Hochschulprüfungsamt beschreiben.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Beauftragte für Studierende mit Behinderung oder chronischer Erkrankung, Hochschule"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.studierendenwerke.de/themen/studieren-mit-behinderung/beratung-studierender-mit-behinderungen/beratungssuche",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "studienplatzbewerbung-behinderung",
+                "name": "Studienplatzbewerbung mit Behinderung",
+                "content": "Wer eine Behinderung oder eine chronische Erkrankung hat, kann bei der Bewerbung auf einen zulassungsbeschränkten Studiengang einen Sonderantrag auf hochschulstart.de stellen. Auch im Studium kann/sollte man sich unbedingt Unterstützung nehmen, z. B. den Nachteilsausgleich.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Beauftragte für Studierende mit Behinderung oder chronischer Erkrankung"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/bildung/studium/studieren-mit-behinderungen",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://hochschulstart.de/unterstuetzung/downloads",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Internetseite deiner Hochschule"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "studienplatzbewerbung-auslaendischer-abschluss",
+                "name": "Studienplatzbewerbung mit ausländischem Abschluss",
+                "content": "Wer an einer deutschen Hochschule studieren möchte, braucht eine Hochschulzugangsberechtigung. Vielleicht hast du deine Berechtigung in einem anderen Land erworben. Dann kannst du versuchen, sie anerkennen zu lassen. Manchmal muss man auch ein Studienkolleg durchlaufen um eine fachgebundene Hochschulzugangsberechtigung zu erhalten.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.study-in-germany.de/de/studium-planen/voraussetzungen/hochschulzugangsberechtigung/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "jugendberufsagentur",
+                "name": "Jugendberufsagentur",
+                "content": "Egal ob du Probleme in der Schule, der Ausbildung, mit deinen Eltern oder Geld hast: Du kannst mit allen Themen, die dich beschäftigen, in eine Jugendberufsagentur kommen. Hier arbeiten Fachkräfte aus der Jugendhilfe, der Agentur für Arbeit und dem Jobcenter zusammen und es kann schnell geklärt werden, wer dich am besten unterstützen kann.",
+                "additional_informations": [
+                   
+                    {
+                        "label": "Suche in deiner Nähe:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.servicestelle-jba.de/wws/9.php",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "berufsberatung",
+                "name": "Berufsberatung",
+                "content": "Die Berufsberatung ist ein kostenloses Angebot der Bundesagentur für Arbeit. Berufsberater/-innen helfen zum Beispiel bei Fragen rund um die Ausbildungs- oder Studienwahl, die Bewerbung auf entsprechende Plätze und Fördermöglichkeiten. Die Beratung erfolgt persönlich vor Ort oder per Video. Wer sich eigenständig informieren möchte, kann zu den Öffnungszeiten auch das Berufsinformationszentrum (BiZ) der örtlichen Agentur für Arbeit besuchen.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/bildung/berufsberatung",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "sprachnachweise",
+                "name": "Sprachnachweise für ein Studium",
+                "content": "Inzwischen werden einige Studiengänge (insbesondere Master) komplett in Englisch angeboten.Bei den meisten Studiengängen in Deutschland findet der Unterricht auf Deutsch statt. Damit du zumindest sprachlich alles verstehst, fordern Hochschulen einen DSH-2 oder gleichwertige Sprachnachweise.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Hochschule"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.study-in-germany.de/de/studium-planen/voraussetzungen/deutschkenntnisse/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Ausbildung",
+        "active": false,
+        "subcategories": [
+            {
+                "id": "ausbildungsvertrag",
+                "name": "Ausbildungsvertrag/ Arbeitsvertrag",
+                "content": "Es gibt eine Unterscheidung zwischen einem Ausbildungsvertrag und einem Arbeitsvertrag. In einem Ausbildungsvertrag werden alle für die Ausbildung wichtigen Punkte festgehalten. Darunter fallen auch die Ausbildungsziele, Dauer der Ausbildungszeit und so weiter. Ein Ausbildungsvertrag wird zwischen dem ausbildenden Betrieb und dem Auszubildenden geschlossen. Wenn du nach deinem Abschluss übernommen wirst oder in einen anderen Betrieb wechselst, bekommst du einen Arbeitsvertrag. ",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": ""
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://planet-beruf.de/schuelerinnen/was-kommt-nach-der-schule/ausbildungsvertrag-unterschrieben-und-jetzt",
+                                "label": "Der Linktext"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsrecht.org/arbeitnehmer/arbeitsvertrag/berufsausbildung-und-unterschiede-zum-arbeitsverhaeltnis/",
+                                "label": "Der Linktext"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "ausbildungsverguetung",
+                "name": "Ausbildungsvergütung",
+                "content": "Während einer betrieblichen Ausbildung bekommst du eine Ausbildungsvergütung. Diese ist je nach Ausbildungsberuf unterschiedlich, aber auch von weiteren Faktoren abhängig, wie Bundesland und ggf. Größe des Ausbildungsbetriebes. Die Höhe deines Gehaltes steht im Arbeitsvertrag. Bitte beachte hierbei das Thema Brutto-/Netto-Gehalt. Die Ausbildungsvergütung wird am Ende des Monats ausgezahlt.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Dein Ausbildungsbetrieb"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.bibb.de/de/12209.php",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "steuererklaerung-ausbildung",
+                "name": "Steuererklärung in der Ausbildung",
+                "content": "Tatsächlich kann sich eine Steuererklärung schon während einer Ausbildung lohnen. Auszubildende können Kosten für Lernmaterialien, Fahrtkosten, Kosten für Arbeitskleidung, Umzugskosten und Bewerbungskosten absetzen. Das sind Ausgaben, die du hast, um deine Arbeit auszuführen. Man nennt sie auch Werbungskosten. Eine Steuererklärung als Auszubildende/-r ist freiwillig und auch bis zu vier Jahre rückwirkend möglich. Die Formulare bekommst du beim Finanzamt oder auf der Internetseite des Finanzamtes.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Finanzamt"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.ausbildung.de/ratgeber/steuern-abgaben-azubi/steuererklaerung-als-azubi/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "arbeitslosen-rentenversicherung",
+                "name": "Arbeitslosen- und Rentenversicherung ",
+                "content": "Während einer Ausbildung bist du sozialversicherungspflichtig, d.b. du muss Beiträge für Versicherungen zahlen. Dazu gehören, neben Kranken- und Pflegeversicherung, auch die Arbeitslosen- und Rentenversicherung. Diese Beiträge werden auch als 'Sozialabgaben' bezeichnet. Sie werden direkt von deiner Ausbildungsvergütung abgezogen.  Daher bekommt man Netto weniger als Brutto. In die Rentenversicherung zahlst du ein, damit du im Alter ein Einkommen hast. In die Arbeitslosenversicherung zahlst du ein, für den Fall, dass du deinen Job verlierst. Dann hast du Anspruch auf Arbeitslosengeld. ",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Bürgertelefon"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.azubiyo.de/azubi-wissen/sozialabgaben/",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.bmas.de/DE/Service/Kontakt/Buergertelefon/buergertelefon.html",
+                                "label": "Bürgertelefon"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "krankenversicherung",
+                "name": "Krankenversicherung",
+                "content": "Sobald du eine Ausbildung beginnst, bei der du ein Arbeitsentgelt bekommst, musst du dich um eine eigene Krankenversicherung kümmern. Bei einer schulischen Ausbildung kannst du weiter familienversichert sein, wenn gewisse Voraussetzungen erfüllt sind. Wenn du dich selbst bei einer Krankenkasse versicherst, musst du regelmäßig Beiträge zahlen. Die Beiträge werden direkt von deinem Ausbildungsgehalt abgezogen. Mit der Krankenversicherung ist automatisch auch die Pflegeversicherung gewährleistet. ",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Krankenkasse"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "jugendschutzgesetz",
+                "name": "Jugendarbeitsschutzgesetz (JArbSchG)",
+                "content": "Das Jugendarbeitsschutzgesetz (JArbSchG) gilt für alle im Alter von 15–18 Jahre und enthält alle Regelungen, die dich vor Überlastung in der Arbeitswelt schützen. Es gilt für Ausbildung, Nebenjobs, Ferienjobs und auch im Praktikum. Es regelt, wie lange und wie oft du arbeiten, welche Aufgaben du übernehmen darfst und welche Pausen eingehalten werden müssen. Diese Regelungen gelten nicht mehr, sobald du 18 Jahre alt bist.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.azubiyo.de/azubi-wissen/jugendarbeitsschutzgesetz/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "praktika",
+                "name": "Praktika",
+                "content": "Praktika sind eine gute Möglichkeit, Berufe und ihre Tagesabläufe kennen zu lernen und erste Berufserfahrungen zu sammeln. Es gibt eine ganze Reihe von Praktika-Arten:<ul><li>freiwilliges vs. Pflichtpraktikum</li><li>Schülerpraktikum oder Praktikum für Schülerinnen und Schüler?</li><li>Vorpraktikum (muss manchmal vor einer Ausbildung oder einem Studium geleistet werden)</li><li>Praxissemester/studienbegleitendes Praktikum (während eines Studiums)</li><li>Anerkennungspraktikum (muss in bestimmten Ausbildungen nach Abschluss geleistet werden)</li><li>Stellen für ein Praktikum kannst du in Einrichtungen direkt erfragen oder du nutzt Stellenportale und Online-Praktikumsbörsen.</li></ul>",
+                "additional_informations": [
+                    {
+                        "label": "Praktikumsbörsensuche:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://praktika-berufsorientierung.de/",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.berufenavi.de/orientierung/praktikum ",
+                                "label": "Link 2"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "nebenjobs",
+                "name": "Nebenjobs",
+                "content": "Es ist meistens kein Problem, einen Nebenjob neben der Ausbildung zu machen. Allerdings muss das mit deinem Ausbildungsbetrieb abgesprochen werden. Dein Ausbildungsbetrieb dürfte dir einen Nebenjob verbieten, wenn es deinen Ausbildungsinhalten entgegensteht oder die Gefahr besteht, dass du die Ausbildung nicht mit voller Leistung machen kannst. Außerdem musst du aufpassen, nicht zu viel zu arbeiten. Wenn du unter 18 Jahre alt bist, darfst du nicht mehr als 8 Stunden am Tag /40 Stunden in der Woche arbeiten. Außerdem: Wenn du zu viel verdienst, musst du vielleicht Abgaben leisten. Eventuell lohnt sich dann der Nebenjob nicht mehr. ",
+                "additional_informations": []
+            },
+            {
+                "id": "bewerben",
+                "name": "Bewerben",
+                "content": "Egal ob schulische oder betriebliche Ausbildung - für einen Ausbildungsplatz muss man sich bewerben. Viele Stellenportale im Internet bieten extra Suchkategorien für freie Ausbildungsplätze an. Achte hier auch auf die Bewerbungsfristen. Die können von Ausbildungsberuf zu Ausbildungsberuf variieren. Die Bewerbung für einen Ausbildungsplatz besteht meist aus mehreren Teilen:<ul><li>Anschreiben</li><li>tabellarischer Lebenslauf</li><li>Kopie deines letzten Schulzeugnisses</li><li>Nachweis über absolvierte Praktika</li></ul>Oft gibt es mehrere Bewerbungsrunden: Nach einer schriftlichen Bewerbung folgt ein weiteres Auswahlverfahren, z. B. ein Test. Mit diesen Tests und Aufgaben soll herausgefunden werden, ob du auf die Stelle passt. Im Internet gibt es zahlreiche Hilfestellungen zum Thema Bewerben und Auswahlverfahren.",
+                "additional_informations": [
+                    {
+                        "label": "Anlaufstellen",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/jobsuche/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "bewerben",
+                "name": "Bewerben",
+                "content": "Egal ob schulische oder betriebliche Ausbildung - für einen Ausbildungsplatz muss man sich bewerben. Viele Stellenportale im Internet bieten extra Suchkategorien für freie Ausbildungsplätze an. Achte hier auch auf die Bewerbungsfristen. Die können von Ausbildungsberuf zu Ausbildungsberuf variieren. Die Bewerbung für einen Ausbildungsplatz besteht meist aus mehreren Teilen:<ul><li>Anschreiben</li><li>tabellarischer Lebenslauf</li><li>Kopie deines letzten Schulzeugnisses</li><li></li><li>Nachweis über absolvierte Praktika</li></ul>Oft gibt es mehrere Bewerbungsrunden: Nach einer schriftlichen Bewerbung folgt ein weiteres Auswahlverfahren, z. B. ein Test. Mit diesen Tests und Aufgaben soll herausgefunden werden, ob du auf die Stelle passt. Im Internet gibt es zahlreiche Hilfestellungen zum Thema Bewerben und Auswahlverfahren.",
+                "additional_informations": [
+
+                    {
+                        "label": "Anlaufstellen:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/jobsuche/",
+                                "label": "Agentur für Arbeit, Berufsinformationszentrum (BiZ)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "azubi-jugendwohnen",
+                "name": "Azubi- und Jugendwohnen",
+                "content": "Wenn die schulische oder betriebliche Ausbildungsstätte zu weit von zuhause weg ist, steht vielleicht der Auszug an. Eine gute erste Wohnmöglichkeit sind Einrichtungen des Jugendwohnens. Hier gibt es (geteilte) möblierte Zimmer, Essen und eine sozialpädagogische Betreuung. Du stehst bei Herausforderungen, die dieser neue Lebensabschnitt mit sich bringt also nicht alleine da. Plätze gibt es für junge Menschen zwischen 14 und 17 Jahren. Der Preis ist unterschiedlich und hängt auch von den Zuschüssen wie BAB bzw. BAföG ab. Alternativen zum Jugendwohnen sind Wohngemeinschaften (WGs) oder auch eine eigene kleine Wohnung/Apartment.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner:",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Azubi- oder Jugendwohneim"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos und Suche:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://auswaerts-zuhause.de/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "wohngeld",
+                "name": "Wohngeld",
+                "content": "Die Frage, was Wohngeld ist und wann man Anspruch darauf hat, ist nicht ganz einfach. Wohngeld eine staatliche Unterstützung, die helfen soll, deine Kosten für angemessen großen Wohnraum zu stemmen. Es gibt einige Voraussetzungen: Als Azubi kannst du Wohngeld nur beantragen, wenn du keinen Anspruch auf Berufsausbildungsbeihilfe hast. Das ist meistens der Fall, wenn du eine zweite Ausbildung machst oder eine Ausbildung für einen staatlich nicht anerkannten Beruf machst. Außerdem musst du älter als 18 Jahre alt sein und darfst nicht mehr bei deinen Eltern wohnen.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Wohngeldstelle deiner Gemeinde"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.bmwsb.bund.de/Webs/BMWSB/DE/themen/stadt-wohnen/wohnraumfoerderung/wohngeld/wohngeld-node.html",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "kindergeld",
+                "name": "Kindergeld",
+                "content": "Kindergeld ist eine finanzielle Hilfe, die Eltern bis zum 18. Lebensjahr ihres Kindes/ihrer Kinder bekommen. Das Kindergeld kann auch dann nach dem 18. Lebensjahr ausgezahlt werden, wenn du eine Ausbildung oder ein Studium machst, oder einer geringfügigen Beschäftigung (Minijob) nachgehst. ",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Bundesagentur für Arbeit"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/familie-und-kinder/infos-rund-um-kindergeld/kindergeld-ab-18-jahren",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "bafoeg-schueler",
+                "name": "BAföG für Schülerinnen und Schüler",
+                "content": "BAföG als Finanzierungsmöglichkeit für ein Studium hast du bestimmt schon mal gehört. Aber es gibt auch BAföG für die Ausbildung. Das nennt sich dann 'Schüler-BAföG'. Auszubildende können BAföG für Schülerinnen und Schüler nur beantragen, wenn sie eine schulische Ausbildung machen. Das kommt daher, dass du bei einer schulischen Ausbildung einen Ausbildungsvertrag mit der Schule schließt und nicht mit einem Ausbildungsunternehmen. Daher wirst du in der schulischen Ausbildung auch als Schülerin/ Schüler bezeichnet, obwohl du eine Ausbildung machst.  Im Vergleich zum Studierenden-BAföG gibt es einige Unterschiede.  Ähnlich wie beim Studierenden-BAföG kannst du den Zuschuss beantragen, wenn du den Aufwand finanziell nicht alleine oder mit deinen Eltern stemmen kannst.  Als Schüler/-in musst du das BAföG du im Unterschied zum Studierenden-BAföG nicht zurückzahlen.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Amt für Ausbildungsförderung"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.xn--bafg-7qa.de/bafoeg/de/home/home_node.html",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.ausbildung.de/ratgeber/finanzielle-unterstuetzung-ausbildung/schueler-bafoeg/",
+                                "label": "Link 2"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "berufsausbildungsbeihilfe",
+                "name": "Berufsausbildungsbeihilfe",
+                "content": "Berufsausbildungsbeihilfe (BAB) ist ein Zuschuss, den du bei besonderen Voraussetzungen bei der Bundesagentur für Arbeit beantragen kannst. Die Voraussetzungen sind unter anderem, dass du an einer Berufsvorbereitenden Bildungsmaßnahme teilnimmst, eine betriebliche Ausbildung machst, du über 18 Jahre alt bist und nicht mehr bei deinen Eltern wohnst. Es gibt aber noch andere Gründe für einen Anspruch auf BAB, z. B. wenn man schon Kinder hat oder verheiratet ist.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Bundesagentur für Arbeit"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/bildung/ausbildung/berufsausbildungsbeihilfe-bab",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "ausbildungsticket",
+                "name": "Ausbildungsticket",
+                "content": "In vielen Bundesländern bieten die Verkehrsbetriebe für Azubis besondere Tickets an, mit denen sie vergünstigt öffentliche Verkehrsmittel nutzen können. Meist musst du dafür nachweisen, dass du wirklich in einer Ausbildung bist. Diese Bescheinigung stellt dir deine Ausbildungsstätte aus. Eine gute Alternative ist auch das Deutschlandticket, das vergünstigt bei der Deutschen Bahn angeboten wird.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "die Verkehrsbetriebe deiner Stadt/deines Landkreises"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.handwerksblatt.de/betriebsfuehrung/azubi-ticket-kostenguenstig-durchs-ganze-bundesland",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.bahn.de/angebot/pendler/azubi-tickets",
+                                "label": "Link 2"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "probezeit",
+                "name": "Probezeit",
+                "content": "Deine Ausbildung beginnt mit einer Probezeit. In der Probezeit können du und dein Ausbildungsbetrieb einander kennenlernen. So kannst du testen, ob der Ausbildungsplatz der richtige für dich ist. Und der Ausbildungsbetrieb kann herausfinden, ob du als Azubi passt. Eine Probezeit dauert in der Regel zwischen 1–4 Monate. Es kann Ausnahmen geben und eine kürzere oder längere Probezeit vereinbart werden. Solltet ihr herausfinden, dass etwas nicht passt, kann das Ausbildungsverhältnis in der Probezeit von beiden Seiten fristlos gekündigt werden.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://jugend.dgb.de/ausbildung/beratung/zwoelf-fragen-zum-beginn-der-ausbildung",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "probleme-ausbildungsinhalte",
+                "name": "Probleme mit Ausbildungsinhalten",
+                "content": "Solltest du während der Ausbildung Schwierigkeiten mit dem Lernstoff haben oder eine Prüfungen nicht schaffen, könnte die 'Assistierte Ausbildung' (Kurz: AsA) interessant für dich sein. Die AsA ist eine Maßnahme der Bundesagentur für Arbeit, die zum Ziel hat, junge Menschen in einer Ausbildung bis zu einem erfolgreichen Abschluss zu unterstützen. Die AsA unterstützt dich aber nicht nur während einer Ausbildung, sondern auch schon davor: wenn du z. B. auf der Suche nach einem Praktikum bist, um dich für eine Ausbildung vorzubereiten oder dich bei einem Betrieb bewirbst.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Berufsberatung der Agentur für Arbeit"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.rehadat-bildung.de/berufseinstieg/unterstuetzungsangebote/nachhilfe-in-theorie-und-praxis/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "probleme-betrieb",
+                "name": "Probleme mit Betrieb",
+                "content": "In einer Ausbildung kann es hin und wieder zu Schwierigkeiten und Problemen kommen. Egal, ob es Probleme mit Ausbildungsinhalten gibt, du dich überfordert oder unterfordert fühlst, oder du unzufrieden mit der Ausbildung oder bestimmten Tätigkeiten bist - Lösungsansätze und Möglichkeiten mit den Problemen umzugehen gibt es viele. Ein guter Schritt ist das persönliche Gespräch mit deinem Ausbilder/ deiner Ausbilderin zu suchen. Sprich deine Probleme sachlich und ruhig an und versucht gemeinsam eine Lösung zu finden. Bei Problemen, die mit dem Ausbilder/ der Ausbilderin nicht zu lösen sind, kannst du dich auch an weitere Stellen wenden, wie den Betriebsrat oder extern bei den Ausbildungsberatern der Kammern (Industrie- und Handelskammer; Handwerkskammer)",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://macht-immer-sinn.de/probleme-in-der-ausbildung/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "verlaengerung-ausbildung",
+                "name": "Verlängerung der Ausbildung",
+                "content": "Die Dauer einer Ausbildung kann in Ausnahmefällen verlängert werden. Z.B. wenn du länger krank warst, die Abschlussprüfung nicht bestanden hast, während der Ausbildung schwanger geworden bist und du dadurch ausfällst oder deine Ausbildung in Teilzeit machst, weil du ein Kind betreust oder Angehörige pflegst. Dazu musst du während der Ausbildung einen Antrag bei der zuständigen Handwerks-, Industrie- oder Handelskammer stellen. Die Kammer prüft deinen Fall dann zusammen mit deinem Ausbildungsbetrieb. Bei Verlängerung erhältst du weiterhin die Ausbildungsvergütung des letzten Ausbildungsjahres.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Handwerks-, Industrie- und Handelskammer"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.aubi-plus.de/ausbildung/verlaengerung/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "brutto-netto",
+                "name": "Brutto/Netto",
+                "content": "In deinem Ausbildungsvertrag steht ein anderes Gehalt, als das was du auf deinem Konto siehst? Das ist normal und hängt mit den Begriffen 'Brutto' und 'Netto' zusammen. In deinem Ausbildungsvertrag wird ein Bruttobetrag notiert und dieser lässt sich beschreiben als 'Gehalt vor Abzug aller Steuern und Sozialabgaben'. Von diesem Bruttogehalt gehen also noch Beträge ab für Lohnsteuer und vielleicht Kirchensteuer sowie Beiträge für die Renten-, Kranken-, Pflege- und Arbeitslosenversicherung.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.azubiyo.de/azubi-wissen/brutto-und-netto/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "kuendigung",
+                "name": "Kündigung",
+                "content": "Eine Kündigung beendet das Arbeitsverhältnis. Dafür kann es ganz unterschiedliche Gründe geben: Die Ausbildung ist nicht das, was du dir vorgestellt hast oder es gibt unlösbare Probleme im Betrieb.  Eine Kündigung sollte erst das allerletztes Mittel sein. Zuvor sollte man versuchen, Probleme im Ausbildungsbetrieb anders zu lösen. In der Probezeit gibt es die Regelung, dass das Ausbildungsverhältnis 'jederzeit ohne Einhalten einer Kündigungsfrist gekündigt werden kann'. Das bedeutet, dass schon einen Tag nach Abgabe der Kündigung, die Ausbildung beendet ist. Nach der Probezeit beträgt die Kündigungsfrist 4 Wochen. Natürlich kann der Arbeitgeber auch dir kündigen. Solltest du das für unbegründet halten, kannst du eine Kündigungsschutzklage einreichen. Dazu beraten z. B. Gewerkschaften. Achtung: Eine eigenständige Kündigung und auch das Unterschreiben eines Aufhebungsvertrags kann zu einer Sperrzeit beim Arbeitslosengeld führen, solltest du nicht direkt eine neue Beschäftigung haben. Rechtlich geregelt wird das Thema Kündigung im Berufsbildungsgesetz (BBiG).",
+                "additional_informations": [ 
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/arbeitslosengeld/das-muessen-sie-beachten/kuendigung-abfindung-freistellung",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "buergergeld-ausbildung",
+                "name": "Bürgergeld",
+                "content": "Bürgergeld ist eine staatliche Sozialleistung. Es soll Menschen helfen, die nicht genug Geld zum Leben haben. Anträge können beim zuständigen Jobcenter (abhängig vom Wohnort) gestellt werden. Bevor Auszubildende Anspruch auf Bürgergeld haben, muss geprüft werden, ob Berufsausbildungsbeihilfe oder BAföG für Schülerinnen und Schüler in Frage kommen.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Jobcenter"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/buergergeld/finanziell-absichern/voraussetzungen-einkommen-vermoegen",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/datei/grundsicherung-einfach-erklaer_ba032300.pdf",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "quereinstieg-studium",
+                "name": "Quereinstieg Studium",
+                "content": "Studieren ohne (Fach-)Abitur? Ja, das ist möglich. Unter bestimmten Voraussetzungen ist es möglich, nach einer Ausbildung zu studieren. Dazu  zählen u.a.:<ul><li>eine abgeschlossene (mind. 2-jährige) Berufsausbildung mit ggf. 3 Jahren Berufserfahrung</li><li>ein Meistertitel</li><li>vergleichbare Qualifikationen</li></ul>Oft ist eine Einschreibung dann möglich, wenn deine Ausbildung/ bisherige Berufserfahrung thematisch ähnlich zu dem ist, was du studieren möchtest.  Die Voraussetzungen und Möglichkeiten sind von Bundesland zu Bundesland unterschiedlich und manchmal sogar von Hochschule zu Hochschule. ",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Zentrale Studienberatung"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://studieren-ohne-abitur.de/check-qualifikation/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "aufstiegsfortbildung",
+                "name": "Aufstiegsfortbildung",
+                "content": "Aufstiegsfortbildungen sind besondere berufliche Weiterbildungen. Dadurch kannst du z. B. einen Meister- oder Technikertitel erwerben. Beide Weiterbildungen können nach einer Ausbildung mit ggf. mehrjähriger Berufserfahrung absolviert werden. Einen Techniker-Titel kann man vor allem im technisch-industriellen Zweig erlangen, während der Meister ein Titel in einem Handwerksberuf ist.  Beide Weiterbildungen dauern zwischen 1 und 2 Jahren, haben verschiedene Voraussetzungen und Fördermöglichkeiten. Nach Vollendung einer der beiden Weiterbildungen besteht die Chance, ein höheres Einkommen zu bekommen und mehr Verantwortung in einem Beruf zu übernehmen.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "http://www.fortbildung.net/ratgeber/techniker-oder-meister",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "beendigung-arbeitsverhaeltnis",
+                "name": "Beendigung des Arbeitsverhältnisses",
+                "content": "Wenn deine Ausbildung sich dem Ende zuneigt, wirst du von deinem Ausbildungsbetrieb vielleicht darauf hingewiesen, dich beim Arbeitsamt 'arbeitssuchend' zu melden. Das ist nicht ungewöhnlich und muss tatsächlich sowohl bei der Ausbildung, als auch später in einem Beruf gemacht werden. Ohne diese Meldung beim Arbeitsamt, wird dein Anspruch auf Arbeitslosengeld vermindert. Die Meldung muss spätestens 3 Monate vor Beendigung der Ausbildung gemacht werden.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Agentur für Arbeit"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/arbeitslos-melden/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "nachteilsausgleich-ausbildung",
+                "name": "Nachteilsausgleich",
+                "content": "Nachteilsausgleiche sind verschiedene Unterstützungsmaßnahmen die in einer Ausbildung beantragt werden können, wenn Menschen von (chronischen) Krankheiten oder von Behinderung betroffen sind. Zu den Maßnahmen in einer Ausbildung gehört z. B. die Möglichkeit, die Ausbildungszeit zu verlängern oder die Prüfungsituation anzupassen. Um einen Nachteilsausgleich zu bekommen, musst du einen Antrag und verschiedene Nachweise über die Krankheit oder Behinderung bei der jeweiligen Kammer abgeben.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Agentur für Arbeit"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.rehadat-bildung.de/berufseinstieg/unterstuetzungsangebote/unterstuetzung-bei-pruefungen/",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.bibb.de/dienst/publikationen/de/7407",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "fachpraktikerausbildung",
+                "name": "Fachpraktikerausbildung",
+                "content": "Junge Menschen, die aufgrund einer Behinderung nicht an einer regulären Ausbildung teilnehmen können, weil ihnen z. B. auch ein Nachteilsausgleich nicht weiterhilft, können eine Fachpraktikerausbildung machen. Eine Fachpraktikerausbildung orientiert sich an den Inhalten anerkannter Ausbildungsberufe, ist aber stellenweise im Umfang der Theorie ein bisschen reduziert. Auch bei einer Fachpraktikerprüfung (oder -ausbildung?) muss eine Prüfung bei der jeweiligen Kammer abgelegt werden. Eine Fachpraktikerausbildung dauert in der Regel 2-3 Jahre. ",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Reha-Beratung der Agentur für Arbeit, zuständige Kammer"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://planet-beruf.de/schuelerinnen/berufe-finden/uebersicht-der-ausbildungsberufe-fuer-menschen-mit-behinderungen",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "jugendberufsagentur-ausbildung",
+                "name": "Jugendberufsagentur",
+                "content": "Egal ob du Probleme in der Schule, der Ausbildung, mit deinen Eltern oder Geld hast: Du kannst mit allen Themen, die dich beschäftigen, in eine Jugendberufsagentur kommen. Hier arbeiten Fachkräfte aus der Jugendhilfe, der Agentur für Arbeit und dem Jobcenter zusammen und es kann schnell geklärt werden, wer dich am besten unterstützen kann.",
+                "additional_informations": [
+                    
+                    {
+                        "label": "Suche in deiner Nähe:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.servicestelle-jba.de/wws/9.php",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "teilzeitausbildung",
+                "name": "Teilzeitausbildung",
+                "content": "Manchmal lässt es die eigene Situation nicht zu, eine Ausbildung in Vollzeit zu machen. Zum Beispiel, wenn man ein Kind erwartet, kleinere Kinder versorgen oder Familienmitglieder betreuen muss. In solchen Fällen gibt es die Möglichkeit einer Teilzeit-Ausbildung. Dazu muss mit dem Ausbildungsbetrieb ein angepasster Ausbildungsplan erstellt werden, der eine neue Arbeits- und Ausbildungszeit beschreibt. Bei einer Teilzeit-Ausbildung verlängert sich die Ausbildungszeit entsprechend. Für die Beantragung der Teilzeit-Ausbildung muss der angepasste Ausbildungsplan von der jeweiligen Handwerks-, Industrie- und Handelskammer genehmigt werden. Auch bei einer Teilzeit-Ausbildung wirst du entsprechend bezahlt. Deine Vergütung richtet sich dann meist nach den vereinbarten Arbeitsstunden. Bei einer schulischen Ausbildung ist es übrigens nicht so einfach Teilzeit zu beantragen. Aber vielleicht gibt es Ausnahmeregelungen, wenn die Ausbildung in Vollzeit nicht machbar ist. Frage hierfür in deiner Berufsschule nach.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Ausbildungsbetrieb, Handwerks-, Industrie- und Handelskammer, Berufsschule"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.bibb.de/de/1304.php",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/lexikon/teilzeit-berufsausbildung",
+                                "label": "Link 2"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "mutterschaftsgeld",
+                "name": "Mutterschaftsgeld",
+                "content": "Wenn du in der Ausbildung schwanger geworden bist und spätestens in der Mutterschutzfrist nicht mehr arbeiten darfst, kannst du (aber-> weglassen) Mutterschaftsgeld beantragen. Den Antrag stellst du bei deiner Krankenkasse. Dort musst du auch einige Dokumente einreichen. Dazu gehören die 'Bescheinigung des voraussichtlichen Geburtstermins', die dir dein behandelnder Arzt/Ärztin oder deine Hebamme ausstellen kann und eine Geburtsurkunde nach der Geburt deines Kindes.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "deine gesetzliche Krankenkasse"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://familienportal.de/familienportal/familienleistungen/ mutterschaftsleistungen",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "berufsberatung",
+                "name": "Berufsberatung",
+                "content": "Die Berufsberatung ist ein kostenloses Angebot der Bundesagentur für Arbeit. Berufsberater/-innen helfen zum Beispiel bei Fragen rund um die Ausbildungs- oder Studienwahl, die Bewerbung auf entsprechende Plätze und Fördermöglichkeiten. Die Beratung erfolgt persönlich vor Ort oder per Video. Wer sich eigenständig informieren möchte, kann zu den Öffnungszeiten auch das Berufsinformationszentrum (BiZ) der örtlichen Agentur für Arbeit besuchen.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/bildung/berufsberatung",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "mutterschutz-ausbildung",
+                "name": "Mutterschutz",
+                "content": "Mutterschutz gilt auch für Ausbildungen und wird im sogenannten Mutterschutzgesetz (MuSchG) geregelt. Der Mutterschutz soll Mutter und Kind vor gesundheitlichen Schäden schützen und beinhaltet daher besondere Regelungen zu Arbeitszeiten, Ausführungen von Tätigkeiten, Kündigungsschutz und finanziellen Leistungen. Der Mutterschutz gilt ab dem Zeitpunkt, an dem der Betrieb von der Schwangerschaft erfährt. Demnach ist es also ratsam, den Arbeitgeber so früh wie möglich darüber in Kenntnis zu setzen.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "dein Ausbildungsbetrieb"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.ausbildung.info/ausbildung/ausbildung-mit-kind/mutterschutz",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://familienportal.de/familienportal/familienleistungen/mutterschutz",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "kammern",
+                "name": "Kammern",
+                "content": "",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Die Industrie- und Handelskammer (kurz: IHK) und Handwerkskammer (HWK) sind gute Anlaufstellen, bei vielen Fragen rund um die Ausbildung. Die Kammern sind die Interessenvertretung für Industrie- und Handelsunternehmen bzw. von Handwerksunternehmen. Lediglich Unternehmen aus der Landwirtschaft sowie Ärzte sind nicht Mitglied der IHK pder HWK. Für sie gibt es eigene Kammern.  Die Kammern haben ein großes Informationsangebot rund um die Themen Ausbildungssuche, Ausbildungsvergütung, Prüfungen, Abschluss, Zeugnis und Weiterbildung. Die Kammern haben Standorte verteilt in ganz vielen Städten. In dem untenstehenden Links kannst du ganz leicht den passenden Standort für dich finden. "
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.ihk.de",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.zdh.de/ueber-uns/organisationen-des-handwerks/handwerkskammern/adressen-der-handwerkskammern/",
+                                "label": "Link 2"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "sprachniveau-ausbildung",
+                "name": "Sprachniveau in der Ausbildung ",
+                "content": "Deutsche Sprachkenntnisse sind entscheidend, damit die Berufsausbildung gelingt. Die Kammern empfehlen mindestens das Sprachniveau B2 bei der Aufnahme einer Berufsausbildung und mindestens das Sprachniveau B1 bei einer Einstiegsqualifizierung (B2 bei einer Einstiegsqualifizierung im kaufmännischen Bereich). Das Sprachniveau sollte in allen Bereichen („Hören“, „Lesen“, „Sprechen“ und „Schreiben“) vorliegen.",
+                "additional_informations": []
+            }
+        ]
+    },
+    {
+        "category": "Lebenskrisen",
+        "active": false,
+        "subcategories": [
+            {
+                "id": "sucht",
+                "name": "Sucht",
+                "content": "Sucht ist eine Krankheit, die jede/n treffen kann. Unterschiedliche Stoffe (Suchtmittel), aber auch Verhalten kann süchtig machen. Es gibt verschiedene Anzeichen, an denen man süchtige Menschen erkennt – egal wonach sie süchtig sind. Zum Beispiel möchten sie unbedingt konsumieren, auch wenn sie wissen, dass das nicht gut ist oder sie vernachlässigen andere Dinge. Wenn du so etwas bei dir selbst oder Freund/-innen bemerkst, such dir Hilfe!",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Suchthilfe oder Drogenberatungsstelle"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos und Beratungsstellensuche:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.kmdd.de/infopool-und-hilfe/sucht",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.drugcom.de/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "online-sucht",
+                "name": "Online-Sucht",
+                "content": "Die Übergänge von einer häufigen, aber noch unproblematischen Internetnutzung zu einer Abhängigkeit sind fließend. Internetnutzung ist zum Beispiel dann schädlich, wenn die Schule, der Beruf und andere Freizeitaktivitäten deshalb vernachlässigt werden. Zu Online-Sucht (man sagt auch Internetnutzungsstörung oder Handysucht) können ganz unterschiedliche Beschäftigungen im Internet zählen: Online-Shopping, Social-Media-Nutzung oder Computerspiele.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://gesund.bund.de/online-sucht",
+                                "label": "Link 1"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Infoportal für Mediennutzung & Medienkompetenz:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.ins-netz-gehen.de/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "glueckspielsucht",
+                "name": "(Online) Glücksspielsucht",
+                "content": "Glücksspiel ist in Deutschland ab 18 Jahren erlaubt. Auch im Internet gibt es Glücksspiele, die schnell verfügbar sind. Zwar konsumiert man kein Suchtmittel, aber auch Verhalten (also das Spielen) kann eine Sucht sein. Menschen, die glücksspielsüchtig sind, können nicht aufhören zu spielen, obwohl es schon schlechte Erfahrungen gab. Häufig führt Glücksspiel nämlich zu Schulden und anderen Problemen im Leben. Neben verschiedenen Beratungsangeboten gibt es die Möglichkeit, sich selbst für Glücksspielangebote sperren zu lassen. Auch Angehörige können eine Fremdsperre beantragen.",
+                "additional_informations": [
+                   
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://gesund.bund.de/gluecksspielsucht#auf-einen-blick",
+                                "label": "Link 1"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Noch mehr Infos, Selbsttest und Hilfe:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.check-dein-spiel.de/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "psychotherapie",
+                "name": "Psychotherapie",
+                "content": "Psychotherapie soll bei psychischen Erkrankungen wie Depression, Angststörung und vielem mehr helfen, damit es den Betroffenen wieder besser geht. Sie kann ambulant oder stationär stattfinden und von Psychotherapeut/-innen oder Fachärzt/-innen (= Psychiater/-innen) durchgeführt werden. Es gibt verschiedene Therapieformen: z. B. die analytische Psychotherapie oder die Verhaltenstherapie. Jede/r muss selbst entscheiden, mit welchem Ansatz er/sie sich am wohlsten fühlt.  Die Kosten für die Therapie zahlt die Krankenkasse.",
+                "additional_informations": [
+                  
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.wege-zur-psychotherapie.org/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Terminsuche:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://arztsuche.116117.de/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "cannabis",
+                "name": "Cannabis (Kiffen)",
+                "content": "Für Jugendliche unter 18 Jahren ist der Konsum von Cannabis (rauchen/kiffen, dampfen oder essen) verboten! Die Wirkung von Cannabis kann sehr unterschiedlich sein. Lass dich nicht zum Konsum überreden und such das Gespräch bzw. professionelle Hilfe, wenn du dir Sorgen um Freund/-innen machst.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.cannabispraevention.de/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "legale-drogen",
+                "name": "Legale Drogen (Alkohol und Zigaretten)",
+                "content": "Alkohol und Zigaretten sind ab 18 Jahren in Deutschland nicht verboten und in der Gesellschaft sehr weit akzeptiert. Bier und weinhaltige Getränke sind bereits ab 16 Jahren erlaubt. Unverantwortlicher Konsum in extremen Mengen ist trotzdem sehr schädlich. Auch E-Zigaretten sind problematisch und häufig der Einstieg zum Rauchen. Aber nicht nur die Gesundheit leidet darunter: Wer viel konsumiert, gibt auch viel Geld aus. ",
+                "additional_informations": [
+                  
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.kmdd.de/infopool-und-hilfe/suchtmittel/alkohol",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.null-alkohol-voll-power.de/",
+                                "label": "Link 2"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.rauch-frei.info/",
+                                "label": "Link 3"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "esstoerung",
+                "name": "Esstörung",
+                "content": "Zu den Essstörungen zählen z. B. Bulimie, Anorexie (auch bekannt als Magersucht) und Binge-Eating (Essanfälle). Zu viel oder zu wenig essen, schadet dem Körper und kann lebensgefährlich sein!",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos und Beratungsstellen:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.bzga-essstoerungen.de/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "schulden",
+                "name": "Schulden",
+                "content": "Schulden entstehen, wenn man mehr Geld ausgibt, als man verdient. Du hast Schulden und bist von der Situation und der dazugehörigen Post überfordert? Es gibt eigentlich in jeder Stadt eine Schuldnerberatung von verschiedenen Trägern, die dir dabei hilft, deine finanzielle Lage zu klären.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Schuldnerberatung"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.caritas.de/hilfeundberatung/ratgeber/schulden/mietschulden/tipps",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.diakonie.de/informieren/infothek/2023/dezember/wissen-kompakt-schuldnerberatung",
+                                "label": "Link 2"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "beratungsstellen",
+                "name": "Beratungsstellen",
+                "content": "Manchmal befindet man sich in einer Situation, in der man sich überfordert und hilflos fühlt und es schwierig ist, ein unangenehmes Thema mit einer bekannten, verwandten oder befreundeten Person oder einer Fachkraft zu besprechen. Aber es gibt öffentliche, kostenlose und oft anonyme Angebote für jede Lebenslage. Teilweise gibt es sogar online Beratung.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos und Beratungsstellensuche:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.caritas.de/hilfeundberatung/hilfeundberatung",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.diakonie.de/",
+                                "label": "Link 2"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.malteser.de/",
+                                "label": "Link 3"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.johanniter.de/",
+                                "label": "Link 4"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.heilsarmee.de/",
+                                "label": "Link 5"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.berufenavi.de/orientierung/beratung",
+                                "label": "Link 6"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://awo.org/",
+                                "label": "Link 7"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.volkssolidaritaet.de/",
+                                "label": "Link 8"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.nummergegenkummer.de/kinder-und-jugendberatung/online-beratung/",
+                                "label": "Link 9"
+                            }
+
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "wohnungslosigkeit",
+                "name": "(Drohende) Wohnungslosigkeit",
+                "content": "Solltest du aufgrund von Mietschulden möglicherweise deine Wohnung verlieren, kann das Jobcenter oder das Sozialamt auf Antrag vielleicht ein Darlehen für Mietschulden gewähren, damit das nicht passiert. Ein Darlehen muss man wieder komplett zurückzahlen. Wer wohnungslos geworden ist, kann kostenlose Angebote wie Notunterkünfte für die Nacht und Aufenthaltsmöglichkeiten tagsüber nutzen. Auch duschen, waschen und essen ist dort oft kostenlos möglich. Außerdem gibt es Angebote der Suppenküchen und der Tafel.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Jugendamt (bis 21 Jahre), Sozial- oder Wohnungsamt"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Hilfefinder",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.mokli-help.de/#/",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.woundwie.de/de/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "abonnemont",
+                "name": "Abonnement (Abo)",
+                "content": "Abos (z.B. für Streaming-Dienste, Fahrkarten) sind praktisch, aber denk dran: Es handelt sich um wiederkehrende Ausgaben! Ein Abo kann nach der Mindestlaufzeit monatlich gekündigt werden. Prüfe daher, wie lange das Abo mindestens laufen wird und generell, ob der Anbieter seriös ist. Oft werden vorab kostenlose/günstige Probeabos zum Testen angeboten. Achte darauf, wie lange das (kostenfreie) Angebot gilt und gegebenenfalls an eine rechtzeitige Kündigung, denn meistens sind die Bezahl-Abos teurer. Für Studierende und Auszubildende gibt es manchmal günstigere Abo-Angebote. Wichtig: Minderjährige können Abos und Handyverträge nur mit der Zustimmung der Erziehungsberechtigten abschließen.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.evz.de/einkaufen-internet/online-einkauf/was-sind-online-abos-wie-kann-ich-diese-kuendigen.html",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "handyvertrag",
+                "name": "Handyvertrag",
+                "content": "Handyverträge wirken praktisch, denn immerhin kommst du manchmal sogar ein Smartphone dazu. Aber: Du verpflichtest dich, den Betrag monatlich in der Laufzeit zu zahlen. Erst nach dieser Mindestlaufzeit kannst du monatlich kündigen. Manchmal gibt es auch versteckte oder unnötige Kosten. Daher immer genau lesen und Angebote vergleichen!  Tipp: Prüfe regelmäßig günstigere Optionen und z. B. auch, ob ein Prepaid-Angebot vielleicht für dich reicht. Ausgaben hat man so leichter im Blick. Wichtig: Minderjährige können Handyverträge und Abos nur mit der Zustimmung der Erziehungsberechtigten abschließen.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.evz.de/einkaufen-internet/vorsicht-falle/abofallen/vertraege-mit-minderjaehrigen.html",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "straffaelligkeit",
+                "name": "Straffälligkeit",
+                "content": "Ab 14 Jahren ist man in Deutschland strafmündig. Das heißt: Wer eine Straftat begeht, kann dafür belangt werden. Die Jugendgerichtshilfe kann 14- bis 17-Jährige und unter Umständen auch 18- bis 20-Jährige in einem Strafverfahren unterstützen.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Jugendhilfe"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "arbeitslosengeld",
+                "name": "Arbeitslosengeld ",
+                "content": "Arbeitslosengeld 1 (ALG 1) bekommen nur Personen, die innerhalb der letzten 30 Monate 12 Monate lang in die Arbeitslosenversicherung eingezahlt haben. Die Höhe des Arbeitslosengeldes beträgt in der Regel 60 % des letzten Bruttogehalts und wird 12 Monate lang gezahlt. Eine rechtzeitige bzw. direkte Arbeitslosmeldung ist sehr wichtig, um dich vor finanziellen Engpässen zu schützen. Eine vorübergehende Sperrung kommt auf dich zu, wenn du die Arbeitslosigkeit selbst verschuldet hast (z. B. weil du dich schlecht verhalten, einen Aufhebungsvertrag unterschrieben oder den Job selbst gekündigt hast). Bürgergeld können alle beantragen, die noch keine 12 Monate eingezahlt haben, mindestens 15 Jahre alt sind und pro Tag mindestens 3 Stunden arbeiten könnten. Wenn man nach 12 Monaten ALG 1- Bezug noch keine Arbeit gefunden hat, muss man Bürgergeld beantragen.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Bundesagentur für Arbeit"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/arbeitslosengeld/finanzielle-hilfen/arbeitslosengeld-anspruch-hoehe-dauer",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "krankenversicherung-ausbildung",
+                "name": "Krankenversicherung (KV)",
+                "content": "In Deutschland muss jede/r krankenversichert sein. So kann man im Krankheitsfall versorgt werden, ohne Angst vor den Kosten der Behandlung haben zu müssen. Diese wird nämlich ganz oder teilweise von der Krankenkasse erstattet. Normalerweise teilen sich Arbeitnehmer und Arbeitgeber den Beitrag zur Krankenversicherung (deshalb ist das Nettogehalt übrigens niedriger: Diese wichtigen Sozialversicherungsbeiträge überweist der Arbeitgeber direkt an die Versicherungen). Für arbeitslose Menschen übernimmt die Agentur für Arbeit bzw. das Jobcenter die Beiträge zur Krankenversicherung. Da eine Krankenversicherung wichtig aber teuer ist, melde dich direkt bei der Agentur für Arbeit bzw. dem Jobcenter, wenn du arbeitslos geworden bist.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Agentur für Arbeit (Arbeitslosengeld 1) bzw. Jobcenter (Bürgergeld) Jobcenter"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/buergergeld/finanziell-absichern/gesundheit-versicherung",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "krankmeldung",
+                "name": "Krankmeldung",
+                "content": "Wenn du in einem Arbeitsverhältnis bist und mal krank wirst, gib deinem Arbeitgeber sofort Bescheid und melde dich bei deinem Hausarzt/deiner Hausärztin. Dort wird dir eine Arbeitsunfähigkeitsbescheinigung (AU) ausgestellt. Dort steht, wie lange du krank bist. Mittlerweile erhalten Krankenkassen (und darüber der Arbeitgeber) diesen Nachweis in der Regel elektronisch.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Hausarzt/Hausärztin"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/aerzte-und-kliniken/digitale-krankschreibung-elektronische-arbeitsunfaehigkeitsbescheinigung-65488",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "jugendberufsagentur-ausbildung",
+                "name": "Jugendberufsagentur",
+                "content": "Egal ob du Probleme in der Schule, der Ausbildung, mit deinen Eltern oder Geld hast: Du kannst mit allen Themen, die dich beschäftigen, in eine Jugendberufsagentur kommen. Hier arbeiten Fachkräfte aus der Jugendhilfe, der Agentur für Arbeit und dem Jobcenter zusammen und es kann schnell geklärt werden, wer dich am besten unterstützen kann.",
+                "additional_informations": [
+                    {
+                        "label": "Suchen in der Nähe:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.servicestelle-jba.de/wws/9.php",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "krankengeld",
+                "name": "Krankengeld",
+                "content": "Wenn du krank bist, erhältst du 6 Wochen lang erstmal weiterhin ganz normal Gehalt von deinem Arbeitgeber (Entgeltfortzahlung). Ab der 7. Woche beziehst du dann Krankengeld: Die Krankenkasse zahlt dir 70% deines regelmäßigen Bruttogehalts.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Krankenkasse"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.bundesgesundheitsministerium.de/krankengeld.html",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/krankenversicherung/krankengeld-ab-wann-sie-es-bekommen-und-wie-sie-es-beantragen-38939",
+                                "label": "Link 2"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "google-recherche-gesundheit",
+                "name": "Google-Recherche zu Gesundheit",
+                "content": "Es ist so leicht, die Antwort auf eine Frage direkt zu bekommen: Alle googlen alles Mögliche. Das ist meistens praktisch und unkompliziert. Allerdings wird man manchmal mit falschen Informationen konfrontiert, die man erstmal erkennen muss. Auch Suchmaschine und Sucheingabe haben Einfluss auf die Ergebnisse, die wir erhalten. Besonders kritisch ist das, wenn es um Gesundheitsthemen geht.  Wichtig: Eine Online-Recherche ersetzt NIE den Arztbesuch.",
+                "additional_informations": [
+                    {
+                        "label": "Tipps zur Recherche von Gesundheitsthemen im Internet und hilfreiche Links:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.gesund-im-netz.net/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "berufsunfaehigkeit",
+                "name": "Berufsunfähigkeitsversicherung (BU)",
+                "content": "Miete, Essen, Freizeit – all diese Dinge kosten Geld. Ein regelmäßiges Einkommen ist daher sehr wichtig. Es kann zu finanziellen Problemen kommen, wenn du z. B. durch eine Krankheit oder einen Unfall auf Dauer nicht mehr arbeiten kannst: Die üblichen Ausgaben bleiben, aber es gibt nicht mehr genügend Einnahmen. Für diesen Fall kann man eine Berufsunfähigkeitsversichung (BU) abschließen. Die Höhe der versicherten Rente legt man selbst fest. Daraus ergibt sich dann wiederum der monatliche Beitrag. Das Thema ist sehr kompliziert. Der Abschluss einer BU am Anfang des Berufslebens kann Vorteile mit sich bringen.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.verbraucherzentrale.de/wissen/geld-versicherungen/weitere-versicherungen/berufsunfaehigkeit-wie-sie-sich-gegen-verlust-des-einkommens-absichern-13931",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "burnout-syndrom",
+                "name": "Burn-out-Syndrom",
+                "content": "Menschen mit einem Burn-out-Syndrom fühlen sich innerlich leer und haben keine Energie mehr. Es gibt unterschiedliche Gründe für ein Burn-out: Eine belastende Arbeitssituation kann einer davon sein. Damit es einem wieder besser geht, reicht es manchmal schon, Kleinigkeiten zu verändern. Wenn man das nicht alleine schafft, kann eine Psychotherapie helfen. ",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Arzt/Ärztin"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos (mit Erklärvideo):",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://gesund.bund.de/burn-out-syndrom#diagnostik",
+                                "label": "Link 1"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Tipps für einen guten Umgang mit Belastungen:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.inqa.de/DE/themen/gesundheit/psychische-gesundheit-am-arbeitsplatz/kein-stress-mit-dem-stress-beschaeftigte.html",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "work-live-balance",
+                "name": "Work-Live-Balance",
+                "content": "Work-Live-Balance beschreibt das Gleichgewicht von verschiedenen Lebensbereichen. Sie ist wichtig für unsere Gesundheit. Arbeit nimmt einen Großteil unserer Zeit ein und wird deshalb durch gesetzliche Vorgaben geregelt. In der Regel darf man z. B. maximal 10 Stunden am Tag arbeiten, man muss nach 6 Stunden Arbeit eine Pause und  bestimmte Ruhezeiten zwischen den Arbeitseinsätzen liegen müssen. Für Minderjährige gelten noch strengere Vorgaben (JArbSchG). Darüber hinaus ist es aber auch wichtig, einen guten Ausgleich im Privatleben zu schaffen: Freund/-innen treffen, Sport machen oder was dir sonst gut tut.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Betriebliches Gesundheitsmanagement"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Erwachsen-werden",
+        "active": false,
+        "subcategories": [
+            {
+                "id": "wohnungssuche",
+                "name": "Wohnungssuche",
+                "content": "Im Internet gibt es besondere Suchmaschinen oder Seiten für die Wohnungssuche. Tatsächlich gibt es in Tageszeitungen häufig noch Anzeigen. Manchmal hängen auch welche in der Uni aus. Oder vielleicht haben Bekannte oder Freund/-innen was gehört?<br><br>Es kann hilfreich sein, sich bereits vorab Gedanken darüber zu machen, wie deine zukünftige Wohnung mindestens aussehen sollte.<ul><li>Soll sie einen Balkon und/oder einen Keller haben?</li><li>Wie hoch darf die Miete maximal sein?</li><li>Soll es eine WG (Wohngemeinschaft) oder eine eigene Wohnung sein?</li><li>Soll sie eine Badewanne oder eine Dusche haben?</li>Und falls du Haustiere hast: Dürfen diese in der Wohnung gehalten werden? Kleintiere (Hasen, Hamster, Fische, etc.) dürfen ohne Erlaubnis einziehen. Bei Hunden und Katzen steht es in Wohnungsanzeigen meist dabei, ob sie erlaubt sind.</li></ul>",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.wohnungsboerse.net/",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.kleinanzeigen.de/s-immobilien/c195",
+                                "label": "Link 2"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.null-provision.de/",
+                                "label": "Link 3"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "buergschaft",
+                "name": "Bürgschaft",
+                "content": "Die Miete ist eine wiederkehrende Ausgabe. Vermieter/-innen möchten daher die Sicherheit haben, dass sie ihr Geld zuverlässig erhalten. Vor allen Dingen bei jungen Menschen, deren finanzielle Situation noch nicht immer ganz stabil ist, wird oftmals ein Bürge verlangt. Ein Bürge versichert, dass die Zahlung notfalls durch ihn/sie erfolgt. So hat der junge Mensch eine bessere Chance die Wohnung zu bekommen. Bürgen könnten Pritvatpersonen sein, wie Eltern oder gute Freunde, oder auch eine Bank oder eine Versicherung (Mietkautionsversicherung).",
+                "additional_informations": []
+            },
+            {
+                "id": "auszug-umzug",
+                "name": "Auszug/Umzug",
+                "content": "Endlich ausziehen! Doch bevor du es dir in einer neuen Wohnung bequem machen kannst, gibt es einige Dinge zu beachten. Kannst du viele deiner Möbel in die neue Wohnung mitnehmen? Wenn du aus dem Elternhaus ausziehst, hast du vermutlich noch nicht viel mehr Besitz, als das, was sich in deinem Kinderzimmer befindet. Wenn du ein Zimmer eines Wohnheimes ziehst, kann es sein, dass es eingerichtet ist und du nicht viel brauchst. Auch wenn du in bestehende WGs einziehst, musst du vermutlich nur noch wenig, abgesehen von deinen persönlichen Dingen mitbringen. Sollte der Umzug aber größer ausfallen, kann es sein, dass ein Koffer oder ein normales Auto nicht ausreicht. Falls du keine Unterstützung von Familie und Freund/-innen bekommen kannst, gibt es auch professionelle Umzugsunternehmen. Informiere dich vorab gut über die Kosten.",
+                "additional_informations": []
+            },
+            {
+                "id": "wohnungsbesichtigung",
+                "name": "Wohnungsbesichtigung",
+                "content": "Der nächste Schritt nach der Wohnungssuche ist die Besichtigung. Diese findet manchmal alleine, manchmal in großen Runden statt. Nimm dir eine zweite Person mit! Vielleicht bist du so überwältigt von der Vorstellung deiner ersten eigenen Wohnung, dass du Mängel übersiehst. Vier Augen sehen mehr als zwei!<br> Bei WGs gibt es oft auch ein 'WG-Casting'. Wenn es nicht nur darum geht, sich die Miete zu teilen, sondern auch gemeinsam Zeit zu verbringen und sich gut versteht, ist es wichtig, sich vorab ein bisschen kennenzulernen und zu sehen, ob es passt.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": ""
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "mietvertrag",
+                "name": "Mietvertrag",
+                "content": "Ein Mietvertrag enthällt alle Details zur Wohnung und den Pflichten der Mietenden. Neben der Angabe von Kaltmiete, Nebenkosten und Kaution, sollte ersichtlich werden, ob du zum Beispiel Gas selbstständig anmelden musst.<br><br>Zudem sollten die Kündigungsfristen, weitere Kosten (beispielweise für die Küchennutzung), Renovierungsarbeiten vor Auszug und sonstige Aufgaben, wie z.B. das Reinigen des Treppenhauses darin vermerkt sein. Falls etwas anders als besprochen im Mietvertrag steht oder du etwas nicht verstehst, frag VOR der Unterschrift nach.",
+                "additional_informations": []
+            },
+            {
+                "id": "mieterselbstauskunft",
+                "name": "Mieterselbstauskunft",
+                "content": "Die Mieterselbstauskunft ist ein Formular, das von Vermieter/-innen genutzt wird, um sicherzugehen, dass jemand die Miete zuverlässig zahlen kann. Ganz häufig müssen mietende Personen Angaben machen zu:<ul><li>Information zu persönlichen Daten</li><li>Angaben zum Arbeitsverhältnis</li><li>Angaben zur finanziellen Situation</li><li>Angaben zur derzeitigen Wohnsituation mit Namen etwaiger Vorvermieter/-innen</li></ul>Es wird empfohlen, die Mieterselbstauskunft sorgfältig auszufüllen, da sie die Chancen auf eine Wohnung erhöht. Fragen, die über die Punkte hinausgehen, wie Familienstand, Religionszugehörigkeit, etc. darf nicht abgefragt werden und müssen Mieter/-innen nicht beantworten. ",
+                "additional_informations": []
+            },
+            {
+                "id": "kaution",
+                "name": "Kaution",
+                "content": "Kautionen gibt es in unterschiedlichen Situationen. Immer wenn man übergangsweise etwas von einer anderen Person nutzt – egal ob Wohnung oder Billiardtisch – wird üblicherweise eine Geldsumme für den Fall hinterlegt, dass durch die Nutzung Schäden entstehen. Zu den sogenannten 'Mietschäden' gehören nicht gezahlte Miete oder Betriebskosten, oder Schäden, die durch die Mieter/-innen verursacht wurden.  In der Regel beträgt die Mietkaution für eine Wohnung maximal drei Kaltmieten. Um neue Schäden von alten zu unterscheiden, gibt es ein Übergabeprotokoll.",
+                "additional_informations": []
+            },
+            {
+                "id": "wohnungsuebergabeprotokoll",
+                "name": "Wohnungsübergabeprotokoll",
+                "content": "Das Übergabeprotokoll wird am Tag der Schlüsselübergabe erstellt. Gemeinsam mit der vermietenden Person oder der Immobiliengesellschaft werden alle Räume angeschaut. Es wird schriftlich festgehalten, welche Mängel vor der Übergabe bereits vorhanden waren und sicher nicht von dir stammen. Schau dir daher die Wohnung aufmerksam an und nimm vielleicht auch eine zweite Person mit oder frag deine Vormieter/-innen, worauf du achten könntest. Das Übergabeprotokoll wird von allen vermietenden und mietenden Personen unterschrieben. Jeder erhält eine Kopie des Dokuments. Am Tag es Auszugs wird erneut ein Übergabeprotokoll erstellt, um zu prüfen, ob durch dich Schäden entstanden sind. Je nachdem erhältst du deine Kaution ganz oder teilweise wieder.",
+                "additional_informations": []
+            },
+            {
+                "id": "wohnungskuendigung",
+                "name": "Wohnungskündigung ",
+                "content": "Wenn du aus deiner Wohnung ausziehen möchtest, musst du der vermietenden Person oder Firma eine Kündigung zuschicken. Vorlagen dafür gibt es im Internet. Lass dir das Kündigungsdatum schriftlich bestätigen. Bei einer Kündigung musst du die Fristen beachten – normalerweise beträgt diese 3 Monate. Solltest du früher ausziehen wollen, gibt es meist die Möglichkeit, dass du dich selbst um eine nachmietende Person kümmerst. Sprich dazu mit deiner Vermietung. <br><br>Es gibt aber auch den Fall, dass DIR die Wohnung gekündigt wird. Vermieter/-innen brauchen dazu aber einen wichtigen Grund. Je länger du in der Wohnung gelebt hast, desto länger ist auch die Kündigungsfrist. Fristlose Kündigungen sind nur unter bestimmten Bedingungen möglich. Dann ist es wichtig den Kündigungsgrund zu prüfen und gegebenenfalls zu widersprechen.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.umzug.de/tipps/mietrecht/kuendigungsfristen.html",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "anmelden-ummelden",
+                "name": "Anmelden/Ummelden",
+                "content": "Nach einem Umzug muss man sich laut Bundesmeldegesetz (BMG) im neuen Wohnort innerhalb von 14 Tagen anmelden. Dazu ist ein Termin bei der Meldebehörde nötig. Ab 16 Jahren muss man selbst dorthin, vorher können Eltern die Anmeldung übernehmen. Für die Ummeldung werden folgende Sachen benötigt:<ul><li>alle Ausweisdokumente</li><li>von Vermieter/-in bzw. Eigentümer/-in der neuen Wohnung ausgefüllte und unterschriebene Wohnungsgeber/-innenbestätigung</li></ul>",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner:",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Meldebehörde der Gemeinde (heißt manchmal auch: Einwohnermeldeamt und befindet sich im Rathaus, dem Bürgeramt oder einem anderen Gebäude deiner Stadt- oder Gemeindeverwaltung)"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.bmi.bund.de/DE/themen/moderne-verwaltung/verwaltungsrecht/meldewesen/meldewesen-node.html",
+                                "label": "Link 1"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Wichtig:",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Auch dein Arbeitgeber, deine Uni, deine Bank, deine Krankenkasse sowie Versicherungen und andere wichtige Stellen solltest du über deine neue Adresse informieren."
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "wohnungsausstattung",
+                "name": "Wohnungsausstattung",
+                "content": "Wenn du ausziehst, musst du plötzlich mehr Räume einrichten, als bloß dein Schlafzimmer. Einige Dinge brauchst du unbedingt, andere sind nur Bonus. Am Anfang reicht:<ul><li>Matratze, Spannbetttuch, Bettwäsche</li><li>Messer, Gabel und Löffel, 1 Küchenhandtuch, Glas, Tasse, tiefer und flacher Teller, 1 Topf, 1 Pfanne und ein Servier/-Kochlöffel</li><li>1 großes und 2 kleine Handtücher</li></ul>Du musst vieles vermutlich nicht einmal neu kaufen. In Haushalten sammelt sich über die Jahre einiges in vielfacher Ausführung an. Frag bei deiner Familien nach, vielleicht möchten sie etwas loswerden. Schwieriger wird es bei Möbeln, Elektrogeräten wie Waschmaschine, Herd oder generell eine Küche, Schränke, etc. Für wenig Geld kannst du viele Dinge bei Ebay-Kleinanzeigen, auf Flohmärkten oder in Sozialkaufhäusern kaufen. Manchmal gibt es auch in sozialen Netzwerken Gruppen, in denen Küchen- oder Einrichtungsgegenstände zum Verschenken angeboten werden. ",
+                "additional_informations": []
+            },
+            {
+                "id": "rundfunkbeitrag",
+                "name": "Rundfunkbeitrag",
+                "content": "Der öffentlich-rechtliche Rundfunk ist unter anderem für eine unabhängige Berichterstattung zuständig. Das ist sehr wichtig und daher sollen auch alle Menschen diese Sender nutzen können. Für die Finanzierung der Sender wird der Rundfunkbeitrag vom Beitragsservice erhoben. Dieser ist pro Wohnung zu entrichten, egal wie viele Personen dort leben. Unter bestimmten Bedingungen kann der Beitrag ermäßigt werden. Oder du kannst dich komplett davon befreien lassen, z. B., wenn du BAföG oder BAB beziehst.  Kurz nach deiner Anmeldung im Bürgeramt erhältst du Post vom Beitragsservice mit der Bitte um Rückmeldung, wenn du keiner angemeldeten Wohnung zugeordnet werden konntest. In einer WG kann es dann mal kurz kompliziert werden. Zu klären ist: Wer ist von der Beitragszahlung befreit? Zahlt bereits jemand den Rundfunkbeitrag für die Wohnung? ",
+                "additional_informations": [
+                    
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.rundfunkbeitrag.de/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "kaltmiete",
+                "name": "Kaltmiete",
+                "content": "Die Kaltmiete bezeichnet die Kosten, die monatlich an den oder die  Vermieter/-in für die Nutzung einer Wohnung gezahlt werden. Dazu kommen aber immer auch Vorauszahlungen für die Nebenkosten. Das zusammen ist dann die Warmmiete. Darüber hinaus gibt es noch weitere Kosten, die nicht zur Warmmiete gehören, wie z.B. Strom und deine Internetleitung. ",
+                "additional_informations": []
+            },
+            {
+                "id": "nebenkosten",
+                "name": "Nebenkosten",
+                "content": "Nebenkosten werden manchmal auch als 'zweite Miete' oder auch 'Warmmiete' bezeichnet. Gemeint sind damit alle Kosten, die neben den reinen Mietkosten (Kaltmiete) anfallen. Zu den Nebenkosten gehören: Heiz- und Warmwasserkosten, Straßenreinigung und Müllabfuhr, Grundsteuer, Fahrstuhl und Gebäudeversicherung. Das sind Kosten, die die vermietende Person regelmäßig hat und die sie von den Mieter/-innen zurückerhält. Diese müssen im Mietvertrag stehen und auch die Art der Bezahlung. Meist wird eine sogenannte 'Vorauszahlung' vereinbart. Das bedeutet, die mietende Person überweist monatlichen einen vereinbarten Betrag zusammen mit der Miete. Jedes Jahr muss durch die Vermieter/-innen geprüft werden, ob die Kosten durch die Vorauszahlungen gedeckt werden können. Haben die Mieter/-innen mehr im Voraus gezahlt, bekommen sie ein Guthaben ausgezahlt. Reichen die Vorauszahlungen nicht, muss nachgezahlt werden. ",
+                "additional_informations": []
+            },
+            {
+                "id": "strom-anmelden",
+                "name": "Strom anmelden",
+                "content": "Wer eine Wohnung neu bezieht, muss sich sebst um die Anmeldung von Strom kümmern. Das geht online ziemlich unkompliziert. Neben persönlichen Daten und der neuen Adresse  werden für die Anmeldungen Zählerstand und -nummer ab Einzugstag benötigt. Vergleichsportale helfen dabei, einen passenden Stromanbieter zu finden.<br><br>Tipp: Ein jährlicher Wechsel des Stromanbieters lohnt sich oft! Daher wichtig: Vertragslaufzeit von höchstens 12 Monaten vereinbaren. Der neue Stromanbieter kümmert sich dann auch meist um die Kündigung beim alten. <br><br>Achtung: Vermietende Personen kümmern sich meistens um Heizung und Warmwasser. Manchmal ist aber auch das Aufgabe der Mieter/-innen. Auskunft darüber findest du im Mietvertrag oder du fragst direkt den Vermieter/-innen.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.bundesnetzagentur.de/DE/Vportal/Energie/Vertragsarten/start.html",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "internet-an-ummelden",
+                "name": "Internet an- oder ummelden",
+                "content": "Ein Leben ohne Internet ist heute kaum vorstellbar. Bei einem Umzug solltest du bei einem bereits vorhandenen Vertrag möglichst früh klären, ob der derzeitige Anbieter dich gleichermaßen auch an der neuen Adresse versorgen kann (Achtung: Umzugsgebühr) oder gegenenfalls den Anbieter wechseln bzw. den Neuanschluss beauftragen.",
+                "additional_informations": [
+                   
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.bundesnetzagentur.de/DE/Vportal/TK/InternetTelefon/Wechsel/start.html ",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.check24.de/internet/umzug/",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.check24.de/internet/anschluss/neuanschluss/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "selbstorganisation",
+                "name": "Selbstorganisation",
+                "content": "Selbstorganisation ist für das Berufsleben wichtig und beschreibt, wie gut du ohne Vorgaben von anderen deine eigene Arbeit (Termine, Aufgaben etc.) bewältigst. Dabei geht es um Planung, Disziplin und Flexibilität. Wenn dir Selbstorganisation schwer fällt, bitte um Aufgaben, die klar beschrieben sind und bei denen es regelmäßig Feedback von außen gibt. Oder benutze Strategien, die dir dabei helfen, dich zu organisieren. Selbstorganisation hilft dir natürlich auch im Privatleben: Die eigene Wohnung sauberzuhalten, Arzttermine und Verabredungen mit Freund/-innen einzuhalten, Rechnungen pünktlich zu überweisen, wichtige Unterlagen jederzeit zu finden ...",
+                "additional_informations": []
+            },
+            {
+                "id": "teamfaehigkeit",
+                "name": "Teamfähigkeit",
+                "content": "Teamfähigkeit ist für das Berufsleben wichtig. Sie gehört zu den sogenannten 'Sozialkompetenzen' und beschreibt, wie gut man in einem Team arbeiten bzw. mit einem Team zusammenarbeiten kann. Bei der Teamfähigkeit spielen verschiedene Eigenschaften eine Rolle, die alle Teammitglieder gleichermaßen haben sollten: Kommunikationsstärke, Kompromissbereitschaft, Kooperationsbereitschaft, Rücksichtnahme und gute Aufgabenverteilung, Zeitmanagement, Zuverlässigkeit und so weiter.",
+                "additional_informations": []
+            },
+            {
+                "id": "konfliktfaehigkeit",
+                "name": "Konfliktfähigkeit",
+                "content": "Konfliktfähigkeit ist für das Berufsleben wichtig. Sie gehört zu den sogenannten 'Sozialkompetenzen' und beschreibt, wie gut man unterschiedlichen Meinungen umgehen kann. Nicht immer werden alle Teammitglieder das Gleiche denken. Dann ist es wichtig, sich gegenseitig respektvoll zuzuhören und angemessen zu diskutieren, auch wenn man es eigentlich lieber harmonisch und unkompliziert mag. Von seiner eigenen Überzeugung abzuweichen, um einen gemeinsamen Kompromiss zu finden, aber in anderen Momenten auch nicht einzuknicken, die eigene Ansicht zu vertreten, auch wenn nicht alle sie teilen und Kritik nicht persönlich nehmen bzw. anbringen – diese Bandbreite gehört zur Konfliktfähigkeit.",
+                "additional_informations": []
+            },
+            {
+                "id": "freiwilligendienste-bundesweit",
+                "name": "Freiwilligendienste bundesweit",
+                "content": "Freiwilligendienste sind eine gute Möglichkeit, erste Berufserfahrungen zu sammeln. Du kannst ehrenamtliche im sozialen, ökologischen, kulturellen oder im sportlichen Bereich sowie im Zivil- und Katastrophenschutz arbeiten. Es gibt 3 große Dienste: das Freiwillige Soziale Jahr (FSJ), das Freiwillige Ökologische Jahr (FÖJ) und den Bundesfreiwilligendienst (BFD).<br><br>Ein FSJ/FÖJ kannst du zwischen 16 und 27 Jahren machen. Alle Freiwilligendienste dauern in der Regel 12 Monate.  Diese ehrenamtlichen Tätigkeiten werden von sogenannten Trägerorganisationen angeboten. Wenn dich also ein Freiwilligendienst interessiert, schickst du dein Bewerbungsschreiben direkt an einen Träger für Freiwilligendienste.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Trägerorganisation für Freiwilligendienste des jeweiligen Bundeslandes"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/bildung/zwischenzeit/freiwilligendienst-leisten",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.bundesfreiwilligendienst.de/bundesfreiwilligendienst/ueber-den-bfd",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "freiwilligendienste-ausland",
+                "name": "Freiwilligendienste im Ausland",
+                "content": "Einen Freiwilligendienst wie das FSJ oder FÖJ kann man auch im Ausland machen. Wie beim Freiwilligendienst innerhalb von Deutschland wendest  du dich an den Träger, der die ehrenamtliche Tätigkeiten koordiniert. Daneben gibt es aber auch noch eine ganze Reihe an weiteren Tätigkeiten im Ausland wie ein Volunteering oder ein Au-Pair-Aufenthalt. Alle Tätigkeiten haben unterschiedliche Rahmenbedingungen z. B. in welchem Alter man das machen darf, wie viel es kostet, welche Aufgaben man machen muss und wie man sich darauf bewirbt.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Berufsberater oder Trägerorganisationen für Freiwilligendienste im Ausland"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/bildung/zwischenzeit/freiwilligendienst-leisten",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.wege-ins-ausland.de/wege-ins-ausland/au-pair-im-ausland",
+                                "label": "Link 2"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "zukunftsangst",
+                "name": "Zukunftsangst",
+                "content": "Die Vorstellung von der eigenen Zukunft kann beänstigend sein. In den Medien wird täglich von verschiedensten Krisen berichtet, die gefühlt immer näher kommen und das eigene Leben eines Tages vielleicht auch direkt betreffen. Neben den großen Weltproblemen kommen für junge Menschen auch noch die persönlichen Themen dazu. Eine Frage, die z. B. viele Junge Menschen stresst: Wie soll es nach der Schule weitergehen? Vieles ist ungewiss. Und Ungewissheit kann Angst machen. Sprich mit anderen darüber und du wirst sehen, dass es dir nicht alleine so geht. Das ist ein bisschen beruhigend und auch bis zu einem gewissen Grad normal. Vielleicht kannst du die Offenheit der Zukunft als deine eigenen Möglichkeiten zur Gestaltung erkennen. Sollte deine Angst dich aber nicht loslassen, hol dir professionelle Hilfe! Zum Beispiel durch eine Psychotherapie. ",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos und Podcast:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.mdr.de/wissen/generation-zukunftsangst-100.html",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "enttaeuschung ",
+                "name": "Enttäuschung ",
+                "content": "Auch wenn der Arbeitsmarkt sich gut für Bewerber/-innen entwickelt hat, darfst du nicht davon ausgehen, dass auf jede deiner Bewerbungen eine positive Antwort folgt. Nach wie vor sind einige wenige Berufe bei vergleichsweise vielen jungen Menschen beliebt, während andere Stellen unbesetzt bleiben. Lass dich von einer Absage auf jeden Fall nicht runterziehen. Schau dir deine Bewerbungsunterlagen noch einmal genau an: Was kannst du hier verbessern? Scheidest du nach dem Vorstellungsgespräch aus, überlege, was du dort beim nächsten Mal besser machen könntest. Üben hilft. Manchmal überzeugt aber trotz aller Bemühungen jemand anders mehr. Dann ist es noch wichtiger, dass du dran bleibst!",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://planet-beruf.de/schuelerinnen/wie-bewerbe-ich-mich/so-gehts-weiter/absage https://abi.de/bewerbung/zusage-oder-absage",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "konflikte",
+                "name": "Konflikte",
+                "content": "Streitigkeiten können immer entstehen, wenn Menschen aufeinander treffen. Auch in der Ausbildung kann die Zusammenarbeit mit bestimmten Kolleg/-innen schwierig sein. Konfliktfähigkeit hilft beim Umgang miteinander. Sollten die Konflikte im Betrieb nicht allein oder mit dem Ausbilder/der Ausbilderin gelöst werden können, kann die Ausbildungberatung der Kammer (IHK bzw. HWK) vielleicht helfen. Versuche den Konflikt (mit Unterstützung) zu lösen, damit deine Ausbildung nicht unter zwischenmenschlichen Problemen leidet. ",
+                "additional_informations": []
+            },
+            {
+                "id": "klischeefreie-berufswahl",
+                "name": "Klischeefreie Berufswahl",
+                "content": "Auch wenn sich aktuell einiges in der Gesellschaft tut, so hast du vielleicht auch schon deine Erfahrungen gemacht, was angeblich typisch männlich oder weiblich sein soll. Wie so vieles andere sollte auch die Berufswahl nicht vom biologischen Geschlecht abhängen. Sondern allein von Interessen und Fähigkeiten. Es ist absolut legitim, als Mann Erzieher werden zu wollen oder als Frau KFZ-Mechatronikerin. ",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.klischee-frei.de/de/klischeefrei_101886.php",
+                                "label": "Link 1"
+                            }, {
+                                "type": "link",
+                                "text": " https://www.handwerk.de/infos-zur-ausbildung/berufsinsider",
+                                "label": "Link 2"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "stress-berufswahl",
+                "name": "Stress bei der Berufswahl",
+                "content": "Wirst du auch oft gefragt, was du denn mal werden willst? Oder deine Eltern schlagen dir andauernd Studiengänge oder Ausbildungen vor? Meistens sind diese Dinge gut gemeint, aber trotzdem können sie stressen. Das Thema Berufsorientierung ist für viele junge Menschen sehr emotional. Nach der Schule, in der jeder Schritt vorbestimmt war, soll man plötzlich selbst wissen, was man beruflich werden möchte. Und das bei gefühlt hundettausend Möglichkeiten. Kein Wunder, dass man sich überfordert fühlt. Auch wenn die Berufswahl wichtig ist: Mach dir nicht zu viel Stress! Du kannst dich eigentlich jederzeit neu beruflich verändern und es gibt viele beratende Stellen, bei denen du dir Hilfe holen kannst.",
+                "additional_informations": [
+                    {
+                        "label": "Ansprechpartner",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": "Berufsberatung"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "freunde-va-familie",
+                "name": "Freund/-innen vs. Familie",
+                "content": "In der Jugend ist es ganz normal, dass man sich ein wenig von den Eltern distanziert und Freund/-innen sehr wichtige Bezugspersonen werden. Vieles ist jetzt ganz neu und wird ausprobiert. Auch wenn 'alle' z. B. beim Kiffen mitmachen, musst du das noch lange nicht! Eine Gruppe kann ganz schön Druck ausüben – selbst wenn es die eigenen Freund/-innen sind. Auch wenn du Angst vor Zurückweisung hast: Trau deinem Bauchgefühl und tu nichts, was du nicht möchtest. Echte Freund/-innen werden das respektieren.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.loveline.de/themen/freunde-familie/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "sexualitaet",
+                "name": "Sexualität",
+                "content": "In der Jugend stehen viele Entwicklungen an. Auch der Körper verändert sich und Sexualität wird ein Thema. Man hat viele Fragen, aber traut sich manchmal nicht sie zu stellen. Vielen ist das irgendwie peinlich, aber ganz ehrlich: Das ist das Natürlichste auf der Welt. ",
+                "additional_informations": [
+                    
+                    {
+                        "label": "Weitere Infos und Anlaufstellen:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.liebesleben.de/",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://interventionen.dissens.de/fuer-jugendliche/links-anlaufstellen",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "verhuetung-schwangerschaft",
+                "name": "Verhütung und Schwangerschaft",
+                "content": "Als Jugendliche macht man erste Erfahrungen mit Sexualität. Dazu gehört auch die Auseinandersetzung mit Verhütungsmethoden. Und im Fall der Fälle auch mit dem Thema Schwangerschaft. Konfliktberatung, Abtreibung und ganz viele andere Fragen zum neuen Leben und (finanzieller) Unterstützung können einen dann beschäftigen. Übrigens: Auch alles relevant für Männer!",
+                "additional_informations": [
+                   
+                    {
+                        "label": "Weitere Infos und Beratung:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.jung-und-schwanger.de/",
+                                "label": "Link 1"
+                            },
+                            {
+                                "type": "link",
+                                "text": "https://www.familienplanung.de/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "einsamkeit",
+                "name": "Einsamkeit",
+                "content": "Einsamkeit ist das Gefühl, dass man nicht genug Beziehungen zu anderen Menschen hat oder diese Beziehungen nicht tief genug gehen. Einsamkeit kann für jeden Menschen etwas anderes bedeuten. Das Gefühl ist aber immer ungut und langfristig schlecht für die Gesundheit. Auch junge Menschen können sich einsam fühlen. Es gibt verschiedene Strategien oder Angebote, um gegen Einsamkeit vorzugehen.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://kompetenznetz-einsamkeit.de/einsamkeit",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "diskriminierung",
+                "name": "Diskriminierung",
+                "content": "Niemand darf aufgrund rassistischer Gründe oder wegen der Herkunft, des Geschlechtes, der Religion, Weltanschauung, einer Behindung, des Alters oder der sexuellen Identität diskriminiert werden. Falls du das Gefühl hast, ungleich behandelt zu werden oder aber jemanden in deinem Umfeld siehst, der diskriminiert wird, ist es Zeit zu handeln. Dafür ist der erste beste Schritt, eine Person deines Vertrauens aufzusuchen und mit ihr über deine Beobachtungen oder Erfahrungen zu reden. Häufig bekommst du da schon hilfreiche Tipps zum Umgang. Ein nächster Schritt wäre es, die Person unter vier Augen anzusprechen, die in Verdacht steht, diskriminierende Handlungen durchzuführen. Im besten Fall, ist es der Person nicht bewusst und ihr findet gemeinsam eine Lösung, damit die Diskriminierung aufhört. Sollte keine Besserung deiner Situation eintreten, hilft oft noch ein Gespräch mit dem/der Chef/-in oder dem Betriebsrat.  Diese sind verpflichtet, deine Sorgen ernst zu nehmen und nach einer zufriedenstellenden Lösung zu suchen.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.antidiskriminierungsstelle.de/DE/wir-beraten-sie/diskriminierungs-check/wegweiser/diskriminierungs-check-node.html",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "jugendberufsagentur-erwachsen",
+                "name": "Jugendberufsagentur",
+                "content": "Egal ob du Probleme in der Schule, der Ausbildung, mit deinen Eltern oder Geld hast: Du kannst mit allen Themen, die dich beschäftigen, in eine Jugendberufsagentur kommen. Hier arbeiten Fachkräfte aus der Jugendhilfe, der Agentur für Arbeit und dem Jobcenter zusammen und es kann schnell geklärt werden, wer dich am besten unterstützen kann.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.servicestelle-jba.de/wws/9.php",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "girokonto",
+                "name": "Girokonto",
+                "content": "Spätestens zum Ausbildungsbeginn bzw. wenn du als Student/-in BAföG oder Gehalt aus einem Nebenjob erhältst, brauchst du ein Konto. Oft werden für die Kontoführung von der Bank Gebühren erhoben. Für Auszubildene und Studierende gibt es aber kostenlose Angebote. Einige Services werden aber erst für Volljährige oder ab einem gewissen Einkommen angeboten. Informiere dich, ob die Filialbank um die Ecke oder eine Direktbank (langfristig) für dich sinnvoll ist.",
+                "additional_informations": []
+            },
+            {
+                "id": "jobcenter",
+                "name": "Jobcenter",
+                "content": "Die Jobcenter sind für die Grundsicherung für Arbeitssuchende zuständig: Wenn jemand nicht genügend Geld hat, um den eigenen Lebensunterhalt zu sichern, sichert das Bürgergeld die Existenz. Erwerbsfähige Menschen (alle, die über 15 Jahre alt sind und mehr als 3 Stunden täglich arbeiten können) können Bürgergeld beim für den Wohnort zuständigen Jobcenter beantragen. Neben der finanziellen Unterstützung erhalten Arbeissuchende auch Unterstützung durch die Arbeitsvermittlung. Als Bezieher/-in von Bürgergeld hat man sowohl Rechte, als auch Pflichten. ",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.jobcenter-ge.de/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "berufsberatung",
+                "name": "Berufsberatung",
+                "content": "Die Berufsberatung ist ein kostenloses Angebot der Bundesagentur für Arbeit. Berufsberater/-innen helfen z.B. bei Fragen rund um die Ausbildungs- oder Studienwahl, die Bewerbung auf entsprechende Plätze und Fördermöglichkeiten. Die Beratung erfolgt persönlich vor Ort oder per Video. Wer sich eigenständig informieren möchte, kann zu den Öffnungszeiten auch das Berufsinformationszentrum (BiZ) der örtlichen Agentur für Arbeit besuchen.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/bildung/berufsberatung",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "jugendmigrationsdienst",
+                "name": "Jugendmigrationsdienst",
+                "content": "Jugendmigrationsdienste (JMD) unterstützen junge Menschen mit Migrationshintergrund, in Deutschland anzukommen. Es gibt (online) Beratung, Bildungs- und Freizeitangebote. Sie helfen, damit es in der Schule und danach mit einer Ausbildung oder einem Beruf klappt.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos - auch in verschiedenen Sprachen:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.jugendmigrationsdienste.de/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "biz",
+                "name": "BIZ",
+                "content": "Das Bundesinformationszentrum ist ein kostenloses Informationsangebot von der Bundesagentur für Arbeit, das für Jugendliche bei der ersten Berufswahl oder Erwachsenen, die sich Neuorientieren wollen, Beratungen und Informationen anbieten. Anlaufstellen des BIZ befinden sich immer da, wo es auch die Bundesagentur für Arbeit gibt. ",
+                "additional_informations": [
+                    
+                    {
+                        "label": "Weitere Infos sowie eine Suchmaschine für Anlaufstellen in deiner Nähe gibt es hier:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/bildung/berufsinformationszentrum-biz",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "id": "bundesagentur-arbeit",
+                "name": "Bundesagentur für Arbeit",
+                "content": "Die Bundesagentur für Arbeit (BA) bzw. die Geschäftsstellen in den jeweiligen Städten sind für Leistungen für den Arbeitsmarkt zuständig. Dazu zählen unter anderem das Arbeitslosengeld 1 und die Berufsberatung. Auch die Familienkasse, die das Kindergeld verwalten, gehört zur BA.",
+                "additional_informations": [
+                    {
+                        "label": "Weitere Infos:",
+                        "content": [
+                            {
+                                "type": "link",
+                                "text": "https://www.arbeitsagentur.de/",
+                                "label": "Link 1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
