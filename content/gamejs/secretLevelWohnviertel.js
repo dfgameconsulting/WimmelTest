@@ -82,6 +82,9 @@ let sound06 = new Pizzicato.Sound("sound/Secret.mp3");
 
 let secretWohnviertel = document.querySelector("#secretWohnviertel");
 
+document.querySelector('.close').onclick = () => {
+  fadeOut('#secretWohnviertel')
+}
 
 
 function fadeIn(selector) {

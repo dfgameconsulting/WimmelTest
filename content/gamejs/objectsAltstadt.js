@@ -102,7 +102,7 @@ class pickObject {
     this.imgProxy.onload = () => {
       this.w = this.imgProxy.width;
       this.h = this.imgProxy.height;
-      console.log('Image "' + this.name + '" loaded...' + " x: " + this.imgProxy.width + " y: " + this.imgProxy.height);
+      // console.log('Image "' + this.name + '" loaded...' + " x: " + this.imgProxy.width + " y: " + this.imgProxy.height);
       setTimeout(() => {
         this.render();
       }, 300);
@@ -201,8 +201,8 @@ class pickObject {
     };
 
     objects.push(this);
-    console.log(this);
-    console.log(" ...was created!");
+    // console.log(this);
+    // console.log(" ...was created!");
   }
 }
 
