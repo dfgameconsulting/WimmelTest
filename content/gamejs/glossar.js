@@ -9,6 +9,8 @@ class Glossar {
     this.glossarChapters = []
     this.glossarContent = []
     this.glossarCategories = []
+    this.glossarAzCategories = []
+    this.glossarAzContents = []
   }
 
   init = async () => {
@@ -17,7 +19,10 @@ class Glossar {
      */
     let glossarWrap = document.querySelector('#glossar-html')
     let glossarNavWrap = document.querySelector('#unter-kat')
+    let glossarAZCategoriesWrap = document.querySelector('#all-cats-a-z')
+    let glossarAZContentsWrap = document.querySelector('#all-contents-a-z')
     let glossarMainNavWrap = document.querySelector('#haupt-kat')
+    
 
     /**
      * Load the glossar json file (located in gamejs/glossar.json)
