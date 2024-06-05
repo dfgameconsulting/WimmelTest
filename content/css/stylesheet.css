@@ -300,6 +300,8 @@ body::-webkit-scrollbar {
 #options-info {
     opacity: 0;
     pointer-events: none;
+    position: relative;
+    right: 5vw;
 }
 
 #options-info img {
