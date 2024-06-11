@@ -21,19 +21,19 @@ lupe.forEach((lupe) => {
 });
 
 class secretEntry {
-  constructor(name, x, y, place, text, img) {
+  constructor(name, x, y, place, text, img = null) {
     this.name = name;
     this.x = x;
     this.y = y;
     this.place = place;
     this.text = text;
-    this.img = img;
-    this.wasFound = false;
-    this.imgProxy = new Image();
-    this.imgProxy.src = "img/" + this.img;
+    // this.img = img;
+    // this.wasFound = false;
+    // this.imgProxy = new Image();
+    // this.imgProxy.src = "img/" + this.img;
 
-    this.w = this.imgProxy.width;
-    this.h = this.imgProxy.height;
+    // this.w = this.imgProxy.width;
+    // this.h = this.imgProxy.height;
 
     // Suchbild
     let div = document.createElement("div");
@@ -45,17 +45,14 @@ class secretEntry {
     r.style.setProperty(`--${this.name}X`, `${pos.left + screen01Width * this.x}px`);
     r.style.setProperty(`--${this.name}Y`, `${pos.top + screen01Height * this.y}px`);
     document.getElementById(this.name).style.cssText = `
-      position: absolute;
-      width: ${this.w}px;
-      height: ${this.h}px;
+     position: absolute;
+      width: 500px;
+      height: 200px;
       left: var(--${this.name}X);
       top: var(--${this.name}Y); 
       transform-origin: 0% 0%;
       transform: translate(0%, 0%) var(--scaleFactorObjects);
-      background-image: url(img/${this.img});
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: contain;
+
       outline: 3px solid green;
       `;
 
@@ -76,7 +73,7 @@ class secretEntry {
 }
 let sound06 = new Pizzicato.Sound("sound/Secret.mp3");
 
-//Waage = new secretEntry("Waage", 0.832813, 0.200463, "screen02", "Das ist eine Waage", "Wohnviertel/Bild_002/Objekte_ImBild/Waage.png");
+hecke = new secretEntry("Hecke", 0.832813, 0.650463, "screen04", "Das ist eine Hecke");
 
 // Secret Wohnviertel Logik
 
@@ -86,11 +83,45 @@ document.querySelector('.close').onclick = () => {
   fadeOut('#secretWohnviertel')
 }
 
+let wlan = document.querySelector('#wlan')
+let stromkasten = document.querySelector('#stromkasten')
+let rathaus = document.querySelector('#rathaus')
+let secretItemsFound = 0
+
+let foundAll = (amount) => {
+  if (amount < 3) return;
+  sound06.play();
+  secretLevelWohnviertelDone = true;
+  setTimeout(() => {
+    fadeOut('#secretWohnviertel');
+  }, 3000);
+}
+
+wlan.onclick = () => {
+  console.log(wlan)
+  secretItemsFound++
+  wlan.style.display = "none"
+  foundAll(secretItemsFound)
+}
+
+stromkasten.onclick = () => {
+  secretItemsFound++
+  stromkasten.style.display = "none"
+  foundAll(secretItemsFound)
+}
+
+rathaus.onclick = () => {
+  secretItemsFound++
+  rathaus.style.display = "none"
+  foundAll(secretItemsFound)
+}
+
 
 function fadeIn(selector) {
+  
   anime({
     begin: () => {
-      document.querySelector(selector).style.display = "block";
+      let a = document.querySelector(selector).style.display = "block";
     },
     targets: selector,
     opacity: [0, 1],

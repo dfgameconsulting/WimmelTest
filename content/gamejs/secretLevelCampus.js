@@ -102,6 +102,7 @@ let foundAll = (amount) => {
 }
 
 zauberer.onclick = () => {
+  console.log(zauberer)
   secretItemsFound++;
   zauberer.style.display = "none";
   foundAll(secretItemsFound);
