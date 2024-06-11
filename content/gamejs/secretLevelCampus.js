@@ -52,8 +52,6 @@ class secretEntry {
       top: var(--${this.name}Y); 
       transform-origin: 0% 0%;
       transform: translate(0%, 0%) var(--scaleFactorObjects);
-
-      outline: 3px solid green;
       `;
 
       /*      background-image: url(img/${this.img});
@@ -102,6 +100,7 @@ let foundAll = (amount) => {
 }
 
 zauberer.onclick = () => {
+  console.log(zauberer)
   secretItemsFound++;
   zauberer.style.display = "none";
   foundAll(secretItemsFound);

@@ -62,9 +62,8 @@ class secretEntry {
       background-image: url(img/${this.img});
       background-repeat: no-repeat;
       background-position: center;
-      background-size: contain;
-      outline: 3px solid green;
-      `;
+      background-size: contain
+      ;`;
 
 
 
