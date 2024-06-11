@@ -87,7 +87,7 @@ let objects = [];
 let secrets = [];
 
 class pickObject {
-  constructor(name, x, y, place, text, img, invImg) {
+  constructor(name, x, y, place, text, img, invImg, hidden = false) {
     this.name = name;
     this.x = x;
     this.y = y;

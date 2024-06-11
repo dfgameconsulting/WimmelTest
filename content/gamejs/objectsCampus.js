@@ -70,7 +70,7 @@ let objects = [];
 let secrets = [];
 
 class PickObject {
-  constructor(name, x, y, place, text, img, invImg) {
+  constructor(name, x, y, place, text, img, invImg, hidden = false) {
     this.name = name;
     this.x = x;
     this.y = y;
@@ -79,12 +79,12 @@ class PickObject {
     this.img = img;
     this.wasFound = false;
     this.invImg = invImg;
+    this.hidden = hidden
 
     this.imgProxy = new Image();
     this.imgProxy.src = 'img/' + this.img;
     // this.w = this.imgProxy.width;
     // this.h = this.imgProxy.height;
-
     this.imgProxy.onload = () => {
       this.w = this.imgProxy.width;
       this.h = this.imgProxy.height;
@@ -106,6 +106,7 @@ class PickObject {
     r.style.setProperty(`--${this.name}Y`, `${pos.top + screen01Height * this.y}px`);
     document.getElementById(this.name).style.cssText = `
     position: absolute;
+    display: ${this.hidden ? 'none' : 'block'};
     width: ${this.w}px;
     height: ${this.h}px;
     left: var(--${this.name}X);
@@ -212,7 +213,7 @@ function checkAllObjectsFound() {
     objectCopy = objectCopy.filter((element) => element.place != 'screen02');
     animateWin('#inventory-wrapper02');
   }
-  if (countedObjects03.length >= 7) {
+  if (countedObjects03.length >= 10) {
     sound04.play();
     objectCopy = objectCopy.filter((element) => element.place != 'screen03');
     animateWin('#inventory-wrapper03');
@@ -351,6 +352,9 @@ let startGame = () => {
   kleingeldhut = new PickObject('Kleingeldhut', 0.385938, 0.763426, 'screen03', 'Das ist ein Kleingeldhut', 'Campus/Bild_003/Objekte_ImBild/kleingeldhut.png', 'Campus/Bild_003/Objekte_Inventar/kleingeldhut.png');
   mutterMitKind = new PickObject('Mutter_mit_Schirm', 0.520833, 0.702315, 'screen03', 'Das ist ein Mutter mit Schirm', 'Campus/Bild_003/Objekte_ImBild/muttermitkind.png', 'Campus/Bild_003/Objekte_Inventar/muttermitkind.png');
   sparschwein = new PickObject('Sparschwein', 0.490104, 0.149074, 'screen03', 'Das ist ein Sparschwein', 'Campus/Bild_003/Objekte_ImBild/sparschwein.png', 'Campus/Bild_003/Objekte_Inventar/sparschwein.png');
+  dieb = new PickObject('Dieb', 0.490104, 0.149074, 'screen03', 'Das ist ein Dieb', 'Campus/Bild_003/Objekte_Inventar/dieb.png', 'Campus/Bild_003/Objekte_Inventar/dieb.png', true);
+  koch = new PickObject('Koch', 0.490104, 0.149074, 'screen03', 'Das ist ein Koch', 'Campus/Bild_003/Objekte_Inventar/koch.png', 'Campus/Bild_003/Objekte_Inventar/koch.png', true);
+  zauberer = new PickObject('Zauberer', 0.490104, 0.149074, 'screen03', 'Das ist ein Zauberer', 'Campus/Bild_003/Objekte_Inventar/zauberer.png', 'Campus/Bild_003/Objekte_Inventar/zauberer.png', true);
 
   bus = new PickObject('Bus', 0.909375, 0.202315, 'screen04', 'Das ist ein Bus', 'Campus/Bild_004/Objekte_ImBild/bus.png', 'Campus/Bild_004/Objekte_Inventar/bus.png');
   fahrrad = new PickObject('Fahrrad', 0.753125, 0.465741, 'screen04', 'Das ist ein Fahrrad', 'Campus/Bild_004/Objekte_ImBild/fahrrad.png', 'Campus/Bild_004/Objekte_Inventar/fahrrad.png');
