@@ -271,17 +271,26 @@ var sound02 = new Pizzicato.Sound('sound/Button_Normal.mp3');
 var sound04 = new Pizzicato.Sound('sound/Sterne.mp3');
 
 class hintCircleObject {
-  constructor(name, x, y, place, img) {
+  constructor(name, x, y, place, img, secret = false, scale = 7, containerClass = 'hintCircle') {
     this.name = name;
     this.x = x;
     this.y = y;
     this.place = place;
     this.img = img;
-    let div = document.createElement('div');
+    this.scale = scale
+    let div = document.createElement("div");
+    this.containerClass = containerClass
+
     div.id = this.name;
-    div.className = 'hintCircle';
+    div.onmouseover = () => {
+      if(!lupeAus){
+        div.style.display = 'none'
+      }
+    }
+    
+    div.className = this.containerClass;
     document.getElementById(place).appendChild(div);
-    let pos = this.place === 'screen01' ? screen01Pos : this.place == 'screen02' ? screen02Pos : this.place == 'screen03' ? screen03Pos : screen04Pos;
+    let pos = this.place === "screen01" ? screen01Pos : this.place == "screen02" ? screen02Pos : this.place == "screen03" ? screen03Pos : screen04Pos;
     r.style.setProperty(`--${this.name}X`, `${pos.left + screen01Width * this.x}px`);
     r.style.setProperty(`--${this.name}Y`, `${pos.top + screen01Height * this.y}px`);
     document.getElementById(this.name).style.cssText = `
@@ -294,26 +303,14 @@ class hintCircleObject {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    transform: scale(7);
-    opacity: 0;
+    transform: scale(${this.scale});
+    ${!secret ? 'opacity: 0':''};
     `;
     objects.push(this);
   }
 }
 let startGame = () => {
   blurAll();
- /*HIER WEITER PFADE ANPASSEN*/ 
-  // lautstaerkesymbol = new PickObject('Lautstärkesymbol', 0.429688, 0.040278, 'screen01', 'Das ist ein Lautstärkesymbol', 'Campus/Bild_001/Szene1_LautstaerkeSymbol.png', 'Campus/Inventar/Bild_001/Szene1_LautstärkeSymbol_01_hz.png');
-  // blindenbinde = new PickObject('Blindenbinde', 0.090625, 0.830556, 'screen01', 'Das ist eine Blindenbinde', 'Campus/Bild_001/Szene1_Blindenbinde.png', 'Campus/Inventar/Bild_001/Szene1_Blindenbinde_01_hz.png');
-  // c1 = new PickObject('C1', 0.817708, 0.243519, 'screen01', 'Das ist C1', 'Campus/Bild_001/Szene1_C1.png', 'Campus/Inventar/Bild_001/Szene1_C1_01_hz.png');
-  // fragezeichen = new PickObject('Fragezeichen', 0.853906, 0.5875, 'screen01', 'Das ist ein Fragezeichen', 'Campus/Bild_001/Szene1_Fragezeichen.png', 'Campus/Inventar/Bild_001/Szene1_Fragezeichen_01_hz.png');
-  // globus = new PickObject('Globus', 0.813281, 0.157407, 'screen01', 'Das ist ein Globus', 'Campus/Bild_001/Szene1_Globus.png', 'Campus/Inventar/Bild_001/Szene1_Globus_01_hz.png');
-  // kinderwagen = new PickObject('Kinderwagen', 0.206, 0.668056, 'screen01', 'Das ist ein Kinderwagen', 'Campus/Bild_001/Szene1_Kinderwagen.png', 'Campus/Inventar/Bild_001/Szene1_Kinderwagen_01_hz.png');
-  // kuscheltier = new PickObject('Kuscheltier', 0.636198, 0.494907, 'screen01', 'Das ist ein Kuscheltier', 'Campus/Bild_001/Szene1_Kuscheltier.png', 'Campus/Inventar/Bild_001/Szene1_Kuscheltier_01_hz.png');
-  // rollstuhl = new PickObject('Rollstuhl', 0.417708, 0.649074, 'screen01', 'Das ist ein Rollstuhl', 'Campus/Bild_001/Szene1_Rollstuhl.png', 'Campus/Inventar/Bild_001/Szene1_Rollstuhl_01_hz.png');
-  // stoppschild = new PickObject('Stoppschild', 0.340625, 0.686574, 'screen01', 'Das ist ein Stoppschild', 'Campus/Bild_001/Szene1_Stoppschild.png', 'Campus/Inventar/Bild_001/Szene1_Stoppschild_01_hz.png');
-  // windel = new PickObject('Windel', 0.723958, 0.668519, 'screen01', 'Das ist eine Windel', 'Campus/Bild_001/Szene1_Windel.png', 'Campus/Inventar/Bild_001/Szene1_Windel_01_hz.png');
-
   lautstaerkesymbol_PO = new PickObject('Lautstärkesymbol', 0.429688, 0.040278, 'screen01', 'Das ist ein Lautstärkesymbol', 'Campus/Bild_001/Objekte_ImBild/lautstaerkesymbol.png', 'Campus/Bild_001/Objekte_Inventar/lautstaerkesymbol.png');
   blindenbinde_PO = new PickObject('Blindenbinde', 0.090625, 0.830556, 'screen01', 'Das ist eine Blindenbinde', 'Campus/Bild_001/Objekte_ImBild/blindenbinde.png', 'Campus/Bild_001/Objekte_Inventar/blindenbinde.png');
   c1_PO = new PickObject('C1', 0.817708, 0.243519, 'screen01', 'Das ist C1', 'Campus/Bild_001/Objekte_ImBild/c1.png', 'Campus/Bild_001/Objekte_Inventar/c1.png');
@@ -335,16 +332,6 @@ let startGame = () => {
   stundenplan_PO = new PickObject('Stundenplan', 0.95026, 0.118519, 'screen02', 'Das ist ein Stundenplan', 'Campus/Bild_002/Objekte_ImBild/stundenplan.png', 'Campus/Bild_002/Objekte_Inventar/stundenplan.png');
   todoliste_PO = new PickObject('Todoliste', 0.607552, 0.443981, 'screen02', 'Das ist eine To Do Liste', 'Campus/Bild_002/Objekte_ImBild/todoliste.png', 'Campus/Bild_002/Objekte_Inventar/todoliste.png');
   umleitungsschild_PO = new PickObject('Umleitungsschild', 0.455469, 0.706944, 'screen02', 'Das ist ein Umleitungsschild', 'Campus/Bild_002/Objekte_ImBild/umleitungsschild.png', 'Campus/Bild_002/Objekte_Inventar/umleitungsschild.png');
-  // buecherzelle = new PickObject('Bücherzelle', 0.946354, 0.626389, 'screen02', 'Das ist eine Bücherzelle', 'Campus/Bild_002/Szene2_Buecherzelle.png', 'Campus/Inventar/Bild_002/Szene2_Buecherzelle_01_hz.png');
-  // jubelndePerson = new PickObject('Jubelnde_Person', 0.695313, 0.368981, 'screen02', 'Das ist eine jubelnde Person', 'Campus/Bild_002/Szene2_JubelndePerson.png', 'Campus/Inventar/Bild_002/Szene2_JubelndePerson_01_hz.png');
-  // karteikarten = new PickObject('Karteikarten', 0.916146, 0.868981, 'screen02', 'Das sind Karteikarten', 'Campus/Bild_002/Szene2_Karteikarten.png', 'Campus/Inventar/Bild_002/Szene2_Karteikarten_01_hz.png');
-  // lerngruppe = new PickObject('Lerngruppe', 0.449219, 0.742593, 'screen02', 'Das ist eine Lerngruppe', 'Campus/Bild_002/Szene2_Lerngruppe.png', 'Campus/Inventar/Bild_002/Szene2_Lerngruppe_01_hz.png');
-  // ordnerstapel = new PickObject('Ordnerstapel', 0.521094, 0.141667, 'screen02', 'Das ist eine Ordnerstapel', 'Campus/Bild_002/Szene2_Ordnerstapel.png', 'Campus/Inventar/Bild_002/Szene2_Ordnerstapel_01_hz.png');
-  // personMitSchweiss = new PickObject('Person_mit_Schweiß', 0.013802, 0.685648, 'screen02', 'Das ist eine Person mit Schweiß', 'Campus/Bild_002/Szene2_PersonMitSchweiss.png', 'Campus/Inventar/Bild_002/Szene2_PersonMitSchweiss_01_hz.png');
-  // stoppuhr = new PickObject('Stoppuhr', 0.11276, 0.067593, 'screen02', 'Das ist eine Stoppuhr', 'Campus/Bild_002/Szene2_Stoppuhr.png', 'Campus/Inventar/Bild_002/Szene2_Stoppuhr_01_hz.png');
-  // stundenplan = new PickObject('Stundenplan', 0.95026, 0.118519, 'screen02', 'Das ist ein Sundenplan', 'Campus/Bild_002/Szene2_Stundenplan.png', 'Campus/Inventar/Bild_002/Szene2_Stundenplan_01_hz.png');
-  // todoliste = new PickObject('Todoliste', 0.607552, 0.443981, 'screen02', 'Das ist eine To Do Liste', 'Campus/Bild_002/Szene2_ToDoListe.png', 'Campus/Inventar/Bild_002/Szene2_ToDoListe_01_hz.png');
-  // umleitungsschild = new PickObject('Umleitungsschild', 0.455469, 0.706944, 'screen02', 'Das ist ein Umleitungsschild', 'Campus/Bild_002/Szene2_Umleitungsschild.png', 'Campus/Inventar/Bild_002/Szene2_Umleitungsschild_01_hz.png');
 
   fuenfUndZwanzig_PO = new PickObject('Fünfundzwanzig', 0.361719, 0.726852, 'screen03', 'Das ist 25', 'Campus/Bild_003/Objekte_ImBild/25.png', 'Campus/Bild_003/Objekte_Inventar/25.png');
   absolventenhut_PO = new PickObject('Absolventenhut', 0.81849, 0.485648, 'screen03', 'Das ist ein Absolventenhut', 'Campus/Bild_003/Objekte_ImBild/absolventenhut.png', 'Campus/Bild_003/Objekte_Inventar/absolventenhut.png');
@@ -369,6 +356,14 @@ let startGame = () => {
   umzugswagen_PO = new PickObject('Umzugswagen', 0.651563, 0.113889, 'screen04', 'Das ist ein Umzugswagen', 'Campus/Bild_004/Objekte_ImBild/umzugswagen.png', 'Campus/Bild_004/Objekte_Inventar/umzugswagen.png');
   zebrastreifen_PO = new PickObject('Zebrastreifen', 0, 0.874537, 'screen04', 'Das ist eine Zebrastreifen', 'Campus/Bild_004/Objekte_ImBild/zebrastreifen.png', 'Campus/Bild_004/Objekte_Inventar/zebrastreifen.png');
 
+  let secretHint = new hintCircleObject("hintCircleSecret", 0.660938, 0.70, "screen03", "BIB001_Stadt_Hinweiskreis_04_ll.png", true, 1, '')
+  anime({
+    targets: "#hintCircleSecret",
+    scale: [1, 1.5, 1],
+    easing: "easeInOutQuad",
+    duration: 5000,
+    loop:true
+  });
   resetRatios();
 
   // Hint System

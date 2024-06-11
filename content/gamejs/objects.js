@@ -54,10 +54,10 @@ function resetRatios() {
       element.place == "screen01"
         ? screen01Height
         : element.place == "screen02"
-        ? screen02Height
-        : element.place == "screen03"
-        ? screen03Height
-        : screen04Height;
+          ? screen02Height
+          : element.place == "screen03"
+            ? screen03Height
+            : screen04Height;
     r.style.setProperty(`--${element.name}X`, `${pos.left + width * element.x}px`);
     r.style.setProperty(`--${element.name}Y`, `${pos.top + height * element.y}px`);
   });
@@ -70,10 +70,10 @@ function resetRatios() {
       element.place == "screen01"
         ? screen01Height
         : element.place == "screen02"
-        ? screen02Height
-        : element.place == "screen03"
-        ? screen03Height
-        : screen04Height;
+          ? screen02Height
+          : element.place == "screen03"
+            ? screen03Height
+            : screen04Height;
     r.style.setProperty(`--${element.name}X`, `${pos.left + width * element.x}px`);
     r.style.setProperty(`--${element.name}Y`, `${pos.top + height * element.y}px`);
   });
@@ -97,7 +97,7 @@ class PickObject {
 
     this.imgProxy = new Image();
     this.imgProxy.src = "img/" + this.img;
-       // this.w = this.imgProxy.width;
+    // this.w = this.imgProxy.width;
     // this.h = this.imgProxy.height;
 
     this.imgProxy.onload = () => {
@@ -147,55 +147,55 @@ class PickObject {
 
     div.onclick = () => {
       if (isRunning) return;
-            anime({
-              begin: () => {
-                isRunning = true;
-                this.wasFound = true;
-                // GameManager!
-                localStorage.setItem(this.name, "true");
-                let tl = new anime.timeline();
-                tl.add({
-                  begin: () => {
-                    document.querySelector('#foundInfo').innerHTML = this.name.replace(/_/g, ' ') + " gefunden!";
-                  },
-                  targets: "#options-info",
-                  opacity: [0, 1],
-                  duration: 500,
-                  easing: "easeInOutSine",
-                }).add({
-                  duration: 1000,
-                }).add({
-                  targets: "#options-info",
-                  opacity: [1, 0],
-                  duration: 500,
-                  easing: "easeInOutSine",
-                })
-                
-              },
-              targets: "#" + this.name,
-              scale: [1.5, 1, 0.01],
-              translate: "-33% -33%",
-              transformOrigin: "50% 50%",
-              easing: "linear",
-              duration: 500,
-              complete: () => {
-                sound01.play();
-                let index = objects.indexOf(this);
-                objectCopy.push(...objects.splice(index, 1));
-                document.getElementById(this.name).remove();
-                isRunning = false;
-                anime({
-                  targets: `#${this.name + "Inventory"}`,
-                  filter: ["brightness(0.1) sepia(1) opacity(0.3)", "brightness(1) sepia(0) opacity(1)"],
-                  scale: [0.9, 1.3, 1],
-                  easing: "easeInOutExpo",
-                  duration: 300,
-                  complete: () => {
-                    checkAllObjectsFound();
-                  },
-                });
-              },
-            });
+      anime({
+        begin: () => {
+          isRunning = true;
+          this.wasFound = true;
+          // GameManager!
+          localStorage.setItem(this.name, "true");
+          let tl = new anime.timeline();
+          tl.add({
+            begin: () => {
+              document.querySelector('#foundInfo').innerHTML = this.name.replace(/_/g, ' ') + " gefunden!";
+            },
+            targets: "#options-info",
+            opacity: [0, 1],
+            duration: 500,
+            easing: "easeInOutSine",
+          }).add({
+            duration: 1000,
+          }).add({
+            targets: "#options-info",
+            opacity: [1, 0],
+            duration: 500,
+            easing: "easeInOutSine",
+          })
+
+        },
+        targets: "#" + this.name,
+        scale: [1.5, 1, 0.01],
+        translate: "-33% -33%",
+        transformOrigin: "50% 50%",
+        easing: "linear",
+        duration: 500,
+        complete: () => {
+          sound01.play();
+          let index = objects.indexOf(this);
+          objectCopy.push(...objects.splice(index, 1));
+          document.getElementById(this.name).remove();
+          isRunning = false;
+          anime({
+            targets: `#${this.name + "Inventory"}`,
+            filter: ["brightness(0.1) sepia(1) opacity(0.3)", "brightness(1) sepia(0) opacity(1)"],
+            scale: [0.9, 1.3, 1],
+            easing: "easeInOutExpo",
+            duration: 300,
+            complete: () => {
+              checkAllObjectsFound();
+            },
+          });
+        },
+      });
     };
 
     objects.push(this);
@@ -272,8 +272,8 @@ window.onload = () => {
   // startGame();
 };
 
-document.addEventListener("DOMContentLoaded", function() {
- 
+document.addEventListener("DOMContentLoaded", function () {
+
 });
 
 var sound01 = new Pizzicato.Sound("sound/VUMark_complete.mp3");
@@ -281,15 +281,24 @@ var sound02 = new Pizzicato.Sound("sound/Button_Normal.mp3");
 var sound04 = new Pizzicato.Sound("sound/Sterne.mp3");
 
 class hintCircleObject {
-  constructor(name, x, y, place, img) {
+  constructor(name, x, y, place, img, secret = false, scale = 7, containerClass = 'hintCircle') {
     this.name = name;
     this.x = x;
     this.y = y;
     this.place = place;
     this.img = img;
+    this.scale = scale
     let div = document.createElement("div");
+    this.containerClass = containerClass
+
     div.id = this.name;
-    div.className = "hintCircle";
+    div.onmouseover = () => {
+      if(!lupeAus){
+        div.style.display = 'none'
+      }
+    }
+    
+    div.className = this.containerClass;
     document.getElementById(place).appendChild(div);
     let pos = this.place === "screen01" ? screen01Pos : this.place == "screen02" ? screen02Pos : this.place == "screen03" ? screen03Pos : screen04Pos;
     r.style.setProperty(`--${this.name}X`, `${pos.left + screen01Width * this.x}px`);
@@ -304,8 +313,8 @@ class hintCircleObject {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    transform: scale(7);
-    opacity: 0;
+    transform: scale(${this.scale});
+    ${!secret ? 'opacity: 0':''};
     `;
     objects.push(this);
   }
@@ -314,19 +323,19 @@ class hintCircleObject {
 let startGame = () => {
   blurAll();
   //sound05.play();
-  object01 = new PickObject("Bar", 0.19974, 0.269444, "screen01", "Das ist ein Barschild", "CityCenter/Bild_001/Objekte_ImBild/bar.png" , "CityCenter/Bild_001/Objekte_Inventar/bar.png");
-  object02 = new PickObject("Burger", 0.279167, 0.53704, "screen01", "Das ist ein Burger Schild", "CityCenter/Bild_001/Objekte_ImBild/burger.png" , "CityCenter/Bild_001/Objekte_Inventar/burger.png"); 
-  object03 = new PickObject("Bandit", 0.0, 0.601852, "screen01", "Das ist ein einarmiger Bandit", "CityCenter/Bild_001/Objekte_ImBild/einarmigerbandit.png" , "CityCenter/Bild_001/Objekte_Inventar/einarmigerbandit.png");
-  object04 = new PickObject("Glasscontainer", 0.295052, 0.627315, "screen01", "Das ist ein ", "CityCenter/Bild_001/Objekte_ImBild/glasscontainer.png" , "CityCenter/Bild_001/Objekte_Inventar/glasscontainer.png");
+  object01 = new PickObject("Bar", 0.19974, 0.269444, "screen01", "Das ist ein Barschild", "CityCenter/Bild_001/Objekte_ImBild/bar.png", "CityCenter/Bild_001/Objekte_Inventar/bar.png");
+  object02 = new PickObject("Burger", 0.279167, 0.53704, "screen01", "Das ist ein Burger Schild", "CityCenter/Bild_001/Objekte_ImBild/burger.png", "CityCenter/Bild_001/Objekte_Inventar/burger.png");
+  object03 = new PickObject("Bandit", 0.0, 0.601852, "screen01", "Das ist ein einarmiger Bandit", "CityCenter/Bild_001/Objekte_ImBild/einarmigerbandit.png", "CityCenter/Bild_001/Objekte_Inventar/einarmigerbandit.png");
+  object04 = new PickObject("Glasscontainer", 0.295052, 0.627315, "screen01", "Das ist ein ", "CityCenter/Bild_001/Objekte_ImBild/glasscontainer.png", "CityCenter/Bild_001/Objekte_Inventar/glasscontainer.png");
   object05 = new PickObject("Lootbox", 0.183073, 0.609722, "screen01", "Das ist ein ", "CityCenter/Bild_001/Objekte_ImBild/lootbox.png", "CityCenter/Bild_001/Objekte_Inventar/lootbox.png");
-  object06 = new PickObject("Nasenspray", 0.883333, 0.607407, "screen01", "Das ist ein ", "CityCenter/Bild_001/Objekte_ImBild/nasenspray.png" , "CityCenter/Bild_001/Objekte_Inventar/nasenspray.png");
-  object07 = new PickObject("Pizza", 0.704427, 0.193519, "screen01", "Das ist ein ", "CityCenter/Bild_001/Objekte_ImBild/pizza.png" , "CityCenter/Bild_001/Objekte_Inventar/pizza.png");
+  object06 = new PickObject("Nasenspray", 0.883333, 0.607407, "screen01", "Das ist ein ", "CityCenter/Bild_001/Objekte_ImBild/nasenspray.png", "CityCenter/Bild_001/Objekte_Inventar/nasenspray.png");
+  object07 = new PickObject("Pizza", 0.704427, 0.193519, "screen01", "Das ist ein ", "CityCenter/Bild_001/Objekte_ImBild/pizza.png", "CityCenter/Bild_001/Objekte_Inventar/pizza.png");
   object08 = new PickObject("Pokerchip", 0.519531, 0.418981, "screen01", "Das ist ein ", "CityCenter/Bild_001/Objekte_ImBild/pokerchip.png", "CityCenter/Bild_001/Objekte_Inventar/pokerchip.png");
   object09 = new PickObject("Sale", 0.247396, 0.04537, "screen01", "Das ist ein ", "CityCenter/Bild_001/Objekte_ImBild/sale.png", "CityCenter/Bild_001/Objekte_Inventar/sale.png");
   object10 = new PickObject("Tüte", 0.599219, 0.591667, "screen01", "Das ist eine Tüte ", "CityCenter/Bild_001/Objekte_ImBild/tuete.png", "CityCenter/Bild_001/Objekte_Inventar/tuete.png");
 
-  object11 = new PickObject("Apotheke", 0.734635, 0.506944, "screen02", "Das ist ein ", "CityCenter/Bild_004/Objekte_ImBild/apotheke.png" , "CityCenter/Bild_004/Objekte_Inventar/apotheke.png"); 
-  object12 = new PickObject("Arbeitsausweis", 0.115625, 0.136111, "screen02", "Das ist ein ", "CityCenter/Bild_004/Objekte_ImBild/arbeitsausweis.png" , "CityCenter/Bild_004/Objekte_Inventar/arbeitsausweis.png");
+  object11 = new PickObject("Apotheke", 0.734635, 0.506944, "screen02", "Das ist ein ", "CityCenter/Bild_004/Objekte_ImBild/apotheke.png", "CityCenter/Bild_004/Objekte_Inventar/apotheke.png");
+  object12 = new PickObject("Arbeitsausweis", 0.115625, 0.136111, "screen02", "Das ist ein ", "CityCenter/Bild_004/Objekte_ImBild/arbeitsausweis.png", "CityCenter/Bild_004/Objekte_Inventar/arbeitsausweis.png");
   object13 = new PickObject("Erste_Hilfe_Kasten", 0.065625, 0.074074, "screen02", "Das ist ein ", "CityCenter/Bild_004/Objekte_ImBild/erstehilfekasten.png", "CityCenter/Bild_004/Objekte_Inventar/erstehilfekasten.png");
   object14 = new PickObject("Gelber_Schein", 0.836198, 0.953704, "screen02", "Das ist ein ", "CityCenter/Bild_004/Objekte_ImBild/gelberschein.png", "CityCenter/Bild_004/Objekte_Inventar/gelberschein.png");
   object15 = new PickObject("Glühbirne", 0.083854, 0.618519, "screen02", "Das ist ein ", "CityCenter/Bild_004/Objekte_ImBild/gluehbirne.png", "CityCenter/Bild_004/Objekte_Inventar/gluehbirne.png");
@@ -341,7 +350,6 @@ let startGame = () => {
   object21 = new PickObject("Briefkasten", 0.778906, 0.547685, "screen03", "Das ist ein ", "CityCenter/Bild_002/Objekte_ImBild/briefkasten.png", "CityCenter/Bild_002/Objekte_Inventar/briefkasten.png");
   object22 = new PickObject("Casino", 0.66224, 0.513426, "screen03", "Das ist ein ", "CityCenter/Bild_002/Objekte_ImBild/casino.png", "CityCenter/Bild_002/Objekte_Inventar/casino.png");
   object23 = new PickObject("Einkaufswagen", 0.784115, 0.657407, "screen03", "Das ist ein ", "CityCenter/Bild_002/Objekte_ImBild/einkaufswagen.png", "CityCenter/Bild_002/Objekte_Inventar/einkaufswagen.png");
-  //object24 = new PickObject("Geldautomat", 0.360938, 0.546759, "screen03", "Das ist ein ", "CityCenter/Bild_002/Objekte_ImBild/Geldautomat.png");
   object25 = new PickObject("Gerichtshammer", 0.229688, 0.24537, "screen03", "Das ist ein ", "CityCenter/Bild_002/Objekte_ImBild/gerichtshammer.png", "CityCenter/Bild_002/Objekte_Inventar/gerichtshammer.png");
   object26 = new PickObject("Handyvertrag", 0.378125, 0.272685, "screen03", "Das ist ein ", "CityCenter/Bild_002/Objekte_ImBild/handyvertrag.png", "CityCenter/Bild_002/Objekte_Inventar/handyvertrag.png");
   object27 = new PickObject("Hund", 0.313802, 0.619444, "screen03", "Das ist ein ", "CityCenter/Bild_002/Objekte_ImBild/hund.png", "CityCenter/Bild_002/Objekte_Inventar/hund.png");
@@ -359,10 +367,14 @@ let startGame = () => {
   object38 = new PickObject("Zeitung", 0.565104, 0.82037, "screen04", "Das ist ein ", "CityCenter/Bild_003/Objekte_ImBild/zeitung.png", "CityCenter/Bild_003/Objekte_Inventar/zeitung.png");
   secretObject = new PickObject("Kontoauszug", -0.360938, -0.546759, "screen03", "Das ist ein ", "CityCenter/Bild_002/Objekte_ImBild/kontoauszug.png", "CityCenter/Bild_002/Objekte_Inventar/kontoauszug.png");
 
-  // object48 = new PickObject("object54", Math.random() * 0.9, Math.random() * 0.9, "screen04", "Das ist ein ", "Bild003/Objekte_ImBild/");
-  // object49 = new PickObject("object55", Math.random() * 0.9, Math.random() * 0.9, "screen04", "Das ist ein ", "Bild003/Objekte_ImBild/");
-  // object50 = new PickObject("object56", Math.random() * 0.9, Math.random() * 0.9, "screen04", "Das ist ein ", "Bild003/Objekte_ImBild/");
-
+  let secretHint = new hintCircleObject("hintCircleSecret", 0.330938, 0.546759, "screen03", "BIB001_Stadt_Hinweiskreis_04_ll.png", true, 1, '')
+  anime({
+    targets: "#hintCircleSecret",
+    scale: [1, 1.5, 1],
+    easing: "easeInOutQuad",
+    duration: 5000,
+    loop:true
+  });
   resetRatios();
 
   // Hint System
