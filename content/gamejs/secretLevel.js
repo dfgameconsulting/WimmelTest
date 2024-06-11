@@ -63,7 +63,6 @@ class secretEntry {
       background-repeat: no-repeat;
       background-position: center;
       background-size: contain;
-      outline: 3px solid green;
       `;
 
       secrets.push(this);
