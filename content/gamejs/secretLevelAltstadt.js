@@ -277,6 +277,10 @@ class Puzzle {
                         if(this.checkIfFinished(this.cards)){
                             this.active = false
                            console.log("YOU WIN!!!")
+                           secretItemToInventory("Waage")
+                           setTimeout(() => {
+                            fadeOut('#secretAltstadt')
+                          }, 1000);
                         }
                     }
 
@@ -326,7 +330,59 @@ class Puzzle {
     }
 }
 
-
+let wasFound = false;
+function secretItemToInventory(name){
+    anime({
+      begin: () => {
+        isRunning = true;
+        wasFound = true;
+        // GameManager!
+        localStorage.setItem(name, "true");
+        console.log(name + " was found");
+        let tl = new anime.timeline();
+        tl.add({
+          begin: () => {
+            document.querySelector('#foundInfo').innerHTML = name.replace(/_/g, ' ') + " gefunden!";
+          },
+          targets: "#options-info",
+          opacity: [0, 1],
+          duration: 500,
+          easing: "easeInOutSine",
+        }).add({
+          duration: 1000,
+        }).add({
+          targets: "#options-info",
+          opacity: [1, 0],
+          duration: 500,
+          easing: "easeInOutSine",
+        })
+      },
+      targets: "#" + name,
+      scale: [1.5, 1, 0.01],
+      translate: "-33% -33%",
+      transformOrigin: "50% 50%",
+      easing: "linear",
+      duration: 500,
+      complete: () => {
+        sound01.play();
+        let index = objects.indexOf(this);
+        objectCopy.push(...objects.splice(index, 1));
+        console.log(objectCopy);
+        document.getElementById(name).remove();
+        isRunning = false;
+        anime({
+          targets: `#${name + "Inventory"}`,
+          filter: ["brightness(0.1) sepia(1) opacity(0.3)", "brightness(1) sepia(0) opacity(1)"],
+          scale: [0.9, 1.3, 1],
+          easing: "easeInOutExpo",
+          duration: 300,
+          complete: () => {
+            checkAllObjectsFound();
+          },
+        });
+      },
+    });
+  }
 
 
 
