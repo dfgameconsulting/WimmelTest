@@ -11,10 +11,8 @@ lupe.forEach((lupe) => {
     });
     lupeAus = !lupeAus;
     if (!lupeAus) {
-      console.log("LUPE AN");
       document.body.style.cursor = "url(img/inventar/LupeCursor.svg), auto";
     } else {
-      console.log("LUPE AUS");
       document.body.style.cursor = "auto";
     }
   };
@@ -36,7 +34,6 @@ class secretEntry {
     this.imgProxy.onload = () => {
       this.w = this.imgProxy.width;
       this.h = this.imgProxy.height;
-      console.log('Image "' + this.name + '" loaded...' + " x: " + this.imgProxy.width + " y: " + this.imgProxy.height);
       setTimeout(() => {
         this.render();
       }, 500);
@@ -220,7 +217,6 @@ class Puzzle {
     }
 
     init = () => {
-        console.log("Init puzzle")
         
         this.cards.forEach((card, index) => {
             let div = document.createElement('div')
@@ -276,7 +272,10 @@ class Puzzle {
                         this.moveCount++
                         if(this.checkIfFinished(this.cards)){
                             this.active = false
-                           console.log("YOU WIN!!!")
+                           secretItemToInventory("Waage")
+                           setTimeout(() => {
+                            fadeOut('#secretAltstadt')
+                          }, 1000);
                         }
                     }
 
@@ -289,8 +288,6 @@ class Puzzle {
 
             document.getElementById("puzzle_wrapper").appendChild(div)
         });
-        
-
     }
 
     findIndex = (arr, target) => {
@@ -326,7 +323,57 @@ class Puzzle {
     }
 }
 
-
+let wasFound = false;
+function secretItemToInventory(name){
+    anime({
+      begin: () => {
+        isRunning = true;
+        wasFound = true;
+        // GameManager!
+        localStorage.setItem(name, "true");
+        let tl = new anime.timeline();
+        tl.add({
+          begin: () => {
+            document.querySelector('#foundInfo').innerHTML = name.replace(/_/g, ' ') + " gefunden!";
+          },
+          targets: "#options-info",
+          opacity: [0, 1],
+          duration: 500,
+          easing: "easeInOutSine",
+        }).add({
+          duration: 1000,
+        }).add({
+          targets: "#options-info",
+          opacity: [1, 0],
+          duration: 500,
+          easing: "easeInOutSine",
+        })
+      },
+      targets: "#" + name,
+      scale: [1.5, 1, 0.01],
+      translate: "-33% -33%",
+      transformOrigin: "50% 50%",
+      easing: "linear",
+      duration: 500,
+      complete: () => {
+        sound01.play();
+        let index = objects.indexOf(this);
+        objectCopy.push(...objects.splice(index, 1));
+        document.getElementById(name).remove();
+        isRunning = false;
+        anime({
+          targets: `#${name + "Inventory"}`,
+          filter: ["brightness(0.1) sepia(1) opacity(0.3)", "brightness(1) sepia(0) opacity(1)"],
+          scale: [0.9, 1.3, 1],
+          easing: "easeInOutExpo",
+          duration: 300,
+          complete: () => {
+            checkAllObjectsFound();
+          },
+        });
+      },
+    });
+  }
 
 
 

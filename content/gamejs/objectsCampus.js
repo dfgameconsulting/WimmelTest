@@ -70,7 +70,7 @@ let objects = [];
 let secrets = [];
 
 class PickObject {
-  constructor(name, x, y, place, text, img, invImg, hidden = false) {
+  constructor(name, x, y, place, text, img, invImg, secret = false) {
     this.name = name;
     this.x = x;
     this.y = y;
@@ -79,16 +79,13 @@ class PickObject {
     this.img = img;
     this.wasFound = false;
     this.invImg = invImg;
-    this.hidden = hidden
+    this.secret = secret;
 
     this.imgProxy = new Image();
     this.imgProxy.src = 'img/' + this.img;
-    // this.w = this.imgProxy.width;
-    // this.h = this.imgProxy.height;
     this.imgProxy.onload = () => {
       this.w = this.imgProxy.width;
       this.h = this.imgProxy.height;
-      console.log('Image "' + this.name + '" loaded...' + ' x: ' + this.imgProxy.width + ' y: ' + this.imgProxy.height);
       setTimeout(() => {
         this.render();
       }, 300);
@@ -96,24 +93,30 @@ class PickObject {
   }
 
   render() {
-    let div = document.createElement('div');
-    div.id = this.name;
-    div.className = 'pickObject';
-    document.getElementById(this.place).appendChild(div);
+    let div = null
+    if(!this.secret){
+      div = document.createElement('div');
+      div.id = this.name;
+      div.className = 'pickObject';
+      document.getElementById(this.place).appendChild(div);
+    }else{
+      div = document.querySelector(`#${this.name}`)
+    }
+    
+    
 
     let pos = this.place === 'screen01' ? screen01Pos : this.place == 'screen02' ? screen02Pos : this.place == 'screen03' ? screen03Pos : screen04Pos;
     r.style.setProperty(`--${this.name}X`, `${pos.left + screen01Width * this.x}px`);
     r.style.setProperty(`--${this.name}Y`, `${pos.top + screen01Height * this.y}px`);
     document.getElementById(this.name).style.cssText = `
     position: absolute;
-    display: ${this.hidden ? 'none' : 'block'};
     width: ${this.w}px;
     height: ${this.h}px;
     left: var(--${this.name}X);
     top: var(--${this.name}Y); 
     transform-origin: 0% 0%;
-    transform: translate(0%, 0%) var(--scaleFactorObjects);
-    background-image: url(img/${this.img});
+    ${!this.secret ? `transform: translate(0%, 0%) var(--scaleFactorObjects)`: ''};
+    ${!this.secret ? `background-image: url(img/${this.img})` : ''};
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;`;
@@ -140,10 +143,11 @@ class PickObject {
           this.wasFound = true;
           // GameManager!
           localStorage.setItem(this.name, 'true');
-          console.log(this.name + ' was found');
           let tl = new anime.timeline();
           tl.add({
             begin: () => {
+              secretItemsFound++
+              foundAll(secretItemsFound)
               document.querySelector('#foundInfo').innerHTML = this.name.replace(/_/g, ' ') + ' gefunden!';
             },
             targets: '#options-info',
@@ -171,7 +175,6 @@ class PickObject {
           sound01.play();
           let index = objects.indexOf(this);
           objectCopy.push(...objects.splice(index, 1));
-          console.log(objectCopy);
           document.getElementById(this.name).remove();
           isRunning = false;
           anime({
@@ -189,8 +192,6 @@ class PickObject {
     };
 
     objects.push(this);
-    console.log(this);
-    console.log(' ...was created!');
   }
 }
 
@@ -352,9 +353,9 @@ let startGame = () => {
   kleingeldhut_PO = new PickObject('Kleingeldhut', 0.385938, 0.763426, 'screen03', 'Das ist ein Kleingeldhut', 'Campus/Bild_003/Objekte_ImBild/kleingeldhut.png', 'Campus/Bild_003/Objekte_Inventar/kleingeldhut.png');
   mutterMitKind_PO = new PickObject('Mutter_mit_Schirm', 0.520833, 0.702315, 'screen03', 'Das ist ein Mutter mit Schirm', 'Campus/Bild_003/Objekte_ImBild/muttermitkind.png', 'Campus/Bild_003/Objekte_Inventar/muttermitkind.png');
   sparschwein_PO = new PickObject('Sparschwein', 0.490104, 0.149074, 'screen03', 'Das ist ein Sparschwein', 'Campus/Bild_003/Objekte_ImBild/sparschwein.png', 'Campus/Bild_003/Objekte_Inventar/sparschwein.png');
-  dieb_PO = new PickObject('Dieb', 0.490104, 0.149074, 'screen03', 'Das ist ein Dieb', 'Campus/Bild_003/Objekte_Inventar/dieb.png', 'Campus/Bild_003/Objekte_Inventar/dieb.png', true);
-  koch_PO = new PickObject('Koch', 0.490104, 0.149074, 'screen03', 'Das ist ein Koch', 'Campus/Bild_003/Objekte_Inventar/koch.png', 'Campus/Bild_003/Objekte_Inventar/koch.png', true);
-  zauberer_PO = new PickObject('Zauberer', 0.490104, 0.149074, 'screen03', 'Das ist ein Zauberer', 'Campus/Bild_003/Objekte_Inventar/zauberer.png', 'Campus/Bild_003/Objekte_Inventar/zauberer.png', true);
+  dieb_PO = new PickObject('Dieb', 0.490104, 0.149074, 'screen03', 'Das ist ein Dieb', 'Campus/Zoom/Campus_Zoom_Dieb_014_hz.png', 'Campus/Bild_003/Objekte_Inventar/dieb.png', true);
+  koch_PO = new PickObject('Koch', 0.490104, 0.149074, 'screen03', 'Das ist ein Koch', 'Campus/Zoom/Campus_Zoom_Koch_014_hz.png', 'Campus/Bild_003/Objekte_Inventar/koch.png', true);
+  zauberer_PO = new PickObject('Zauberer', 0.490104, 0.149074, 'screen03', 'Das ist ein Zauberer', 'Campus/Zoom/Campus_Zoom_Zauberer_014_hz.png', 'Campus/Bild_003/Objekte_Inventar/zauberer.png', true);
 
   bus_PO = new PickObject('Bus', 0.909375, 0.202315, 'screen04', 'Das ist ein Bus', 'Campus/Bild_004/Objekte_ImBild/bus.png', 'Campus/Bild_004/Objekte_Inventar/bus.png');
   fahrrad_PO = new PickObject('Fahrrad', 0.753125, 0.465741, 'screen04', 'Das ist ein Fahrrad', 'Campus/Bild_004/Objekte_ImBild/fahrrad.png', 'Campus/Bild_004/Objekte_Inventar/fahrrad.png');
@@ -419,7 +420,6 @@ let startGame = () => {
         let rand = Math.random() * filteredObjects.length;
         let randObject = filteredObjects[Math.floor(rand)];
         let offset = () => Math.random() * 0.033 - 0.0167;
-        console.log('Rand:' + randObject.x);
         hintCircle01 = new hintCircleObject('hintCircle01', randObject.x + offset(), randObject.y + offset(), screen, 'BIB001_Stadt_Hinweiskreis_01_hz.png');
         let randRot = Math.floor(Math.random() * 360);
         let leftRight = Math.random() > 0.5 ? -360 : 360;
