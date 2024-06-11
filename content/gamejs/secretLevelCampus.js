@@ -85,9 +85,9 @@ document.querySelector('.close').onclick = () => {
   fadeOut('#secretCampus')
 }
 
-let zauberer = document.querySelector("#zauberer");
-let dieb = document.querySelector("#dieb");
-let koch = document.querySelector("#koch");
+let zauberer = document.querySelector("#Zauberer");
+let dieb = document.querySelector("#Dieb");
+let koch = document.querySelector("#Koch");
 let secretItemsFound = 0;
 
 let foundAll = (amount) => {
