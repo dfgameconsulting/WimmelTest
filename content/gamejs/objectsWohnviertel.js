@@ -284,17 +284,25 @@ document.addEventListener("DOMContentLoaded", function() {
 var sound01 = new Pizzicato.Sound("sound/VUMark_complete.mp3");
 var sound02 = new Pizzicato.Sound("sound/Button_Normal.mp3");
 var sound04 = new Pizzicato.Sound("sound/Sterne.mp3");
-
 class hintCircleObject {
-  constructor(name, x, y, place, img) {
+  constructor(name, x, y, place, img, secret = false, scale = 7, containerClass = 'hintCircle') {
     this.name = name;
     this.x = x;
     this.y = y;
     this.place = place;
     this.img = img;
+    this.scale = scale
     let div = document.createElement("div");
+    this.containerClass = containerClass
+
     div.id = this.name;
-    div.className = "hintCircle";
+    div.onmouseover = () => {
+      if(!lupeAus){
+        div.style.display = 'none'
+      }
+    }
+    
+    div.className = this.containerClass;
     document.getElementById(place).appendChild(div);
     let pos = this.place === "screen01" ? screen01Pos : this.place == "screen02" ? screen02Pos : this.place == "screen03" ? screen03Pos : screen04Pos;
     r.style.setProperty(`--${this.name}X`, `${pos.left + screen01Width * this.x}px`);
@@ -309,8 +317,8 @@ class hintCircleObject {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    transform: scale(7);
-    opacity: 0;
+    transform: scale(${this.scale});
+    ${!secret ? 'opacity: 0':''};
     `;
     objects.push(this);
   }
@@ -318,7 +326,8 @@ class hintCircleObject {
 
 let startGame = () => {
   blurAll();
-  //sound05.play();                                                                                                      
+  //sound05.play();      
+                                                                                        
   reisekarte_PO = new PickObject("Reisekarte", 0.923958, 0.475926, "screen01", "Das ist eine Reisekarte", "Wohnviertel/Bild_001/Objekte_ImBild/reisekarte.png", "Wohnviertel/Bild_001/Objekte_Inventar/reisekarte.png");
   buecher_PO = new PickObject("Bücher", 0.772917, 0.463426, "screen01", "Das sind Bücher", "Wohnviertel/Bild_001/Objekte_ImBild/buecher.png", "Wohnviertel/Bild_001/Objekte_Inventar/buecher.png");
   ghettoblaster_PO = new PickObject("Ghettoblaster", 0.887760, 0.223611, "screen01", "Das ist ein Ghettoblaster", "Wohnviertel/Bild_001/Objekte_ImBild/ghettoblaster.png", "Wohnviertel/Bild_001/Objekte_Inventar/ghettoblaster.png");
@@ -362,7 +371,15 @@ let startGame = () => {
   wlan_PO  = new PickObject("Wlan", 0.569010, 0.142130, "screen04", "Das sind Umzugskisten", "Wohnviertel/Bild_004/Zoom/Objekte_ImBild/wlan.png", "Wohnviertel/Bild_004/Zoom/Objekte_ImBild/wlan.png", true);
   stromkasten_PO  = new PickObject("Stromkasten", 0.569010, 0.142130, "screen04", "Das sind Umzugskisten", "Wohnviertel/Bild_004/Zoom/Objekte_ImBild/wlan.png", "Wohnviertel/Bild_004/Objekte_Inventar/strom.png", true);
   rathaus_PO  = new PickObject("Rathaus", 0.569010, 0.142130, "screen04", "Das sind Umzugskisten", "Wohnviertel/Bild_004/Zoom/Objekte_ImBild/wlan.png", "Wohnviertel/Bild_004/Objekte_Inventar/rathaus.png", true);
-
+  
+  let secretHint = new hintCircleObject("hintCircleSecret", 0.802813, 0.620463, "screen04", "BIB001_Stadt_Hinweiskreis_04_ll.png", true, 1, '')
+  anime({
+    targets: "#hintCircleSecret",
+    scale: [1, 1.5, 1],
+    easing: "easeInOutQuad",
+    duration: 5000,
+    loop:true
+  });          
 
 resetRatios();
 
