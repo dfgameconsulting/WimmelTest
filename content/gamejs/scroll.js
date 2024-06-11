@@ -10,7 +10,6 @@ right.onclick = () => {
   scrollin = true;
   sound03.play();
   pos++;
-  console.log("Screen: " + pos);
   if (pos > 3) {
     pos = 0;
     anime({
@@ -81,8 +80,6 @@ left.onclick = () => {
       scrollin = false;
     },
   });
-  console.log("Screen: " + pos);
-  // document.querySelector("#screens").style.transform = `translateX(${pos}%)`;
 };
 
 let blurAll = () => {

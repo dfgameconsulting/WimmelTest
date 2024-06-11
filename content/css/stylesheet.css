@@ -1200,38 +1200,37 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-#secretWohnviertel #wlan{
+#secretWohnviertel #Wlan{
     position: absolute;
-    top: 9%;
-    left: 60.5%;
-    width: calc(180px* 0.67);
+    top: 9% !important;
+    left: 60.5% !important;
+    width: calc(180px* 0.67) !important;
     background: url(../img/Wohnviertel/Bild_004/Zoom/Objekte_ImBild/wlan.png);
     background-repeat: no-repeat;
     background-size: contain;
-    height: calc(180px* 0.67);
-
+    height: calc(180px* 0.67) !important;
 }
 
-#secretWohnviertel #stromkasten {
+#secretWohnviertel #Stromkasten {
     position: absolute;
-    top: 23%;
-    left: 38.7%;
-    width: calc(124px* 0.67);
+    top: 23% !important;
+    left: 38.7% !important;
+    width: calc(124px* 0.67) !important;
     background: url(../img/Wohnviertel/Bild_004/Zoom/Objekte_ImBild/strom.png);
     background-repeat: no-repeat;
     background-size: contain;
-    height: calc(247px* 0.67);
+    height: calc(247px* 0.67) !important;
 }
 
-#secretWohnviertel #rathaus {
+#secretWohnviertel #Rathaus {
     position: absolute;
-    top: 56%;
-    left: 1.5%;
-    width: calc(350px* 0.67);
+    top: 56% !important;
+    left: 1.5% !important;
+    width: calc(350px* 0.67) !important;
     background: url(../img/Wohnviertel/Bild_004/Zoom/Objekte_ImBild/rathaus.png);
     background-repeat: no-repeat;
     background-size: contain;
-    height: calc(350px* 0.67);
+    height: calc(350px* 0.67) !important;
 }
 
 #secretWohnviertel .close{

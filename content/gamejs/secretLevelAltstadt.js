@@ -11,10 +11,8 @@ lupe.forEach((lupe) => {
     });
     lupeAus = !lupeAus;
     if (!lupeAus) {
-      console.log("LUPE AN");
       document.body.style.cursor = "url(img/inventar/LupeCursor.svg), auto";
     } else {
-      console.log("LUPE AUS");
       document.body.style.cursor = "auto";
     }
   };
@@ -36,7 +34,6 @@ class secretEntry {
     this.imgProxy.onload = () => {
       this.w = this.imgProxy.width;
       this.h = this.imgProxy.height;
-      console.log('Image "' + this.name + '" loaded...' + " x: " + this.imgProxy.width + " y: " + this.imgProxy.height);
       setTimeout(() => {
         this.render();
       }, 500);
@@ -220,7 +217,6 @@ class Puzzle {
     }
 
     init = () => {
-        console.log("Init puzzle")
         
         this.cards.forEach((card, index) => {
             let div = document.createElement('div')
@@ -276,7 +272,6 @@ class Puzzle {
                         this.moveCount++
                         if(this.checkIfFinished(this.cards)){
                             this.active = false
-                           console.log("YOU WIN!!!")
                            secretItemToInventory("Waage")
                            setTimeout(() => {
                             fadeOut('#secretAltstadt')
@@ -293,8 +288,6 @@ class Puzzle {
 
             document.getElementById("puzzle_wrapper").appendChild(div)
         });
-        
-
     }
 
     findIndex = (arr, target) => {
@@ -338,7 +331,6 @@ function secretItemToInventory(name){
         wasFound = true;
         // GameManager!
         localStorage.setItem(name, "true");
-        console.log(name + " was found");
         let tl = new anime.timeline();
         tl.add({
           begin: () => {
@@ -367,7 +359,6 @@ function secretItemToInventory(name){
         sound01.play();
         let index = objects.indexOf(this);
         objectCopy.push(...objects.splice(index, 1));
-        console.log(objectCopy);
         document.getElementById(name).remove();
         isRunning = false;
         anime({

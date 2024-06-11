@@ -11,7 +11,6 @@ let startLevel4 = document.querySelector("#startLevel4");
 
 startLevel1.onclick = (e) => {
   e.stopPropagation()
-  console.log(e)
   setActiveElement(e.target)
 
   levelInfo.getElementsByTagName("h2")[0].innerHTML = "Innenstadt";
@@ -107,7 +106,6 @@ let jumpLevelInfo = (target) => {
 let level1Ready = document.querySelector("#level1Ready");
 level1Ready.onclick = (e) => {
   e.preventDefault();
-  console.log("startLevel1");
 
   anime({
     targets: "#start-screen",
@@ -122,7 +120,6 @@ level1Ready.onclick = (e) => {
 let level2Ready = document.querySelector("#level2Ready");
 level2Ready.onclick = (e) => {
   e.preventDefault();
-  console.log("startLevel1");
 
   anime({
     targets: "#start-screen",
@@ -137,7 +134,6 @@ level2Ready.onclick = (e) => {
 let level3Ready = document.querySelector("#level3Ready");
 level3Ready.onclick = (e) => {
   e.preventDefault();
-  console.log("startLevel1");
 
   anime({
     targets: "#start-screen",
@@ -152,7 +148,6 @@ level3Ready.onclick = (e) => {
 let level4Ready = document.querySelector("#level4Ready");
 level4Ready.onclick = (e) => {
   e.preventDefault();
-  console.log("startLevel1");
 
   anime({
     targets: "#start-screen",
@@ -231,7 +226,6 @@ let resetRatiosStartScreen = () => {
   mainScreenWidth = mainScreenPos.right - mainScreenPos.left;
 
   scaleFactor = Math.floor((mainScreenPos.width + mainScreenPos.height) / 2) / 2000;
-  console.log(mainScreenPos.height)
   rMs.style.setProperty("--scaleFactor", `scale(${scaleFactor})`);
   rMs.style.setProperty("--rainWidth", mainScreenPos.width);
 
