@@ -887,6 +887,12 @@ body::-webkit-scrollbar {
     animation: goDown 15s linear forwards;
 }
 
+#hintCircleSecret{
+    width: 10% !important;
+    height: 10% !important;
+    animation: hintCircle ease-in-out infinite alternate;
+}
+
 @keyframes goDown {
     0% {
         height: 33%;

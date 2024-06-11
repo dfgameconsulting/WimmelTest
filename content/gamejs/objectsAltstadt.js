@@ -279,15 +279,24 @@ var sound02 = new Pizzicato.Sound("sound/Button_Normal.mp3");
 var sound04 = new Pizzicato.Sound("sound/Sterne.mp3");
 
 class hintCircleObject {
-  constructor(name, x, y, place, img) {
+  constructor(name, x, y, place, img, secret = false, scale = 7, containerClass = 'hintCircle') {
     this.name = name;
     this.x = x;
     this.y = y;
     this.place = place;
     this.img = img;
+    this.scale = scale
     let div = document.createElement("div");
+    this.containerClass = containerClass
+
     div.id = this.name;
-    div.className = "hintCircle";
+    div.onmouseover = () => {
+      if(!lupeAus){
+        div.style.display = 'none'
+      }
+    }
+    
+    div.className = this.containerClass;
     document.getElementById(place).appendChild(div);
     let pos = this.place === "screen01" ? screen01Pos : this.place == "screen02" ? screen02Pos : this.place == "screen03" ? screen03Pos : screen04Pos;
     r.style.setProperty(`--${this.name}X`, `${pos.left + screen01Width * this.x}px`);
@@ -302,8 +311,8 @@ class hintCircleObject {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    transform: scale(7);
-    opacity: 0;
+    transform: scale(${this.scale});
+    ${!secret ? 'opacity: 0':''};
     `;
     objects.push(this);
   }
@@ -326,6 +335,7 @@ let startGame = () => {
   Hoergeraet = new pickObject("Hörgerät", 0.641927, 0.379630, "screen02", "Das ist ein Hörgerät", "Altstadt/Bild_002/Objekte_ImBild/hoergeraet.png" , "Altstadt/Bild_002/Objekte_Inventar/hoergeraet.png");
   SchwangereFrau = new pickObject("Schwangere_Frau", 0.335156, 0.680093, "screen02", "Das ist eine schwangere Frau", "Altstadt/Bild_002/Objekte_ImBild/schwangerefrau.png" , "Altstadt/Bild_002/Objekte_Inventar/schwangerefrau.png");
   Waage = new pickObject("Waage", 0.832813, 0.200463, "screen02", "Das ist eine Waage", "Altstadt/Bild_002/Objekte_ImBild/waage.png" , "Altstadt/Bild_002/Objekte_Inventar/waage.png");
+  
   Gluehbirne = new pickObject("Glühbirne", 0.788802, 0.478704, "screen02", "Das ist eine Glühbirne", "Altstadt/Bild_002/Objekte_ImBild/gluehbirne.png" , "Altstadt/Bild_002/Objekte_Inventar/gluehbirne.png");
   HandhaltenSchild = new pickObject("HandhaltenSchild", 0.140104, 0.676389, "screen02", "Das ist eine Hand, die ein Schild hält", "Altstadt/Bild_002/Objekte_ImBild/handhaltenschild.png" , "Altstadt/Bild_002/Objekte_Inventar/handhaltenschild.png");
   Strassenschild = new pickObject("Straßenschild", 0.135937, 0.623148, "screen02", "Das ist ein Straßenschild", "Altstadt/Bild_002/Objekte_ImBild/strassenschild.png" , "Altstadt/Bild_002/Objekte_Inventar/strassenschild.png");
@@ -354,6 +364,15 @@ let startGame = () => {
   KaputtesAuto = new pickObject("Kaputtes_Auto", 0.562500, 0.590741, "screen04", "Das ist ein kaputtes Auto", "Altstadt/Bild_004/Objekte_ImBild/kaputtesauto.png" , "Altstadt/Bild_004/Objekte_Inventar/kaputtesauto.png");
   Arbeitsagentur = new pickObject("Arbeitsagentur", 0.065365, 0.056481, "screen04", "Das ist eine Arbeitsagentur", "Altstadt/Bild_004/Objekte_ImBild/arbeitsagentur.png" , "Altstadt/Bild_004/Objekte_Inventar/arbeitsagentur.png");
   Bushaltestelle = new pickObject("Bushaltestelle", 0.231250, 0.338889, "screen04", "Das ist eine Bushaltestelle", "Altstadt/Bild_004/Objekte_ImBild/bushaltestelle.png" , "Altstadt/Bild_004/Objekte_Inventar/bushaltestelle.png");
+
+  let secretHint = new hintCircleObject("hintCircleSecret", 0.792813, 0.190463, "screen02", "BIB001_Stadt_Hinweiskreis_04_ll.png", true, 1, '')
+  anime({
+    targets: "#hintCircleSecret",
+    scale: [1, 1.5, 1],
+    easing: "easeInOutQuad",
+    duration: 5000,
+    loop:true
+  });
 
   resetRatios();
 
