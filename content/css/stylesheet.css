@@ -201,7 +201,6 @@ body::-webkit-scrollbar {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* outline: 3px solid green; */
     padding-top: 2vw;
 }
 
@@ -235,7 +234,6 @@ body::-webkit-scrollbar {
     justify-content: center;
     transform: translate(0, 8vh);
     font-size: 6vh;
-    /* outline: 3px solid orange; */
 }
 
 #level-info p {
@@ -252,7 +250,6 @@ body::-webkit-scrollbar {
     color: black;
     font-size: clamp(.5rem, 2.25vw, 2rem);
     padding: 1rem 3rem;
-    /* outline: 3px solid orange; */
 }
 
 #level-info>* {
@@ -445,7 +442,6 @@ body::-webkit-scrollbar {
     background-repeat: no-repeat;
     background-size: contain;
     animation: glitch1 .31s infinite linear alternate, glitch2 .22s infinite linear alternate;
-    /* outline: 1px solid red; */
 }
 
 .highlight3::before {
@@ -1142,7 +1138,6 @@ body::-webkit-scrollbar {
     background: url(../img/Campus/Zoom/Campus_Zoom_Zauberer_014_hz.png);
     background-repeat: no-repeat;
     background-size: contain;
-    outline: 3px solid red;
 }
 
 #secretCampus #dieb {
@@ -1154,7 +1149,6 @@ body::-webkit-scrollbar {
     background: url(../img/Campus/Zoom/Campus_Zoom_Dieb_014_hz.png);
     background-repeat: no-repeat;
     background-size: contain;
-    outline: 3px solid red;
 }
 
 #secretCampus #koch {
@@ -1166,7 +1160,54 @@ body::-webkit-scrollbar {
     background: url(../img/Campus/Zoom/Campus_Zoom_Koch_014_hz.png);
     background-repeat: no-repeat;
     background-size: contain;
-    outline: 3px solid red;
+}
+
+#secretWohnviertel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) var(--scaleFactor);
+    width: calc(3840px * 0.67);
+    height: calc(2160px * 0.67);
+    z-index: 1;
+    background: url(../img/Wohnviertel/Bild_004/Zoom/wohnviertel_zoom_withoutobjects_001_jg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: none;
+}
+
+#secretWohnviertel #wlan{
+    position: absolute;
+    top: 9%;
+    left: 60.5%;
+    width: calc(180px* 0.67);
+    background: url(../img/Wohnviertel/Bild_004/Zoom/Objekte_ImBild/wlan.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: calc(180px* 0.67);
+
+}
+
+#secretWohnviertel #stromkasten {
+    position: absolute;
+    top: 23%;
+    left: 38.7%;
+    width: calc(124px* 0.67);
+    background: url(../img/Wohnviertel/Bild_004/Zoom/Objekte_ImBild/strom.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: calc(247px* 0.67);
+}
+
+#secretWohnviertel #rathaus {
+    position: absolute;
+    top: 56%;
+    left: 1.5%;
+    width: calc(350px* 0.67);
+    background: url(../img/Wohnviertel/Bild_004/Zoom/Objekte_ImBild/rathaus.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: calc(350px* 0.67);
 }
 
 #secretAltstadt {
@@ -1324,7 +1365,6 @@ body::-webkit-scrollbar {
     left: 2.5%;
     width: 78%;
     height: 61%;
-    /* outline: 3px solid greenyellow; */
     padding: 0.5rem;
     font-size: 1.5vw;
     padding: 1rem;
@@ -1357,7 +1397,6 @@ body::-webkit-scrollbar {
     background-position: center;
     width: 40%;
     height: 100%;
-    /* outline: 1px solid yellowgreen; */
 }
 
 #zwei {
@@ -1367,7 +1406,6 @@ body::-webkit-scrollbar {
     background-position: center;
     width: 40%;
     height: 100%;
-    /* outline: 1px solid yellowgreen; */
 }
 
 #question {
