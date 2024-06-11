@@ -1284,6 +1284,16 @@ body::-webkit-scrollbar {
     background-size: contain;
     overflow: hidden;
 }
+#welcome-wrapper .headline{
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    font-family: 'Museum';
+    font-size: 1.5rem;
+    text-align: center;
+    display: inline-block;
+    width: 18%;
+}
 
 #weiter {
     position: absolute;
