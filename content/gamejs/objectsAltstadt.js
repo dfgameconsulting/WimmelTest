@@ -41,7 +41,6 @@ function resetRatios() {
   screen04Width = screen04Pos.right - screen04Pos.left;
 
   scaleFactor = Math.floor((screen01Pos.width + screen01Pos.height) / 2) / 2000;
-  console.log(screen01Pos.height)
   r.style.setProperty("--scaleFactor", `scale(${scaleFactor})`);
   r.style.setProperty("--scaleFactorObjects", `scale(${scaleFactor * 0.667})`);
   r.style.setProperty("--size", `${screen01Width * 0.055}px`); // 0.0309
@@ -102,7 +101,6 @@ class pickObject {
     this.imgProxy.onload = () => {
       this.w = this.imgProxy.width;
       this.h = this.imgProxy.height;
-      // console.log('Image "' + this.name + '" loaded...' + " x: " + this.imgProxy.width + " y: " + this.imgProxy.height);
       setTimeout(() => {
         this.render();
       }, 300);
@@ -153,7 +151,6 @@ class pickObject {
                 this.wasFound = true;
                 // GameManager!
                 localStorage.setItem(this.name, "true");
-                console.log(this.name + " was found");
                 let tl = new anime.timeline();
                 tl.add({
                   begin: () => {
@@ -183,7 +180,6 @@ class pickObject {
                 sound01.play();
                 let index = objects.indexOf(this);
                 objectCopy.push(...objects.splice(index, 1));
-                console.log(objectCopy);
                 document.getElementById(this.name).remove();
                 isRunning = false;
                 anime({
@@ -201,8 +197,6 @@ class pickObject {
     };
 
     objects.push(this);
-    // console.log(this);
-    // console.log(" ...was created!");
   }
 }
 
@@ -220,7 +214,7 @@ function checkAllObjectsFound() {
     objectCopy = objectCopy.filter((element) => element.place != "screen01");
     animateWin("#inventory-wrapper01");
   }
-  if (countedObjects02.length >= 9) {
+  if (countedObjects02.length >= 10) {
     sound04.play();
     objectCopy = objectCopy.filter((element) => element.place != "screen02");
     animateWin("#inventory-wrapper02");
@@ -412,7 +406,6 @@ let startGame = () => {
         let rand = Math.random() * filteredObjects.length;
         let randObject = filteredObjects[Math.floor(rand)];
         let offset = () => Math.random() * 0.033 - 0.0167;
-        console.log("Rand:" + randObject.x);
         hintCircle01 = new hintCircleObject("hintCircle01", randObject.x + offset(), randObject.y + offset(), screen, "BIB001_Stadt_Hinweiskreis_01_hz.png");
         let randRot = Math.floor(Math.random() * 360);
         let leftRight = Math.random() > 0.5 ? -360 : 360;

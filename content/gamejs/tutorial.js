@@ -7,7 +7,6 @@ question.onclick = () => {
     return;
   }
   tutAniRunning = true;
-  //console.log(tutWrapper.style.opacity);
   if (tutWrapper.style.opacity == "1") {
     anime({
       targets: "#tutWrapper, #tutImg, #backgroundDark",

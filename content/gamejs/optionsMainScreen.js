@@ -112,23 +112,3 @@ let glossarPanelClick = () => {
 
 glossarOptions.addEventListener("click", glossarPanelClick);
 glossarBack.addEventListener("click", glossarPanelClick);
-
-
-// const r = document.querySelector(":root");
-// const startScreenBG = document.querySelector("#screen01-image");
-// let screenPos = startScreenBG.getBoundingClientRect();
-// let screenHeight = screenPos.bottom - screenPos.top;
-// let screenWidth = screenPos.right - screenPos.left;
-
-// function positionLevelStarts() {
-//     screenPos = startScreenBG.getBoundingClientRect();
-//     screenHeight = screenPos.bottom - screenPos.top;
-//     screenWidth = screenPos.right - screenPos.left;
-//     r.style.setProperty(`--${"level1"}X`, `${screenPos.left + screenWidth * 0.1}px`);
-//     r.style.setProperty(`--${"level1"}Y`, `${screenPos.top + screenHeight * 0.1}px`);
-//     console.log(screenPos.left + screenWidth * 0.1);
-// }
-
-// positionLevelStarts();
-
-// window.onresize = positionLevelStarts;

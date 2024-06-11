@@ -11,10 +11,8 @@ lupe.forEach((lupe) => {
     });
     lupeAus = !lupeAus;
     if (!lupeAus) {
-      console.log("LUPE AN");
       document.body.style.cursor = "url(img/inventar/LupeCursor.svg), auto";
     } else {
-      console.log("LUPE AUS");
       document.body.style.cursor = "auto";
     }
   };
@@ -81,9 +79,9 @@ document.querySelector('.close').onclick = () => {
   fadeOut('#secretWohnviertel')
 }
 
-let wlan = document.querySelector('#wlan')
-let stromkasten = document.querySelector('#stromkasten')
-let rathaus = document.querySelector('#rathaus')
+let wlan = document.querySelector('#Wlan')
+let stromkasten = document.querySelector('#Stromkasten')
+let rathaus = document.querySelector('#Rathaus')
 let secretItemsFound = 0
 
 let foundAll = (amount) => {
@@ -96,7 +94,6 @@ let foundAll = (amount) => {
 }
 
 wlan.onclick = () => {
-  console.log(wlan)
   secretItemsFound++
   wlan.style.display = "none"
   foundAll(secretItemsFound)

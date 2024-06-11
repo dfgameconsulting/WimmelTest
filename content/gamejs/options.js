@@ -62,10 +62,10 @@ let glossarPanelClick = () => {
 
     // Glossar LocalStorage
 
-    for (var i = 0; i < localStorage.length; i++){
-        console.log('localStorage');
-        console.log(localStorage.key(i) + " " +localStorage.getItem(localStorage.key(i)));
-    }
+    // for (var i = 0; i < localStorage.length; i++){
+    //     console.log('localStorage');
+    //     console.log(localStorage.key(i) + " " +localStorage.getItem(localStorage.key(i)));
+    // }
 
 
     if (glossar.style.display == 'none' || glossar.style.display == '') {

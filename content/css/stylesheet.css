@@ -1115,6 +1115,18 @@ body::-webkit-scrollbar {
     clip-path: polygon(0 0, 100% 0.8%, 96.6% 100%, 3.4% 100%);
 }
 
+#secretInnenstadt .close{
+    background: url(../img/options/Kreuz.png);
+    position: absolute;
+    top: 3%;
+    right: 12%;
+    width: 8vw;
+    height: 8vw;
+    background-size: contain;
+    cursor: pointer;
+
+}
+
 #secretCampus {
     position: absolute;
     top: 50%;
@@ -1129,37 +1141,49 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-#secretCampus #zauberer {
+#secretCampus #Zauberer {
     position: absolute;
-    top: 39.7%;
-    left: 30.2%;
-    width: calc(412px * 0.67);
-    height: calc(527px * 0.67);
+    top: 39.7% !important;
+    left: 30.2% !important;
+    width: calc(412px * 0.67) !important;
+    height: calc(527px * 0.67) !important;
     background: url(../img/Campus/Zoom/Campus_Zoom_Zauberer_014_hz.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-#secretCampus #dieb {
+#secretCampus #Dieb {
     position: absolute;
-    top: 56.4%;
-    left: 66.9%;
-    width: calc(332px * 0.67);
-    height: calc(373px * 0.67);
+    top: 56.4% !important;
+    left: 66.9% !important;
+    width: calc(332px * 0.67) !important;
+    height: calc(373px * 0.67) !important;
     background: url(../img/Campus/Zoom/Campus_Zoom_Dieb_014_hz.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-#secretCampus #koch {
+#secretCampus #Koch {
     position: absolute;
-    top: 16.04%;
-    left: 38.38%;
-    width: calc(250px * 0.67);
-    height: calc(496px * 0.67);
+    top: 16.04% !important;
+    left: 38.38% !important;
+    width: calc(250px * 0.67) !important;
+    height: calc(496px * 0.67) !important;
     background: url(../img/Campus/Zoom/Campus_Zoom_Koch_014_hz.png);
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+#secretCampus .close{
+    background: url(../img/options/Kreuz.png);
+    position: absolute;
+    top: 3%;
+    right: 12%;
+    width: 8vw;
+    height: 8vw;
+    background-size: contain;
+    cursor: pointer;
+
 }
 
 #secretWohnviertel {
@@ -1176,38 +1200,49 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-#secretWohnviertel #wlan{
+#secretWohnviertel #Wlan{
     position: absolute;
-    top: 9%;
-    left: 60.5%;
-    width: calc(180px* 0.67);
+    top: 9% !important;
+    left: 60.5% !important;
+    width: calc(180px* 0.67) !important;
     background: url(../img/Wohnviertel/Bild_004/Zoom/Objekte_ImBild/wlan.png);
     background-repeat: no-repeat;
     background-size: contain;
-    height: calc(180px* 0.67);
-
+    height: calc(180px* 0.67) !important;
 }
 
-#secretWohnviertel #stromkasten {
+#secretWohnviertel #Stromkasten {
     position: absolute;
-    top: 23%;
-    left: 38.7%;
-    width: calc(124px* 0.67);
+    top: 23% !important;
+    left: 38.7% !important;
+    width: calc(124px* 0.67) !important;
     background: url(../img/Wohnviertel/Bild_004/Zoom/Objekte_ImBild/strom.png);
     background-repeat: no-repeat;
     background-size: contain;
-    height: calc(247px* 0.67);
+    height: calc(247px* 0.67) !important;
 }
 
-#secretWohnviertel #rathaus {
+#secretWohnviertel #Rathaus {
     position: absolute;
-    top: 56%;
-    left: 1.5%;
-    width: calc(350px* 0.67);
+    top: 56% !important;
+    left: 1.5% !important;
+    width: calc(350px* 0.67) !important;
     background: url(../img/Wohnviertel/Bild_004/Zoom/Objekte_ImBild/rathaus.png);
     background-repeat: no-repeat;
     background-size: contain;
-    height: calc(350px* 0.67);
+    height: calc(350px* 0.67) !important;
+}
+
+#secretWohnviertel .close{
+    background: url(../img/options/Kreuz.png);
+    position: absolute;
+    top: 3%;
+    right: 12%;
+    width: 8vw;
+    height: 8vw;
+    background-size: contain;
+    cursor: pointer;
+
 }
 
 #secretAltstadt {

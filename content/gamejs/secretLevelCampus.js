@@ -11,10 +11,8 @@ lupe.forEach((lupe) => {
     });
     lupeAus = !lupeAus;
     if (!lupeAus) {
-      console.log("LUPE AN");
       document.body.style.cursor = "url(img/inventar/LupeCursor.svg), auto";
     } else {
-      console.log("LUPE AUS");
       document.body.style.cursor = "auto";
     }
   };
@@ -27,13 +25,6 @@ class secretEntry {
     this.y = y;
     this.place = place;
     this.text = text;
-    // this.img = img;
-    // this.wasFound = false;
-    // this.imgProxy = new Image();
-    // this.imgProxy.src = "img/" + this.img;
-
-    // this.w = this.imgProxy.width;
-    // this.h = this.imgProxy.height;
 
     // Suchbild
     let div = document.createElement("div");
@@ -53,12 +44,6 @@ class secretEntry {
       transform-origin: 0% 0%;
       transform: translate(0%, 0%) var(--scaleFactorObjects);
       `;
-
-      /*      background-image: url(img/${this.img});
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: contain; */
-    // Inventory
 
     secrets.push(this);
 
@@ -85,12 +70,13 @@ document.querySelector('.close').onclick = () => {
   fadeOut('#secretCampus')
 }
 
-let zauberer = document.querySelector("#zauberer");
-let dieb = document.querySelector("#dieb");
-let koch = document.querySelector("#koch");
+let zauberer = document.querySelector("#Zauberer");
+let dieb = document.querySelector("#Dieb");
+let koch = document.querySelector("#Koch");
 let secretItemsFound = 0;
 
 let foundAll = (amount) => {
+  console.log(amount)
   if (amount < 3) return;
   sound06.play();
   secretLevelCampusDone = true;
@@ -100,11 +86,12 @@ let foundAll = (amount) => {
 }
 
 zauberer.onclick = () => {
-  console.log(zauberer)
+  console.log("Zauberer")
   secretItemsFound++;
   zauberer.style.display = "none";
   foundAll(secretItemsFound);
 };
+
 dieb.onclick = () => {
   secretItemsFound++;
   dieb.style.display = "none";
