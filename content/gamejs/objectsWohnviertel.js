@@ -340,7 +340,7 @@ let startGame = () => {
   teilnahmezertifikat = new pickObject("Teilnahmezertifikat", 0.529688, 0.693981, "screen02", "Das ist ein Teilnahmezertifikat", "Wohnviertel/Bild_002/Objekte_ImBild/teilnahmezertifikat.png", "Wohnviertel/Bild_002/Objekte_Inventar/teilnahmezertifikat.png");
 
   meditierendeperson = new pickObject("MeditierendePerson", 0.796615, 0.586574, "screen03", "Das ist eine meditierende Person", "Wohnviertel/Bild_003/Objekte_ImBild/meditierendeperson.png", "Wohnviertel/Bild_003/Objekte_Inventar/meditierendeperson.png");
-  stressball = new pickObject("Stressball", 0.433854, 0.198611, "screen03", "Das ist ein Stressball", "Wohnviertel/Bild_003/Objekte_ImBild/stressball.png", "Wohnviertel/Bild_003/Objekte_Inventar/stressball.png");
+  stressball = new pickObject("Stressball", 0.111719, 0.771296, "screen03", "Das ist ein Stressball", "Wohnviertel/Bild_003/Objekte_ImBild/stressball.png", "Wohnviertel/Bild_003/Objekte_Inventar/stressball.png");
   kompass = new pickObject("Kompass", 0.505990, 0.947685, "screen03", "Das ist ein Kompass", "Wohnviertel/Bild_003/Objekte_ImBild/kompass.png", "Wohnviertel/Bild_003/Objekte_Inventar/kompass.png");
   gendersymbole = new pickObject("GenderSymbole", 0.658333, 0.019907, "screen03", "Das sind Gender-Symbole", "Wohnviertel/Bild_003/Objekte_ImBild/gendersymbole.png", "Wohnviertel/Bild_003/Objekte_Inventar/gendersymbole.png");
   wahrsagekugel = new pickObject("Wahrsagekugel", 0.791406, 0.379630, "screen03", "Das ist eine Wahrsagekugel", "Wohnviertel/Bild_003/Objekte_ImBild/wahrsagekugel.png", "Wohnviertel/Bild_003/Objekte_Inventar/wahrsagekugel.png");

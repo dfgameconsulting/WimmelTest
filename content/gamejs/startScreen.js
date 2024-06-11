@@ -14,7 +14,7 @@ startLevel1.onclick = (e) => {
   console.log(e)
   setActiveElement(e.target)
 
-  levelInfo.getElementsByTagName("h2")[0].innerHTML = "Stadtzentrum";
+  levelInfo.getElementsByTagName("h2")[0].innerHTML = "Innenstadt";
   levelInfo.getElementsByTagName("p")[0].innerHTML = "Es geht um sehr unterschiedliche Problemlagen und Schwierigkeiten. Aber vielmehr um Angebote der Hilfe und Unterstützung. Bitte geh in diesen Stadtteil nur, wenn über 16 Jahre alt bist und es dir gerade gut geht oder du in guter Gesellschaft bist!";
   document.querySelector("#level2Ready").style.display = "none";
   document.querySelector("#level3Ready").style.display = "none";

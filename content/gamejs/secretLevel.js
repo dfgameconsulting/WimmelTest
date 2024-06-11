@@ -36,7 +36,7 @@ class secretEntry {
     this.imgProxy.onload = () => {
       this.w = this.imgProxy.width;
       this.h = this.imgProxy.height;
-      console.log('Image "' + this.name + '" loaded...' + " x: " + this.imgProxy.width + " y: " + this.imgProxy.height);
+      // console.log('Image "' + this.name + '" loaded...' + " x: " + this.imgProxy.width + " y: " + this.imgProxy.height);
       setTimeout(() => {
         this.render();
       }, 500);
@@ -134,23 +134,30 @@ glitch01Images.forEach((e) => {
 
 
 geldBeutel.onclick = () => {
+  console.log("Geldbeutel click")
   // secretInnenstadt.style.backgroundImage = "url(img/Bild002/Zoom/CityCenter_Zoom_002_rl.png)";
   secretInnenstadt.style.backgroundImage = `url(${loadedSecret[0].src})`; 
   geldBeutel.style.display = "none";
   bankkarte.style.display = "block";
 };
 bankkarte.onclick = () => {
+  console.log("Bankkarte click")
+
   secretInnenstadt.style.backgroundImage = `url(${loadedSecret[1].src})`;
   bankkarte.style.display = "none";
   bankschlitz.style.display = "block";
 };
 bankschlitz.onclick = () => {
+  console.log("Bankschlitz click")
+
   secretInnenstadt.style.backgroundImage = `url(${loadedSecret[2].src})`;
   bankschlitz.style.display = "none";
   optionen01.style.display = "block";
   optionen02.style.display = "block";
 };
 optionen01.onclick = () => {
+  console.log("Optionen 1 click")
+
   secretInnenstadt.style.backgroundImage = `url(${loadedSecret[3].src})`
   optionen01.style.display = "none";
   optionen02.style.display = "none";
@@ -158,9 +165,11 @@ optionen01.onclick = () => {
   auszugSound.play();
 };
 let glitchSound = new Pizzicato.Sound("sound/glitch01.mp3");
-console.log(glitchSound);
+
 let glitch01 = document.querySelector('#glitch01')
 optionen02.onclick = () => {
+  console.log("Optionen 2 click")
+
   console.log("Gerade nicht verfügbar");
   let glitchIndex = 20;
   let glitchInterval = setInterval(() => {
@@ -180,6 +189,8 @@ optionen02.onclick = () => {
   }, Math.random() * 1000 + 1000)
 };
 kontoauszug.onclick = () => {
+  console.log("Kontoauszug click")
+
   secretInnenstadt.style.backgroundImage = `url(${loadedSecret[4].src})`;
   kontoauszug.style.display = "none";
   secretLevelInnenstadtDone = true;
