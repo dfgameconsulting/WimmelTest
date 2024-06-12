@@ -69,7 +69,7 @@ class secretEntry {
 }
 let sound06 = new Pizzicato.Sound("sound/Secret.mp3");
 
-hecke = new secretEntry("Hecke", 0.832813, 0.650463, "screen04", "Das ist eine Hecke");
+hecke = new secretEntry("Hecke", 0.902813, 0.600463, "screen04", "Das ist eine Hecke");
 
 // Secret Wohnviertel Logik
 
