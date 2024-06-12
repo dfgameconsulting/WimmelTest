@@ -1121,16 +1121,15 @@ body::-webkit-scrollbar {
     clip-path: polygon(0 0, 100% 0.8%, 96.6% 100%, 3.4% 100%);
 }
 
-#secretInnenstadt .close{
-    background: url(../img/options/Kreuz.png);
+#secretInnenstadt .close {
+    background: url(../img/objects/Zoomansicht_Kreuz_01_hz.png);
     position: absolute;
-    top: 3%;
-    right: 12%;
-    width: 8vw;
-    height: 8vw;
-    background-size: contain;
+    top: 12.5%;
+    right: 14.9%;
+    width: 13vw;
+    height: 13vw;
+    background-size: cover;
     cursor: pointer;
-
 }
 
 #secretCampus {
@@ -1181,13 +1180,13 @@ body::-webkit-scrollbar {
 }
 
 #secretCampus .close{
-    background: url(../img/options/Kreuz.png);
+    background: url(../img/objects/Zoomansicht_Kreuz_01_hz.png);
     position: absolute;
-    top: 3%;
-    right: 12%;
-    width: 8vw;
-    height: 8vw;
-    background-size: contain;
+    top: 10.5%;
+    right: 16%;
+    width: 13vw;
+    height: 13vw;
+    background-size: cover;
     cursor: pointer;
 
 }
@@ -1240,13 +1239,13 @@ body::-webkit-scrollbar {
 }
 
 #secretWohnviertel .close{
-    background: url(../img/options/Kreuz.png);
+    background: url(../img/objects/Zoomansicht_Kreuz_01_hz.png);
     position: absolute;
-    top: 3%;
-    right: 12%;
-    width: 8vw;
-    height: 8vw;
-    background-size: contain;
+    top: 10.5%;
+    right: 16%;
+    width: 13vw;
+    height: 13vw;
+    background-size: cover;
     cursor: pointer;
 
 }
@@ -1265,13 +1264,13 @@ body::-webkit-scrollbar {
     display: none;
 }
 #secretAltstadt .close{
-    background: url(../img/options/Kreuz.png);
+    background: url(../img/objects/Zoomansicht_Kreuz_01_hz.png);
     position: absolute;
-    top: 3%;
-    right: 12%;
-    width: 8vw;
-    height: 8vw;
-    background-size: contain;
+    top: 10.5%;
+    right: 16%;
+    width: 13vw;
+    height: 13vw;
+    background-size: cover;
     cursor: pointer;
 
 }
