@@ -291,9 +291,24 @@ class hintCircleObject {
 
     div.id = this.name;
     div.onmouseover = () => {
-      if(!lupeAus){
-        div.style.display = 'none'
-      }
+      console.log("enter")
+      anime({
+        begin: () => {
+
+
+          let tl = new anime.timeline();
+          tl.add({
+            targets: "#hintCircleSecret",
+            opacity: [1, 0],
+            duration: 1000,
+            easing: "easeInOutSine",
+          })
+        },
+        complete: () => {
+          document.querySelector('#hintCircleSecret').style.display = 'none'
+        }
+
+      });
     }
     
     div.className = this.containerClass;
@@ -334,7 +349,7 @@ let startGame = () => {
   Gewitterwolke = new pickObject("Gewitterwolke", 0.169010, 0.881019, "screen02", "Das ist eine Gewitterwolke", "Altstadt/Bild_002/Objekte_ImBild/gewitterwolke.png" , "Altstadt/Bild_002/Objekte_Inventar/gewitterwolke.png");
   Hoergeraet = new pickObject("Hörgerät", 0.641927, 0.379630, "screen02", "Das ist ein Hörgerät", "Altstadt/Bild_002/Objekte_ImBild/hoergeraet.png" , "Altstadt/Bild_002/Objekte_Inventar/hoergeraet.png");
   SchwangereFrau = new pickObject("Schwangere_Frau", 0.335156, 0.680093, "screen02", "Das ist eine schwangere Frau", "Altstadt/Bild_002/Objekte_ImBild/schwangerefrau.png" , "Altstadt/Bild_002/Objekte_Inventar/schwangerefrau.png");
-  Waage = new pickObject("Waage", 0.832813, 0.200463, "screen02", "Das ist eine Waage", "Altstadt/Bild_002/Objekte_ImBild/waage.png" , "Altstadt/Bild_002/Objekte_Inventar/waage.png");
+  Waage_PO = new pickObject("Waage", 0.832813, 0.200463, "screen02", "Das ist eine Waage", "Altstadt/Bild_002/Objekte_ImBild/waage.png" , "Altstadt/Bild_002/Objekte_Inventar/waage.png");
   
   Gluehbirne = new pickObject("Glühbirne", 0.788802, 0.478704, "screen02", "Das ist eine Glühbirne", "Altstadt/Bild_002/Objekte_ImBild/gluehbirne.png" , "Altstadt/Bild_002/Objekte_Inventar/gluehbirne.png");
   HandhaltenSchild = new pickObject("HandhaltenSchild", 0.140104, 0.676389, "screen02", "Das ist eine Hand, die ein Schild hält", "Altstadt/Bild_002/Objekte_ImBild/handhaltenschild.png" , "Altstadt/Bild_002/Objekte_Inventar/handhaltenschild.png");

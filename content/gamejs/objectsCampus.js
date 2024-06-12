@@ -283,9 +283,24 @@ class hintCircleObject {
 
     div.id = this.name;
     div.onmouseover = () => {
-      if(!lupeAus){
-        div.style.display = 'none'
-      }
+      console.log("enter")
+      anime({
+        begin: () => {
+
+
+          let tl = new anime.timeline();
+          tl.add({
+            targets: "#hintCircleSecret",
+            opacity: [1, 0],
+            duration: 1000,
+            easing: "easeInOutSine",
+          })
+        },
+        complete: () => {
+          document.querySelector('#hintCircleSecret').style.display = 'none'
+        }
+
+      });
     }
     
     div.className = this.containerClass;

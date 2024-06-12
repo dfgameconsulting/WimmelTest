@@ -268,7 +268,7 @@ body::-webkit-scrollbar {
     background: url(../img/Dialog/BIB001_Dialog_Weiter_01_hz.png) 62% 0 no-repeat;
     background-size: clamp(10%, 30%, 50%);
     border-radius: 15px;
-    margin-top: -150px;
+    margin-top: -85px;
 }
 
 #startLevel1 {

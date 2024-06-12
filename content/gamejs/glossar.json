@@ -42,6 +42,11 @@
                             }
                         ]
                     }
+                ],
+                "icon": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },{
                 "id": "bewerbung-studienplatz",

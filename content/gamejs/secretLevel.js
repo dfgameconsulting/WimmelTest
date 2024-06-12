@@ -1,6 +1,7 @@
 let lupe = document.querySelectorAll(".lupe");
 let lupeAus = true;
 let secretLevelInnenstadtDone = false;
+let secretIsRunning = false;
 lupe.forEach((lupe) => {
   lupe.onclick = () => {
     anime({
@@ -62,13 +63,32 @@ class secretEntry {
       background-size: contain;
       `;
 
-      secrets.push(this);
+    secrets.push(this);
 
+
+    div.onmouseleave = () => {
+      console.log("leave")
+      if (secretLevelInnenstadtDone || secretIsRunning) return
+      anime({
+        begin: () => {
+
+          document.querySelector('#hintCircleSecret').style.display = 'block'
+          let tl = new anime.timeline();
+          tl.add({
+            targets: "#hintCircleSecret",
+            opacity: [0, 1],
+            duration: 1000,
+            easing: "easeInOutSine",
+          })
+        }
+      });
+    }
     div.onclick = () => {
       if (lupeAus) return;
       if (secretLevelInnenstadtDone) return;
       //   fadeIn("#backgroundDark");
       fadeIn("#secretInnenstadt");
+      secretIsRunning = true;
       document.body.style.cursor = "auto";
       lupeAus = !lupeAus;
       sound06.play();
@@ -85,6 +105,7 @@ let secretInnenstadt = document.querySelector("#secretInnenstadt");
 
 document.querySelector('.close').onclick = () => {
   fadeOut('#secretInnenstadt')
+  secretIsRunning = false
 }
 
 let geldBeutel = document.querySelector("#geldbeutel");
@@ -110,7 +131,7 @@ let glitch01Images = [
   "img/CityCenter/Zoom/glitch/dos.png",
 ];
 let kontoSecretImages = [
-  "img/CityCenter/Zoom/CityCenter_Zoom_002_rl.png", 
+  "img/CityCenter/Zoom/CityCenter_Zoom_002_rl.png",
   "img/CityCenter/Zoom/CityCenter_Zoom_003_rl.png",
   "img/CityCenter/Zoom/CityCenter_Zoom_004_rl.png",
   "img/CityCenter/Zoom/CityCenter_Zoom_005_rl.png",
@@ -130,7 +151,7 @@ glitch01Images.forEach((e) => {
 
 
 geldBeutel.onclick = () => {
-  secretInnenstadt.style.backgroundImage = `url(${loadedSecret[0].src})`; 
+  secretInnenstadt.style.backgroundImage = `url(${loadedSecret[0].src})`;
   geldBeutel.style.display = "none";
   bankkarte.style.display = "block";
 };
@@ -166,7 +187,7 @@ optionen02.onclick = () => {
     };
   }, glitchIndex);
   glitchSound.play(0, Math.floor(Math.random() * 9));
-  
+
   setTimeout(() => {
     clearInterval(glitchInterval);
     glitch01.style.backgroundImage = "none";
@@ -177,6 +198,7 @@ kontoauszug.onclick = () => {
   secretInnenstadt.style.backgroundImage = `url(${loadedSecret[4].src})`;
   kontoauszug.style.display = "none";
   secretLevelInnenstadtDone = true;
+  document.querySelector('#hintCircleSecret').style.display = 'none'
   secretItemToInventory("Kontoauszug")
   setTimeout(() => {
     secretInnenstadt.style.display = "none";
@@ -207,7 +229,7 @@ function fadeOut(selector) {
 }
 
 let wasFound = false;
-function secretItemToInventory(name){
+function secretItemToInventory(name) {
   anime({
     begin: () => {
       isRunning = true;

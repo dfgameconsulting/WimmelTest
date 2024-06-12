@@ -1,6 +1,7 @@
 let lupe = document.querySelectorAll(".lupe");
 let lupeAus = true;
 let secretLevelWohnviertelDone = false;
+let secretIsRunning = false;
 lupe.forEach((lupe) => {
   lupe.onclick = () => {
     anime({
@@ -55,18 +56,25 @@ class secretEntry {
     // Inventory
 
     secrets.push(this);
-
+    div.onmouseleave = () => {
+      console.log("leave")
+      if(secretLevelWohnviertelDone || secretIsRunning) return
+      secretHintAnimation()
+    }
     div.onclick = () => {
       if (lupeAus) return;
       if (secretLevelWohnviertelDone) return;
       //   fadeIn("#backgroundDark");
       fadeIn("#secretWohnviertel");
+      secretIsRunning = true
       document.body.style.cursor = "auto";
       lupeAus = !lupeAus;
       sound06.play();
     };
   }
 }
+
+
 let sound06 = new Pizzicato.Sound("sound/Secret.mp3");
 
 hecke = new secretEntry("Hecke", 0.902813, 0.600463, "screen04", "Das ist eine Hecke");
@@ -77,6 +85,10 @@ let secretWohnviertel = document.querySelector("#secretWohnviertel");
 
 document.querySelector('.close').onclick = () => {
   fadeOut('#secretWohnviertel')
+  secretIsRunning = false
+  if(!secretLevelWohnviertelDone){
+    secretHintAnimation()
+  }
 }
 
 let wlan = document.querySelector('#Wlan')
@@ -88,6 +100,7 @@ let foundAll = (amount) => {
   if (amount < 3) return;
   sound06.play();
   secretLevelWohnviertelDone = true;
+  document.querySelector('#hintCircleSecret').style.display = 'none'
   setTimeout(() => {
     fadeOut('#secretWohnviertel');
   }, 3000);
@@ -133,5 +146,20 @@ function fadeOut(selector) {
     complete: () => {
       document.querySelector(selector).style.display = "none";
     },
+  });
+}
+function secretHintAnimation(){
+  anime({
+    begin: () => {
+      
+      document.querySelector('#hintCircleSecret').style.display = 'block'
+      let tl = new anime.timeline();
+      tl.add({
+        targets: "#hintCircleSecret",
+        opacity: [0, 1],
+        duration: 1000,
+        easing: "easeInOutSine",
+      })
+    }
   });
 }
