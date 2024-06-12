@@ -372,7 +372,7 @@ let startGame = () => {
   stromkasten_PO  = new PickObject("Stromkasten", 0.569010, 0.142130, "screen04", "Das sind Umzugskisten", "Wohnviertel/Bild_004/Zoom/Objekte_ImBild/wlan.png", "Wohnviertel/Bild_004/Objekte_Inventar/strom.png", true);
   rathaus_PO  = new PickObject("Rathaus", 0.569010, 0.142130, "screen04", "Das sind Umzugskisten", "Wohnviertel/Bild_004/Zoom/Objekte_ImBild/wlan.png", "Wohnviertel/Bild_004/Objekte_Inventar/rathaus.png", true);
   
-  let secretHint = new hintCircleObject("hintCircleSecret", 0.802813, 0.620463, "screen04", "BIB001_Stadt_Hinweiskreis_04_ll.png", true, 1, '')
+  let secretHint = new hintCircleObject("hintCircleSecret", 0.902813, 0.600463, "screen04", "BIB001_Stadt_Hinweiskreis_04_ll.png", true, 1, '')
   anime({
     targets: "#hintCircleSecret",
     scale: [1, 1.5, 1],
