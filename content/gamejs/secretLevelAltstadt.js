@@ -1,6 +1,7 @@
 let lupe = document.querySelectorAll(".lupe");
 let lupeAus = true;
 let secretLevelAltstadtDone = false;
+let secretIsRunning = false;
 lupe.forEach((lupe) => {
   lupe.onclick = () => {
     anime({
@@ -50,8 +51,8 @@ class secretEntry {
     r.style.setProperty(`--${this.name}Y`, `${pos.top + screen01Height * this.y}px`);
     document.getElementById(this.name).style.cssText = `
       position: absolute;
-      width: ${this.w}px;
-      height: ${this.h}px;
+      width: 200px;
+      height: 200px;
       left: var(--${this.name}X);
       top: var(--${this.name}Y); 
       transform-origin: 0% 0%;
@@ -59,15 +60,29 @@ class secretEntry {
       background-image: url(img/${this.img});
       background-repeat: no-repeat;
       background-position: center;
-      background-size: contain
-      ;`;
-
-
+      background-size: contain;
+      `;
 
     // Inventory
 
     secrets.push(this);
-
+    div.onmouseleave = () => {
+      console.log("leave")
+      if(secretLevelAltstadtDone || secretIsRunning) return
+      anime({
+        begin: () => {
+          
+          document.querySelector('#hintCircleSecret').style.display = 'block'
+          let tl = new anime.timeline();
+          tl.add({
+            targets: "#hintCircleSecret",
+            opacity: [0, 1],
+            duration: 1000,
+            easing: "easeInOutSine",
+          })
+        }
+      });
+    }
     div.onclick = () => {
       if (lupeAus) return;
       if (secretLevelAltstadtDone) return;
@@ -75,6 +90,7 @@ class secretEntry {
       let p = new Puzzle(cards, 640/3, 480/3)
       p.init()
       fadeIn("#secretAltstadt");
+      secretIsRunning = true
       document.body.style.cursor = "auto";
       lupeAus = !lupeAus;
       sound06.play();
@@ -92,6 +108,7 @@ let secretAltstadt = document.querySelector("#secretAltstadt");
 
 document.querySelector('.close').onclick = () => {
     fadeOut('#secretAltstadt')
+    secretIsRunning = false
 }
 
 function fadeIn(selector) {
@@ -275,6 +292,8 @@ class Puzzle {
                            secretItemToInventory("Waage")
                            setTimeout(() => {
                             fadeOut('#secretAltstadt')
+                            secretLevelAltstadtDone = true
+                            document.querySelector('#hintCircleSecret').style.display = 'none'
                           }, 1000);
                         }
                     }

@@ -1,6 +1,7 @@
 let lupe = document.querySelectorAll(".lupe");
 let lupeAus = true;
 let secretLevelCampusDone = false;
+let secretIsRunning = false;
 lupe.forEach((lupe) => {
   lupe.onclick = () => {
     anime({
@@ -46,12 +47,29 @@ class secretEntry {
       `;
 
     secrets.push(this);
-
+    div.onmouseleave = () => {
+      console.log("leave")
+      if(secretLevelCampusDone || secretIsRunning) return
+      anime({
+        begin: () => {
+          
+          document.querySelector('#hintCircleSecret').style.display = 'block'
+          let tl = new anime.timeline();
+          tl.add({
+            targets: "#hintCircleSecret",
+            opacity: [0, 1],
+            duration: 1000,
+            easing: "easeInOutSine",
+          })
+        }
+      });
+    }
     div.onclick = () => {
       if (lupeAus) return;
       if (secretLevelCampusDone) return;
       //   fadeIn("#backgroundDark");
       fadeIn("#secretCampus");
+      secretIsRunning = true
       document.body.style.cursor = "auto";
       lupeAus = !lupeAus;
       sound06.play();
@@ -68,6 +86,7 @@ let secretCampus = document.querySelector("#secretCampus");
 
 document.querySelector('.close').onclick = () => {
   fadeOut('#secretCampus')
+  secretIsRunning = false
 }
 
 let zauberer = document.querySelector("#Zauberer");
@@ -80,6 +99,7 @@ let foundAll = (amount) => {
   if (amount < 3) return;
   sound06.play();
   secretLevelCampusDone = true;
+  document.querySelector('#hintCircleSecret').style.display = 'none'
   setTimeout(() => {
     fadeOut('#secretCampus');
   }, 3000);

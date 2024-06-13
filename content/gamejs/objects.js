@@ -245,8 +245,6 @@ function animateWin(div) {
 }
 
 let isRunning = false;
-// let object01, object02, object03, object04, object05, object06, object07, object08, object09, object10, object11, object12, object13, object14, object15, object16, ;
-
 
 window.onload = () => {
   let tl = new anime.timeline();
@@ -293,11 +291,26 @@ class hintCircleObject {
 
     div.id = this.name;
     div.onmouseover = () => {
-      if(!lupeAus){
-        div.style.display = 'none'
-      }
+      console.log("enter")
+      anime({
+        begin: () => {
+
+
+          let tl = new anime.timeline();
+          tl.add({
+            targets: "#hintCircleSecret",
+            opacity: [1, 0],
+            duration: 1000,
+            easing: "easeInOutSine",
+          })
+        },
+        complete: () => {
+          document.querySelector('#hintCircleSecret').style.display = 'none'
+        }
+
+      });
     }
-    
+
     div.className = this.containerClass;
     document.getElementById(place).appendChild(div);
     let pos = this.place === "screen01" ? screen01Pos : this.place == "screen02" ? screen02Pos : this.place == "screen03" ? screen03Pos : screen04Pos;
@@ -314,7 +327,7 @@ class hintCircleObject {
     background-position: center;
     background-size: contain;
     transform: scale(${this.scale});
-    ${!secret ? 'opacity: 0':''};
+    ${!secret ? 'opacity: 0' : ''};
     `;
     objects.push(this);
   }
@@ -373,7 +386,7 @@ let startGame = () => {
     scale: [1, 1.5, 1],
     easing: "easeInOutQuad",
     duration: 5000,
-    loop:true
+    loop: true
   });
   resetRatios();
 
