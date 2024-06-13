@@ -1,0 +1,320 @@
+{
+    "id": "#altstadt",
+    "secretId": "#secretAltstadt",
+    "itemsCount": [
+        10,
+        10,
+        10,
+        10
+    ],
+    "screens": [
+        {
+            "id": "screen01",
+            "pathImages": "Altstadt/Bild_001/Objekte_ImBild/",
+            "pathInventory": "Altstadt/Bild_001/Objekte_Inventar/",
+            "items": [
+                {
+                    "id": "Aktienzeichen",
+                    "x": 0.452604,
+                    "y": 0.063426,
+                    "description": "Das ist ein",
+                    "image": "aktienzeichen.png"
+                },
+                {
+                    "id": "Bankzeichen",
+                    "x": 0.249740,
+                    "y": 0.330093,
+                    "description": "Das ist ein",
+                    "image": "bankzeichen.png"
+                },
+                {
+                    "id": "Brieftasche",
+                    "x": 0.559115,
+                    "y": 0.572685,
+                    "description": "Das ist ein",
+                    "image": "brieftasche.png"
+                },
+                {
+                    "id": "Hosentaschen_Mannar",
+                    "x": 0.885677,
+                    "y": 0.513426,
+                    "description": "Das ist ein",
+                    "image": "hosentaschenmann.png"
+                },
+                {
+                    "id": "Münzhaufen",
+                    "x": 0.453646,
+                    "y": 0.319907,
+                    "description": "Das ist ein",
+                    "image": "muenzhaufen.png"
+                },
+                {
+                    "id": "Sparkontoauszug",
+                    "x": 0.469531,
+                    "y": 0.896759,
+                    "description": "Das ist ein",
+                    "image": "sparkontoauszug.png"
+                },
+                {
+                    "id": "Sparschwein",
+                    "x": 0.747396,
+                    "y": 0.603241,
+                    "description": "Das ist ein",
+                    "image": "sparschwein.png"
+                },
+                {
+                    "id": "Vertragspapiere",
+                    "x": 0.363021,
+                    "y": 0.111111,
+                    "description": "Das ist ein",
+                    "image": "vertragspapiere.png"
+                },
+                {
+                    "id": "Währungszeichen",
+                    "x": 0.290625,
+                    "y": 0.492593,
+                    "description": "Das ist ein",
+                    "image": "waehrungszeichen.png"
+                },
+                {
+                    "id": "Zeitung",
+                    "x": 0.578646,
+                    "y": 0.443519,
+                    "description": "Das ist ein",
+                    "image": "zeitung.png"
+                }
+            ]
+        },
+        {
+            "id": "screen02",
+            "pathImages": "Altstadt/Bild_002/Objekte_ImBild/",
+            "pathInventory": "Altstadt/Bild_002/Objekte_Inventar/",
+            "items": [
+                {
+                    "id": "Gewitterwolke",
+                    "x": 0.169010,
+                    "y": 0.881019,
+                    "description": "Das ist ein",
+                    "image": "gewitterwolke.png"
+                },
+                {
+                    "id": "Hörgerät",
+                    "x": 0.641927,
+                    "y": 0.379630,
+                    "description": "Das ist ein",
+                    "image": "hoergeraet.png"
+                },
+                {
+                    "id": "Schwangere_Frau",
+                    "x": 0.335156,
+                    "y": 0.680093,
+                    "description": "Das ist ein",
+                    "image": "schwangerefrau.png"
+                },
+                {
+                    "id": "Waage",
+                    "x": 0.832813,
+                    "y": 0.200463,
+                    "description": "Das ist ein",
+                    "image": "waage.png"
+                },
+                {
+                    "id": "Glühbirne",
+                    "x": 0.788802,
+                    "y": 0.478704,
+                    "description": "Das ist ein",
+                    "image": "gluehbirne.png"
+                },
+                {
+                    "id": "HandhaltenSchild",
+                    "x": 0.140104,
+                    "y": 0.676389,
+                    "description": "Das ist ein",
+                    "image": "handhaltenschild.png"
+                },
+                {
+                    "id": "Straßenschild",
+                    "x": 0.135937,
+                    "y": 0.623148,
+                    "description": "Das ist ein",
+                    "image": "strassenschild.png"
+                },
+                {
+                    "id": "Nachdenklicher_Mann",
+                    "x": 0.388281,
+                    "y": 0.066667,
+                    "description": "Das ist ein",
+                    "image": "nachdenklichermann.png"
+                },
+                {
+                    "id": "Paragraph",
+                    "x": 0.528906,
+                    "y": 0.532870,
+                    "description": "Das ist ein",
+                    "image": "paragraph.png"
+                },
+                {
+                    "id": "Wörterbuch",
+                    "x": 0.580990,
+                    "y": 0.224074,
+                    "description": "Das ist ein",
+                    "image": "woerterbuch.png"
+                }
+            ]
+        },
+        {
+            "id": "screen03",
+            "pathImages": "Altstadt/Bild_003/Objekte_ImBild/",
+            "pathInventory": "Altstadt/Bild_003/Objekte_Inventar/",
+            "items": [
+                {
+                    "id": "Erste_Hilfe",
+                    "x": 0.934115,
+                    "y": 0.287037,
+                    "description": "Das ist ein",
+                    "image": "erstehilfe.png"
+                },
+                {
+                    "id": "Flamme",
+                    "x": 0.800000,
+                    "y": 0.271759,
+                    "description": "Das ist ein",
+                    "image": "flamme.png"
+                },
+                {
+                    "id": "Blindenzeichen",
+                    "x": 0.543229,
+                    "y": 0.018981,
+                    "description": "Das ist ein",
+                    "image": "blindenzeichen.png"
+                },
+                {
+                    "id": "Nasses_Buch",
+                    "x": 0.358854,
+                    "y": 0.811574,
+                    "description": "Das ist ein",
+                    "image": "nassesbuch.png"
+                },
+                {
+                    "id": "Stethoskop",
+                    "x": 0.218229,
+                    "y": 0.517130,
+                    "description": "Das ist ein",
+                    "image": "stethoskop.png"
+                },
+                {
+                    "id": "Händedruck",
+                    "x": 0.298438,
+                    "y": 0.612963,
+                    "description": "Das ist ein",
+                    "image": "haendedruck.png"
+                },
+                {
+                    "id": "Rollstuhl",
+                    "x": 0.542188,
+                    "y": 0.629167,
+                    "description": "Das ist ein",
+                    "image": "rollstuhl.png"
+                },
+                {
+                    "id": "Schild",
+                    "x": 0.800781,
+                    "y": 0.497222,
+                    "description": "Das ist ein",
+                    "image": "schild.png"
+                },
+                {
+                    "id": "Uhr_Graffiti",
+                    "x": 0.422917,
+                    "y": 0.725926,
+                    "description": "Das ist ein",
+                    "image": "uhrgraffiti.png"
+                },
+                {
+                    "id": "Monokel_Frau",
+                    "x": 0.678385,
+                    "y": 0.560648,
+                    "description": "Das ist ein",
+                    "image": "monokelfrau.png"
+                }
+            ]
+        },
+        {
+            "id": "screen04",
+            "pathImages": "Altstadt/Bild_004/Objekte_ImBild/",
+            "pathInventory": "Altstadt/Bild_004/Objekte_Inventar/",
+            "items": [
+                {
+                    "id": "Rennender_Mann",
+                    "x": 0.377865,
+                    "y": 0.600000,
+                    "description": "Das ist ein",
+                    "image": "rennendermann.png"
+                },
+                {
+                    "id": "Bücher",
+                    "x": 0.481771,
+                    "y": 0.349074,
+                    "description": "Das ist ein",
+                    "image": "buecher.png"
+                },
+                {
+                    "id": "Whiteboard",
+                    "x": 0.704427,
+                    "y": 0.480556,
+                    "description": "Das ist ein",
+                    "image": "whiteboard.png"
+                },
+                {
+                    "id": "Ortsschild",
+                    "x": 0.839844,
+                    "y": 0.575463,
+                    "description": "Das ist ein",
+                    "image": "ortsschild.png"
+                },
+                {
+                    "id": "Korb",
+                    "x": 0.918750,
+                    "y": 0.275463,
+                    "description": "Das ist ein",
+                    "image": "korb.png"
+                },
+                {
+                    "id": "Feuerwehrauto",
+                    "x": 0.671354,
+                    "y": 0.422685,
+                    "description": "Das ist ein",
+                    "image": "feuerwehrauto.png"
+                },
+                {
+                    "id": "Azubi",
+                    "x": 0.653125,
+                    "y": 0.048148,
+                    "description": "Das ist ein",
+                    "image": "azubi.png"
+                },
+                {
+                    "id": "Kaputtes_Auto",
+                    "x": 0.562500,
+                    "y": 0.590741,
+                    "description": "Das ist ein",
+                    "image": "kaputtesauto.png"
+                },
+                {
+                    "id": "Arbeitsagentur",
+                    "x": 0.065365,
+                    "y": 0.056481,
+                    "description": "Das ist ein",
+                    "image": "arbeitsagentur.png"
+                },
+                {
+                    "id": "Bushaltestelle",
+                    "x": 0.231250,
+                    "y": 0.338889,
+                    "description": "Das ist ein",
+                    "image": "bushaltestelle.png"
+                }
+            ]
+        }
+    ]
+}
