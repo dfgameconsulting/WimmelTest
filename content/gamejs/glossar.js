@@ -218,7 +218,7 @@ class Glossar {
   }
 
   loadJSON = async () => {
-    const response = await fetch('./gamejs/glossar.json');
+    const response = await fetch('./gamejs/json/glossar.json');
     return await response.json();
   }
 }
