@@ -1,0 +1,323 @@
+{
+    "id": "#wohnviertel",
+    "secretId": "#secretWohnviertel",
+    "itemsCount": [
+        10,
+        10,
+        10,
+        10
+    ],
+    "screens": [
+        {
+            "id": "screen01",
+            "pathImages": "Wohnviertel/Bild_001/Objekte_ImBild/",
+            "pathInventory": "Wohnviertel/Bild_001/Objekte_Inventar/",
+            "items": [
+                {
+                    "id": "Reisekarte",
+                    "x": 0.923958,
+                    "y": 0.475926,
+                    "description": "Das ist ein",
+                    "image": "reisekarte.png"
+                },
+                {
+                    "id": "Bücher",
+                    "x": 0.772917,
+                    "y": 0.463426,
+                    "description": "Das ist ein",
+                    "image": "buecher.png"
+                },
+                {
+                    "id": "Gettoblaster",
+                    "x": 0.887760,
+                    "y": 0.223611,
+                    "description": "Das ist ein",
+                    "image": "ghettoblaster.png"
+                },
+                {
+                    "id": "MBTI",
+                    "x": 0.764844,
+                    "y": 0.168056,
+                    "description": "Das ist ein",
+                    "image": "mbti.png"
+                },
+                {
+                    "id": "Controller",
+                    "x": 0.493490,
+                    "y": 0.131481,
+                    "description": "Das ist ein",
+                    "image": "controller.png"
+                },
+                {
+                    "id": "Halfpipe",
+                    "x": 0.487760,
+                    "y": 0.528704,
+                    "description": "Das ist ein",
+                    "image": "halfpipe.png"
+                },
+                {
+                    "id": "Kuscheltier",
+                    "x": 0.129167,
+                    "y": 0.686111,
+                    "description": "Das ist ein",
+                    "image": "kuscheltier.png"
+                },
+                {
+                    "id": "Graffiti",
+                    "x": 0.409115,
+                    "y": 0.105093,
+                    "description": "Das ist ein",
+                    "image": "graffiti.png"
+                },
+                {
+                    "id": "Poster",
+                    "x": 0.333594,
+                    "y": 0.356019,
+                    "description": "Das ist ein",
+                    "image": "poster.png"
+                },
+                {
+                    "id": "Wegweiser",
+                    "x": 0.219531,
+                    "y": 0.527315,
+                    "description": "Das ist ein",
+                    "image": "wegweiser.png"
+                }
+            ]
+        },
+        {
+            "id": "screen02",
+            "pathImages": "Wohnviertel/Bild_002/Objekte_ImBild/",
+            "pathInventory": "Wohnviertel/Bild_002/Objekte_Inventar/",
+            "items": [
+                {
+                    "id": "Dankeskarte",
+                    "x": 0.173177,
+                    "y": 0.579630,
+                    "description": "Das ist ein",
+                    "image": "dankeskarte.png"
+                },
+                {
+                    "id": "Notizbuch",
+                    "x": 0.770052,
+                    "y": 0.131019,
+                    "description": "Das ist ein",
+                    "image": "notizbuch.png"
+                },
+                {
+                    "id": "HighFive",
+                    "x": 0.794792,
+                    "y": 0.327778,
+                    "description": "Das ist ein",
+                    "image": "highfive.png"
+                },
+                {
+                    "id": "Checkliste",
+                    "x": 0.564583,
+                    "y": 0.170833,
+                    "description": "Das ist ein",
+                    "image": "checkliste.png"
+                },
+                {
+                    "id": "ErsteHilfe",
+                    "x": 0.328125,
+                    "y": 0.483796,
+                    "description": "Das ist ein",
+                    "image": "erstehilfe.png"
+                },
+                {
+                    "id": "Uhr",
+                    "x": 0.295312,
+                    "y": 0.097685,
+                    "description": "Das ist ein",
+                    "image": "uhr.png"
+                },
+                {
+                    "id": "Whiteboard",
+                    "x": 0.131510,
+                    "y": 0.357407,
+                    "description": "Das ist ein",
+                    "image": "whiteboard.png"
+                },
+                {
+                    "id": "Gruppenfoto",
+                    "x": 0.241406,
+                    "y": 0.757870,
+                    "description": "Das ist ein",
+                    "image": "gruppenfoto.png"
+                },
+                {
+                    "id": "Tagebuch",
+                    "x": 0.795052,
+                    "y": 0.715741,
+                    "description": "Das ist ein",
+                    "image": "tagebuch.png"
+                },
+                {
+                    "id": "Teilnahmezertifikat",
+                    "x": 0.529688,
+                    "y": 0.693981,
+                    "description": "Das ist ein",
+                    "image": "teilnahmezertifikat.png"
+                }       
+            ]
+        },
+        {
+            "id": "screen03",
+            "pathImages": "Wohnviertel/Bild_003/Objekte_ImBild/",
+            "pathInventory": "Wohnviertel/Bild_003/Objekte_Inventar/",
+            "items": [
+                {
+                    "id": "MeditierendePerson",
+                    "x": 0.796615,
+                    "y": 0.586574,
+                    "description": "Das ist ein",
+                    "image": "meditierendeperson.png"
+                },
+                {
+                    "id": "Stressball",
+                    "x": 0.111719,
+                    "y": 0.771296,
+                    "description": "Das ist ein",
+                    "image": "stressball.png"
+                },
+                {
+                    "id": "Kompass",
+                    "x": 0.505990,
+                    "y": 0.947685,
+                    "description": "Das ist ein",
+                    "image": "kompass.png"
+                },
+                {
+                    "id": "GenderSymbole",
+                    "x": 0.658333,
+                    "y": 0.019907,
+                    "description": "Das ist ein",
+                    "image": "gendersymbole.png"
+                },
+                {
+                    "id": "Wahrsagekugel",
+                    "x": 0.791406,
+                    "y": 0.379630,
+                    "description": "Das ist ein",
+                    "image": "wahrsagekugel.png"
+                },
+                {
+                    "id": "Achterbahn",
+                    "x": 0.308854,
+                    "y": 0.416204,
+                    "description": "Das ist ein",
+                    "image": "achterbahn.png"
+                },
+                {
+                    "id": "Herzkissen",
+                    "x": 0.318490,
+                    "y": 0.640741,
+                    "description": "Das ist ein",
+                    "image": "herzkissen.png"
+                },
+                {
+                    "id": "Blitzableiter",
+                    "x": 0.189062,
+                    "y": 0.130556,
+                    "description": "Das ist ein",
+                    "image": "blitzableiter.png"
+                },
+                {
+                    "id": "Träne",
+                    "x": 0.241146,
+                    "y": 0.263889,
+                    "description": "Das ist ein",
+                    "image": "traene.png"
+                },
+                {
+                    "id": "Daumen",
+                    "x": 0.112240,
+                    "y": 0.056944,
+                    "description": "Das ist ein",
+                    "image": "daumen.png"
+                }  
+            ]
+        },
+        {
+            "id": "screen04",
+            "pathImages": "Wohnviertel/Bild_004/Objekte_ImBild/",
+            "pathInventory": "Wohnviertel/Bild_004/Objekte_Inventar/",
+            "items": [
+                {
+                    "id": "Vogel_im_Nest",
+                    "x": 0.280208,
+                    "y": 0.375000,
+                    "description": "Das ist ein",
+                    "image": "vogelimnest.png"
+                },
+                {
+                    "id": "Stromkabel",
+                    "x": 0.489062,
+                    "y": 0.450000,
+                    "description": "Das ist ein",
+                    "image": "stromkabel.png"
+                },
+                {
+                    "id": "Radio",
+                    "x": 0.591927,
+                    "y": 0.670833,
+                    "description": "Das ist ein",
+                    "image": "radio.png"
+                },
+                {
+                    "id": "Reisekoffer",
+                    "x": 0.198698,
+                    "y": 0.654167,
+                    "description": "Das ist ein",
+                    "image": "reisekoffer.png"
+                },
+                {
+                    "id": "FliegendeGeldscheine",
+                    "x": 0.045833,
+                    "y": 0.035648,
+                    "description": "Das ist ein",
+                    "image": "fliegendegeldscheine.png"
+                },
+                {
+                    "id": "Fernseher",
+                    "x": 0.879688,
+                    "y": 0.179167,
+                    "description": "Das ist ein",
+                    "image": "fernseher.png"
+                },
+                {
+                    "id": "Umzugskisten",
+                    "x": 0.569010,
+                    "y": 0.142130,
+                    "description": "Das ist ein",
+                    "image": "umzugskisten.png"
+                },
+                {
+                    "id": "Wlan",
+                    "x": 0.569010,
+                    "y": 0.142130,
+                    "description": "Das ist ein",
+                    "image": "wlan.png",
+                    "secret": true
+                },
+                {
+                    "id": "Stromkasten",
+                    "x": 0.569010,
+                    "y": 0.142130,
+                    "description": "Das ist ein",
+                    "image": "strom.png",
+                    "secret": true
+                },
+                {
+                    "id": "Rathaus",
+                    "x": 0.569010,
+                    "y": 0.142130,
+                    "description": "Das ist ein",
+                    "image": "rathaus.png",
+                    "secret": true
+                }                
+            ]
+        }
+    ]
+}

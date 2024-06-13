@@ -1,0 +1,352 @@
+{
+    "id": "#innenstadt",
+    "secretId": "#secretInnenstadt",
+    "itemsCount": [
+        10,
+        12,
+        10,
+        8
+    ],
+    "screens": [
+        {
+            "id": "screen01",
+            "pathImages": "CityCenter/Bild_001/Objekte_ImBild/",
+            "pathInventory": "CityCenter/Bild_001/Objekte_Inventar/",
+            "items": [
+                {
+                    "id": "Bar",
+                    "x": 0.19974,
+                    "y": 0.269444,
+                    "description": "Das ist ein",
+                    "image": "bar.png"
+                },
+                {
+                    "id": "Burger",
+                    "x": 0.279167,
+                    "y": 0.53704,
+                    "description": "Das ist ein",
+                    "image": "burger.png"
+                },
+                {
+                    "id": "Bandit",
+                    "found": "",
+                    "x": 0,
+                    "y": 0.601852,
+                    "description": "Das ist ein",
+                    "image": "einarmigerbandit.png"
+                },
+                {
+                    "id": "Glasscontainer",
+                    "found": "",
+                    "x": 0.295052,
+                    "y": 0.627315,
+                    "description": "Das ist ein",
+                    "image": "glasscontainer.png"
+                },
+                {
+                    "id": "Lootbox",
+                    "found": "",
+                    "x": 0.183073,
+                    "y": 0.609722,
+                    "description": "Das ist ein",
+                    "image": "lootbox.png"
+                },
+                {
+                    "id": "Nasenspray",
+                    "found": "",
+                    "x": 0.883333,
+                    "y": 0.607407,
+                    "description": "Das ist ein",
+                    "image": "nasenspray.png"
+                },
+                {
+                    "id": "Pizza",
+                    "found": "",
+                    "x": 0.704427,
+                    "y": 0.193519,
+                    "description": "Das ist ein",
+                    "image": "pizza.png"
+                },
+                {
+                    "id": "Pokerchip",
+                    "found": "",
+                    "x": 0.519531,
+                    "y": 0.418981,
+                    "description": "Das ist ein",
+                    "image": "pokerchip.png"
+                },
+                {
+                    "id": "Sale",
+                    "found": "",
+                    "x": 0.247396,
+                    "y": 0.04537,
+                    "description": "Das ist ein",
+                    "image": "sale.png"
+                },
+                {
+                    "id": "Tuete",
+                    "found": "",
+                    "x": 0.599219,
+                    "y": 0.591667,
+                    "description": "Das ist ein",
+                    "image": "tuete.png"
+                }
+            ]
+        },
+        {
+            "id": "screen02",
+            "pathImages": "CityCenter/Bild_004/Objekte_ImBild/",
+            "pathInventory": "CityCenter/Bild_004/Objekte_Inventar/",
+            "items": [
+                {
+                    "id": "Apotheke",
+                    "x": 0.734635,
+                    "y": 0.506944,
+                    "description": "Das ist ein",
+                    "image": "apotheke.png"
+                },
+                {
+                    "id": "Arbeitsausweis",
+                    "x": 0.115625,
+                    "y": 0.136111,
+                    "description": "Das ist ein",
+                    "image": "arbeitsausweis.png"
+                },
+                {
+                    "id": "Erste_Hilfe_Kasten",
+                    "found": "",
+                    "x": 0.065625,
+                    "y": 0.074074,
+                    "description": "Das ist ein",
+                    "image": "erstehilfekasten.png"
+                },
+                {
+                    "id": "Gelber_Schein",
+                    "found": "",
+                    "x": 0.836198,
+                    "y": 0.953704,
+                    "description": "Das ist ein",
+                    "image": "gelberschein.png"
+                },
+                {
+                    "id": "Glühbirne",
+                    "found": "",
+                    "x": 0.083854,
+                    "y": 0.618519,
+                    "description": "Das ist ein",
+                    "image": "gluehbirne.png"
+                },
+                {
+                    "id": "Jogger",
+                    "found": "",
+                    "x": 0.27526,
+                    "y": 0.623148,
+                    "description": "Das ist ein",
+                    "image": "jogger.png"
+                },
+                {
+                    "id": "Krücken",
+                    "found": "",
+                    "x": 0.839062,
+                    "y": 0.719444,
+                    "description": "Das ist ein",
+                    "image": "kruecken.png"
+                },
+                {
+                    "id": "Mappe",
+                    "found": "",
+                    "x": 0.451042,
+                    "y": 0.206944,
+                    "description": "Das ist ein",
+                    "image": "mappe.png"
+                },
+                {
+                    "id": "Maske",
+                    "found": "",
+                    "x": 0.857292,
+                    "y": 0.343519,
+                    "description": "Das ist ein",
+                    "image": "maske.png"
+                },
+                {
+                    "id": "Sicherheitshinweise",
+                    "found": "",
+                    "x": 0.241927,
+                    "y": 0.568519,
+                    "description": "Das ist ein",
+                    "image": "sicherheitshinweise.png"
+                },
+                {
+                    "id": "Sportgerät",
+                    "found": "",
+                    "x": 0.704948,
+                    "y": 0.172222,
+                    "description": "Das ist ein",
+                    "image": "sportgeraet.png"
+                },
+                {
+                    "id": "Tisch",
+                    "found": "",
+                    "x": 0.52474,
+                    "y": 0.734722,
+                    "description": "Das ist ein",
+                    "image": "tisch.png"
+                }
+            ]
+        },
+        {
+            "id": "screen03",
+            "pathImages": "CityCenter/Bild_002/Objekte_ImBild/",
+            "pathInventory": "CityCenter/Bild_002/Objekte_Inventar/",
+            "items": [
+                {
+                    "id": "Briefkasten",
+                    "x": 0.778906,
+                    "y": 0.547685,
+                    "description": "Das ist ein",
+                    "image": "briefkasten.png"
+                },
+                {
+                    "id": "Casino",
+                    "x": 0.66224,
+                    "y": 0.513426,
+                    "description": "Das ist ein",
+                    "image": "casino.png"
+                },
+                {
+                    "id": "Einkaufswagen",
+                    "found": "",
+                    "x": 0.784115,
+                    "y": 0.657407,
+                    "description": "Das ist ein",
+                    "image": "einkaufswagen.png"
+                },
+                {
+                    "id": "Gerichtshammer",
+                    "found": "",
+                    "x": 0.229688,
+                    "y": 0.24537,
+                    "description": "Das ist ein",
+                    "image": "gerichtshammer.png"
+                },
+                {
+                    "id": "Handyvertrag",
+                    "found": "",
+                    "x": 0.378125,
+                    "y": 0.272685,
+                    "description": "Das ist ein",
+                    "image": "handyvertrag.png"
+                },
+                {
+                    "id": "Hund",
+                    "found": "",
+                    "x": 0.313802,
+                    "y": 0.619444,
+                    "description": "Das ist ein",
+                    "image": "hund.png"
+                },
+                {
+                    "id": "Lieferauto",
+                    "found": "",
+                    "x": 0.502604,
+                    "y": 0.51713,
+                    "description": "Das ist ein",
+                    "image": "lieferauto.png"
+                },
+                {
+                    "id": "Lottoschein",
+                    "found": "",
+                    "x": 0.083594,
+                    "y": 0.885648,
+                    "description": "Das ist ein",
+                    "image": "lottoschein.png"
+                },
+                {
+                    "id": "Rechnungen",
+                    "found": "",
+                    "x": 0.448698,
+                    "y": 0.8875,
+                    "description": "Das ist ein",
+                    "image": "rechnungen.png"
+                },
+                {
+                    "id": "Kontoauszug",
+                    "found": "",
+                    "x": -0.448698,
+                    "y": -0.8875,
+                    "description": "Das ist ein",
+                    "image": "kontoauszug.png"
+                }
+            ]
+        },
+        {
+            "id": "screen04",
+            "pathImages": "CityCenter/Bild_003/Objekte_ImBild/",
+            "pathInventory": "CityCenter/Bild_003/Objekte_Inventar/",
+            "items": [
+                {
+                    "id": "Agentur_für_Arbeit",
+                    "x": 0.405469,
+                    "y": 0.084259,
+                    "description": "Das ist ein",
+                    "image": "agenturarbeit.png"
+                },
+                {
+                    "id": "HausvomNikolaus",
+                    "x": 0.557292,
+                    "y": 0.585648,
+                    "description": "Das ist ein",
+                    "image": "hausvomnikolaus.png"
+                },
+                {
+                    "id": "Kartons",
+                    "found": "",
+                    "x": 0.696094,
+                    "y": 0.704167,
+                    "description": "Das ist ein",
+                    "image": "kartons.png"
+                },
+                {
+                    "id": "Krawatte",
+                    "found": "",
+                    "x": 0.645573,
+                    "y": 0.440741,
+                    "description": "Das ist ein",
+                    "image": "krawatte.png"
+                },
+                {
+                    "id": "Leichenwagen",
+                    "found": "",
+                    "x": 0,
+                    "y": 0.636574,
+                    "description": "Das ist ein",
+                    "image": "leichenwagen.png"
+                },
+                {
+                    "id": "Schlafsack",
+                    "found": "",
+                    "x": 0.676562,
+                    "y": 0.872222,
+                    "description": "Das ist ein",
+                    "image": "schlafsack.png"
+                },
+                {
+                    "id": "Schlüssel",
+                    "found": "",
+                    "x": 0.216146,
+                    "y": 0.760648,
+                    "description": "Das ist ein",
+                    "image": "schluessel.png"
+                },
+                {
+                    "id": "Zeitung",
+                    "found": "",
+                    "x": 0.565104,
+                    "y": 0.82037,
+                    "description": "Das ist ein",
+                    "image": "zeitung.png"
+                }
+            ]
+        }
+    ]
+}

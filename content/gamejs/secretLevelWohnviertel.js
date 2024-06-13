@@ -1,165 +1,22 @@
-let lupe = document.querySelectorAll(".lupe");
-let lupeAus = true;
-let secretLevelWohnviertelDone = false;
-let secretIsRunning = false;
-lupe.forEach((lupe) => {
-  lupe.onclick = () => {
-    anime({
-      targets: ".lupe",
-      scale: [1.33, 1],
-      duration: 500,
-      easing: "easeOutSine",
-    });
-    lupeAus = !lupeAus;
-    if (!lupeAus) {
-      document.body.style.cursor = "url(img/inventar/LupeCursor.svg), auto";
-    } else {
-      document.body.style.cursor = "auto";
-    }
-  };
-});
-
-class secretEntry {
-  constructor(name, x, y, place, text, img = null) {
-    this.name = name;
-    this.x = x;
-    this.y = y;
-    this.place = place;
-    this.text = text;
-    // this.img = img;
-    // this.wasFound = false;
-    // this.imgProxy = new Image();
-    // this.imgProxy.src = "img/" + this.img;
-
-    // this.w = this.imgProxy.width;
-    // this.h = this.imgProxy.height;
-
-    // Suchbild
-    let div = document.createElement("div");
-    div.id = this.name;
-    div.className = "secretEntry";
-    document.getElementById(place).appendChild(div);
-
-    let pos = this.place === "screen01" ? screen01Pos : this.place == "screen02" ? screen02Pos : this.place == "screen03" ? screen03Pos : screen04Pos;
-    r.style.setProperty(`--${this.name}X`, `${pos.left + screen01Width * this.x}px`);
-    r.style.setProperty(`--${this.name}Y`, `${pos.top + screen01Height * this.y}px`);
-    document.getElementById(this.name).style.cssText = `
-     position: absolute;
-      width: 500px;
-      height: 200px;
-      left: var(--${this.name}X);
-      top: var(--${this.name}Y); 
-      transform-origin: 0% 0%;
-      transform: translate(0%, 0%) var(--scaleFactorObjects);
-      `;
-
-    // Inventory
-
-    secrets.push(this);
-    div.onmouseleave = () => {
-      console.log("leave")
-      if(secretLevelWohnviertelDone || secretIsRunning) return
-      secretHintAnimation()
-    }
-    div.onclick = () => {
-      if (lupeAus) return;
-      if (secretLevelWohnviertelDone) return;
-      //   fadeIn("#backgroundDark");
-      fadeIn("#secretWohnviertel");
-      secretIsRunning = true
-      document.body.style.cursor = "auto";
-      lupeAus = !lupeAus;
-      sound06.play();
-    };
-  }
-}
-
-
 let sound06 = new Pizzicato.Sound("sound/Secret.mp3");
+let secretItemsFound = 0;
+let loadJSON = async () => {
+  const response = await fetch('./gamejs/json/campus.json');
+  return await response.json();
+}
 
-hecke = new secretEntry("Hecke", 0.902813, 0.600463, "screen04", "Das ist eine Hecke");
+let initSpecialSecret = () => { }
 
-// Secret Wohnviertel Logik
 
-let secretWohnviertel = document.querySelector("#secretWohnviertel");
+let initSecretLevel = async () => {
+  
+  let cityItems = await loadJSON()
+  let RotesAuto = new SecretEntry("Auto", 0.902813, 0.600463, 300, 200, "screen04", "Das ist ein Secret", null, "Wohnviertel");
+  let secretCampus = document.querySelector("#secretWohnviertel");
 
-document.querySelector('.close').onclick = () => {
-  fadeOut('#secretWohnviertel')
-  secretIsRunning = false
-  if(!secretLevelWohnviertelDone){
-    secretHintAnimation()
+  document.querySelector('.close').onclick = () => {
+    fadeOut('#secretWohnviertel')
+    secretIsRunning = false
   }
 }
-
-let wlan = document.querySelector('#Wlan')
-let stromkasten = document.querySelector('#Stromkasten')
-let rathaus = document.querySelector('#Rathaus')
-let secretItemsFound = 0
-
-let foundAll = (amount) => {
-  if (amount < 3) return;
-  sound06.play();
-  secretLevelWohnviertelDone = true;
-  document.querySelector('#hintCircleSecret').style.display = 'none'
-  setTimeout(() => {
-    fadeOut('#secretWohnviertel');
-  }, 3000);
-}
-
-wlan.onclick = () => {
-  secretItemsFound++
-  wlan.style.display = "none"
-  foundAll(secretItemsFound)
-}
-
-stromkasten.onclick = () => {
-  secretItemsFound++
-  stromkasten.style.display = "none"
-  foundAll(secretItemsFound)
-}
-
-rathaus.onclick = () => {
-  secretItemsFound++
-  rathaus.style.display = "none"
-  foundAll(secretItemsFound)
-}
-
-
-function fadeIn(selector) {
-  
-  anime({
-    begin: () => {
-      let a = document.querySelector(selector).style.display = "block";
-    },
-    targets: selector,
-    opacity: [0, 1],
-    duration: 500,
-    easing: "easeInOutSine",
-  });
-}
-function fadeOut(selector) {
-  anime({
-    targets: selector,
-    opacity: [1, 0],
-    duration: 500,
-    easing: "easeInOutSine",
-    complete: () => {
-      document.querySelector(selector).style.display = "none";
-    },
-  });
-}
-function secretHintAnimation(){
-  anime({
-    begin: () => {
-      
-      document.querySelector('#hintCircleSecret').style.display = 'block'
-      let tl = new anime.timeline();
-      tl.add({
-        targets: "#hintCircleSecret",
-        opacity: [0, 1],
-        duration: 1000,
-        easing: "easeInOutSine",
-      })
-    }
-  });
-}
+initSecretLevel()
