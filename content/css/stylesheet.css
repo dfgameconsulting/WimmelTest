@@ -2,15 +2,11 @@
 
 @font-face {
     font-family: 'FragmentCore';
-    font-style: normal;
-    font-weight: normal;
     src: local('FragmentCore'), url(../fonts/Fragmentcore.otf) format("opentype");
 }
 
 @font-face {
     font-family: 'Museum';
-    font-style: normal;
-    font-weight: normal;
     src: local('Museum'), url(../fonts/LTMuseum-Reg.ttf) format('truetype');
 }
 
@@ -770,6 +766,11 @@ body::-webkit-scrollbar {
 .glossar-content{
 }
 
+.glossar-content .cat-content,
+.glossar-content .az-content{
+    margin-bottom: 40px;
+}
+
 .glossar-content h1{
     font-family: 'Museum', serif;
     margin-bottom: 40px;
@@ -791,6 +792,12 @@ body::-webkit-scrollbar {
 }
 .unterKat {
     cursor: pointer;
+}
+.glossar-content ul li b{
+    font-family: 'Museum';
+}
+.glossar-content ul li a{
+    line-height: 4rem;
 }
 
 #text-kat #info-kat>* [data-active="false"] {
