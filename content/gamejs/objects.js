@@ -1,7 +1,7 @@
 let objects = [];
 let secrets = [];
 let isRunning = false;
-
+let foundAll = false;
 
 document.addEventListener("DOMContentLoaded", function () {
 
@@ -30,6 +30,8 @@ let startGame = async () => {
       let a = new PickObject(item.id, item.x, item.y, screen.id, item.description, (screen.pathImages + item.image), (screen.pathInventory + item.image), cityItems.secretId, cityItems.itemsCount)
     });
   });
+
+  closeLevel(cityItems.itemsCount)
 
   let secretHint = new HintCircleObject("hintCircleSecret", 0.330938, 0.546759, "screen03", "BIB001_Stadt_Hinweiskreis_04_ll.png", true, 1, '')
   secretHintAnimation()
