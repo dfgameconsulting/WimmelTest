@@ -1,6 +1,7 @@
 class Glossar {
   constructor() {
     this.init()
+    this.glossarJSON = null
     this.sortType = 'cat'
     this.activeChapter = null
     this.activeContent = null
@@ -12,6 +13,7 @@ class Glossar {
     this.glossarAzContents = []
     this.glossarAZContentsWrap = document.querySelector('#all-contents-a-z')
     this.glossarAZCategoriesWrap = document.querySelector('#all-cats-a-z')
+
   }
 
   init = async () => {
@@ -31,6 +33,7 @@ class Glossar {
     /**
      * Loop over the json, get all main categories
      */
+    if(this.glossarJSON == null) return
     this.glossarJSON.forEach(category => {
 
       /**

@@ -1,5 +1,5 @@
 let question = document.querySelector("#question");
-let tutWrapper = document.querySelector("#tutWrapper");
+let tutWrapper = document.querySelector("#dialogWrapper");
 let tutAniRunning = false;
 
 question.onclick = () => {
@@ -23,7 +23,7 @@ question.onclick = () => {
       begin: () => {
         tutWrapper.style.display = "block";
       },
-      targets:  "#tutWrapper, #tutImg, #backgroundDark",
+      targets:  "#dialogWrapper, #tutImg, #backgroundDark",
       opacity: [0, 1],
       duration: 500,
       easing: "easeInOutSine",
@@ -35,8 +35,9 @@ question.onclick = () => {
 };
 
 // Tut Text
-let welcomeText = document.querySelector("#welcome-text");
-let weiterImg = document.querySelector("#weiter");
+let welcomeText = document.querySelector("#dialogWrapper .content .text");
+let weiterImg = document.querySelector("#dialogWrapper .content .next");
+console.log(welcomeText)
 let introText = [
   "Willkommen in zynd-City! Ich bin Zynd-3-Rella, deine Reisebegleitung. Werfen wir mal einen Blick auf die Stadtkarte.",
   "Zynd-City hat vier Stadtteile. Jeder hat ein bestimmtes Thema. Klick auf einen Marker auf der Stadtkarte und du erfährst, worum es dort geht. Wenn du etwas gefunden hast, das dich interessiert, besuch diesen Stadtteil!",
@@ -108,7 +109,7 @@ function closeTutorial() {
           });
     }, 500);
 }
-let zyd3rella = document.querySelector("#avatar img"); // `url(${loadedzynImages[0].src})`;
+let zyd3rella = document.querySelector("#dialogWrapper .avatar img"); // `url(${loadedzynImages[0].src})`;
 function showTutorial(step) {
   switch (step) {
     case 0:

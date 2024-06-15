@@ -60,60 +60,68 @@
             <div id="screen01">
                 <!-- <img id="screen01-image" src="img/places/Stadt_01_hz.png" alt=""> -->
                 <img id="screen01-image" src="img/LevelMenuBackground_hz_006.png" alt="">
-                <div class="backscreen2" style="background-image: url(img/BIB001_Rand_01_hz.png); background-size: contain;"></div>
-            </div>
+                <div class="backscreen2"
+                    style="background-image: url(img/BIB001_Rand_01_hz.png); background-size: contain;"></div>
             </div>
         </div>
+    </div>
 
-        <div id="levels">
-            <div class="menu-levelcontainer" id="startLevel1">
-                <p class="">Innenstadt</p>
-            </div>
-            <div class="menu-levelcontainer" id="startLevel2">
-                <p>Campus</p>
-            </div>
-            <div class="menu-levelcontainer" id="startLevel3">
-                <p>Altstadt</p>
-            </div>
-            <div class="menu-levelcontainer" id="startLevel4">
-                <p>Wohnviertel</p>
-            </div>
-            <div id="level-info">
-                <h2>INFO</h2>
-                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda officiis iure dolor, possimus expedita nostrum molestiae repellendus aliquam nemo culpa</p>
-                <div id="level1Ready"></div>
-                <div id="level2Ready"></div>
-                <div id="level3Ready"></div>
-                <div id="level4Ready"></div>
-            </div>
+    <div id="levels">
+        <div class="menu-levelcontainer" id="startLevel1">
+            <p class="">Innenstadt</p>
         </div>
+        <div class="menu-levelcontainer" id="startLevel2">
+            <p>Campus</p>
+        </div>
+        <div class="menu-levelcontainer" id="startLevel3">
+            <p>Altstadt</p>
+        </div>
+        <div class="menu-levelcontainer" id="startLevel4">
+            <p>Wohnviertel</p>
+        </div>
+        <div id="level-info">
+            <h2>INFO</h2>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda officiis iure dolor, possimus
+                expedita nostrum molestiae repellendus aliquam nemo culpa</p>
+            <div id="level1Ready"></div>
+            <div id="level2Ready"></div>
+            <div id="level3Ready"></div>
+            <div id="level4Ready"></div>
+        </div>
+    </div>
 
-        <div id="question"> 
-            <img src="img/inventar/BIB001_Inventar_Fragezeichen_01_hz.png" alt="" srcset="">
-        </div>
+    <div id="question">
+        <img src="img/inventar/BIB001_Inventar_Fragezeichen_01_hz.png" alt="" srcset="">
+    </div>
 
-        <div id="tutWrapper">
-            <div id="welcome-wrapper">
-                <span class="headline">Zynd-3-Rella</span>
-                <p id="welcome-text">Willkommen in zynd-City! Ich bin Zynd-3-Rella, deine Reisebegleitung. Werfen wir mal einen Blick auf die Stadtkarte.</p>
-                <img id="weiter" src="img/Dialog/BIB001_Dialog_Weiter_01_hz.png" alt="">
-            </div>
-            <div id="avatar">
-                <img src="img/Zyn/Zyn-3-rella_Normal_.png" alt="">
-            </div>
+    <div id="dialogWrapper">
+        <div class="content">
+            <span class="headline">Zynd-3-Rella</span>
+            <p class="text">Willkommen in zynd-City! Ich bin Zynd-3-Rella, deine Reisebegleitung. Werfen wir mal
+                einen Blick auf die Stadtkarte.</p>
+            <img class="next" src="img/Dialog/BIB001_Dialog_Weiter_01_hz.png" alt="">
         </div>
-        <div id="tutImg">
-            <div id="eins" class="highlight2"></div>
-            <div id="zwei" class="highlight3"></div>
+        <div class="avatar">
+            <img src="img/Zyn/Zyn-3-rella_Normal_.png" alt="">
         </div>
-        <div id="backgroundDark"></div>
+        <div class="choise">
+            <button id="stayButton">Weitersuchen</button>
+            <button id="leaveButton">Beenden</button>
+        </div>
+    </div>
+    <div id="tutImg">
+        <div id="eins" class="highlight2"></div>
+        <div id="zwei" class="highlight3"></div>
+    </div>
+    <div id="backgroundDark"></div>
     </div>
     <script>
         // ScormProcessInitialize("Altstadt");
-</script>
+    </script>
     <script type="text/javascript" src="gamejs/optionsMainScreen.js"></script>
-    <!-- <script type="text/javascript" src="gamejs/options.js"></script> -->
     <script type="text/javascript" src="gamejs/utils/Glossar.js"></script>
+    <script type="text/javascript" src="gamejs/utils/Dialog.js"></script>
+
     <script type="text/javascript" src="gamejs/glossar.js"></script>
     <script type="text/javascript" src="gamejs/startScreen.js"></script>
     <script type="text/javascript" src="gamejs/tutorial.js"></script>
