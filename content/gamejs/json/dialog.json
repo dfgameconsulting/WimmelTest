@@ -1,0 +1,37 @@
+{
+    "dialogs": [
+        {
+            "id": "leave",
+            "contents": [
+                {
+                    "headline": "Zynd-3-Rella",
+                    "text": "Ey, du hast noch gar nicht alle gefunden! Willst du jetzt, echt schon gehen?",
+                    "zyndrella": "thoughtfull"
+                }
+            ],
+            "choice": true
+        },
+        {
+            "id": "horror",
+            "contents": [
+                {
+                    "text": "Hello! Lass uns gemeinsam das Stadtzentrum erkunden.",
+                    "zyndrella": "talking"
+                },
+                {
+                    "text": "Ich nehm dich ein bisschen an die mechanische Hand, denn hier gibt es ein paar düstere Ecken... Das Leben ist nicht immer einfach.",
+                    "zyndrella": "thoughtfull"
+                },
+                {
+                    "text": "Lass dich nicht runterziehen von den Themen, denn es gibt Hilfe und Unterstützung. Und es geht darum, diese zu finden. Ich hoffe, du wirst sie nie brauchen! Aber falls doch, hast du weningstens schon einmal davon gehört.",
+                    "zyndrella": "thoughtfull"
+                },
+                {
+                    "text": "Bitte geh in diesen Stadtteil nur, wenn du über 16 Jahre alt bist und es dir gerade gut geht oder du in guter Gesellschaft bist.",
+                    "zyndrella": "Normal"
+                }
+            ],
+            "choise": false
+        }
+    ]
+}

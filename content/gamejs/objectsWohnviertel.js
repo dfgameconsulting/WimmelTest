@@ -30,6 +30,8 @@ let startGame = async () => {
     });
   });
 
+  closeLevel(cityItems.itemsCount)
+
   let secretHint = new HintCircleObject("hintCircleSecret", 0.902813, 0.600463, "screen04", "BIB001_Stadt_Hinweiskreis_04_ll.png", true, 1, '')
   secretHintAnimation()
 

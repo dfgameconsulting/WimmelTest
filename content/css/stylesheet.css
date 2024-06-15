@@ -135,7 +135,7 @@ body::-webkit-scrollbar {
     list-style: none;
 }
 
-.optionspic {
+.close-level {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -144,7 +144,7 @@ body::-webkit-scrollbar {
     padding: var(--padding);
 }
 
-.optionspic img {
+.close-level img {
     width: 5rem;
 }
 
@@ -768,7 +768,7 @@ body::-webkit-scrollbar {
 
 .glossar-content .cat-content,
 .glossar-content .az-content{
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 .glossar-content h1{
@@ -1322,7 +1322,7 @@ body::-webkit-scrollbar {
 /** END Gameplay **/
 
 /** START Homescreen **/
-#tutWrapper {
+#dialogWrapper {
     display: none;
     position: absolute;
     bottom: 0;
@@ -1330,6 +1330,10 @@ body::-webkit-scrollbar {
     left: 50%;
     transform: translate(-50%, 0);
     z-index: 1;
+}
+#dialogWrapper.active{
+    display: block;
+    opacity: 1;
 }
 
 #tutImg {
@@ -1357,7 +1361,7 @@ body::-webkit-scrollbar {
 
 
 
-#welcome-wrapper {
+#dialogWrapper .content {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -1372,7 +1376,7 @@ body::-webkit-scrollbar {
     background-size: contain;
     overflow: hidden;
 }
-#welcome-wrapper .headline{
+#dialogWrapper .content .headline{
     position: absolute;
     top: 8%;
     left: 5%;
@@ -1383,7 +1387,7 @@ body::-webkit-scrollbar {
     width: 18%;
 }
 
-#weiter {
+#dialogWrapper .content .next {
     position: absolute;
     bottom: 13%;
     right: 17%;
@@ -1392,7 +1396,7 @@ body::-webkit-scrollbar {
     cursor: pointer;
 }
 
-#avatar {
+#dialogWrapper .avatar {
     position: absolute;
     bottom: 2%;
     right: -5%;
@@ -1401,12 +1405,12 @@ body::-webkit-scrollbar {
     pointer-events: none;
 }
 
-#avatar img {
+#dialogWrapper .avatar img {
     width: 20vw;
     height: auto;
 }
 
-#welcome-text {
+#dialogWrapper .content .text {
     position: absolute;
     top: 25%;
     left: 2.5%;
@@ -1419,6 +1423,36 @@ body::-webkit-scrollbar {
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+#dialogWrapper .choise {
+    display: none;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    flex-direction: column;
+}
+#dialogWrapper .choise.active{
+    display: flex;
+}
+#dialogWrapper .choise button{
+    display: block;
+    width: 20vw;
+    height: 65px;
+    background: url(../img/Dialog/dialogue_option.png) 0 0 no-repeat;
+    background-size: contain;
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: 'Museum';
+    border: none;
+}
+#dialogWrapper .choise .stayButton{
+    
+}
+#dialogWrapper .choise .leaveButton{
+    
+    
 }
 
 
@@ -1518,3 +1552,5 @@ body::-webkit-scrollbar {
     /* filter: opacity(0.618); blur(5px)*/
 }
 /** END Homescreen **/
+
+
