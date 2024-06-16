@@ -167,6 +167,8 @@ let checkAllObjectsFound = (counts, closing = false) => {
       countedObjects03.length == counts[2] &&
       countedObjects04.length == counts[3]
     ) {
+      let dialog = new Dialog()
+      dialog.setDialog("finishedInnenstadt")
       return true
     } else {
       return false
@@ -378,19 +380,32 @@ function secretItemToInventory(name, itemCounts) {
   });
 }
 
-let dialog = null
+
 let closeLevel = (counts) => {
+  let dialog = null
   document.querySelector('.close-level').onclick = async () => {
     console.log("Click onto close")
     if (checkAllObjectsFound(counts, true)) {
       window.open('index.html', "_self")
     } else {
+      dialog = new Dialog()
       if (dialog == null) {
-        dialog = new Dialog()
+
       }
 
       if (!dialog.loaded) await dialog.init()
-        dialog.setDialog('leave')
+      dialog.setDialog('leave')
     }
   }
+}
+
+let innenstadtEntry = async () => {
+  let dialog = null
+  dialog = new Dialog()
+  if (dialog == null) {
+
+  }
+
+  if (!dialog.loaded) await dialog.init()
+  dialog.setDialog('horror')
 }

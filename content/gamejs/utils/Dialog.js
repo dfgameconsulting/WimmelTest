@@ -4,13 +4,13 @@ class Dialog {
         this.dialogsJSON = null
         this.loaded = false
         this.dialogWrapper = document.querySelector('#dialogWrapper')
-        this.headline = document.querySelector('#dialogWrapper .content .headline')
         this.content = document.querySelector('#dialogWrapper .content .text')
         this.nextButton = document.querySelector('#dialogWrapper .content .next')
         this.avatar = document.querySelector('#dialogWrapper .avatar')
         this.choiseWrapper = document.querySelector('#dialogWrapper .choise')
         this.stayButton = document.querySelector('#dialogWrapper .choise #stayButton')
         this.leaveButton = document.querySelector('#dialogWrapper .choise #leaveButton')
+        this.contentIndex = 0
     }
 
     init = async () => {
@@ -18,10 +18,10 @@ class Dialog {
         this.loaded = true
     }
 
+
     setDialog = (id) => {
         const [key, dialog] = Object.entries(this.dialogsJSON.dialogs).find(([key, dialog]) => dialog.id === id);
-        this.headline.innerHTML = dialog.contents[0].headline
-        this.content.innerHTML = dialog.contents[0].text
+        this.content.innerHTML = dialog.contents[this.contentIndex].text
         this.dialogWrapper.classList.add('active')
         this.dialogWrapper.style.opacity = 1
 
@@ -29,6 +29,15 @@ class Dialog {
             this.nextButton.style.display = 'none'
         } else {
             this.nextButton.onclick = () => {
+                if (this.contentIndex < dialog.contents.length-1) {
+                    this.contentIndex++
+                    
+                    this.content.innerHTML = dialog.contents[this.contentIndex].text
+                }
+                else if (this.contentIndex == dialog.contents.length - 1) {
+                    this.dialogWrapper.classList.remove('active')
+                }
+
 
             }
         }
