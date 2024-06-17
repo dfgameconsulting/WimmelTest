@@ -4,9 +4,8 @@
             "id": "leave",
             "contents": [
                 {
-                    "headline": "Zynd-3-Rella",
                     "text": "Ey, du hast noch gar nicht alle gefunden! Willst du jetzt, echt schon gehen?",
-                    "zyndrella": "thoughtfull"
+                    "emotion": "thoughtfull"
                 }
             ],
             "choice": true
@@ -15,23 +14,63 @@
             "id": "horror",
             "contents": [
                 {
-                    "text": "Hello! Lass uns gemeinsam das Stadtzentrum erkunden.",
-                    "zyndrella": "talking"
+                    "text": "Hello! Lass uns gemeinsam die Innenstadt erkunden.",
+                    "emotion": "talking"
                 },
                 {
                     "text": "Ich nehm dich ein bisschen an die mechanische Hand, denn hier gibt es ein paar düstere Ecken... Das Leben ist nicht immer einfach.",
-                    "zyndrella": "thoughtfull"
+                    "emotion": "thoughtfull"
                 },
                 {
                     "text": "Lass dich nicht runterziehen von den Themen, denn es gibt Hilfe und Unterstützung. Und es geht darum, diese zu finden. Ich hoffe, du wirst sie nie brauchen! Aber falls doch, hast du weningstens schon einmal davon gehört.",
-                    "zyndrella": "thoughtfull"
+                    "emotion": "thoughtfull"
                 },
                 {
                     "text": "Bitte geh in diesen Stadtteil nur, wenn du über 16 Jahre alt bist und es dir gerade gut geht oder du in guter Gesellschaft bist.",
-                    "zyndrella": "Normal"
+                    "emotion": "normal"
                 }
             ],
             "choise": false
+        },
+        {
+            "id": "campusFinished",
+            "contents": [
+                {
+                    "text": "Juhu, du hast ALLES gefunden. Willst du jetzt vielleicht noch in die Altstadt, das Wohnviertel oder die Innenstadt?",
+                    "emotion": "good-job"
+                }
+            ]
+        },
+        {
+            "id": "altstadtFinished",
+            "contents": [
+                {
+                    "text": "WOW, you made it! Wie sieht`s aus - Hast du Lust noch weiterzusuchen? Dann geh doch in die Innenstadt, das Wohnvirtel oder auf den Camppus.",
+                    "emotion": "good-job"
+                }
+            ]
+        },
+        {
+            "id": "innenstadtFinished",
+            "contents": [
+                {
+                    "text": "Oha, du hast jedes noch so gut verstecktes Objekt entdeckt. Ich hoffe, dir geht`s gut, auch wenn du gerade einiges an deprimierenden Begriffen gelesen hast. Falls nicht, such dir jemanden, mit dem du darüber sprechen kannst.",
+                    "emotion": "thoughtfull"
+                },
+                {
+                    "text": "Ich kann dir anbieten, dich in die Altstadt, auf den Canpus oder ins Wohnviertel zu begleiten. Wollen wir los?",
+                    "emotion": "good-job"
+                }
+            ]
+        },
+        {
+            "id": "wohnviertelFinished",
+            "contents": [
+                {
+                    "text": "Adlerauge! Vor dir ist kein Objekt gut genug versteckt. Glückwunsch, du hast alles entdeckt! Auf in ein neues Stadtviertel? Campus, Altstadt oder Innenstadt gefällig?",
+                    "emotion": "good-job"
+                }
+            ]
         }
     ]
 }

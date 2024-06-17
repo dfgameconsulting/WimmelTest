@@ -1,5 +1,5 @@
 {
-    "id": "#campus",
+    "id": "campus",
     "secretId": "#secretCampus",
     "itemsCount": [
         10,
@@ -18,70 +18,80 @@
                     "x": 0.429688,
                     "y": 0.040278,
                     "description": "Das ist ein",
-                    "image": "lautstaerkesymbol.png"
+                    "image": "lautstaerkesymbol.png",
+                    "label": ""
                 },
                 {
                     "id": "Blindenbinde",
                     "x": 0.090625,
                     "y": 0.830556,
                     "description": "Das ist ein",
-                    "image": "blindenbinde.png"
+                    "image": "blindenbinde.png",
+                    "label": ""
                 },
                 {
                     "id": "C1",
                     "x": 0.817708,
                     "y": 0.243519,
                     "description": "Das ist ein",
-                    "image": "c1.png"
+                    "image": "c1.png",
+                    "label": ""
                 },
                 {
                     "id": "Fragezeichen",
                     "x": 0.853906,
                     "y": 0.5875,
                     "description": "Das ist ein",
-                    "image": "fragezeichen.png"
+                    "image": "fragezeichen.png",
+                    "label": ""
                 },
                 {
                     "id": "Globus",
                     "x": 0.813281,
                     "y": 0.157407,
                     "description": "Das ist ein",
-                    "image": "globus.png"
+                    "image": "globus.png",
+                    "label": ""
                 },
                 {
                     "id": "Kinderwagen",
                     "x": 0.206,
                     "y": 0.668056,
                     "description": "Das ist ein",
-                    "image": "kinderwagen.png"
+                    "image": "kinderwagen.png",
+                    "label": ""
                 },
                 {
                     "id": "Kuscheltier",
                     "x": 0.636198,
                     "y": 0.494907,
                     "description": "Das ist ein",
-                    "image": "kuscheltier.png"
+                    "image": "kuscheltier.png",
+                    "label": ""
                 },
                 {
                     "id": "Rollstuhl",
                     "x": 0.417708,
                     "y": 0.649074,
                     "description": "Das ist ein",
-                    "image": "rollstuhl.png"
+                    "image": "rollstuhl.png",
+                    "label": ""
                 },
                 {
                     "id": "Stoppschild",
                     "x": 0.340625,
                     "y": 0.686574,
                     "description": "Das ist ein",
-                    "image": "stoppschild.png"
+                    "image": "stoppschild.png",
+                    "label": ""
                 },
                 {
                     "id": "Windel",
                     "x": 0.723958,
                     "y": 0.668519,
                     "description": "Das ist ein",
-                    "image": "windel.png"
+                    "image": "windel.png",
+                    "label": ""
                 }
             ]
         },
@@ -95,70 +105,80 @@
                     "x": 0.946354,
                     "y": 0.626389,
                     "description": "Das ist ein",
-                    "image": "buecherzelle.png"
+                    "image": "buecherzelle.png",
+                    "label": ""
                 },
                 {
                     "id": "Jubelnde_Person",
                     "x": 0.695313,
                     "y": 0.368981,
                     "description": "Das ist ein",
-                    "image": "jubelndeperson.png"
+                    "image": "jubelndeperson.png",
+                    "label": ""
                 },
                 {
                     "id": "Karteikarten",
                     "x": 0.916146,
                     "y": 0.868981,
                     "description": "Das ist ein",
-                    "image": "karteikarten.png"
+                    "image": "karteikarten.png",
+                    "label": ""
                 },
                 {
                     "id": "Lerngruppe",
                     "x": 0.449219,
                     "y": 0.742593,
                     "description": "Das ist ein",
-                    "image": "lerngruppe.png"
+                    "image": "lerngruppe.png",
+                    "label": ""
                 },
                 {
                     "id": "Ordnerstapel",
                     "x": 0.521094,
                     "y": 0.141667,
                     "description": "Das ist ein",
-                    "image": "ordnerstapel.png"
+                    "image": "ordnerstapel.png",
+                    "label": ""
                 },
                 {
                     "id": "Person_mit_Schweiß",
                     "x": 0.013802,
                     "y": 0.685648,
                     "description": "Das ist ein",
-                    "image": "personmitschweiss.png"
+                    "image": "personmitschweiss.png",
+                    "label": ""
                 },
                 {
                     "id": "Stoppuhr",
                     "x": 0.11276,
                     "y": 0.067593,
                     "description": "Das ist ein",
-                    "image": "stoppuhr.png"
+                    "image": "stoppuhr.png",
+                    "label": ""
                 },
                 {
                     "id": "Stundenplan",
                     "x": 0.95026,
                     "y": 0.118519,
                     "description": "Das ist ein",
-                    "image": "stundenplan.png"
+                    "image": "stundenplan.png",
+                    "label": ""
                 },
                 {
                     "id": "Todoliste",
                     "x": 0.607552,
                     "y": 0.443981,
                     "description": "Das ist ein",
-                    "image": "todoliste.png"
+                    "image": "todoliste.png",
+                    "label": ""
                 },
                 {
                     "id": "Umleitungsschild",
                     "x": 0.455469,
                     "y": 0.706944,
                     "description": "Das ist ein",
-                    "image": "umleitungsschild.png"
+                    "image": "umleitungsschild.png",
+                    "label": ""
                 }
             ]
         },
@@ -172,49 +192,56 @@
                     "x": 0.361719,
                     "y": 0.726852,
                     "description": "Das ist ein",
-                    "image": "25.png"
+                    "image": "25.png",
+                    "label": ""
                 },
                 {
                     "id": "Absolventenhut",
                     "x": 0.81849,
                     "y": 0.485648,
                     "description": "Das ist ein",
-                    "image": "absolventenhut.png"
+                    "image": "absolventenhut.png",
+                    "label": ""
                 },
                 {
                     "id": "Dosensuppe",
                     "x": 0.89349,
                     "y": 0.891204,
                     "description": "Das ist ein",
-                    "image": "dosensuppe.png"
+                    "image": "dosensuppe.png",
+                    "label": ""
                 },
                 {
                     "id": "Bafög",
                     "x": 0.1125,
                     "y": 0.164352,
                     "description": "Das ist ein",
-                    "image": "bafoeg.png"
+                    "image": "bafoeg.png",
+                    "label": ""
                 },
                 {
                     "id": "Kleingeldhut",
                     "x": 0.385938,
                     "y": 0.763426,
                     "description": "Das ist ein",
-                    "image": "kleingeldhut.png"
+                    "image": "kleingeldhut.png",
+                    "label": ""
                 },
                 {
                     "id": "Mutter_mit_Schirm",
                     "x": 0.520833,
                     "y": 0.702315,
                     "description": "Das ist ein",
-                    "image": "muttermitkind.png"
+                    "image": "muttermitkind.png",
+                    "label": ""
                 },
                 {
                     "id": "Sparschwein",
                     "x": 0.490104,
                     "y": 0.149074,
                     "description": "Das ist ein",
-                    "image": "sparschwein.png"
+                    "image": "sparschwein.png",
+                    "label": ""
                 },
                 {
                     "id": "Dieb",
@@ -222,6 +249,7 @@
                     "y": 0.149074,
                     "description": "Das ist ein",
                     "image": "dieb.png",
+                    "label": "",
                     "secret": true
                 },
                 {
@@ -230,6 +258,7 @@
                     "y": 0.149074,
                     "description": "Das ist ein",
                     "image": "koch.png",
+                    "label": "",
                     "secret": true
                 },
                 {
@@ -238,6 +267,7 @@
                     "y": 0.149074,
                     "description": "Das ist ein",
                     "image": "zauberer.png",
+                    "label": "",
                     "secret": true
                 }
                 
@@ -253,77 +283,88 @@
                     "x": 0.909375,
                     "y": 0.202315,
                     "description": "Das ist ein",
-                    "image": "bus.png"
+                    "image": "bus.png",
+                    "label": ""
                 },
                 {
                     "id": "Fahrrad",
                     "x": 0.753125,
                     "y": 0.465741,
                     "description": "Das ist ein",
-                    "image": "fahrrad.png"
+                    "image": "fahrrad.png",
+                    "label": ""
                 },
                 {
                     "id": "Fahrschein",
                     "x": 0.148698,
                     "y": 0.138889,
                     "description": "Das ist ein",
-                    "image": "fahrschein.png"
+                    "image": "fahrschein.png",
+                    "label": ""
                 },
                 {
                     "id": "Flugzeug",
                     "x": 0.088979,
                     "y": 0.082407,
                     "description": "Das ist ein",
-                    "image": "flugzeug.png"
+                    "image": "flugzeug.png",
+                    "label": ""
                 },
                 {
                     "id": "Schluesselbund",
                     "x": 0.354688,
                     "y": 0.539815,
                     "description": "Das ist ein",
-                    "image": "schluesselbund.png"
+                    "image": "schluesselbund.png",
+                    "label": ""
                 },
                 {
                     "id": "Straßenbahn",
                     "x": 0.239844,
                     "y": 0.416667,
                     "description": "Das ist ein",
-                    "image": "strassenbahn.png"
+                    "image": "strassenbahn.png",
+                    "label": ""
                 },
                 {
                     "id": "Tuerklingel",
                     "x": 0.067708,
                     "y": 0.209259,
                     "description": "Das ist ein",
-                    "image": "tuerklingel.png"
+                    "image": "tuerklingel.png",
+                    "label": ""
                 },
                 {
                     "id": "Terminkalender",
                     "x": 0.835677,
                     "y": 0.807407,
                     "description": "Das ist ein",
-                    "image": "terminkalender.png"
+                    "image": "terminkalender.png",
+                    "label": ""
                 },
                 {
                     "id": "Umzugskisten",
                     "x": 0.334896,
                     "y": 0.693519,
                     "description": "Das ist ein",
-                    "image": "umzugskisten.png"
+                    "image": "umzugskisten.png",
+                    "label": ""
                 },
                 {
                     "id": "Umzugswagen",
                     "x": 0.651563,
                     "y": 0.113889,
                     "description": "Das ist ein",
-                    "image": "umzugswagen.png"
+                    "image": "umzugswagen.png",
+                    "label": ""
                 },
                 {
                     "id": "Zebrastreifen",
                     "x": 0,
                     "y": 0.874537,
                     "description": "Das ist ein",
-                    "image": "zebrastreifen.png"
+                    "image": "zebrastreifen.png",
+                    "label": ""
                 }
                 
             ]

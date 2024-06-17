@@ -1,5 +1,5 @@
 {
-    "id": "#wohnviertel",
+    "id": "wohnviertel",
     "secretId": "#secretWohnviertel",
     "itemsCount": [
         10,
@@ -18,70 +18,80 @@
                     "x": 0.923958,
                     "y": 0.475926,
                     "description": "Das ist ein",
-                    "image": "reisekarte.png"
+                    "image": "reisekarte.png",
+                    "label": ""
                 },
                 {
                     "id": "Bücher",
                     "x": 0.772917,
                     "y": 0.463426,
                     "description": "Das ist ein",
-                    "image": "buecher.png"
+                    "image": "buecher.png",
+                    "label": ""
                 },
                 {
                     "id": "Gettoblaster",
                     "x": 0.887760,
                     "y": 0.223611,
                     "description": "Das ist ein",
-                    "image": "ghettoblaster.png"
+                    "image": "ghettoblaster.png",
+                    "label": ""
                 },
                 {
                     "id": "MBTI",
                     "x": 0.764844,
                     "y": 0.168056,
                     "description": "Das ist ein",
-                    "image": "mbti.png"
+                    "image": "mbti.png",
+                    "label": ""
                 },
                 {
                     "id": "Controller",
                     "x": 0.493490,
                     "y": 0.131481,
                     "description": "Das ist ein",
-                    "image": "controller.png"
+                    "image": "controller.png",
+                    "label": ""
                 },
                 {
                     "id": "Halfpipe",
                     "x": 0.487760,
                     "y": 0.528704,
                     "description": "Das ist ein",
-                    "image": "halfpipe.png"
+                    "image": "halfpipe.png",
+                    "label": ""
                 },
                 {
                     "id": "Kuscheltier",
                     "x": 0.129167,
                     "y": 0.686111,
                     "description": "Das ist ein",
-                    "image": "kuscheltier.png"
+                    "image": "kuscheltier.png",
+                    "label": ""
                 },
                 {
                     "id": "Graffiti",
                     "x": 0.409115,
                     "y": 0.105093,
                     "description": "Das ist ein",
-                    "image": "graffiti.png"
+                    "image": "graffiti.png",
+                    "label": ""
                 },
                 {
                     "id": "Poster",
                     "x": 0.333594,
                     "y": 0.356019,
                     "description": "Das ist ein",
-                    "image": "poster.png"
+                    "image": "poster.png",
+                    "label": ""
                 },
                 {
                     "id": "Wegweiser",
                     "x": 0.219531,
                     "y": 0.527315,
                     "description": "Das ist ein",
-                    "image": "wegweiser.png"
+                    "image": "wegweiser.png",
+                    "label": ""
                 }
             ]
         },
@@ -95,70 +105,80 @@
                     "x": 0.173177,
                     "y": 0.579630,
                     "description": "Das ist ein",
-                    "image": "dankeskarte.png"
+                    "image": "dankeskarte.png",
+                    "label": ""
                 },
                 {
                     "id": "Notizbuch",
                     "x": 0.770052,
                     "y": 0.131019,
                     "description": "Das ist ein",
-                    "image": "notizbuch.png"
+                    "image": "notizbuch.png",
+                    "label": ""
                 },
                 {
                     "id": "HighFive",
                     "x": 0.794792,
                     "y": 0.327778,
                     "description": "Das ist ein",
-                    "image": "highfive.png"
+                    "image": "highfive.png",
+                    "label": ""
                 },
                 {
                     "id": "Checkliste",
                     "x": 0.564583,
                     "y": 0.170833,
                     "description": "Das ist ein",
-                    "image": "checkliste.png"
+                    "image": "checkliste.png",
+                    "label": ""
                 },
                 {
                     "id": "ErsteHilfe",
                     "x": 0.328125,
                     "y": 0.483796,
                     "description": "Das ist ein",
-                    "image": "erstehilfe.png"
+                    "image": "erstehilfe.png",
+                    "label": ""
                 },
                 {
                     "id": "Uhr",
                     "x": 0.295312,
                     "y": 0.097685,
                     "description": "Das ist ein",
-                    "image": "uhr.png"
+                    "image": "uhr.png",
+                    "label": ""
                 },
                 {
                     "id": "Whiteboard",
                     "x": 0.131510,
                     "y": 0.357407,
                     "description": "Das ist ein",
-                    "image": "whiteboard.png"
+                    "image": "whiteboard.png",
+                    "label": ""
                 },
                 {
                     "id": "Gruppenfoto",
                     "x": 0.241406,
                     "y": 0.757870,
                     "description": "Das ist ein",
-                    "image": "gruppenfoto.png"
+                    "image": "gruppenfoto.png",
+                    "label": ""
                 },
                 {
                     "id": "Tagebuch",
                     "x": 0.795052,
                     "y": 0.715741,
                     "description": "Das ist ein",
-                    "image": "tagebuch.png"
+                    "image": "tagebuch.png",
+                    "label": ""
                 },
                 {
                     "id": "Teilnahmezertifikat",
                     "x": 0.529688,
                     "y": 0.693981,
                     "description": "Das ist ein",
-                    "image": "teilnahmezertifikat.png"
+                    "image": "teilnahmezertifikat.png",
+                    "label": ""
                 }       
             ]
         },
@@ -172,70 +192,80 @@
                     "x": 0.796615,
                     "y": 0.586574,
                     "description": "Das ist ein",
-                    "image": "meditierendeperson.png"
+                    "image": "meditierendeperson.png",
+                    "label": ""
                 },
                 {
                     "id": "Stressball",
                     "x": 0.111719,
                     "y": 0.771296,
                     "description": "Das ist ein",
-                    "image": "stressball.png"
+                    "image": "stressball.png",
+                    "label": ""
                 },
                 {
                     "id": "Kompass",
                     "x": 0.505990,
                     "y": 0.947685,
                     "description": "Das ist ein",
-                    "image": "kompass.png"
+                    "image": "kompass.png",
+                    "label": ""
                 },
                 {
                     "id": "GenderSymbole",
                     "x": 0.658333,
                     "y": 0.019907,
                     "description": "Das ist ein",
-                    "image": "gendersymbole.png"
+                    "image": "gendersymbole.png",
+                    "label": ""
                 },
                 {
                     "id": "Wahrsagekugel",
                     "x": 0.791406,
                     "y": 0.379630,
                     "description": "Das ist ein",
-                    "image": "wahrsagekugel.png"
+                    "image": "wahrsagekugel.png",
+                    "label": ""
                 },
                 {
                     "id": "Achterbahn",
                     "x": 0.308854,
                     "y": 0.416204,
                     "description": "Das ist ein",
-                    "image": "achterbahn.png"
+                    "image": "achterbahn.png",
+                    "label": ""
                 },
                 {
                     "id": "Herzkissen",
                     "x": 0.318490,
                     "y": 0.640741,
                     "description": "Das ist ein",
-                    "image": "herzkissen.png"
+                    "image": "herzkissen.png",
+                    "label": ""
                 },
                 {
                     "id": "Blitzableiter",
                     "x": 0.189062,
                     "y": 0.130556,
                     "description": "Das ist ein",
-                    "image": "blitzableiter.png"
+                    "image": "blitzableiter.png",
+                    "label": ""
                 },
                 {
                     "id": "Träne",
                     "x": 0.241146,
                     "y": 0.263889,
                     "description": "Das ist ein",
-                    "image": "traene.png"
+                    "image": "traene.png",
+                    "label": ""
                 },
                 {
                     "id": "Daumen",
                     "x": 0.112240,
                     "y": 0.056944,
                     "description": "Das ist ein",
-                    "image": "daumen.png"
+                    "image": "daumen.png",
+                    "label": ""
                 }  
             ]
         },
@@ -249,49 +279,56 @@
                     "x": 0.280208,
                     "y": 0.375000,
                     "description": "Das ist ein",
-                    "image": "vogelimnest.png"
+                    "image": "vogelimnest.png",
+                    "label": ""
                 },
                 {
                     "id": "Stromkabel",
                     "x": 0.489062,
                     "y": 0.450000,
                     "description": "Das ist ein",
-                    "image": "stromkabel.png"
+                    "image": "stromkabel.png",
+                    "label": ""
                 },
                 {
                     "id": "Radio",
                     "x": 0.591927,
                     "y": 0.670833,
                     "description": "Das ist ein",
-                    "image": "radio.png"
+                    "image": "radio.png",
+                    "label": ""
                 },
                 {
                     "id": "Reisekoffer",
                     "x": 0.198698,
                     "y": 0.654167,
                     "description": "Das ist ein",
-                    "image": "reisekoffer.png"
+                    "image": "reisekoffer.png",
+                    "label": ""
                 },
                 {
                     "id": "FliegendeGeldscheine",
                     "x": 0.045833,
                     "y": 0.035648,
                     "description": "Das ist ein",
-                    "image": "fliegendegeldscheine.png"
+                    "image": "fliegendegeldscheine.png",
+                    "label": ""
                 },
                 {
                     "id": "Fernseher",
                     "x": 0.879688,
                     "y": 0.179167,
                     "description": "Das ist ein",
-                    "image": "fernseher.png"
+                    "image": "fernseher.png",
+                    "label": ""
                 },
                 {
                     "id": "Umzugskisten",
                     "x": 0.569010,
                     "y": 0.142130,
                     "description": "Das ist ein",
-                    "image": "umzugskisten.png"
+                    "image": "umzugskisten.png",
+                    "label": ""
                 },
                 {
                     "id": "Wlan",
@@ -299,6 +336,7 @@
                     "y": 0.142130,
                     "description": "Das ist ein",
                     "image": "wlan.png",
+                    "label": "",
                     "secret": true
                 },
                 {
@@ -307,6 +345,7 @@
                     "y": 0.142130,
                     "description": "Das ist ein",
                     "image": "strom.png",
+                    "label": "",
                     "secret": true
                 },
                 {
@@ -315,6 +354,7 @@
                     "y": 0.142130,
                     "description": "Das ist ein",
                     "image": "rathaus.png",
+                    "label": "",
                     "secret": true
                 }                
             ]

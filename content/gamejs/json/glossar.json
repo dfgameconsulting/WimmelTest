@@ -43,7 +43,7 @@
                         ]
                     }
                 ],
-                "icon": [
+                "icons": [
                     {
                         "url": "bild.png"
                     }
@@ -72,6 +72,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -98,6 +103,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -115,6 +125,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -131,6 +146,11 @@
                                 "label": "Link 1"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -158,6 +178,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -183,6 +208,11 @@
                                 "label": "Link 1"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -215,6 +245,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -232,19 +267,34 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
                 "id": "haftpflichtversicherung",
                 "name": "Haftpflichtversicherung",
                 "content": "Eine Haftpflichtversicherung sollte jede/r haben. Sie springt ein, solltest du Schaden anrichten (Sach- und Personenschaden, z B. durch einen Unfall). Hast du sie nicht, könnte es echt teuer werden. Prüfe als erstes, ob du als Student/-in über deine Eltern mitversichert bist. Wenn nicht, kümmere dich um eine Haftpflichtversicherung für Studierende.Vergleichsportale geben dir einen Überblick über verschiedene Anbieter. Überlege dabei gut, was für dich sinnvoll ist (erweiterte Tarife, höhere Deckungssumme).",
-                "additional_informations": []
+                "additional_informations": [],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
+                ]
             },
             {
                 "id": "hausratversicherung",
                 "name": "Hausratversicherung",
                 "content": "Ob dein Besitz als Student/-in schon so wertvoll ist, dass du ihn gegen Feuer, Diebstahl und Co. versichern möchtest, musst du selbst entscheiden (aber denk auch an die Elektrogeräte und Hardware!). Je nachdem, wie deine neue Wohnsituation und die Hausratversicherung deiner Eltern gestaltet ist, bist du mitversichert oder musst eine eigene Hausratversicherung abschließen. Vergleichsportale im Internet helfen, ein gutes Angebot zu finden. Wie immer gilt: vorher gründlich durchlesen, was (nicht) zum Angebot zählt. Wichtig: Bei einem Umzug musst du der Versicherung die neue Adresse mitteilen. Vielleicht ändert sich nach dem Umzug die Versicherungssumme.",
-                "additional_informations": []
+                "additional_informations": [],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
+                ]
             },
             {
                 "id": "bafoeg",
@@ -269,6 +319,11 @@
                                 "label": "Link 1"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -296,6 +351,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -322,6 +382,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -347,6 +412,11 @@
                                 "label": "Link 1"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -380,6 +450,11 @@
                             
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -396,6 +471,11 @@
                                 "label": "Link 1"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -428,6 +508,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -454,6 +539,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -478,6 +568,11 @@
                                 "text": "Internetseite deiner Hochschule bzw. des jeweiligen Studierendenwerks (Stichwort: Mobilität)"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -504,6 +599,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -520,6 +620,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -535,6 +640,11 @@
                                 "text": "jeweilige Behörde"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -571,6 +681,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -597,6 +712,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -619,6 +739,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -640,6 +765,11 @@
                                 "label": "Link 2"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -666,6 +796,11 @@
                                 "label": "Link 1"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -698,6 +833,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -722,6 +862,11 @@
                                 "text": "Internetseite deiner Hochschule"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -748,6 +893,11 @@
                                 "label": "Link 1"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -784,6 +934,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -800,6 +955,11 @@
                                 "label": "Link 1"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -819,6 +979,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -835,6 +1000,11 @@
                                 "label": "Link 1"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -861,6 +1031,11 @@
                                 "label": "Link 1"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             }
@@ -900,6 +1075,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -926,6 +1106,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -951,6 +1136,11 @@
                                 "label": "Link 1"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -983,6 +1173,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -998,6 +1193,11 @@
                                 "text": "Krankenkasse"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -1015,6 +1215,11 @@
                                 "label": "Link 1"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -1037,6 +1242,11 @@
                                 "label": "Link 2"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -1061,6 +1271,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -1078,6 +1293,11 @@
                                 "label": "Agentur für Arbeit, Berufsinformationszentrum (BiZ)"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -1105,6 +1325,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -1131,6 +1356,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -1156,6 +1386,11 @@
                                 "label": "Link 1"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -1188,6 +1423,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -1213,6 +1453,11 @@
                                 "label": "Link 1"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -1245,6 +1490,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -1261,6 +1511,11 @@
                                 "label": "Link 1"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -1288,6 +1543,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -1304,6 +1564,11 @@
                                 "label": "Link 1"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -1331,6 +1596,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -1348,6 +1618,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -1364,6 +1639,11 @@
                                 "label": "Link 1"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -1396,6 +1676,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -1422,6 +1707,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -1438,6 +1728,11 @@
                                 "label": "Link 1"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -1464,6 +1759,11 @@
                                 "label": "Link 1"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -1496,6 +1796,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -1522,6 +1827,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -1539,6 +1849,11 @@
                                 "label": "Link 1"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -1571,6 +1886,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -1597,6 +1917,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -1613,6 +1938,11 @@
                                 "label": "Link 1"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -1645,6 +1975,11 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -1675,6 +2010,11 @@
                                 "label": "Link 2"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -1720,6 +2060,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -1748,6 +2093,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -1777,6 +2127,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -1806,6 +2161,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -1824,6 +2184,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -1853,6 +2218,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -1871,6 +2241,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -1903,6 +2278,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -1962,6 +2342,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -1994,6 +2379,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -2012,6 +2402,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -2030,6 +2425,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -2045,6 +2445,11 @@
                                 "text": "Jugendhilfe"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -2073,6 +2478,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -2100,6 +2510,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -2127,6 +2542,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -2145,6 +2565,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -2177,6 +2602,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -2193,6 +2623,11 @@
                                 "label": "Link 1"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -2212,6 +2647,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -2249,6 +2689,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -2264,6 +2709,11 @@
                                 "text": "Betriebliches Gesundheitsmanagement"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             }
@@ -2299,19 +2749,34 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
                 "id": "buergschaft",
                 "name": "Bürgschaft",
                 "content": "Die Miete ist eine wiederkehrende Ausgabe. Vermieter/-innen möchten daher die Sicherheit haben, dass sie ihr Geld zuverlässig erhalten. Vor allen Dingen bei jungen Menschen, deren finanzielle Situation noch nicht immer ganz stabil ist, wird oftmals ein Bürge verlangt. Ein Bürge versichert, dass die Zahlung notfalls durch ihn/sie erfolgt. So hat der junge Mensch eine bessere Chance die Wohnung zu bekommen. Bürgen könnten Pritvatpersonen sein, wie Eltern oder gute Freunde, oder auch eine Bank oder eine Versicherung (Mietkautionsversicherung).",
-                "additional_informations": []
+                "additional_informations": [],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
+                ]
             },
             {
                 "id": "auszug-umzug",
                 "name": "Auszug/Umzug",
                 "content": "Endlich ausziehen! Doch bevor du es dir in einer neuen Wohnung bequem machen kannst, gibt es einige Dinge zu beachten. Kannst du viele deiner Möbel in die neue Wohnung mitnehmen? Wenn du aus dem Elternhaus ausziehst, hast du vermutlich noch nicht viel mehr Besitz, als das, was sich in deinem Kinderzimmer befindet. Wenn du ein Zimmer eines Wohnheimes ziehst, kann es sein, dass es eingerichtet ist und du nicht viel brauchst. Auch wenn du in bestehende WGs einziehst, musst du vermutlich nur noch wenig, abgesehen von deinen persönlichen Dingen mitbringen. Sollte der Umzug aber größer ausfallen, kann es sein, dass ein Koffer oder ein normales Auto nicht ausreicht. Falls du keine Unterstützung von Familie und Freund/-innen bekommen kannst, gibt es auch professionelle Umzugsunternehmen. Informiere dich vorab gut über die Kosten.",
-                "additional_informations": []
+                "additional_informations": [],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
+                ]
             },
             {
                 "id": "wohnungsbesichtigung",
@@ -2338,31 +2803,56 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
                 "id": "mietvertrag",
                 "name": "Mietvertrag",
                 "content": "Ein Mietvertrag enthällt alle Details zur Wohnung und den Pflichten der Mietenden. Neben der Angabe von Kaltmiete, Nebenkosten und Kaution, sollte ersichtlich werden, ob du zum Beispiel Gas selbstständig anmelden musst.<br><br>Zudem sollten die Kündigungsfristen, weitere Kosten (beispielweise für die Küchennutzung), Renovierungsarbeiten vor Auszug und sonstige Aufgaben, wie z.B. das Reinigen des Treppenhauses darin vermerkt sein. Falls etwas anders als besprochen im Mietvertrag steht oder du etwas nicht verstehst, frag VOR der Unterschrift nach.",
-                "additional_informations": []
+                "additional_informations": [],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
+                ]
             },
             {
                 "id": "mieterselbstauskunft",
                 "name": "Mieterselbstauskunft",
                 "content": "Die Mieterselbstauskunft ist ein Formular, das von Vermieter/-innen genutzt wird, um sicherzugehen, dass jemand die Miete zuverlässig zahlen kann. Ganz häufig müssen mietende Personen Angaben machen zu:<ul><li>Information zu persönlichen Daten</li><li>Angaben zum Arbeitsverhältnis</li><li>Angaben zur finanziellen Situation</li><li>Angaben zur derzeitigen Wohnsituation mit Namen etwaiger Vorvermieter/-innen</li></ul>Es wird empfohlen, die Mieterselbstauskunft sorgfältig auszufüllen, da sie die Chancen auf eine Wohnung erhöht. Fragen, die über die Punkte hinausgehen, wie Familienstand, Religionszugehörigkeit, etc. darf nicht abgefragt werden und müssen Mieter/-innen nicht beantworten. ",
-                "additional_informations": []
+                "additional_informations": [],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
+                ]
             },
             {
                 "id": "kaution",
                 "name": "Kaution",
                 "content": "Kautionen gibt es in unterschiedlichen Situationen. Immer wenn man übergangsweise etwas von einer anderen Person nutzt – egal ob Wohnung oder Billiardtisch – wird üblicherweise eine Geldsumme für den Fall hinterlegt, dass durch die Nutzung Schäden entstehen. Zu den sogenannten 'Mietschäden' gehören nicht gezahlte Miete oder Betriebskosten, oder Schäden, die durch die Mieter/-innen verursacht wurden.  In der Regel beträgt die Mietkaution für eine Wohnung maximal drei Kaltmieten. Um neue Schäden von alten zu unterscheiden, gibt es ein Übergabeprotokoll.",
-                "additional_informations": []
+                "additional_informations": [],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
+                ]
             },
             {
                 "id": "wohnungsuebergabeprotokoll",
                 "name": "Wohnungsübergabeprotokoll",
                 "content": "Das Übergabeprotokoll wird am Tag der Schlüsselübergabe erstellt. Gemeinsam mit der vermietenden Person oder der Immobiliengesellschaft werden alle Räume angeschaut. Es wird schriftlich festgehalten, welche Mängel vor der Übergabe bereits vorhanden waren und sicher nicht von dir stammen. Schau dir daher die Wohnung aufmerksam an und nimm vielleicht auch eine zweite Person mit oder frag deine Vormieter/-innen, worauf du achten könntest. Das Übergabeprotokoll wird von allen vermietenden und mietenden Personen unterschrieben. Jeder erhält eine Kopie des Dokuments. Am Tag es Auszugs wird erneut ein Übergabeprotokoll erstellt, um zu prüfen, ob durch dich Schäden entstanden sind. Je nachdem erhältst du deine Kaution ganz oder teilweise wieder.",
-                "additional_informations": []
+                "additional_informations": [],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
+                ]
             },
             {
                 "id": "wohnungskuendigung",
@@ -2380,6 +2870,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -2416,13 +2911,23 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
                 "id": "wohnungsausstattung",
                 "name": "Wohnungsausstattung",
                 "content": "Wenn du ausziehst, musst du plötzlich mehr Räume einrichten, als bloß dein Schlafzimmer. Einige Dinge brauchst du unbedingt, andere sind nur Bonus. Am Anfang reicht:<ul><li>Matratze, Spannbetttuch, Bettwäsche</li><li>Messer, Gabel und Löffel, 1 Küchenhandtuch, Glas, Tasse, tiefer und flacher Teller, 1 Topf, 1 Pfanne und ein Servier/-Kochlöffel</li><li>1 großes und 2 kleine Handtücher</li></ul>Du musst vieles vermutlich nicht einmal neu kaufen. In Haushalten sammelt sich über die Jahre einiges in vielfacher Ausführung an. Frag bei deiner Familien nach, vielleicht möchten sie etwas loswerden. Schwieriger wird es bei Möbeln, Elektrogeräten wie Waschmaschine, Herd oder generell eine Küche, Schränke, etc. Für wenig Geld kannst du viele Dinge bei Ebay-Kleinanzeigen, auf Flohmärkten oder in Sozialkaufhäusern kaufen. Manchmal gibt es auch in sozialen Netzwerken Gruppen, in denen Küchen- oder Einrichtungsgegenstände zum Verschenken angeboten werden. ",
-                "additional_informations": []
+                "additional_informations": [],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
+                ]
             },
             {
                 "id": "rundfunkbeitrag",
@@ -2441,19 +2946,34 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
                 "id": "kaltmiete",
                 "name": "Kaltmiete",
                 "content": "Die Kaltmiete bezeichnet die Kosten, die monatlich an den oder die  Vermieter/-in für die Nutzung einer Wohnung gezahlt werden. Dazu kommen aber immer auch Vorauszahlungen für die Nebenkosten. Das zusammen ist dann die Warmmiete. Darüber hinaus gibt es noch weitere Kosten, die nicht zur Warmmiete gehören, wie z.B. Strom und deine Internetleitung. ",
-                "additional_informations": []
+                "additional_informations": [],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
+                ]
             },
             {
                 "id": "nebenkosten",
                 "name": "Nebenkosten",
                 "content": "Nebenkosten werden manchmal auch als 'zweite Miete' oder auch 'Warmmiete' bezeichnet. Gemeint sind damit alle Kosten, die neben den reinen Mietkosten (Kaltmiete) anfallen. Zu den Nebenkosten gehören: Heiz- und Warmwasserkosten, Straßenreinigung und Müllabfuhr, Grundsteuer, Fahrstuhl und Gebäudeversicherung. Das sind Kosten, die die vermietende Person regelmäßig hat und die sie von den Mieter/-innen zurückerhält. Diese müssen im Mietvertrag stehen und auch die Art der Bezahlung. Meist wird eine sogenannte 'Vorauszahlung' vereinbart. Das bedeutet, die mietende Person überweist monatlichen einen vereinbarten Betrag zusammen mit der Miete. Jedes Jahr muss durch die Vermieter/-innen geprüft werden, ob die Kosten durch die Vorauszahlungen gedeckt werden können. Haben die Mieter/-innen mehr im Voraus gezahlt, bekommen sie ein Guthaben ausgezahlt. Reichen die Vorauszahlungen nicht, muss nachgezahlt werden. ",
-                "additional_informations": []
+                "additional_informations": [],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
+                ]
             },
             {
                 "id": "strom-anmelden",
@@ -2471,6 +2991,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -2500,25 +3025,45 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
                 "id": "selbstorganisation",
                 "name": "Selbstorganisation",
                 "content": "Selbstorganisation ist für das Berufsleben wichtig und beschreibt, wie gut du ohne Vorgaben von anderen deine eigene Arbeit (Termine, Aufgaben etc.) bewältigst. Dabei geht es um Planung, Disziplin und Flexibilität. Wenn dir Selbstorganisation schwer fällt, bitte um Aufgaben, die klar beschrieben sind und bei denen es regelmäßig Feedback von außen gibt. Oder benutze Strategien, die dir dabei helfen, dich zu organisieren. Selbstorganisation hilft dir natürlich auch im Privatleben: Die eigene Wohnung sauberzuhalten, Arzttermine und Verabredungen mit Freund/-innen einzuhalten, Rechnungen pünktlich zu überweisen, wichtige Unterlagen jederzeit zu finden ...",
-                "additional_informations": []
+                "additional_informations": [],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
+                ]
             },
             {
                 "id": "teamfaehigkeit",
                 "name": "Teamfähigkeit",
                 "content": "Teamfähigkeit ist für das Berufsleben wichtig. Sie gehört zu den sogenannten 'Sozialkompetenzen' und beschreibt, wie gut man in einem Team arbeiten bzw. mit einem Team zusammenarbeiten kann. Bei der Teamfähigkeit spielen verschiedene Eigenschaften eine Rolle, die alle Teammitglieder gleichermaßen haben sollten: Kommunikationsstärke, Kompromissbereitschaft, Kooperationsbereitschaft, Rücksichtnahme und gute Aufgabenverteilung, Zeitmanagement, Zuverlässigkeit und so weiter.",
-                "additional_informations": []
+                "additional_informations": [],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
+                ]
             },
             {
                 "id": "konfliktfaehigkeit",
                 "name": "Konfliktfähigkeit",
                 "content": "Konfliktfähigkeit ist für das Berufsleben wichtig. Sie gehört zu den sogenannten 'Sozialkompetenzen' und beschreibt, wie gut man unterschiedlichen Meinungen umgehen kann. Nicht immer werden alle Teammitglieder das Gleiche denken. Dann ist es wichtig, sich gegenseitig respektvoll zuzuhören und angemessen zu diskutieren, auch wenn man es eigentlich lieber harmonisch und unkompliziert mag. Von seiner eigenen Überzeugung abzuweichen, um einen gemeinsamen Kompromiss zu finden, aber in anderen Momenten auch nicht einzuknicken, die eigene Ansicht zu vertreten, auch wenn nicht alle sie teilen und Kritik nicht persönlich nehmen bzw. anbringen – diese Bandbreite gehört zur Konfliktfähigkeit.",
-                "additional_informations": []
+                "additional_informations": [],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
+                ]
             },
             {
                 "id": "freiwilligendienste-bundesweit",
@@ -2550,6 +3095,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -2582,6 +3132,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -2600,6 +3155,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -2618,13 +3178,23 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
                 "id": "konflikte",
                 "name": "Konflikte",
                 "content": "Streitigkeiten können immer entstehen, wenn Menschen aufeinander treffen. Auch in der Ausbildung kann die Zusammenarbeit mit bestimmten Kolleg/-innen schwierig sein. Konfliktfähigkeit hilft beim Umgang miteinander. Sollten die Konflikte im Betrieb nicht allein oder mit dem Ausbilder/der Ausbilderin gelöst werden können, kann die Ausbildungberatung der Kammer (IHK bzw. HWK) vielleicht helfen. Versuche den Konflikt (mit Unterstützung) zu lösen, damit deine Ausbildung nicht unter zwischenmenschlichen Problemen leidet. ",
-                "additional_informations": []
+                "additional_informations": [],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
+                ]
             },
             {
                 "id": "klischeefreie-berufswahl",
@@ -2646,6 +3216,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -2661,6 +3236,11 @@
                                 "text": "Berufsberatung"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             },
@@ -2680,6 +3260,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -2704,6 +3289,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -2728,6 +3318,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -2746,6 +3341,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -2764,6 +3364,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -2781,13 +3386,23 @@
                             }
                         ]
                     }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
                 "id": "girokonto",
                 "name": "Girokonto",
                 "content": "Spätestens zum Ausbildungsbeginn bzw. wenn du als Student/-in BAföG oder Gehalt aus einem Nebenjob erhältst, brauchst du ein Konto. Oft werden für die Kontoführung von der Bank Gebühren erhoben. Für Auszubildene und Studierende gibt es aber kostenlose Angebote. Einige Services werden aber erst für Volljährige oder ab einem gewissen Einkommen angeboten. Informiere dich, ob die Filialbank um die Ecke oder eine Direktbank (langfristig) für dich sinnvoll ist.",
-                "additional_informations": []
+                "additional_informations": [],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
+                ]
             },
             {
                 "id": "jobcenter",
@@ -2805,6 +3420,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -2823,6 +3443,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -2841,6 +3466,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -2860,6 +3490,11 @@
                         ]
                     }
                     
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
+                    }
                 ]
             },
             {
@@ -2876,6 +3511,11 @@
                                 "label": "Link 1"
                             }
                         ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "url": "bild.png"
                     }
                 ]
             }
