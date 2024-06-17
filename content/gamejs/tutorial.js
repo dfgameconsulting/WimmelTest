@@ -1,15 +1,17 @@
 let question = document.querySelector("#question");
 let tutWrapper = document.querySelector("#dialogWrapper");
+let darkBackground = document.querySelector('#backgroundDark')
 let tutAniRunning = false;
 
 question.onclick = () => {
   if (tutAniRunning) {
+
     return;
   }
   tutAniRunning = true;
   if (tutWrapper.style.opacity == "1") {
     anime({
-      targets: "#tutWrapper, #tutImg, #backgroundDark",
+      targets: "#dialogWrapper, #tutImg, #backgroundDark",
       opacity: [1, 0],
       duration: 500,
       easing: "easeInOutSine",
@@ -22,8 +24,9 @@ question.onclick = () => {
     anime({
       begin: () => {
         tutWrapper.style.display = "block";
+        darkBackground.style.display = 'block'
       },
-      targets:  "#dialogWrapper, #tutImg, #backgroundDark",
+      targets: "#dialogWrapper, #tutImg, #backgroundDark",
       opacity: [0, 1],
       duration: 500,
       easing: "easeInOutSine",
@@ -43,7 +46,7 @@ let introText = [
   "In den Stadtteilen sind Objekte versteckt. Die Objekte haben alle was mit dem Thema des Stadtteils zu tun. Ihre Umrisse siehst du unten in der Leiste. Such die Gegend ab und klick die Gegenstände an, wenn du sie gefunden hast.",
   "Objekte, die du findest, sind meistens mit einem Eintrag im Glossar verknüpft. Der Eintrag beinhaltet weitere Informationen und Anlaufstellen. Immer wenn du ein Objekt findest, erhältst du eine kurze Information. Wenn dich das Thema interessiert, kannst du über das [i-Symbol] oben rechts ins Glossar wechseln und mehr darüber nachlesen. ",
   "Noch ein paar Hinweise: Du kannst dich mit den Pfeilen am Bildschirmrand nach links oder rechts bewegen, um dich in der Gegend umzusehen und weitere Objekte zu entdecken.",
-  "Mit der Lupe über der Objektleiste kannst du an manchen Stellen näher heranzoomen und dir bestimmte Ecken noch genauer ansehen.",
+  "Mit der Lupe über der Objektleiste kannst du an manchen Stellen näher heranzoomen und dir bestimmte Ecken noch genauer ansehen. Der Zoom-Bereich wird dir durch einen lilafarbenen Kreis angezeigt.",
   "Wenn du schon alles mehrfach abgesucht hast, du aber trotzdem nix findest, kann dir das Fragezeichen weiterhelfen: Dir wird ein Umkreis angezeigt, indem du das Objekt finden wirst. Noch Fragen? Nein? Dann los!",
 ];
 
@@ -60,6 +63,7 @@ weiterImg.onclick = () => {
       document.querySelectorAll(".menu-levelcontainer").forEach((e, index) => {
         setTimeout(() => {
           e.classList.add("highlight");
+          e.classList.add("h1");
         }, 300 * (index + 1));
       });
       break;
@@ -67,7 +71,9 @@ weiterImg.onclick = () => {
       document.querySelectorAll(".menu-levelcontainer").forEach((e, index) => {
         setTimeout(() => {
           e.classList.remove("highlight");
+          e.classList.remove("h1");
         }, 300 * (index + 1));
+        document.querySelector('#levels').style.zIndex = 1
       });
       showTutorial(0);
       break;
@@ -95,18 +101,19 @@ let tutBild1 = document.querySelector("#eins");
 let tutBild2 = document.querySelector("#zwei");
 
 function closeTutorial() {
-    question.click();
-    fadeOut("#tutImg");
-    fadeOut("#backgroundDark");
-    setTimeout(() => {
-        tutHintergrund.style.display = "none";
-        tutImg.style.display = "none";
-        document.querySelectorAll(".menu-levelcontainer").forEach((e, index) => {
-            setTimeout(() => {
-              e.classList.add("highlight");
-            }, 300 * (index + 1));
-          });
-    }, 500);
+  question.click();
+  fadeOut("#tutImg");
+  fadeOut("#backgroundDark");
+  setTimeout(() => {
+    tutHintergrund.style.display = "none";
+    tutImg.style.display = "none";
+    document.querySelectorAll(".menu-levelcontainer").forEach((e, index) => {
+      setTimeout(() => {
+        e.classList.add("highlight");
+        e.classList.add("h1");
+      }, 300 * (index + 1));
+    });
+  }, 500);
 }
 let zyd3rella = document.querySelector("#dialogWrapper .avatar img"); // `url(${loadedzynImages[0].src})`;
 function showTutorial(step) {
@@ -120,8 +127,10 @@ function showTutorial(step) {
       tutBild2.style.backgroundImage = "url(../img/tutorial/Leiste.png)";
       tutBild1.style.display = "block";
       tutBild2.style.display = "block";
-      tutBild1.classList.remove("highlight4");
-      tutBild1.classList.add("highlight2");
+      tutBild1.classList.remove("h4");
+      tutBild1.classList.add("h3");
+      tutBild2.classList.remove("h3");
+      tutBild2.classList.add("h5");
       fadeIn(tutBild1);
       fadeIn(tutBild2);
       zyd3rella.src = loadedzynImages[0].src;
@@ -131,16 +140,17 @@ function showTutorial(step) {
       fadeOut(tutBild2);
       zyd3rella.src = loadedzynImages[1].src;
       setTimeout(() => {
-        tutBild1.classList.remove("highlight2");
+        tutBild1.classList.remove("h3");
         tutBild1.style.backgroundImage = "url(../img/Glossar/GlossarButton/BIB001_GlossarButton_01_hz.png)";
         tutBild2.style.display = "none";
-        tutBild1.classList.add("highlight4");
+        tutBild1.classList.add("h4");
         fadeIn(tutBild1);
       }, 500);
       break;
     case 2:
       fadeOut(tutBild1);
       zyd3rella.src = loadedzynImages[2].src;
+
       setTimeout(() => {
         tutBild1.style.backgroundImage = "url(../img/options/BIB001_Wimmelbild_UmsehenPfeil_01_hz.png)";
         fadeIn(tutBild1);
@@ -148,16 +158,33 @@ function showTutorial(step) {
       break;
     case 3:
       fadeOut(tutBild1);
+      fadeOut(tutBild2);
       zyd3rella.src = loadedzynImages[0].src;
       setTimeout(() => {
         tutBild1.style.backgroundImage = "url(../img/inventar/BIB001_Inventar_Lupe_01_hz.png)";
+        tutBild1.style.backgroundSize = '30%';
+        tutBild1.classList.remove('h4')
+        tutBild1.classList.add('h3')
+        tutBild2.style.backgroundImage = 'url(../img/objects/BIB001_Stadt_Hinweiskreis_04_ll.png)';
+        tutBild2.style.display = "block";
+        tutBild2.style.backgroundSize = '50%';
+        tutBild2.classList.remove('h3')
+        tutBild2.classList.add('h5')
         fadeIn(tutBild1);
+        fadeIn(tutBild2)
       }, 500);
       break;
     case 4:
+
       fadeOut(tutBild1);
+      fadeOut(tutBild2)
+
       zyd3rella.src = loadedzynImages[5].src;
       setTimeout(() => {
+        tutBild1.classList.remove('h3')
+        tutBild1.classList.add('h4')
+        tutBild2.classList.remove('h5')
+        tutBild2.style.display = "none";
         tutBild1.style.backgroundImage = "url(../img/inventar/BIB001_Inventar_Fragezeichen_01_hz.png)";
         fadeIn(tutBild1);
       }, 500);
@@ -185,7 +212,7 @@ function fadeOut(selector) {
 //Preload Tutorial Images
 let loadedzynImages = [];
 let zynImages = [
-  "img/Zyn/Zyn-3-rella_Normal_Blinzeln.png", 
+  "img/Zyn/Zyn-3-rella_Normal_Blinzeln.png",
   "img/Zyn/Zyn-3-rella_GoodJob.png",
   "img/Zyn/Zyn-3-rella_Nachdenklich.png",
   "img/Zyn/Zyn-3-rella_Talking.png",
