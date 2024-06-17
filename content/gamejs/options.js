@@ -1,7 +1,8 @@
 let options = document.querySelector("#options-volume"); 
+let volumeSlider = document.querySelector('#volume .slider')
 let optionsBack = document.querySelector("#options-back img");
 
-let targets = ['#screens','#arrow-left', '#arrow-right', '#options-volume', '#options-glossar' ,'.optionspic'];  
+let targets = ['#screens','#arrow-left', '#arrow-right', '#options-volume', '#options-glossar' ,'.close-level'];  
 
 let optionsPanelClick = () => {
     if (volume.style.display == 'none' || volume.style.display == '') {
@@ -17,6 +18,7 @@ let optionsPanelClick = () => {
         anime({
             begin: () => {
                 targets.forEach(e => {
+                    console.log(e)
                     document.querySelector(e).style.pointerEvents = "none";
                 });
             },
@@ -47,11 +49,25 @@ let optionsPanelClick = () => {
             easing: 'easeInOutSine',
         })
     }
-
 }
 
 options.addEventListener("click", optionsPanelClick);
 optionsBack.addEventListener("click", optionsPanelClick);
+
+function getVolume(){
+    if(localStorage.getItem("volume") != null){
+        volumeSlider.value = localStorage.getItem("volume")
+        soundGroup.volume = localStorage.getItem("volume")/100
+
+    }
+}
+getVolume()
+
+function setVolume(value){
+    localStorage.setItem("volume", value)
+    console.log(soundGroup)
+    soundGroup.volume = value/100
+}
 
 let glossarOptions = document.querySelector("#options-glossar");
 let glossarBack = document.querySelector("#glossar-back img");

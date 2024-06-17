@@ -1,5 +1,5 @@
 {
-    "id": "#innenstadt",
+    "id": "innenstadt",
     "secretId": "#secretInnenstadt",
     "itemsCount": [
         10,
@@ -18,14 +18,16 @@
                     "x": 0.19974,
                     "y": 0.269444,
                     "description": "Das ist ein",
-                    "image": "bar.png"
+                    "image": "bar.png",
+                    "label": ""
                 },
                 {
                     "id": "Burger",
                     "x": 0.279167,
                     "y": 0.53704,
                     "description": "Das ist ein",
-                    "image": "burger.png"
+                    "image": "burger.png",
+                    "label": ""
                 },
                 {
                     "id": "Bandit",
@@ -33,7 +35,8 @@
                     "x": 0,
                     "y": 0.601852,
                     "description": "Das ist ein",
-                    "image": "einarmigerbandit.png"
+                    "image": "einarmigerbandit.png",
+                    "label": ""
                 },
                 {
                     "id": "Glasscontainer",
@@ -41,7 +44,8 @@
                     "x": 0.295052,
                     "y": 0.627315,
                     "description": "Das ist ein",
-                    "image": "glasscontainer.png"
+                    "image": "glasscontainer.png",
+                    "label": ""
                 },
                 {
                     "id": "Lootbox",
@@ -49,7 +53,8 @@
                     "x": 0.183073,
                     "y": 0.609722,
                     "description": "Das ist ein",
-                    "image": "lootbox.png"
+                    "image": "lootbox.png",
+                    "label": ""
                 },
                 {
                     "id": "Nasenspray",
@@ -57,7 +62,8 @@
                     "x": 0.883333,
                     "y": 0.607407,
                     "description": "Das ist ein",
-                    "image": "nasenspray.png"
+                    "image": "nasenspray.png",
+                    "label": ""
                 },
                 {
                     "id": "Pizza",
@@ -65,7 +71,8 @@
                     "x": 0.704427,
                     "y": 0.193519,
                     "description": "Das ist ein",
-                    "image": "pizza.png"
+                    "image": "pizza.png",
+                    "label": ""
                 },
                 {
                     "id": "Pokerchip",
@@ -73,7 +80,8 @@
                     "x": 0.519531,
                     "y": 0.418981,
                     "description": "Das ist ein",
-                    "image": "pokerchip.png"
+                    "image": "pokerchip.png",
+                    "label": ""
                 },
                 {
                     "id": "Sale",
@@ -81,7 +89,8 @@
                     "x": 0.247396,
                     "y": 0.04537,
                     "description": "Das ist ein",
-                    "image": "sale.png"
+                    "image": "sale.png",
+                    "label": ""
                 },
                 {
                     "id": "Tuete",
@@ -89,7 +98,8 @@
                     "x": 0.599219,
                     "y": 0.591667,
                     "description": "Das ist ein",
-                    "image": "tuete.png"
+                    "image": "tuete.png",
+                    "label": ""
                 }
             ]
         },
@@ -103,14 +113,16 @@
                     "x": 0.734635,
                     "y": 0.506944,
                     "description": "Das ist ein",
-                    "image": "apotheke.png"
+                    "image": "apotheke.png",
+                    "label": ""
                 },
                 {
                     "id": "Arbeitsausweis",
                     "x": 0.115625,
                     "y": 0.136111,
                     "description": "Das ist ein",
-                    "image": "arbeitsausweis.png"
+                    "image": "arbeitsausweis.png",
+                    "label": ""
                 },
                 {
                     "id": "Erste_Hilfe_Kasten",
@@ -118,7 +130,8 @@
                     "x": 0.065625,
                     "y": 0.074074,
                     "description": "Das ist ein",
-                    "image": "erstehilfekasten.png"
+                    "image": "erstehilfekasten.png",
+                    "label": ""
                 },
                 {
                     "id": "Gelber_Schein",
@@ -126,7 +139,8 @@
                     "x": 0.836198,
                     "y": 0.953704,
                     "description": "Das ist ein",
-                    "image": "gelberschein.png"
+                    "image": "gelberschein.png",
+                    "label": ""
                 },
                 {
                     "id": "Glühbirne",
@@ -134,7 +148,8 @@
                     "x": 0.083854,
                     "y": 0.618519,
                     "description": "Das ist ein",
-                    "image": "gluehbirne.png"
+                    "image": "gluehbirne.png",
+                    "label": ""
                 },
                 {
                     "id": "Jogger",
@@ -142,7 +157,8 @@
                     "x": 0.27526,
                     "y": 0.623148,
                     "description": "Das ist ein",
-                    "image": "jogger.png"
+                    "image": "jogger.png",
+                    "label": ""
                 },
                 {
                     "id": "Krücken",
@@ -150,7 +166,8 @@
                     "x": 0.839062,
                     "y": 0.719444,
                     "description": "Das ist ein",
-                    "image": "kruecken.png"
+                    "image": "kruecken.png",
+                    "label": ""
                 },
                 {
                     "id": "Mappe",
@@ -158,7 +175,8 @@
                     "x": 0.451042,
                     "y": 0.206944,
                     "description": "Das ist ein",
-                    "image": "mappe.png"
+                    "image": "mappe.png",
+                    "label": ""
                 },
                 {
                     "id": "Maske",
@@ -166,7 +184,8 @@
                     "x": 0.857292,
                     "y": 0.343519,
                     "description": "Das ist ein",
-                    "image": "maske.png"
+                    "image": "maske.png",
+                    "label": ""
                 },
                 {
                     "id": "Sicherheitshinweise",
@@ -174,7 +193,8 @@
                     "x": 0.241927,
                     "y": 0.568519,
                     "description": "Das ist ein",
-                    "image": "sicherheitshinweise.png"
+                    "image": "sicherheitshinweise.png",
+                    "label": ""
                 },
                 {
                     "id": "Sportgerät",
@@ -182,7 +202,8 @@
                     "x": 0.704948,
                     "y": 0.172222,
                     "description": "Das ist ein",
-                    "image": "sportgeraet.png"
+                    "image": "sportgeraet.png",
+                    "label": ""
                 },
                 {
                     "id": "Tisch",
@@ -190,7 +211,8 @@
                     "x": 0.52474,
                     "y": 0.734722,
                     "description": "Das ist ein",
-                    "image": "tisch.png"
+                    "image": "tisch.png",
+                    "label": ""
                 }
             ]
         },
@@ -204,14 +226,16 @@
                     "x": 0.778906,
                     "y": 0.547685,
                     "description": "Das ist ein",
-                    "image": "briefkasten.png"
+                    "image": "briefkasten.png",
+                    "label": ""
                 },
                 {
                     "id": "Casino",
                     "x": 0.66224,
                     "y": 0.513426,
                     "description": "Das ist ein",
-                    "image": "casino.png"
+                    "image": "casino.png",
+                    "label": ""
                 },
                 {
                     "id": "Einkaufswagen",
@@ -219,7 +243,8 @@
                     "x": 0.784115,
                     "y": 0.657407,
                     "description": "Das ist ein",
-                    "image": "einkaufswagen.png"
+                    "image": "einkaufswagen.png",
+                    "label": ""
                 },
                 {
                     "id": "Gerichtshammer",
@@ -227,7 +252,8 @@
                     "x": 0.229688,
                     "y": 0.24537,
                     "description": "Das ist ein",
-                    "image": "gerichtshammer.png"
+                    "image": "gerichtshammer.png",
+                    "label": ""
                 },
                 {
                     "id": "Handyvertrag",
@@ -235,7 +261,8 @@
                     "x": 0.378125,
                     "y": 0.272685,
                     "description": "Das ist ein",
-                    "image": "handyvertrag.png"
+                    "image": "handyvertrag.png",
+                    "label": ""
                 },
                 {
                     "id": "Hund",
@@ -243,7 +270,8 @@
                     "x": 0.313802,
                     "y": 0.619444,
                     "description": "Das ist ein",
-                    "image": "hund.png"
+                    "image": "hund.png",
+                    "label": ""
                 },
                 {
                     "id": "Lieferauto",
@@ -251,7 +279,8 @@
                     "x": 0.502604,
                     "y": 0.51713,
                     "description": "Das ist ein",
-                    "image": "lieferauto.png"
+                    "image": "lieferauto.png",
+                    "label": ""
                 },
                 {
                     "id": "Lottoschein",
@@ -259,7 +288,8 @@
                     "x": 0.083594,
                     "y": 0.885648,
                     "description": "Das ist ein",
-                    "image": "lottoschein.png"
+                    "image": "lottoschein.png",
+                    "label": ""
                 },
                 {
                     "id": "Rechnungen",
@@ -267,7 +297,8 @@
                     "x": 0.448698,
                     "y": 0.8875,
                     "description": "Das ist ein",
-                    "image": "rechnungen.png"
+                    "image": "rechnungen.png",
+                    "label": ""
                 },
                 {
                     "id": "Kontoauszug",
@@ -275,7 +306,8 @@
                     "x": -0.448698,
                     "y": -0.8875,
                     "description": "Das ist ein",
-                    "image": "kontoauszug.png"
+                    "image": "kontoauszug.png",
+                    "label": ""
                 }
             ]
         },
@@ -289,14 +321,16 @@
                     "x": 0.405469,
                     "y": 0.084259,
                     "description": "Das ist ein",
-                    "image": "agenturarbeit.png"
+                    "image": "agenturarbeit.png",
+                    "label": ""
                 },
                 {
                     "id": "HausvomNikolaus",
                     "x": 0.557292,
                     "y": 0.585648,
                     "description": "Das ist ein",
-                    "image": "hausvomnikolaus.png"
+                    "image": "hausvomnikolaus.png",
+                    "label": ""
                 },
                 {
                     "id": "Kartons",
@@ -304,7 +338,8 @@
                     "x": 0.696094,
                     "y": 0.704167,
                     "description": "Das ist ein",
-                    "image": "kartons.png"
+                    "image": "kartons.png",
+                    "label": ""
                 },
                 {
                     "id": "Krawatte",
@@ -312,7 +347,8 @@
                     "x": 0.645573,
                     "y": 0.440741,
                     "description": "Das ist ein",
-                    "image": "krawatte.png"
+                    "image": "krawatte.png",
+                    "label": ""
                 },
                 {
                     "id": "Leichenwagen",
@@ -320,7 +356,8 @@
                     "x": 0,
                     "y": 0.636574,
                     "description": "Das ist ein",
-                    "image": "leichenwagen.png"
+                    "image": "leichenwagen.png",
+                    "label": ""
                 },
                 {
                     "id": "Schlafsack",
@@ -328,7 +365,8 @@
                     "x": 0.676562,
                     "y": 0.872222,
                     "description": "Das ist ein",
-                    "image": "schlafsack.png"
+                    "image": "schlafsack.png",
+                    "label": ""
                 },
                 {
                     "id": "Schlüssel",
@@ -336,7 +374,8 @@
                     "x": 0.216146,
                     "y": 0.760648,
                     "description": "Das ist ein",
-                    "image": "schluessel.png"
+                    "image": "schluessel.png",
+                    "label": ""
                 },
                 {
                     "id": "Zeitung",
@@ -344,7 +383,8 @@
                     "x": 0.565104,
                     "y": 0.82037,
                     "description": "Das ist ein",
-                    "image": "zeitung.png"
+                    "image": "zeitung.png",
+                    "label": ""
                 }
             ]
         }

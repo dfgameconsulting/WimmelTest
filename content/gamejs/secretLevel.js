@@ -2,6 +2,8 @@
 
 let sound06 = new Pizzicato.Sound("sound/Secret.mp3");
 let auszugSound = new Pizzicato.Sound("sound/kontoauszug.mp3");
+soundGroup.addSound(sound06)
+soundGroup.addSound(auszugSound)
 
 let loadJSON = async () => {
   const response = await fetch('./gamejs/json/innenstadt.json');
@@ -89,7 +91,7 @@ let initSecretLevel = async () => {
     auszugSound.play();
   };
   let glitchSound = new Pizzicato.Sound("sound/glitch01.mp3");
-
+  soundGroup.addSound(glitchSound)
   let glitch01 = document.querySelector('#glitch01')
   optionen02.onclick = () => {
 

@@ -2,6 +2,8 @@
 
 
 let sound06 = new Pizzicato.Sound("sound/Secret.mp3");
+soundGroup.addSound(sound06)
+
 let secretItemsFound = 0;
 let loadJSON = async () => {
   const response = await fetch('./gamejs/json/campus.json');

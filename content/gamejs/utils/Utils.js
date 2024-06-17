@@ -134,43 +134,42 @@ let checkAllObjectsFound = (counts, closing = false) => {
   let countedObjects03 = objectCopy.filter((element) => element.wasFound == true && element.place == "screen03");
   let countedObjects04 = objectCopy.filter((element) => element.wasFound == true && element.place == "screen04");
 
-  if (!closing) {
-    if (countedObjects01.length >= counts[0] && !lvl1Done) {
-      sound04.play();
-      animateWin("#inventory-wrapper01");
-      lvl1Done = true
-    }
+  if (countedObjects01.length >= counts[0] && !lvl1Done) {
+    sound04.play();
+    animateWin("#inventory-wrapper01");
+    lvl1Done = true
+  }
 
-    if (countedObjects02.length >= counts[1] && !lvl2Done) {
-      sound04.play();
-      animateWin("#inventory-wrapper02");
-      lvl2Done = true
+  if (countedObjects02.length >= counts[1] && !lvl2Done) {
+    sound04.play();
+    animateWin("#inventory-wrapper02");
+    lvl2Done = true
 
-    }
+  }
 
-    if (countedObjects03.length >= counts[2] && !lvl3Done) {
-      sound04.play();
-      animateWin("#inventory-wrapper03");
-      lvl3Done = true
+  if (countedObjects03.length >= counts[2] && !lvl3Done) {
+    sound04.play();
+    animateWin("#inventory-wrapper03");
+    lvl3Done = true
 
-    }
+  }
 
-    if (countedObjects04.length >= counts[3] && !lvl4Done) {
-      sound04.play();
-      animateWin("#inventory-wrapper04");
-      lvl4Done = true
+  if (countedObjects04.length >= counts[3] && !lvl4Done) {
+    sound04.play();
+    animateWin("#inventory-wrapper04");
+    lvl4Done = true
 
-    }
+  }
+  if (countedObjects01.length == counts[0] &&
+    countedObjects02.length == counts[1] &&
+    countedObjects03.length == counts[2] &&
+    countedObjects04.length == counts[3]
+  ) {
+    let dialog = new Dialog()
+    dialog.setDialog(`${locationId}Finished`)
+    return true
   } else {
-    if (countedObjects01.length == counts[0] &&
-      countedObjects02.length == counts[1] &&
-      countedObjects03.length == counts[2] &&
-      countedObjects04.length == counts[3]
-    ) {
-      return true
-    } else {
-      return false
-    }
+    return false
   }
 }
 
@@ -378,19 +377,26 @@ function secretItemToInventory(name, itemCounts) {
   });
 }
 
-let dialog = null
+
 let closeLevel = (counts) => {
+  let dialog = null
   document.querySelector('.close-level').onclick = async () => {
     console.log("Click onto close")
     if (checkAllObjectsFound(counts, true)) {
       window.open('index.html', "_self")
     } else {
-      if (dialog == null) {
-        dialog = new Dialog()
-      }
-
+      dialog = new Dialog()
+     
       if (!dialog.loaded) await dialog.init()
-        dialog.setDialog('leave')
+      dialog.setDialog('leave')
     }
   }
+}
+
+let innenstadtEntry = async () => {
+  let dialog = null
+  dialog = new Dialog()
+
+  if (!dialog.loaded) await dialog.init()
+  dialog.setDialog('horror')
 }

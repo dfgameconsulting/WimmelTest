@@ -1,5 +1,5 @@
 {
-    "id": "#altstadt",
+    "id": "altstadt",
     "secretId": "#secretAltstadt",
     "itemsCount": [
         10,
@@ -18,70 +18,80 @@
                     "x": 0.452604,
                     "y": 0.063426,
                     "description": "Das ist ein",
-                    "image": "aktienzeichen.png"
+                    "image": "aktienzeichen.png",
+                    "label": ""
                 },
                 {
                     "id": "Bankzeichen",
                     "x": 0.249740,
                     "y": 0.330093,
                     "description": "Das ist ein",
-                    "image": "bankzeichen.png"
+                    "image": "bankzeichen.png",
+                    "label": ""
                 },
                 {
                     "id": "Brieftasche",
                     "x": 0.559115,
                     "y": 0.572685,
                     "description": "Das ist ein",
-                    "image": "brieftasche.png"
+                    "image": "brieftasche.png",
+                    "label": ""
                 },
                 {
                     "id": "Hosentaschen_Mannar",
                     "x": 0.885677,
                     "y": 0.513426,
                     "description": "Das ist ein",
-                    "image": "hosentaschenmann.png"
+                    "image": "hosentaschenmann.png",
+                    "label": ""
                 },
                 {
                     "id": "Münzhaufen",
                     "x": 0.453646,
                     "y": 0.319907,
                     "description": "Das ist ein",
-                    "image": "muenzhaufen.png"
+                    "image": "muenzhaufen.png",
+                    "label": ""
                 },
                 {
                     "id": "Sparkontoauszug",
                     "x": 0.469531,
                     "y": 0.896759,
                     "description": "Das ist ein",
-                    "image": "sparkontoauszug.png"
+                    "image": "sparkontoauszug.png",
+                    "label": ""
                 },
                 {
                     "id": "Sparschwein",
                     "x": 0.747396,
                     "y": 0.603241,
                     "description": "Das ist ein",
-                    "image": "sparschwein.png"
+                    "image": "sparschwein.png",
+                    "label": ""
                 },
                 {
                     "id": "Vertragspapiere",
                     "x": 0.363021,
                     "y": 0.111111,
                     "description": "Das ist ein",
-                    "image": "vertragspapiere.png"
+                    "image": "vertragspapiere.png",
+                    "label": ""
                 },
                 {
                     "id": "Währungszeichen",
                     "x": 0.290625,
                     "y": 0.492593,
                     "description": "Das ist ein",
-                    "image": "waehrungszeichen.png"
+                    "image": "waehrungszeichen.png",
+                    "label": ""
                 },
                 {
                     "id": "Zeitung",
                     "x": 0.578646,
                     "y": 0.443519,
                     "description": "Das ist ein",
-                    "image": "zeitung.png"
+                    "image": "zeitung.png",
+                    "label": ""
                 }
             ]
         },
@@ -95,70 +105,80 @@
                     "x": 0.169010,
                     "y": 0.881019,
                     "description": "Das ist ein",
-                    "image": "gewitterwolke.png"
+                    "image": "gewitterwolke.png",
+                    "label": ""
                 },
                 {
                     "id": "Hörgerät",
                     "x": 0.641927,
                     "y": 0.379630,
                     "description": "Das ist ein",
-                    "image": "hoergeraet.png"
+                    "image": "hoergeraet.png",
+                    "label": ""
                 },
                 {
                     "id": "Schwangere_Frau",
                     "x": 0.335156,
                     "y": 0.680093,
                     "description": "Das ist ein",
-                    "image": "schwangerefrau.png"
+                    "image": "schwangerefrau.png",
+                    "label": ""
                 },
                 {
                     "id": "Waage",
                     "x": 0.832813,
                     "y": 0.200463,
                     "description": "Das ist ein",
-                    "image": "waage.png"
+                    "image": "waage.png",
+                    "label": ""
                 },
                 {
                     "id": "Glühbirne",
                     "x": 0.788802,
                     "y": 0.478704,
                     "description": "Das ist ein",
-                    "image": "gluehbirne.png"
+                    "image": "gluehbirne.png",
+                    "label": ""
                 },
                 {
                     "id": "HandhaltenSchild",
                     "x": 0.140104,
                     "y": 0.676389,
                     "description": "Das ist ein",
-                    "image": "handhaltenschild.png"
+                    "image": "handhaltenschild.png",
+                    "label": ""
                 },
                 {
                     "id": "Straßenschild",
                     "x": 0.135937,
                     "y": 0.623148,
                     "description": "Das ist ein",
-                    "image": "strassenschild.png"
+                    "image": "strassenschild.png",
+                    "label": ""
                 },
                 {
                     "id": "Nachdenklicher_Mann",
                     "x": 0.388281,
                     "y": 0.066667,
                     "description": "Das ist ein",
-                    "image": "nachdenklichermann.png"
+                    "image": "nachdenklichermann.png",
+                    "label": ""
                 },
                 {
                     "id": "Paragraph",
                     "x": 0.528906,
                     "y": 0.532870,
                     "description": "Das ist ein",
-                    "image": "paragraph.png"
+                    "image": "paragraph.png",
+                    "label": ""
                 },
                 {
                     "id": "Wörterbuch",
                     "x": 0.580990,
                     "y": 0.224074,
                     "description": "Das ist ein",
-                    "image": "woerterbuch.png"
+                    "image": "woerterbuch.png",
+                    "label": ""
                 }
             ]
         },
@@ -172,70 +192,80 @@
                     "x": 0.934115,
                     "y": 0.287037,
                     "description": "Das ist ein",
-                    "image": "erstehilfe.png"
+                    "image": "erstehilfe.png",
+                    "label": ""
                 },
                 {
                     "id": "Flamme",
                     "x": 0.800000,
                     "y": 0.271759,
                     "description": "Das ist ein",
-                    "image": "flamme.png"
+                    "image": "flamme.png",
+                    "label": ""
                 },
                 {
                     "id": "Blindenzeichen",
                     "x": 0.543229,
                     "y": 0.018981,
                     "description": "Das ist ein",
-                    "image": "blindenzeichen.png"
+                    "image": "blindenzeichen.png",
+                    "label": ""
                 },
                 {
                     "id": "Nasses_Buch",
                     "x": 0.358854,
                     "y": 0.811574,
                     "description": "Das ist ein",
-                    "image": "nassesbuch.png"
+                    "image": "nassesbuch.png",
+                    "label": ""
                 },
                 {
                     "id": "Stethoskop",
                     "x": 0.218229,
                     "y": 0.517130,
                     "description": "Das ist ein",
-                    "image": "stethoskop.png"
+                    "image": "stethoskop.png",
+                    "label": ""
                 },
                 {
                     "id": "Händedruck",
                     "x": 0.298438,
                     "y": 0.612963,
                     "description": "Das ist ein",
-                    "image": "haendedruck.png"
+                    "image": "haendedruck.png",
+                    "label": ""
                 },
                 {
                     "id": "Rollstuhl",
                     "x": 0.542188,
                     "y": 0.629167,
                     "description": "Das ist ein",
-                    "image": "rollstuhl.png"
+                    "image": "rollstuhl.png",
+                    "label": ""
                 },
                 {
                     "id": "Schild",
                     "x": 0.800781,
                     "y": 0.497222,
                     "description": "Das ist ein",
-                    "image": "schild.png"
+                    "image": "schild.png",
+                    "label": ""
                 },
                 {
                     "id": "Uhr_Graffiti",
                     "x": 0.422917,
                     "y": 0.725926,
                     "description": "Das ist ein",
-                    "image": "uhrgraffiti.png"
+                    "image": "uhrgraffiti.png",
+                    "label": ""
                 },
                 {
                     "id": "Monokel_Frau",
                     "x": 0.678385,
                     "y": 0.560648,
                     "description": "Das ist ein",
-                    "image": "monokelfrau.png"
+                    "image": "monokelfrau.png",
+                    "label": ""
                 }
             ]
         },
@@ -249,70 +279,80 @@
                     "x": 0.377865,
                     "y": 0.600000,
                     "description": "Das ist ein",
-                    "image": "rennendermann.png"
+                    "image": "rennendermann.png",
+                    "label": ""
                 },
                 {
                     "id": "Bücher",
                     "x": 0.481771,
                     "y": 0.349074,
                     "description": "Das ist ein",
-                    "image": "buecher.png"
+                    "image": "buecher.png",
+                    "label": ""
                 },
                 {
                     "id": "Whiteboard",
                     "x": 0.704427,
                     "y": 0.480556,
                     "description": "Das ist ein",
-                    "image": "whiteboard.png"
+                    "image": "whiteboard.png",
+                    "label": ""
                 },
                 {
                     "id": "Ortsschild",
                     "x": 0.839844,
                     "y": 0.575463,
                     "description": "Das ist ein",
-                    "image": "ortsschild.png"
+                    "image": "ortsschild.png",
+                    "label": ""
                 },
                 {
                     "id": "Korb",
                     "x": 0.918750,
                     "y": 0.275463,
                     "description": "Das ist ein",
-                    "image": "korb.png"
+                    "image": "korb.png",
+                    "label": ""
                 },
                 {
                     "id": "Feuerwehrauto",
                     "x": 0.671354,
                     "y": 0.422685,
                     "description": "Das ist ein",
-                    "image": "feuerwehrauto.png"
+                    "image": "feuerwehrauto.png",
+                    "label": ""
                 },
                 {
                     "id": "Azubi",
                     "x": 0.653125,
                     "y": 0.048148,
                     "description": "Das ist ein",
-                    "image": "azubi.png"
+                    "image": "azubi.png",
+                    "label": ""
                 },
                 {
                     "id": "Kaputtes_Auto",
                     "x": 0.562500,
                     "y": 0.590741,
                     "description": "Das ist ein",
-                    "image": "kaputtesauto.png"
+                    "image": "kaputtesauto.png",
+                    "label": ""
                 },
                 {
                     "id": "Arbeitsagentur",
                     "x": 0.065365,
                     "y": 0.056481,
                     "description": "Das ist ein",
-                    "image": "arbeitsagentur.png"
+                    "image": "arbeitsagentur.png",
+                    "label": ""
                 },
                 {
                     "id": "Bushaltestelle",
                     "x": 0.231250,
                     "y": 0.338889,
                     "description": "Das ist ein",
-                    "image": "bushaltestelle.png"
+                    "image": "bushaltestelle.png",
+                    "label": ""
                 }
             ]
         }

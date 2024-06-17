@@ -18,7 +18,7 @@
             </div>
             <div id="slide">
                 <img src="img/options/BIB001_Einstellungen_Tonsymbol_01_hz.png" alt="" srcset="">
-                <input type="range" min="0" max="100" value="100" class="slider">
+                <input type="range" min="0" max="100" step="1" value="50" class="slider" onchange="setVolume(this.value)">
             </div>
             <div id="options-back">
                 <img src="img/options/Kreuz.png" alt="" srcset="">
@@ -102,7 +102,7 @@
             <img class="next" src="img/Dialog/BIB001_Dialog_Weiter_01_hz.png" alt="">
         </div>
         <div class="avatar">
-            <img src="img/Zyn/Zyn-3-rella_Normal_.png" alt="">
+            <img id="zyndrella" src="img/Zyn/Zyn-3-rella_Normal_.png" alt="">
         </div>
         <div class="choise">
             <button id="stayButton">Weitersuchen</button>
