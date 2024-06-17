@@ -40,6 +40,7 @@ question.onclick = () => {
 // Tut Text
 let welcomeText = document.querySelector("#dialogWrapper .content .text");
 let weiterImg = document.querySelector("#dialogWrapper .content .next");
+let prevImg = document.querySelector("#dialogWrapper .content .prev");
 let introText = [
   "Willkommen in zynd-City! Ich bin Zynd-3-Rella, deine Reisebegleitung. Werfen wir mal einen Blick auf die Stadtkarte.",
   "Zynd-City hat vier Stadtteile. Jeder hat ein bestimmtes Thema. Klick auf einen Marker auf der Stadtkarte und du erfährst, worum es dort geht. Wenn du etwas gefunden hast, das dich interessiert, besuch diesen Stadtteil!",
@@ -50,22 +51,50 @@ let introText = [
   "Wenn du schon alles mehrfach abgesucht hast, du aber trotzdem nix findest, kann dir das Fragezeichen weiterhelfen: Dir wird ein Umkreis angezeigt, indem du das Objekt finden wirst. Noch Fragen? Nein? Dann los!",
 ];
 
-let i = 0;
+let paginationIndex = 0;
 weiterImg.onclick = () => {
-  if (i < introText.length - 1) {
-    i++;
-  } else {
-    i = 0;
-  }
+  paginationIndex == 0 ? document.querySelector('#dialogWrapper .content .prev').style.display = 'block' : ''
+  pagination(paginationIndex < introText.length - 1 ? paginationIndex = paginationIndex + 1 : paginationIndex = 0, 'next')
+};
+
+prevImg.onclick = () => {
+  paginationIndex == 1 ? document.querySelector('#dialogWrapper .content .prev').style.display = 'none' : ''
+  pagination(paginationIndex == 1 ? paginationIndex = 0 : paginationIndex = paginationIndex - 1, 'prev')
+}
+
+
+let pagination = (pI, direction) => {
+
+  //Don't have time for refactoring
+  let i = pI
+
   welcomeText.innerHTML = introText[i];
   switch (i) {
+    case 0:
+      document.querySelector('#levels').style.zIndex = 0
+
+      if (direction == 'prev') {
+        document.querySelectorAll(".menu-levelcontainer").forEach((e, index) => {
+          setTimeout(() => {
+            e.classList.remove("highlight");
+            e.classList.remove("h1");
+          }, 300 * (index + 1));
+        });
+      }
+      break;
     case 1:
+      document.querySelector('#levels').style.zIndex = 2
       document.querySelectorAll(".menu-levelcontainer").forEach((e, index) => {
         setTimeout(() => {
           e.classList.add("highlight");
           e.classList.add("h1");
         }, 300 * (index + 1));
       });
+
+      if (direction === 'prev') {
+        document.querySelector('#levels').style.zIndex = 3
+        tutImg.style.display = "none";
+      }
       break;
     case 2:
       document.querySelectorAll(".menu-levelcontainer").forEach((e, index) => {
@@ -73,9 +102,10 @@ weiterImg.onclick = () => {
           e.classList.remove("highlight");
           e.classList.remove("h1");
         }, 300 * (index + 1));
-        document.querySelector('#levels').style.zIndex = 1
+
       });
-      showTutorial(0);
+      document.querySelector('#levels').style.zIndex = 1
+      showTutorial(0, direction);
       break;
     case 3:
       showTutorial(1);
@@ -89,51 +119,44 @@ weiterImg.onclick = () => {
     case 6:
       showTutorial(4);
       break;
-    case 0:
+    case 7:
       closeTutorial();
       break;
   }
-};
+}
 
 const tutImg = document.querySelector("#tutImg");
 const tutHintergrund = document.querySelector("#backgroundDark");
 let tutBild1 = document.querySelector("#eins");
 let tutBild2 = document.querySelector("#zwei");
 
-function closeTutorial() {
-  question.click();
-  fadeOut("#tutImg");
-  fadeOut("#backgroundDark");
-  setTimeout(() => {
-    tutHintergrund.style.display = "none";
-    tutImg.style.display = "none";
-    document.querySelectorAll(".menu-levelcontainer").forEach((e, index) => {
-      setTimeout(() => {
-        e.classList.add("highlight");
-        e.classList.add("h1");
-      }, 300 * (index + 1));
-    });
-  }, 500);
-}
+
 let zyd3rella = document.querySelector("#dialogWrapper .avatar img"); // `url(${loadedzynImages[0].src})`;
-function showTutorial(step) {
+function showTutorial(step, direction = 'next') {
   switch (step) {
     case 0:
+      if (direction == 'prev') {
+        fadeOut(tutBild1)
+        fadeOut(tutBild2)
+      }
       tutImg.style.display = "flex";
-      fadeIn("#tutImg");
       tutHintergrund.style.display = "block";
-      fadeIn("#backgroundDark");
-      tutBild1.style.backgroundImage = "url(../img/objects/BIB001_Inventar_Testobjektgefunden_01_hz.png)";
-      tutBild2.style.backgroundImage = "url(../img/tutorial/Leiste.png)";
-      tutBild1.style.display = "block";
-      tutBild2.style.display = "block";
-      tutBild1.classList.remove("h4");
-      tutBild1.classList.add("h3");
-      tutBild2.classList.remove("h3");
-      tutBild2.classList.add("h5");
-      fadeIn(tutBild1);
-      fadeIn(tutBild2);
       zyd3rella.src = loadedzynImages[0].src;
+
+      setTimeout(() => {
+        tutBild1.style.backgroundImage = "url(../img/objects/BIB001_Inventar_Testobjektgefunden_01_hz.png)";
+        tutBild2.style.backgroundImage = "url(../img/tutorial/Leiste.png)";
+        tutBild1.style.display = "block";
+        tutBild2.style.display = "block";
+        tutBild1.classList.remove("h4");
+        tutBild1.classList.add("h3");
+        tutBild2.classList.remove("h3");
+        tutBild2.classList.add("h5");
+        if (direction == 'prev') {
+          fadeIn(tutBild1);
+          fadeIn(tutBild2);
+        }
+      }, 500);
       break;
     case 1:
       fadeOut(tutBild1);
@@ -148,7 +171,8 @@ function showTutorial(step) {
       }, 500);
       break;
     case 2:
-      fadeOut(tutBild1);
+      fadeOut(tutBild1)
+      fadeOut(tutBild2)
       zyd3rella.src = loadedzynImages[2].src;
 
       setTimeout(() => {
@@ -160,6 +184,7 @@ function showTutorial(step) {
       fadeOut(tutBild1);
       fadeOut(tutBild2);
       zyd3rella.src = loadedzynImages[0].src;
+
       setTimeout(() => {
         tutBild1.style.backgroundImage = "url(../img/inventar/BIB001_Inventar_Lupe_01_hz.png)";
         tutBild1.style.backgroundSize = '30%';
@@ -175,11 +200,10 @@ function showTutorial(step) {
       }, 500);
       break;
     case 4:
-
       fadeOut(tutBild1);
       fadeOut(tutBild2)
-
       zyd3rella.src = loadedzynImages[5].src;
+
       setTimeout(() => {
         tutBild1.classList.remove('h3')
         tutBild1.classList.add('h4')
@@ -190,6 +214,22 @@ function showTutorial(step) {
       }, 500);
       break;
   }
+}
+
+function closeTutorial() {
+  question.click();
+  fadeOut("#tutImg");
+  fadeOut("#backgroundDark");
+  setTimeout(() => {
+    tutHintergrund.style.display = "none";
+    tutImg.style.display = "none";
+    document.querySelectorAll(".menu-levelcontainer").forEach((e, index) => {
+      setTimeout(() => {
+        e.classList.add("highlight");
+        e.classList.add("h1");
+      }, 300 * (index + 1));
+    });
+  }, 500);
 }
 
 function fadeIn(selector) {

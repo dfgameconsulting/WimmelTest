@@ -170,7 +170,7 @@ body::-webkit-scrollbar {
     height: 100%;
     top: 0;
     left: 0;
-    z-index: 2;
+    z-index: 1;
     pointer-events: none;
 }
 
@@ -1376,6 +1376,20 @@ body::-webkit-scrollbar {
     width: 6vw;
     height: auto;
     cursor: pointer;
+}
+
+#dialogWrapper .content .prev {
+    display: none;
+    position: absolute;
+    bottom: 13%;
+    left: 17%;
+    width: 6vw;
+    height: auto;
+    cursor: pointer;
+    -moz-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    transform: scale(-1, 1);
 }
 
 #dialogWrapper .avatar {
