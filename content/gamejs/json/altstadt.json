@@ -27,7 +27,7 @@
                     "y": 0.330093,
                     "description": "Das ist ein",
                     "image": "bankzeichen.png",
-                    "label": ""
+                    "label": "BAföG für Schülerinnen und Schüler"
                 },
                 {
                     "id": "Brieftasche",
@@ -35,7 +35,7 @@
                     "y": 0.572685,
                     "description": "Das ist ein",
                     "image": "brieftasche.png",
-                    "label": ""
+                    "label": "Berufsausbildungsbeihilfe"
                 },
                 {
                     "id": "Hosentaschen_Mannar",
@@ -43,7 +43,7 @@
                     "y": 0.513426,
                     "description": "Das ist ein",
                     "image": "hosentaschenmann.png",
-                    "label": ""
+                    "label": "Brutto/Netto"
                 },
                 {
                     "id": "Münzhaufen",
@@ -51,7 +51,7 @@
                     "y": 0.319907,
                     "description": "Das ist ein",
                     "image": "muenzhaufen.png",
-                    "label": ""
+                    "label": "Wohngeld"
                 },
                 {
                     "id": "Sparkontoauszug",
@@ -67,7 +67,7 @@
                     "y": 0.603241,
                     "description": "Das ist ein",
                     "image": "sparschwein.png",
-                    "label": ""
+                    "label": "Kindergeld"
                 },
                 {
                     "id": "Vertragspapiere",
@@ -75,7 +75,7 @@
                     "y": 0.111111,
                     "description": "Das ist ein",
                     "image": "vertragspapiere.png",
-                    "label": ""
+                    "label": "Steuererklärung in der Ausbildung"
                 },
                 {
                     "id": "Währungszeichen",
@@ -83,7 +83,7 @@
                     "y": 0.492593,
                     "description": "Das ist ein",
                     "image": "waehrungszeichen.png",
-                    "label": ""
+                    "label": "Ausbildungsvergütung"
                 },
                 {
                     "id": "Zeitung",
@@ -91,7 +91,7 @@
                     "y": 0.443519,
                     "description": "Das ist ein",
                     "image": "zeitung.png",
-                    "label": ""
+                    "label": "Nebenjobs"
                 }
             ]
         },
@@ -106,7 +106,7 @@
                     "y": 0.881019,
                     "description": "Das ist ein",
                     "image": "gewitterwolke.png",
-                    "label": ""
+                    "label": "Probleme im Betrieb"
                 },
                 {
                     "id": "Hörgerät",
@@ -114,7 +114,7 @@
                     "y": 0.379630,
                     "description": "Das ist ein",
                     "image": "hoergeraet.png",
-                    "label": ""
+                    "label": "Nachteilsausgleich"
                 },
                 {
                     "id": "Schwangere_Frau",
@@ -122,7 +122,7 @@
                     "y": 0.680093,
                     "description": "Das ist ein",
                     "image": "schwangerefrau.png",
-                    "label": ""
+                    "label": "Mutterschutz"
                 },
                 {
                     "id": "Waage",
@@ -138,7 +138,7 @@
                     "y": 0.478704,
                     "description": "Das ist ein",
                     "image": "gluehbirne.png",
-                    "label": ""
+                    "label": "Probleme mit Ausbildungsinhalten"
                 },
                 {
                     "id": "HandhaltenSchild",
@@ -146,7 +146,7 @@
                     "y": 0.676389,
                     "description": "Das ist ein",
                     "image": "handhaltenschild.png",
-                    "label": ""
+                    "label": "Mutterschaftsgeld"
                 },
                 {
                     "id": "Straßenschild",
@@ -154,7 +154,7 @@
                     "y": 0.623148,
                     "description": "Das ist ein",
                     "image": "strassenschild.png",
-                    "label": ""
+                    "label": "Verlängerung der Ausbildung"
                 },
                 {
                     "id": "Nachdenklicher_Mann",
@@ -162,7 +162,7 @@
                     "y": 0.066667,
                     "description": "Das ist ein",
                     "image": "nachdenklichermann.png",
-                    "label": ""
+                    "label": "Fachpraktikerausbildung"
                 },
                 {
                     "id": "Paragraph",
@@ -170,7 +170,7 @@
                     "y": 0.532870,
                     "description": "Das ist ein",
                     "image": "paragraph.png",
-                    "label": ""
+                    "label": "Jugendarbeitsschutzgesetz (JArbSchG)"
                 },
                 {
                     "id": "Wörterbuch",
@@ -178,7 +178,7 @@
                     "y": 0.224074,
                     "description": "Das ist ein",
                     "image": "woerterbuch.png",
-                    "label": ""
+                    "label": "Sprachniveau in der Ausbildung"
                 }
             ]
         },
@@ -193,7 +193,7 @@
                     "y": 0.287037,
                     "description": "Das ist ein",
                     "image": "erstehilfe.png",
-                    "label": ""
+                    "label": "Azubi- und Jugendwohnen"
                 },
                 {
                     "id": "Flamme",
@@ -201,7 +201,7 @@
                     "y": 0.271759,
                     "description": "Das ist ein",
                     "image": "flamme.png",
-                    "label": ""
+                    "label": "Teilzeitausbildung"
                 },
                 {
                     "id": "Blindenzeichen",
@@ -217,7 +217,7 @@
                     "y": 0.811574,
                     "description": "Das ist ein",
                     "image": "nassesbuch.png",
-                    "label": ""
+                    "label": "Jugendberufsagentur"
                 },
                 {
                     "id": "Stethoskop",
@@ -233,7 +233,7 @@
                     "y": 0.612963,
                     "description": "Das ist ein",
                     "image": "haendedruck.png",
-                    "label": ""
+                    "label": "Ausbildungsvertrag / Arbeitsvertrag"
                 },
                 {
                     "id": "Rollstuhl",
@@ -249,7 +249,7 @@
                     "y": 0.497222,
                     "description": "Das ist ein",
                     "image": "schild.png",
-                    "label": ""
+                    "label": "Krankenversicherung"
                 },
                 {
                     "id": "Uhr_Graffiti",
@@ -265,7 +265,7 @@
                     "y": 0.560648,
                     "description": "Das ist ein",
                     "image": "monokelfrau.png",
-                    "label": ""
+                    "label": "Arbeitslosen- und Rentenversicherung"
                 }
             ]
         },
@@ -280,7 +280,7 @@
                     "y": 0.600000,
                     "description": "Das ist ein",
                     "image": "rennendermann.png",
-                    "label": ""
+                    "label": "Berufsberatung"
                 },
                 {
                     "id": "Bücher",
@@ -288,7 +288,7 @@
                     "y": 0.349074,
                     "description": "Das ist ein",
                     "image": "buecher.png",
-                    "label": ""
+                    "label": "Quereinstieg Studium"
                 },
                 {
                     "id": "Whiteboard",
@@ -296,7 +296,7 @@
                     "y": 0.480556,
                     "description": "Das ist ein",
                     "image": "whiteboard.png",
-                    "label": ""
+                    "label": "Aufstiegsfortbildung"
                 },
                 {
                     "id": "Ortsschild",
@@ -304,7 +304,7 @@
                     "y": 0.575463,
                     "description": "Das ist ein",
                     "image": "ortsschild.png",
-                    "label": ""
+                    "label": "Kündigung"
                 },
                 {
                     "id": "Korb",
@@ -328,7 +328,7 @@
                     "y": 0.048148,
                     "description": "Das ist ein",
                     "image": "azubi.png",
-                    "label": ""
+                    "label": "Bewerben"
                 },
                 {
                     "id": "Kaputtes_Auto",
@@ -344,7 +344,7 @@
                     "y": 0.056481,
                     "description": "Das ist ein",
                     "image": "arbeitsagentur.png",
-                    "label": ""
+                    "label": "Beendigung des Arbeitsverhältnisses"
                 },
                 {
                     "id": "Bushaltestelle",
@@ -352,7 +352,7 @@
                     "y": 0.338889,
                     "description": "Das ist ein",
                     "image": "bushaltestelle.png",
-                    "label": ""
+                    "label": "Ausbildungsticket"
                 }
             ]
         }
