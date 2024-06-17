@@ -53,16 +53,32 @@ class Dialog {
                             this.zyndrellaImg.src = `img/Zyn/${this.zyndrellaImages[1]}`
                             break;
                     }
+                    if (this.contentIndex == dialog.contents.length-1) {
+                        if(!dialog.choice){
+                            this.dialogWrapper.classList.remove('active')
+                        }else{
+                            this.choiseWrapper.classList.add('active')
+                        }
+                        this.nextButton.style.display = 'none'
+                    }
+
                 }
-                else if (this.contentIndex == dialog.contents.length - 1) {
-                    this.dialogWrapper.classList.remove('active')
+                else if (this.contentIndex == dialog.contents.length-1) {
+                    if(!dialog.choice){
+                        this.dialogWrapper.classList.remove('active')
+                    }else{
+                        this.choiseWrapper.classList.add('active')
+                    }
                 }
             }
         }
 
         if (dialog.choice) {
-            this.choiseWrapper.classList.add('active')
-
+            if(dialog.contents.length == 1){
+                this.choiseWrapper.classList.add('active')
+            }
+            this.stayButton.innerHTML = dialog.choiseAccept
+            this.leaveButton.innerHTML = dialog.choiseDecline
             this.stayButton.onclick = () => {
                 this.dialogWrapper.classList.remove('active')
             }
@@ -71,7 +87,6 @@ class Dialog {
             }
         }
 
-        console.log(dialog)
         return dialog;
     }
 

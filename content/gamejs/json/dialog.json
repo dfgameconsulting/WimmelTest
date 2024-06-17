@@ -8,7 +8,9 @@
                     "emotion": "thoughtfull"
                 }
             ],
-            "choice": true
+            "choice": true,
+            "choiseAccept": "Weitersuchen",
+            "choiseDecline": "Beenden"
         },
         {
             "id": "horror",
@@ -30,7 +32,9 @@
                     "emotion": "normal"
                 }
             ],
-            "choise": false
+            "choice": true,
+            "choiseAccept": "Weiter",
+            "choiseDecline": "Zurück"
         },
         {
             "id": "campusFinished",
