@@ -1,6 +1,7 @@
 class PickObject {
-  constructor(name, x, y, place, text, img, invImg, secretId, itemsCounts, secret = false) {
+  constructor(name, label, x, y, place, text, img, invImg, secretId, itemsCounts, secret = false) {
     this.name = name;
+    this.label = label;
     this.x = x;
     this.y = y;
     this.place = place;
@@ -78,7 +79,7 @@ class PickObject {
           let tl = new anime.timeline();
           tl.add({
             begin: () => {
-              document.querySelector('#foundInfo').innerHTML = this.name.replace(/_/g, ' ') + " gefunden!";
+              document.querySelector('#foundInfo').innerHTML = this.label.replace(/_/g, ' ') + " gefunden!";
               if (this.secret) {
                 /**
                  * secretItemsFound is a global variabel

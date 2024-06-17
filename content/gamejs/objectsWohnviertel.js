@@ -29,7 +29,7 @@ let startGame = async () => {
     checkAllObjectsFound(cityItems.itemsCount)
 
     screen.items.forEach(item => {
-      let a = new PickObject(item.id, item.x, item.y, screen.id, item.description, (screen.pathImages + item.image), (screen.pathInventory + item.image), cityItems.secretId, cityItems.itemsCount, item.secret ? item.secret : false)
+      let a = new PickObject(item.id, item.label, item.x, item.y, screen.id, item.description, (screen.pathImages + item.image), (screen.pathInventory + item.image), cityItems.secretId, cityItems.itemsCount, item.secret ? item.secret : false)
     });
   });
 
