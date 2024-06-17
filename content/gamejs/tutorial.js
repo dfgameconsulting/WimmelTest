@@ -2,8 +2,9 @@ let question = document.querySelector("#question");
 let tutWrapper = document.querySelector("#dialogWrapper");
 let darkBackground = document.querySelector('#backgroundDark')
 let tutAniRunning = false;
-
+let paginationIndex = 0;
 question.onclick = () => {
+  paginationIndex = 0;
   if (tutAniRunning) {
 
     return;
@@ -51,24 +52,34 @@ let introText = [
   "Wenn du schon alles mehrfach abgesucht hast, du aber trotzdem nix findest, kann dir das Fragezeichen weiterhelfen: Dir wird ein Umkreis angezeigt, indem du das Objekt finden wirst. Noch Fragen? Nein? Dann los!",
 ];
 
-let paginationIndex = 0;
+
 weiterImg.onclick = () => {
-  paginationIndex == 0 ? document.querySelector('#dialogWrapper .content .prev').style.display = 'block' : ''
-  pagination(paginationIndex < introText.length - 1 ? paginationIndex = paginationIndex + 1 : paginationIndex = 0, 'next')
+  paginationIndex >= 0 ? prevImg.style.display = 'block' : prevImg.style.display = 'none'
+  console.log(paginationIndex < introText.length - 1)
+  pagination(paginationIndex < introText.length - 1 ? paginationIndex = paginationIndex + 1 : -1, 'next')
 };
 
 prevImg.onclick = () => {
-  paginationIndex == 1 ? document.querySelector('#dialogWrapper .content .prev').style.display = 'none' : ''
+  paginationIndex == 1 ? prevImg.style.display = 'none' : ''
   pagination(paginationIndex == 1 ? paginationIndex = 0 : paginationIndex = paginationIndex - 1, 'prev')
 }
 
 
 let pagination = (pI, direction) => {
 
+  
   //Don't have time for refactoring
   let i = pI
 
-  welcomeText.innerHTML = introText[i];
+  if(i != -1){
+    welcomeText.innerHTML = introText[i]
+  }else{
+   setTimeout(() => {
+    welcomeText.innerHTML = introText[0]
+   }, 1000)
+
+  }
+
   switch (i) {
     case 0:
       document.querySelector('#levels').style.zIndex = 0
@@ -119,7 +130,7 @@ let pagination = (pI, direction) => {
     case 6:
       showTutorial(4);
       break;
-    case 7:
+    case -1:
       closeTutorial();
       break;
   }
@@ -220,9 +231,12 @@ function closeTutorial() {
   question.click();
   fadeOut("#tutImg");
   fadeOut("#backgroundDark");
+  paginationIndex = 0
+  tutAniRunning = false
   setTimeout(() => {
     tutHintergrund.style.display = "none";
     tutImg.style.display = "none";
+    prevImg.style.display = 'none'
     document.querySelectorAll(".menu-levelcontainer").forEach((e, index) => {
       setTimeout(() => {
         e.classList.add("highlight");
@@ -230,6 +244,15 @@ function closeTutorial() {
       }, 300 * (index + 1));
     });
   }, 500);
+
+  setTimeout(() => {
+    document.querySelectorAll(".menu-levelcontainer").forEach((e, index) => {
+      setTimeout(() => {
+        e.classList.remove("highlight");
+        e.classList.remove("h1");
+      }, 300 * (index + 1));
+    });
+  }, 5000);
 }
 
 function fadeIn(selector) {
