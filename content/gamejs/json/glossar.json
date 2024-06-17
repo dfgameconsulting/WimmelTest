@@ -45,10 +45,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
-                    },
-                    {
-                        "url": "bild2.png"
+                        "url": "absolventenhut.png"
                     }
                 ]
             },{
@@ -78,7 +75,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "spiegel.png"
                     }
                 ]
             },
@@ -109,7 +106,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "ordnerstapel.png"
                     }
                 ]
             },
@@ -131,7 +128,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "jubelndeperson.png"
                     }
                 ]
             },
@@ -153,7 +150,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "kellner.png"
                     }
                 ]
             },
@@ -184,7 +181,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "umleitungsschild.png"
                     }
                 ]
             },
@@ -215,7 +212,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "stundenplan.png"
                     }
                 ]
             },
@@ -251,7 +248,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "schluesselbund.png"
                     }
                 ]
             },
@@ -273,7 +270,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "tuerklingel.png"
                     }
                 ]
             },
@@ -284,7 +281,7 @@
                 "additional_informations": [],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "fahrrad.png"
                     }
                 ]
             },
@@ -295,7 +292,7 @@
                 "additional_informations": [],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "dieb.png"
                     }
                 ]
             },
@@ -326,7 +323,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "bafoeg.png"
                     }
                 ]
             },
@@ -357,7 +354,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "bafoeg.png"
                     }
                 ]
             },
@@ -388,7 +385,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "zauberer.png"
                     }
                 ]
             },
@@ -419,7 +416,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "muttermitkind.png"
                     }
                 ]
             },
@@ -456,7 +453,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "sparschwein.png"
                     }
                 ]
             },
@@ -478,7 +475,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "kleingeldhut.png"
                     }
                 ]
             },
@@ -512,11 +509,7 @@
                         ]
                     }
                 ],
-                "icons": [
-                    {
-                        "url": "bild.png"
-                    }
-                ]
+                "icons": []
             },
             {
                 "id": "krankenversicherung",
@@ -545,7 +538,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "25.png"
                     }
                 ]
             },
@@ -575,7 +568,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "fahrschein.png"
                     }
                 ]
             },
@@ -605,7 +598,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "lerngruppe.png"
                     }
                 ]
             },
@@ -626,7 +619,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "stoppuhr.png"
                     }
                 ]
             },
@@ -647,7 +640,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "fragezeichen.png"
                     }
                 ]
             },
@@ -687,7 +680,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "personmitschweiss.png"
                     }
                 ]
             },
@@ -718,7 +711,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "kinderwagen.png"
                     }
                 ]
             },
@@ -745,7 +738,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "lautstaerkesymbol.png"
                     }
                 ]
             },
@@ -772,7 +765,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "terminkalender.png"
                     }
                 ]
             },
@@ -803,7 +796,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "kuscheltiercampus.png"
                     }
                 ]
             },
@@ -839,7 +832,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "windel.png"
                     }
                 ]
             },
@@ -869,7 +862,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "windel.png"
                     }
                 ]
             },
@@ -900,7 +893,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "rollstuhlcampus.png"
                     }
                 ]
             },
@@ -940,7 +933,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "blindenbinde.png"
                     }
                 ]
             },
@@ -962,7 +955,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "globus.png"
                     }
                 ]
             },
@@ -985,7 +978,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "zebrastreifen.png"
                     }
                 ]
             },
@@ -1007,7 +1000,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "flugzeug.png"
                     }
                 ]
             },
@@ -1038,7 +1031,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "c1.png"
                     }
                 ]
             }
@@ -1081,7 +1074,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "haendedruck.png"
                     }
                 ]
             },
@@ -1112,7 +1105,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "waehrungszeichen.png"
                     }
                 ]
             },
@@ -1143,7 +1136,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "vertragspapiere.png"
                     }
                 ]
             },
@@ -1179,7 +1172,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "monokelfrau.png"
                     }
                 ]
             },
@@ -1200,7 +1193,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "schild.png"
                     }
                 ]
             },
@@ -1222,7 +1215,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "paragraph.png"
                     }
                 ]
             },
@@ -1247,11 +1240,7 @@
                         ]
                     }
                 ],
-                "icons": [
-                    {
-                        "url": "bild.png"
-                    }
-                ]
+                "icons": []
             },
             {
                 "id": "nebenjobs",
@@ -1277,7 +1266,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "zeitungaltstadt.png"
                     }
                 ]
             },
@@ -1300,7 +1289,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "azubi.png"
                     }
                 ]
             },
@@ -1331,7 +1320,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "erstehilfealtstadt.png"
                     }
                 ]
             },
@@ -1362,7 +1351,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "muenzhaufen.png"
                     }
                 ]
             },
@@ -1393,7 +1382,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "spaarschwein.png"
                     }
                 ]
             },
@@ -1429,7 +1418,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "bankzeichen.png"
                     }
                 ]
             },
@@ -1460,7 +1449,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "brieftasche.png"
                     }
                 ]
             },
@@ -1496,7 +1485,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "bushaltestelle.png"
                     }
                 ]
             },
@@ -1516,11 +1505,7 @@
                         ]
                     }
                 ],
-                "icons": [
-                    {
-                        "url": "bild.png"
-                    }
-                ]
+                "icons": []
             },
             {
                 "id": "probleme-ausbildungsinhalte",
@@ -1549,7 +1534,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "gluehbirnealtstadt.png"
                     }
                 ]
             },
@@ -1571,7 +1556,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "gewitterwolke.png"
                     }
                 ]
             },
@@ -1600,11 +1585,7 @@
                         ]
                     }
                 ],
-                "icons": [
-                    {
-                        "url": "bild.png"
-                    }
-                ]
+                "icons": []
             },
             {
                 "id": "brutto-netto",
@@ -1624,7 +1605,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "hosentaschenmann.png"
                     }
                 ]
             },
@@ -1646,7 +1627,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "ortsschild.png"
                     }
                 ]
             },
@@ -1680,11 +1661,7 @@
                         ]
                     }
                 ],
-                "icons": [
-                    {
-                        "url": "bild.png"
-                    }
-                ]
+                "icons": []
             },
             {
                 "id": "quereinstieg-studium",
@@ -1713,7 +1690,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "buecheraltstadt.png"
                     }
                 ]
             },
@@ -1735,7 +1712,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "whiteboardaltstadt.png"
                     }
                 ]
             },
@@ -1766,7 +1743,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "arbeitsagentur.png"
                     }
                 ]
             },
@@ -1802,7 +1779,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "hoergeraet.png"
                     }
                 ]
             },
@@ -1833,7 +1810,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "nachdenklichermann.png"
                     }
                 ]
             },
@@ -1856,7 +1833,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "nassesbuch.png"
                     }
                 ]
             },
@@ -1892,7 +1869,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "flamme.png"
                     }
                 ]
             },
@@ -1923,7 +1900,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "handhaltenschild.png"
                     }
                 ]
             },
@@ -1945,7 +1922,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "rennendermann.png"
                     }
                 ]
             },
@@ -1981,7 +1958,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "schwangerefrau.png"
                     }
                 ]
             },
@@ -2015,17 +1992,18 @@
                         ]
                     }
                 ],
-                "icons": [
-                    {
-                        "url": "bild.png"
-                    }
-                ]
+                "icons": []
             },
             {
                 "id": "sprachniveau-ausbildung",
                 "name": "Sprachniveau in der Ausbildung ",
                 "content": "Deutsche Sprachkenntnisse sind entscheidend, damit die Berufsausbildung gelingt. Die Kammern empfehlen mindestens das Sprachniveau B2 bei der Aufnahme einer Berufsausbildung und mindestens das Sprachniveau B1 bei einer Einstiegsqualifizierung (B2 bei einer Einstiegsqualifizierung im kaufmännischen Bereich). Das Sprachniveau sollte in allen Bereichen („Hören“, „Lesen“, „Sprechen“ und „Schreiben“) vorliegen.",
-                "additional_informations": []
+                "additional_informations": [],
+                "icons": [
+                    {
+                        "url": "woerterbuch.png"
+                    }
+                ]
             }
         ]
     },
@@ -2066,7 +2044,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "einarmigerbandit.png"
                     }
                 ]
             },
@@ -2099,7 +2077,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "lootbox.png"
                     }
                 ]
             },
@@ -2133,7 +2111,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "pokerchip.png"
                     }
                 ]
             },
@@ -2167,7 +2145,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "erstehilfekasten.png"
                     }
                 ]
             },
@@ -2190,7 +2168,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "tuete.png"
                     }
                 ]
             },
@@ -2224,7 +2202,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "bar.png"
                     }
                 ]
             },
@@ -2247,7 +2225,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "pizza.png"
                     }
                 ]
             },
@@ -2284,7 +2262,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "kontoauszug.png"
                     }
                 ]
             },
@@ -2348,7 +2326,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "briefkasten.png"
                     }
                 ]
             },
@@ -2385,7 +2363,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "schluessel.png"
                     }
                 ]
             },
@@ -2408,7 +2386,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "rechnungen.png"
                     }
                 ]
             },
@@ -2431,7 +2409,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "handyvertrag.png"
                     }
                 ]
             },
@@ -2452,7 +2430,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "gerichtshammer.png"
                     }
                 ]
             },
@@ -2484,7 +2462,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "arbeitsagentur.png"
                     }
                 ]
             },
@@ -2516,7 +2494,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "hund.png"
                     }
                 ]
             },
@@ -2548,7 +2526,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "gelberschein.png"
                     }
                 ]
             },
@@ -2571,7 +2549,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "mappe.png"
                     }
                 ]
             },
@@ -2608,7 +2586,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "kruecken.png"
                     }
                 ]
             },
@@ -2630,7 +2608,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "apotheke.png"
                     }
                 ]
             },
@@ -2653,7 +2631,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "arbeitsausweis.png"
                     }
                 ]
             },
@@ -2695,7 +2673,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "gluehbirneinnenstadt.png"
                     }
                 ]
             },
@@ -2716,7 +2694,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "jogger.png"
                     }
                 ]
             }
@@ -2755,7 +2733,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "vogelimnest.png"
                     }
                 ]
             },
@@ -2766,7 +2744,7 @@
                 "additional_informations": [],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "erstehilfewohnviertel.png"
                     }
                 ]
             },
@@ -2777,7 +2755,7 @@
                 "additional_informations": [],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "umzugskistenwohnviertel.png"
                     }
                 ]
             },
@@ -2809,7 +2787,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "fernseher.png"
                     }
                 ]
             },
@@ -2820,7 +2798,7 @@
                 "additional_informations": [],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "teilnahmezertifikat.png"
                     }
                 ]
             },
@@ -2831,7 +2809,7 @@
                 "additional_informations": [],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "tagebuch.png"
                     }
                 ]
             },
@@ -2842,7 +2820,7 @@
                 "additional_informations": [],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "fliegendegeldscheine.png"
                     }
                 ]
             },
@@ -2853,7 +2831,7 @@
                 "additional_informations": [],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "checkliste.png"
                     }
                 ]
             },
@@ -2876,7 +2854,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "strom.png"
                     }
                 ]
             },
@@ -2917,7 +2895,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "rathaus.png"
                     }
                 ]
             },
@@ -2928,7 +2906,7 @@
                 "additional_informations": [],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "uhr.png"
                     }
                 ]
             },
@@ -2952,7 +2930,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "radio.png"
                     }
                 ]
             },
@@ -2963,7 +2941,7 @@
                 "additional_informations": [],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "wegweiser.png"
                     }
                 ]
             },
@@ -2972,11 +2950,7 @@
                 "name": "Nebenkosten",
                 "content": "Nebenkosten werden manchmal auch als 'zweite Miete' oder auch 'Warmmiete' bezeichnet. Gemeint sind damit alle Kosten, die neben den reinen Mietkosten (Kaltmiete) anfallen. Zu den Nebenkosten gehören: Heiz- und Warmwasserkosten, Straßenreinigung und Müllabfuhr, Grundsteuer, Fahrstuhl und Gebäudeversicherung. Das sind Kosten, die die vermietende Person regelmäßig hat und die sie von den Mieter/-innen zurückerhält. Diese müssen im Mietvertrag stehen und auch die Art der Bezahlung. Meist wird eine sogenannte 'Vorauszahlung' vereinbart. Das bedeutet, die mietende Person überweist monatlichen einen vereinbarten Betrag zusammen mit der Miete. Jedes Jahr muss durch die Vermieter/-innen geprüft werden, ob die Kosten durch die Vorauszahlungen gedeckt werden können. Haben die Mieter/-innen mehr im Voraus gezahlt, bekommen sie ein Guthaben ausgezahlt. Reichen die Vorauszahlungen nicht, muss nachgezahlt werden. ",
                 "additional_informations": [],
-                "icons": [
-                    {
-                        "url": "bild.png"
-                    }
-                ]
+                "icons": []
             },
             {
                 "id": "strom-anmelden",
@@ -2997,7 +2971,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "stromkabel.png"
                     }
                 ]
             },
@@ -3031,7 +3005,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "wlan.png"
                     }
                 ]
             },
@@ -3042,7 +3016,7 @@
                 "additional_informations": [],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "notizbuch.png"
                     }
                 ]
             },
@@ -3053,7 +3027,7 @@
                 "additional_informations": [],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "Gruppenfoto.png"
                     }
                 ]
             },
@@ -3064,7 +3038,7 @@
                 "additional_informations": [],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "blitzableiter.png"
                     }
                 ]
             },
@@ -3101,7 +3075,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "kompass.png"
                     }
                 ]
             },
@@ -3138,7 +3112,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "reisekarte.png"
                     }
                 ]
             },
@@ -3161,7 +3135,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "wahrsagekugel.png"
                     }
                 ]
             },
@@ -3184,7 +3158,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "traene.png"
                     }
                 ]
             },
@@ -3195,7 +3169,10 @@
                 "additional_informations": [],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "stressball.png"
+                    },
+                    {
+                        "url": "meditierendeperson.png"
                     }
                 ]
             },
@@ -3222,7 +3199,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "gendersymbole.png"
                     }
                 ]
             },
@@ -3243,7 +3220,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "achterbahn.png"
                     }
                 ]
             },
@@ -3266,7 +3243,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "whiteboardwohnviertel.png"
                     }
                 ]
             },
@@ -3293,11 +3270,7 @@
                     }
                     
                 ],
-                "icons": [
-                    {
-                        "url": "bild.png"
-                    }
-                ]
+                "icons": []
             },
             {
                 "id": "verhuetung-schwangerschaft",
@@ -3324,7 +3297,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "kuscheltierwohnviertel.png"
                     }
                 ]
             },
@@ -3347,7 +3320,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "herzkissen.png"
                     }
                 ]
             },
@@ -3370,7 +3343,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "daumen.png"
                     }
                 ]
             },
@@ -3392,7 +3365,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "poster.png"
                     }
                 ]
             },
@@ -3403,7 +3376,7 @@
                 "additional_informations": [],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "reisekoffer.png"
                     }
                 ]
             },
@@ -3424,11 +3397,7 @@
                     }
                     
                 ],
-                "icons": [
-                    {
-                        "url": "bild.png"
-                    }
-                ]
+                "icons": []
             },
             {
                 "id": "berufsberatung",
@@ -3447,11 +3416,7 @@
                     }
                     
                 ],
-                "icons": [
-                    {
-                        "url": "bild.png"
-                    }
-                ]
+                "icons": []
             },
             {
                 "id": "jugendmigrationsdienst",
@@ -3470,11 +3435,7 @@
                     }
                     
                 ],
-                "icons": [
-                    {
-                        "url": "bild.png"
-                    }
-                ]
+                "icons": []
             },
             {
                 "id": "biz",
@@ -3494,11 +3455,7 @@
                     }
                     
                 ],
-                "icons": [
-                    {
-                        "url": "bild.png"
-                    }
-                ]
+                "icons": []
             },
             {
                 "id": "bundesagentur-arbeit",
@@ -3518,7 +3475,7 @@
                 ],
                 "icons": [
                     {
-                        "url": "bild.png"
+                        "url": "arbeitsagentur.png"
                     }
                 ]
             }

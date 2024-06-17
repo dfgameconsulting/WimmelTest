@@ -19,7 +19,7 @@
                     "y": 0.040278,
                     "description": "Das ist ein",
                     "image": "lautstaerkesymbol.png",
-                    "label": ""
+                    "label": "Fernstudium/Onlinestudium"
                 },
                 {
                     "id": "Blindenbinde",
@@ -27,7 +27,7 @@
                     "y": 0.830556,
                     "description": "Das ist ein",
                     "image": "blindenbinde.png",
-                    "label": ""
+                    "label": "Studienplatzbewerbung mit Behinderung"
                 },
                 {
                     "id": "C1",
@@ -35,7 +35,7 @@
                     "y": 0.243519,
                     "description": "Das ist ein",
                     "image": "c1.png",
-                    "label": ""
+                    "label": "Sprachnachweise für ein Studium"
                 },
                 {
                     "id": "Fragezeichen",
@@ -43,7 +43,7 @@
                     "y": 0.5875,
                     "description": "Das ist ein",
                     "image": "fragezeichen.png",
-                    "label": ""
+                    "label": "Tipps zum Umgang mit Behörden"
                 },
                 {
                     "id": "Globus",
@@ -51,7 +51,7 @@
                     "y": 0.157407,
                     "description": "Das ist ein",
                     "image": "globus.png",
-                    "label": ""
+                    "label": "Studienplatzbewerbung mit ausländischem Abschluss"
                 },
                 {
                     "id": "Kinderwagen",
@@ -59,7 +59,7 @@
                     "y": 0.668056,
                     "description": "Das ist ein",
                     "image": "kinderwagen.png",
-                    "label": ""
+                    "label": "Mutterschutz"
                 },
                 {
                     "id": "Kuscheltier",
@@ -67,7 +67,7 @@
                     "y": 0.494907,
                     "description": "Das ist ein",
                     "image": "kuscheltier.png",
-                    "label": ""
+                    "label": "Kinderbetreuung"
                 },
                 {
                     "id": "Rollstuhl",
@@ -75,7 +75,7 @@
                     "y": 0.649074,
                     "description": "Das ist ein",
                     "image": "rollstuhl.png",
-                    "label": ""
+                    "label": "Nachteilsausgleich"
                 },
                 {
                     "id": "Stoppschild",
@@ -83,7 +83,7 @@
                     "y": 0.686574,
                     "description": "Das ist ein",
                     "image": "stoppschild.png",
-                    "label": ""
+                    "label": "Studienzweifel"
                 },
                 {
                     "id": "Windel",
@@ -91,7 +91,7 @@
                     "y": 0.668519,
                     "description": "Das ist ein",
                     "image": "windel.png",
-                    "label": ""
+                    "label": "Weitere Unterstützung bei Studium mit Kind"
                 }
             ]
         },
@@ -114,7 +114,7 @@
                     "y": 0.368981,
                     "description": "Das ist ein",
                     "image": "jubelndeperson.png",
-                    "label": ""
+                    "label": "Freiwilligendienste (Studium)"
                 },
                 {
                     "id": "Karteikarten",
@@ -130,7 +130,7 @@
                     "y": 0.742593,
                     "description": "Das ist ein",
                     "image": "lerngruppe.png",
-                    "label": ""
+                    "label": "Studientipps / Lernen"
                 },
                 {
                     "id": "Ordnerstapel",
@@ -138,7 +138,7 @@
                     "y": 0.141667,
                     "description": "Das ist ein",
                     "image": "ordnerstapel.png",
-                    "label": ""
+                    "label": "Studienwahl"
                 },
                 {
                     "id": "Person_mit_Schweiß",
@@ -146,7 +146,7 @@
                     "y": 0.685648,
                     "description": "Das ist ein",
                     "image": "personmitschweiss.png",
-                    "label": ""
+                    "label": "Prüfungsangst"
                 },
                 {
                     "id": "Stoppuhr",
@@ -154,7 +154,7 @@
                     "y": 0.067593,
                     "description": "Das ist ein",
                     "image": "stoppuhr.png",
-                    "label": ""
+                    "label": "Regelstudienzeit"
                 },
                 {
                     "id": "Stundenplan",
@@ -162,7 +162,7 @@
                     "y": 0.118519,
                     "description": "Das ist ein",
                     "image": "stundenplan.png",
-                    "label": ""
+                    "label": "Weiterführende schulische Angebote"
                 },
                 {
                     "id": "Todoliste",
@@ -178,7 +178,7 @@
                     "y": 0.706944,
                     "description": "Das ist ein",
                     "image": "umleitungsschild.png",
-                    "label": ""
+                    "label": "Ersten Schulabschluss nachholen"
                 }
             ]
         },
@@ -193,7 +193,7 @@
                     "y": 0.726852,
                     "description": "Das ist ein",
                     "image": "25.png",
-                    "label": ""
+                    "label": "Krankenversicherung als Student/-in"
                 },
                 {
                     "id": "Absolventenhut",
@@ -201,7 +201,7 @@
                     "y": 0.485648,
                     "description": "Das ist ein",
                     "image": "absolventenhut.png",
-                    "label": ""
+                    "label": "Finanzierung des Studiums"
                 },
                 {
                     "id": "Dosensuppe",
@@ -217,7 +217,7 @@
                     "y": 0.164352,
                     "description": "Das ist ein",
                     "image": "bafoeg.png",
-                    "label": ""
+                    "label": "BAföG"
                 },
                 {
                     "id": "Kleingeldhut",
@@ -225,7 +225,7 @@
                     "y": 0.763426,
                     "description": "Das ist ein",
                     "image": "kleingeldhut.png",
-                    "label": ""
+                    "label": "Werkstudierende"
                 },
                 {
                     "id": "Mutter_mit_Schirm",
@@ -233,7 +233,7 @@
                     "y": 0.702315,
                     "description": "Das ist ein",
                     "image": "muttermitkind.png",
-                    "label": ""
+                    "label": "Kindergeld"
                 },
                 {
                     "id": "Sparschwein",
@@ -241,7 +241,7 @@
                     "y": 0.149074,
                     "description": "Das ist ein",
                     "image": "sparschwein.png",
-                    "label": ""
+                    "label": "Wohngeld"
                 },
                 {
                     "id": "Dieb",
@@ -249,7 +249,7 @@
                     "y": 0.149074,
                     "description": "Das ist ein",
                     "image": "dieb.png",
-                    "label": "",
+                    "label": "Hausratversicherung",
                     "secret": true
                 },
                 {
@@ -258,7 +258,7 @@
                     "y": 0.149074,
                     "description": "Das ist ein",
                     "image": "koch.png",
-                    "label": "",
+                    "label": "Nebenjob",
                     "secret": true
                 },
                 {
@@ -267,7 +267,7 @@
                     "y": 0.149074,
                     "description": "Das ist ein",
                     "image": "zauberer.png",
-                    "label": "",
+                    "label": "Begabtenförderung/Stipendium",
                     "secret": true
                 }
                 
@@ -292,7 +292,7 @@
                     "y": 0.465741,
                     "description": "Das ist ein",
                     "image": "fahrrad.png",
-                    "label": ""
+                    "label": "Haftpflichtversicherung"
                 },
                 {
                     "id": "Fahrschein",
@@ -300,7 +300,7 @@
                     "y": 0.138889,
                     "description": "Das ist ein",
                     "image": "fahrschein.png",
-                    "label": ""
+                    "label": "Semesterticket"
                 },
                 {
                     "id": "Flugzeug",
@@ -308,7 +308,7 @@
                     "y": 0.082407,
                     "description": "Das ist ein",
                     "image": "flugzeug.png",
-                    "label": ""
+                    "label": "Berufsberatung"
                 },
                 {
                     "id": "Schluesselbund",
@@ -316,7 +316,7 @@
                     "y": 0.539815,
                     "description": "Das ist ein",
                     "image": "schluesselbund.png",
-                    "label": ""
+                    "label": "Wohnberechtigungsschein"
                 },
                 {
                     "id": "Straßenbahn",
@@ -332,7 +332,7 @@
                     "y": 0.209259,
                     "description": "Das ist ein",
                     "image": "tuerklingel.png",
-                    "label": ""
+                    "label": "Wohngemeinschaft (WG)"
                 },
                 {
                     "id": "Terminkalender",
@@ -340,7 +340,7 @@
                     "y": 0.807407,
                     "description": "Das ist ein",
                     "image": "terminkalender.png",
-                    "label": ""
+                    "label": "Teilzeitstudium"
                 },
                 {
                     "id": "Umzugskisten",
@@ -364,7 +364,7 @@
                     "y": 0.874537,
                     "description": "Das ist ein",
                     "image": "zebrastreifen.png",
-                    "label": ""
+                    "label": "Jugendberufsagentur"
                 }
                 
             ]

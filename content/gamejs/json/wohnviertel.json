@@ -19,7 +19,7 @@
                     "y": 0.475926,
                     "description": "Das ist ein",
                     "image": "reisekarte.png",
-                    "label": ""
+                    "label": "Freiwilligendienste im Ausland"
                 },
                 {
                     "id": "Bücher",
@@ -67,7 +67,7 @@
                     "y": 0.686111,
                     "description": "Das ist ein",
                     "image": "kuscheltier.png",
-                    "label": ""
+                    "label": "Verhütung und Schwangerschaft"
                 },
                 {
                     "id": "Graffiti",
@@ -91,7 +91,7 @@
                     "y": 0.527315,
                     "description": "Das ist ein",
                     "image": "wegweiser.png",
-                    "label": ""
+                    "label": "Kaltmiete"
                 }
             ]
         },
@@ -114,7 +114,7 @@
                     "y": 0.131019,
                     "description": "Das ist ein",
                     "image": "notizbuch.png",
-                    "label": ""
+                    "label": "Selbstorganisation"
                 },
                 {
                     "id": "HighFive",
@@ -130,7 +130,7 @@
                     "y": 0.170833,
                     "description": "Das ist ein",
                     "image": "checkliste.png",
-                    "label": ""
+                    "label": "Wohnungsübergabeprotokoll"
                 },
                 {
                     "id": "ErsteHilfe",
@@ -138,7 +138,7 @@
                     "y": 0.483796,
                     "description": "Das ist ein",
                     "image": "erstehilfe.png",
-                    "label": ""
+                    "label": "Bürgschaft"
                 },
                 {
                     "id": "Uhr",
@@ -146,7 +146,7 @@
                     "y": 0.097685,
                     "description": "Das ist ein",
                     "image": "uhr.png",
-                    "label": ""
+                    "label": "Wohnungsausstattung"
                 },
                 {
                     "id": "Whiteboard",
@@ -154,7 +154,7 @@
                     "y": 0.357407,
                     "description": "Das ist ein",
                     "image": "whiteboard.png",
-                    "label": ""
+                    "label": "Freund/-innen vs. Familie"
                 },
                 {
                     "id": "Gruppenfoto",
@@ -162,7 +162,7 @@
                     "y": 0.757870,
                     "description": "Das ist ein",
                     "image": "gruppenfoto.png",
-                    "label": ""
+                    "label": "Teamfähigkeit"
                 },
                 {
                     "id": "Tagebuch",
@@ -170,7 +170,7 @@
                     "y": 0.715741,
                     "description": "Das ist ein",
                     "image": "tagebuch.png",
-                    "label": ""
+                    "label": "Mieterselbstauskunft"
                 },
                 {
                     "id": "Teilnahmezertifikat",
@@ -178,7 +178,7 @@
                     "y": 0.693981,
                     "description": "Das ist ein",
                     "image": "teilnahmezertifikat.png",
-                    "label": ""
+                    "label": "Mietvertrag"
                 }       
             ]
         },
@@ -201,7 +201,7 @@
                     "y": 0.771296,
                     "description": "Das ist ein",
                     "image": "stressball.png",
-                    "label": ""
+                    "label": "Konflikte"
                 },
                 {
                     "id": "Kompass",
@@ -209,7 +209,7 @@
                     "y": 0.947685,
                     "description": "Das ist ein",
                     "image": "kompass.png",
-                    "label": ""
+                    "label": "Freiwilligendienste bundesweit"
                 },
                 {
                     "id": "GenderSymbole",
@@ -217,7 +217,7 @@
                     "y": 0.019907,
                     "description": "Das ist ein",
                     "image": "gendersymbole.png",
-                    "label": ""
+                    "label": "Klischeefreie Berufswahl"
                 },
                 {
                     "id": "Wahrsagekugel",
@@ -225,7 +225,7 @@
                     "y": 0.379630,
                     "description": "Das ist ein",
                     "image": "wahrsagekugel.png",
-                    "label": ""
+                    "label": "Zukunftsangst"
                 },
                 {
                     "id": "Achterbahn",
@@ -233,7 +233,7 @@
                     "y": 0.416204,
                     "description": "Das ist ein",
                     "image": "achterbahn.png",
-                    "label": ""
+                    "label": "Stress bei der Berufswahl"
                 },
                 {
                     "id": "Herzkissen",
@@ -241,7 +241,7 @@
                     "y": 0.640741,
                     "description": "Das ist ein",
                     "image": "herzkissen.png",
-                    "label": ""
+                    "label": "Einsamkeit"
                 },
                 {
                     "id": "Blitzableiter",
@@ -249,7 +249,7 @@
                     "y": 0.130556,
                     "description": "Das ist ein",
                     "image": "blitzableiter.png",
-                    "label": ""
+                    "label": "Konfliktfähigkeit"
                 },
                 {
                     "id": "Träne",
@@ -257,7 +257,7 @@
                     "y": 0.263889,
                     "description": "Das ist ein",
                     "image": "traene.png",
-                    "label": ""
+                    "label": "Enttäuschung"
                 },
                 {
                     "id": "Daumen",
@@ -265,7 +265,7 @@
                     "y": 0.056944,
                     "description": "Das ist ein",
                     "image": "daumen.png",
-                    "label": ""
+                    "label": "Diskriminierung"
                 }  
             ]
         },
@@ -280,7 +280,7 @@
                     "y": 0.375000,
                     "description": "Das ist ein",
                     "image": "vogelimnest.png",
-                    "label": ""
+                    "label": "Wohnungssuche"
                 },
                 {
                     "id": "Stromkabel",
@@ -288,7 +288,7 @@
                     "y": 0.450000,
                     "description": "Das ist ein",
                     "image": "stromkabel.png",
-                    "label": ""
+                    "label": "Strom anmelden"
                 },
                 {
                     "id": "Radio",
@@ -296,7 +296,7 @@
                     "y": 0.670833,
                     "description": "Das ist ein",
                     "image": "radio.png",
-                    "label": ""
+                    "label": "Rundfunkbeitrag"
                 },
                 {
                     "id": "Reisekoffer",
@@ -304,7 +304,7 @@
                     "y": 0.654167,
                     "description": "Das ist ein",
                     "image": "reisekoffer.png",
-                    "label": ""
+                    "label": "Girokonto"
                 },
                 {
                     "id": "FliegendeGeldscheine",
@@ -312,7 +312,7 @@
                     "y": 0.035648,
                     "description": "Das ist ein",
                     "image": "fliegendegeldscheine.png",
-                    "label": ""
+                    "label": "Kaution"
                 },
                 {
                     "id": "Fernseher",
@@ -320,7 +320,7 @@
                     "y": 0.179167,
                     "description": "Das ist ein",
                     "image": "fernseher.png",
-                    "label": ""
+                    "label": "Wohnungsbesichtigung"
                 },
                 {
                     "id": "Umzugskisten",
@@ -328,7 +328,7 @@
                     "y": 0.142130,
                     "description": "Das ist ein",
                     "image": "umzugskisten.png",
-                    "label": ""
+                    "label": "Auszug/Umzug"
                 },
                 {
                     "id": "Wlan",
@@ -336,7 +336,7 @@
                     "y": 0.142130,
                     "description": "Das ist ein",
                     "image": "wlan.png",
-                    "label": "",
+                    "label": "Internet an- oder ummelden",
                     "secret": true
                 },
                 {
@@ -345,7 +345,7 @@
                     "y": 0.142130,
                     "description": "Das ist ein",
                     "image": "strom.png",
-                    "label": "",
+                    "label": "Wohnungskündigung",
                     "secret": true
                 },
                 {
@@ -354,7 +354,7 @@
                     "y": 0.142130,
                     "description": "Das ist ein",
                     "image": "rathaus.png",
-                    "label": "",
+                    "label": "Anmelden/Ummelden",
                     "secret": true
                 }                
             ]

@@ -19,7 +19,7 @@
                     "y": 0.269444,
                     "description": "Das ist ein",
                     "image": "bar.png",
-                    "label": ""
+                    "label": "Legale Drogen (Alkohol und Zigaretten)"
                 },
                 {
                     "id": "Burger",
@@ -36,7 +36,7 @@
                     "y": 0.601852,
                     "description": "Das ist ein",
                     "image": "einarmigerbandit.png",
-                    "label": ""
+                    "label": "Sucht"
                 },
                 {
                     "id": "Glasscontainer",
@@ -54,7 +54,7 @@
                     "y": 0.609722,
                     "description": "Das ist ein",
                     "image": "lootbox.png",
-                    "label": ""
+                    "label": "Online-Sucht"
                 },
                 {
                     "id": "Nasenspray",
@@ -72,7 +72,7 @@
                     "y": 0.193519,
                     "description": "Das ist ein",
                     "image": "pizza.png",
-                    "label": ""
+                    "label": "Essstörung"
                 },
                 {
                     "id": "Pokerchip",
@@ -81,7 +81,7 @@
                     "y": 0.418981,
                     "description": "Das ist ein",
                     "image": "pokerchip.png",
-                    "label": ""
+                    "label": "(Online) Glücksspielsucht"
                 },
                 {
                     "id": "Sale",
@@ -99,7 +99,7 @@
                     "y": 0.591667,
                     "description": "Das ist ein",
                     "image": "tuete.png",
-                    "label": ""
+                    "label": "Cannabis (Kiffen)"
                 }
             ]
         },
@@ -114,7 +114,7 @@
                     "y": 0.506944,
                     "description": "Das ist ein",
                     "image": "apotheke.png",
-                    "label": ""
+                    "label": "Google-Recherche zu Gesundheit"
                 },
                 {
                     "id": "Arbeitsausweis",
@@ -122,7 +122,7 @@
                     "y": 0.136111,
                     "description": "Das ist ein",
                     "image": "arbeitsausweis.png",
-                    "label": ""
+                    "label": "Berufsunfähigkeitsversicherung (BU)"
                 },
                 {
                     "id": "Erste_Hilfe_Kasten",
@@ -131,7 +131,7 @@
                     "y": 0.074074,
                     "description": "Das ist ein",
                     "image": "erstehilfekasten.png",
-                    "label": ""
+                    "label": "Psychotherapie"
                 },
                 {
                     "id": "Gelber_Schein",
@@ -140,7 +140,7 @@
                     "y": 0.953704,
                     "description": "Das ist ein",
                     "image": "gelberschein.png",
-                    "label": ""
+                    "label": "Krankmeldung"
                 },
                 {
                     "id": "Glühbirne",
@@ -149,7 +149,7 @@
                     "y": 0.618519,
                     "description": "Das ist ein",
                     "image": "gluehbirne.png",
-                    "label": ""
+                    "label": "Burn-out-Syndrom"
                 },
                 {
                     "id": "Jogger",
@@ -158,7 +158,7 @@
                     "y": 0.623148,
                     "description": "Das ist ein",
                     "image": "jogger.png",
-                    "label": ""
+                    "label": "Work-Live-Balance"
                 },
                 {
                     "id": "Krücken",
@@ -167,7 +167,7 @@
                     "y": 0.719444,
                     "description": "Das ist ein",
                     "image": "kruecken.png",
-                    "label": ""
+                    "label": "Krankengeld"
                 },
                 {
                     "id": "Mappe",
@@ -176,7 +176,7 @@
                     "y": 0.206944,
                     "description": "Das ist ein",
                     "image": "mappe.png",
-                    "label": ""
+                    "label": "Jugendberufsagentur"
                 },
                 {
                     "id": "Maske",
@@ -227,7 +227,7 @@
                     "y": 0.547685,
                     "description": "Das ist ein",
                     "image": "briefkasten.png",
-                    "label": ""
+                    "label": "Beratungsstellen"
                 },
                 {
                     "id": "Casino",
@@ -253,7 +253,7 @@
                     "y": 0.24537,
                     "description": "Das ist ein",
                     "image": "gerichtshammer.png",
-                    "label": ""
+                    "label": "Straffälligkeit"
                 },
                 {
                     "id": "Handyvertrag",
@@ -262,7 +262,7 @@
                     "y": 0.272685,
                     "description": "Das ist ein",
                     "image": "handyvertrag.png",
-                    "label": ""
+                    "label": "Handyvertrag"
                 },
                 {
                     "id": "Hund",
@@ -271,7 +271,7 @@
                     "y": 0.619444,
                     "description": "Das ist ein",
                     "image": "hund.png",
-                    "label": ""
+                    "label": "Krankenversicherung (KV)"
                 },
                 {
                     "id": "Lieferauto",
@@ -298,7 +298,7 @@
                     "y": 0.8875,
                     "description": "Das ist ein",
                     "image": "rechnungen.png",
-                    "label": ""
+                    "label": "Abonnement (Abo)"
                 },
                 {
                     "id": "Kontoauszug",
@@ -307,7 +307,7 @@
                     "y": -0.8875,
                     "description": "Das ist ein",
                     "image": "kontoauszug.png",
-                    "label": ""
+                    "label": "Schulden"
                 }
             ]
         },
@@ -322,7 +322,7 @@
                     "y": 0.084259,
                     "description": "Das ist ein",
                     "image": "agenturarbeit.png",
-                    "label": ""
+                    "label": "Arbeitslosengeld"
                 },
                 {
                     "id": "HausvomNikolaus",
@@ -375,7 +375,7 @@
                     "y": 0.760648,
                     "description": "Das ist ein",
                     "image": "schluessel.png",
-                    "label": ""
+                    "label": "(Drohende) Wohnungslosigkeit"
                 },
                 {
                     "id": "Zeitung",
