@@ -1,4 +1,5 @@
 let options = document.querySelector("#options-volume"); 
+let volumeSlider = document.querySelector('#volume .slider')
 let optionsBack = document.querySelector("#options-back img");
 
 let targets = [ '#options-volume', '#options-glossar'];  
@@ -52,6 +53,16 @@ let optionsPanelClick = () => {
 
 options.addEventListener("click", optionsPanelClick);
 optionsBack.addEventListener("click", optionsPanelClick);
+
+function getVolume(){
+    if(localStorage.getItem("volume") != null){
+        volumeSlider.value = localStorage.getItem("volume")
+    }
+}
+getVolume()
+function setVolume(value){
+    localStorage.setItem("volume", value)
+}
 
 let glossarOptions = document.querySelector("#options-glossar");
 let glossarBack = document.querySelector("#glossar-back img");

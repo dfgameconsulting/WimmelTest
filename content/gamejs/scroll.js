@@ -5,6 +5,7 @@ let scrollin = false;
 
 let pos = 0;
 var sound03 = new Pizzicato.Sound("sound/woop.wav");
+soundGroup.addSound(sound03)
 right.onclick = () => {
   if (scrollin) return;
   scrollin = true;

@@ -25,7 +25,8 @@
             </div>
             <div id="slide">
                 <img src="img/options/BIB001_Einstellungen_Tonsymbol_01_hz.png" alt="" srcset="">
-                <input type="range" min="0" max="100" value="100" class="slider">
+                <input type="range" min="0" max="100" step="1" value="50" class="slider"
+                    onchange="setVolume(this.value)">
             </div>
             <div id="options-back">
                 <img src="img/options/Kreuz.png" alt="" srcset="">
@@ -64,17 +65,17 @@
                     srcset="">
                 <div id="options-info">
                     <img src="img/Wimmbelbild/Objektbeschreibung Pop Up/BIB001_Objektbeschreibung_Box_01_hz.png" alt=""
-                    srcset="">
+                        srcset="">
                     <p id="foundInfo"></p>
                 </div>
-               
+
             </div>
         </div>
-       
+
         <div id="screens">
-           
-            <div id="screen01"> 
-                <img id="screen01-image" src="img/Campus/Bild_001/campus_withoutobjects_001_jg.png" alt=""> 
+
+            <div id="screen01">
+                <img id="screen01-image" src="img/Campus/Bild_001/campus_withoutobjects_001_jg.png" alt="">
                 <div id="inventory-wrapper01" class="inventory">
                     <img class="hint" src="img/inventar/BIB001_Inventar_Fragezeichen_01_hz.png" alt="">
                     <img class="lupe" src="img/inventar/BIB001_Inventar_Lupe_01_hz.png" alt="">
@@ -84,7 +85,7 @@
                 <div class="backscreen2" style="background-image: url(img/BIB001_Rand_01_hz.png);"></div>
             </div>
             <div id="screen02">
-                <img id="screen02-image" src="img/Campus/Bild_002/campus_withoutobjects_002_jg.png" alt=""> 
+                <img id="screen02-image" src="img/Campus/Bild_002/campus_withoutobjects_002_jg.png" alt="">
                 <div id="inventory-wrapper02" class="inventory">
                     <img class="hint" src="img/inventar/BIB001_Inventar_Fragezeichen_01_hz.png" alt="">
                     <img class="lupe" src="img/inventar/BIB001_Inventar_Lupe_01_hz.png" alt="">
@@ -94,7 +95,7 @@
                 <div class="backscreen2" style="background-image: url(img/BIB001_Rand_01_hz.png);"></div>
             </div>
             <div id="screen03">
-                <img id="screen03-image" src="img/Campus/Bild_003/campus_withoutobjects_003_jg.png" alt=""> 
+                <img id="screen03-image" src="img/Campus/Bild_003/campus_withoutobjects_003_jg.png" alt="">
                 <div id="inventory-wrapper03" class="inventory">
                     <img class="hint" src="img/inventar/BIB001_Inventar_Fragezeichen_01_hz.png" alt="">
                     <img class="lupe" src="img/inventar/BIB001_Inventar_Lupe_01_hz.png" alt="">
@@ -111,7 +112,7 @@
                 <!-- <div id="secretCampusTrigger"></div> -->
             </div>
             <div id="screen04">
-                <img id="screen04-image" src="img/Campus/Bild_004/campus_withoutobjects_004_jg.png" alt=""> 
+                <img id="screen04-image" src="img/Campus/Bild_004/campus_withoutobjects_004_jg.png" alt="">
                 <div id="inventory-wrapper04" class="inventory">
                     <img class="hint" src="img/inventar/BIB001_Inventar_Fragezeichen_01_hz.png" alt="">
                     <img class="lupe" src="img/inventar/BIB001_Inventar_Lupe_01_hz.png" alt="">
@@ -123,7 +124,7 @@
             </div>
             <!-- <div id="rain"></div> -->
         </div>
-       
+
         <div id="zoom-screen"></div>
         <div id="arrow-left">
             <div id="hintCircleLeft"></div>
@@ -139,7 +140,7 @@
                 <img class="next" src="img/Dialog/BIB001_Dialog_Weiter_01_hz.png" alt="">
             </div>
             <div class="avatar">
-                <img src="img/Zyn/Zyn-3-rella_Normal_.png" alt="">
+                <img id="zyndrella" src="img/Zyn/Zyn-3-rella_Normal_.png" alt="">
             </div>
             <div class="choise">
                 <button id="stayButton">Weitersuchen</button>
@@ -151,14 +152,14 @@
     <script type="text/javascript" src="gamejs/utils/Utils.js"></script>
     <script type="text/javascript" src="gamejs/utils/HintCircleObject.js"></script>
     <script type="text/javascript" src="gamejs/utils/PickObjects.js"></script>
-     <script type="text/javascript" src="gamejs/utils/SecretEntry.js"></script>
-     <script type="text/javascript" src="gamejs/utils/Glossar.js"></script>
-     <script type="text/javascript" src="gamejs/utils/Dialog.js"></script>
-  
-    <script type="text/javascript" src="gamejs/options.js"></script>
+    <script type="text/javascript" src="gamejs/utils/SecretEntry.js"></script>
+    <script type="text/javascript" src="gamejs/utils/Glossar.js"></script>
+    <script type="text/javascript" src="gamejs/utils/Dialog.js"></script>
+
+    <script type="text/javascript" src="gamejs/objectsCampus.js"></script>
     <script type="text/javascript" src="gamejs/glossar.js"></script>
     <script type="text/javascript" src="gamejs/scroll.js"></script>
-    <script type="text/javascript" src="gamejs/objectsCampus.js"></script>
+    <script type="text/javascript" src="gamejs/options.js"></script>
     <script type="text/javascript" src="gamejs/secretLevelCampus.js"></script>
     <!-- <script type="text/javascript" src="gamejs/rain.js"></script> -->
 </body>

@@ -37,7 +37,6 @@ question.onclick = () => {
 // Tut Text
 let welcomeText = document.querySelector("#dialogWrapper .content .text");
 let weiterImg = document.querySelector("#dialogWrapper .content .next");
-console.log(welcomeText)
 let introText = [
   "Willkommen in zynd-City! Ich bin Zynd-3-Rella, deine Reisebegleitung. Werfen wir mal einen Blick auf die Stadtkarte.",
   "Zynd-City hat vier Stadtteile. Jeder hat ein bestimmtes Thema. Klick auf einen Marker auf der Stadtkarte und du erfährst, worum es dort geht. Wenn du etwas gefunden hast, das dich interessiert, besuch diesen Stadtteil!",

@@ -1,7 +1,7 @@
 let objects = [];
 let secrets = [];
 let isRunning = false;
-
+let locationId = null;
 
 document.addEventListener("DOMContentLoaded", function () {
 
@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
 var sound01 = new Pizzicato.Sound("sound/VUMark_complete.mp3");
 var sound02 = new Pizzicato.Sound("sound/Button_Normal.mp3");
 var sound04 = new Pizzicato.Sound("sound/Sterne.mp3");
+let soundGroup = new Pizzicato.Group([sound01, sound02, sound04])
 
 let startGame = async () => {
   blurAll();
@@ -21,6 +22,8 @@ let startGame = async () => {
 
 
   let cityItems = await loadJSON()
+
+  locationId = cityItems.id
 
   cityItems.screens.forEach(screen => {
     checkAllObjectsFound(cityItems.itemsCount)
