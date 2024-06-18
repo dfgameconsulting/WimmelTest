@@ -21,7 +21,6 @@ class Dialog {
 
     init = async () => {
         this.dialogsJSON = await this.loadJSON()
-        console.log(this.dialogsJSON)
         this.loaded = true
     }
 

@@ -114,7 +114,6 @@ window.addEventListener("resize", resetRatios);
 
 let foundAllSecrets = (id) => {
   let amount = secretItemsFound
-  console.log(amount)
   if (amount < 3) return;
   sound06.play();
   secretLevelDone = true;
@@ -294,7 +293,6 @@ function removeElementsByClass(className) {
 
 
 function fadeIn(selector) {
-  console.log(selector)
   anime({
     begin: () => {
       document.querySelector(selector).style.display = "block";
@@ -351,13 +349,9 @@ function secretItemToInventory(name, itemCounts) {
     duration: 500,
     complete: () => {
       sound01.play();
-      console.group("secretItemToInventory")
-      console.log(objectCopy)
       let foundObject = objects.find((element) => element.name == name)
       foundObject.wasFound = true
       objectCopy.push(foundObject);
-      console.log(objectCopy)
-      console.groupEnd()
       document.getElementById(name).remove();
       isRunning = false;
       anime({
@@ -367,9 +361,6 @@ function secretItemToInventory(name, itemCounts) {
         easing: "easeInOutExpo",
         duration: 300,
         complete: () => {
-          console.group("SecretInventory")
-          console.log(objectCopy)
-          console.groupEnd()
           checkAllObjectsFound(itemCounts);
         },
       });
@@ -381,7 +372,6 @@ function secretItemToInventory(name, itemCounts) {
 let closeLevel = (counts) => {
   let dialog = null
   document.querySelector('.close-level').onclick = async () => {
-    console.log("Click onto close")
     if (checkAllObjectsFound(counts, true)) {
       window.open('index.html', "_self")
     } else {

@@ -55,7 +55,6 @@ let introText = [
 
 weiterImg.onclick = () => {
   paginationIndex >= 0 ? prevImg.style.display = 'block' : prevImg.style.display = 'none'
-  console.log(paginationIndex < introText.length - 1)
   pagination(paginationIndex < introText.length - 1 ? paginationIndex = paginationIndex + 1 : -1, 'next')
 };
 

@@ -11,7 +11,6 @@ class HintCircleObject {
   
       div.id = this.name;
       div.onmouseover = () => {
-        console.log("enter")
         anime({
           begin: () => {
   
