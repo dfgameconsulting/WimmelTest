@@ -18,7 +18,6 @@ let optionsPanelClick = () => {
         anime({
             begin: () => {
                 targets.forEach(e => {
-                    console.log(e)
                     document.querySelector(e).style.pointerEvents = "none";
                 });
             },
@@ -65,7 +64,6 @@ getVolume()
 
 function setVolume(value){
     localStorage.setItem("volume", value)
-    console.log(soundGroup)
     soundGroup.volume = value/100
 }
 
