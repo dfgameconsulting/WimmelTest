@@ -1177,7 +1177,6 @@ body::-webkit-scrollbar {
     height: 13vw;
     background-size: cover;
     cursor: pointer;
-
 }
 
 #secretWohnviertel {
@@ -1252,6 +1251,7 @@ body::-webkit-scrollbar {
     background-size: contain;
     display: none;
 }
+
 #secretAltstadt .close{
     background: url(../img/objects/Zoomansicht_Kreuz_01_hz.png);
     position: absolute;
@@ -1266,9 +1266,9 @@ body::-webkit-scrollbar {
 
 #puzzle_wrapper {
     position: relative;
-    top: 48%;
-    left: 50%;
-    transform: translate(-50%, -50%) var(--scaleFactor);
+    top: 47.8%;
+    left: 49.85%;
+    transform: translate(-50%, -50%) scale(0.695);
     width: calc(2440px* 0.96);
     height: calc(1504px* 0.96);
 
@@ -1287,8 +1287,6 @@ body::-webkit-scrollbar {
 #win_layer h1 {
     text-align: center;
 }
-
-
 
 #backgroundDark {
     position: absolute;
@@ -1341,8 +1339,6 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-
-
 #dialogWrapper .content {
     display: flex;
     justify-content: space-around;
@@ -1363,7 +1359,8 @@ body::-webkit-scrollbar {
     top: 8%;
     left: 5%;
     font-family: 'Museum';
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
+    font-size: 1.5vw;
     text-align: center;
     display: inline-block;
     width: 18%;
@@ -1438,6 +1435,7 @@ body::-webkit-scrollbar {
     height: 65px;
     background: url(../img/Dialog/dialogue_option.png) 0 0 no-repeat;
     background-size: contain;
+    background-position: center;
     color: #fff;
     font-size: 1.5rem;
     font-family: 'Museum';
