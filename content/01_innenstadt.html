@@ -5,19 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/stylesheet.css">
-    <!-- <script type="text/javascript" src="../js/SCORM_API_wrapper.js"></script>
-    <script type="text/javascript" src="../js/SCORM.js"></script> -->
+            <!--Tooltips-->
+            <link rel="stylesheet" href="https://unpkg.com/tippy.js@5/dist/backdrop.css" />
+
     <script type="text/javascript" src="libs/anime.min.js"></script>
-    <!-- <script type="text/javascript" src="libs/pixi.min.js"></script> -->
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/pizzicato/0.6.4/Pizzicato.min.js"></script>
-    <title>Wohnviertel</title>
+    <title>Innenstadt</title>
 </head>
 
 <body>
     <div id="fullScreen" class="no-select">
         <div id="start-screen">
-            <p id="start-titel">Wohnviertel</p>
+            <p id="start-titel">Innenstadt</p>
         </div>
         <div id="volume">
             <div id="options-text">
@@ -72,51 +72,56 @@
         </div>
        
         <div id="screens">
-           
             <div id="screen01"> 
-                <img id="screen01-image" src="img/Wohnviertel/Bild_001/wohnviertel_withoutobjects_001_jg.png" alt=""> 
+                <img id="screen01-image" src="img/CityCenter/Bild_001/citycenter_withoutobjects_001_rl.png" alt="" > 
                 <div id="inventory-wrapper01" class="inventory">
                     <img class="hint" src="img/inventar/BIB001_Inventar_Fragezeichen_01_hz.png" alt="">
                     <img class="lupe" src="img/inventar/BIB001_Inventar_Lupe_01_hz.png" alt="">
                     <img class="switchInventory" src="img/options/BIB001_Wimmelbild_UmsehenPfeil_01_hz.png" alt="">
                 </div>
-                <div class="backscreen2" style="background-image: url(img/BIB001_Rand_01_hz.png);"></div> <!--img/Wohnviertel/Bild_001/WohnviertelWObjects_001_rl.png-->
+                <!-- <div class="backscreen" style="background-image: url(img/CityCenter/Bild_001/CityCenter_WObjects_001_rl.jpg);"></div> -->
+                <div class="backscreen2" style="background-image: url(img/BIB001_Rand_01_hz.png);"></div>
             </div>
             <div id="screen02">
-                <img id="screen02-image" src="img/Wohnviertel/Bild_002/wohnviertel_withoutobjects_002_jg.png" alt=""> 
+                <img id="screen02-image" src="img/CityCenter/Bild_004/citycenter_withoutobjects_004_rl.png" alt="" > 
                 <div id="inventory-wrapper02" class="inventory">
                     <img class="hint" src="img/inventar/BIB001_Inventar_Fragezeichen_01_hz.png" alt="">
                     <img class="lupe" src="img/inventar/BIB001_Inventar_Lupe_01_hz.png" alt="">
                     <img class="switchInventory" src="img/options/BIB001_Wimmelbild_UmsehenPfeil_01_hz.png" alt="">
                 </div>
-                <!-- <div class="backscreen" style="background-image: url(img/Wohnviertel/Bild_002/WohnviertelWObjekte_002_rl.png);"></div> -->
+                <!-- <div class="backscreen" style="background-image: url(img/CityCenter/Bild004/CityCenter_WObjects_004_rl.png);"></div> -->
                 <div class="backscreen2" style="background-image: url(img/BIB001_Rand_01_hz.png);"></div>
             </div>
             <div id="screen03">
-                <img id="screen03-image" src="img/Wohnviertel/Bild_003/wohnviertel_withoutobjects_003_jg.png" alt=""> 
+                <img id="screen03-image" src="img/CityCenter/Bild_002/citycenter_withoutobjects_002_rl.png" alt="" > 
                 <div id="inventory-wrapper03" class="inventory">
                     <img class="hint" src="img/inventar/BIB001_Inventar_Fragezeichen_01_hz.png" alt="">
                     <img class="lupe" src="img/inventar/BIB001_Inventar_Lupe_01_hz.png" alt="">
                     <img class="switchInventory" src="img/options/BIB001_Wimmelbild_UmsehenPfeil_01_hz.png" alt="">
                 </div>
-                <!-- <div class="backscreen" style="background-image: url(img/Wohnviertel/Bild_003/WohnviertelWObjekte_003_rl.png);"></div> -->
+                <!-- <div class="backscreen" style="background-image: url(img/CityCenter/Bild002/CityCenter_WObjects_002_rl.png);"></div> -->
                 <div class="backscreen2" style="background-image: url(img/BIB001_Rand_01_hz.png);"></div>
+                <div id="secretInnenstadt">
+                    <div id="geldbeutel"></div>
+                    <div id="bankkarte"></div>
+                    <div id="bankschlitz"></div>
+                    <div id="optionen02"></div>
+                    <div id="optionen01"></div>    
+                    <div id="kontoauszug"></div>
+                    <div id="glitch01"></div>
+                    <div class="close"></div>
+                </div>
             </div>
             <div id="screen04">
-                <img id="screen04-image" src="img/Wohnviertel/Bild_004/wohnviertel_withoutobjects_004_jg.png" alt="">  <!--img/Wohnviertel/Bild_004/WohnviertelWithoutObjekte_004_rl.png-->
+                <img id="screen04-image" src="img/CityCenter/Bild_003/citycenter_withoutobjects_003_rl.png" alt="" > 
                 <div id="inventory-wrapper04" class="inventory">
                     <img class="hint" src="img/inventar/BIB001_Inventar_Fragezeichen_01_hz.png" alt="">
                     <img class="lupe" src="img/inventar/BIB001_Inventar_Lupe_01_hz.png" alt="">
                     <img class="switchInventory" src="img/options/BIB001_Wimmelbild_UmsehenPfeil_01_hz.png" alt="">
                 </div>
-                <!-- <div class="backscreen" ></div> style="background-image: url(img/Wohnviertel/Bild_004/WohnviertelWObjekte_004_rl.png);"-->
+                <!-- <div class="backscreen" style="background-image: url(img/CityCenter/Bild003/CityCenter_WObjects_003_rl.png);"></div> -->
                 <div class="backscreen2" style="background-image: url(img/BIB001_Rand_01_hz.png);"></div>
-                <div id="secretWohnviertel">
-                    <div id="Wlan"></div>
-                    <div id="Stromkasten"></div>
-                    <div id="Rathaus"></div>
-                    <div class="close"></div>
-                </div>
+                <img class="lupe" src="img/inventar/BIB001_Inventar_Lupe_01_hz.png" alt="">
             </div>
             <!-- <div id="rain"></div> -->
         </div>
@@ -143,6 +148,7 @@
                 <button id="leaveButton">Beenden</button>
             </div>
         </div>
+        
         <div id="backgroundDark"></div>
     </div>
     <script type="text/javascript" src="gamejs/utils/Utils.js"></script>
@@ -150,14 +156,19 @@
     <script type="text/javascript" src="gamejs/utils/PickObjects.js"></script>
     <script type="text/javascript" src="gamejs/utils/SecretEntry.js"></script>
     <script type="text/javascript" src="gamejs/utils/Glossar.js"></script>
-    <script type="text/javascript" src="gamejs/utils/Dialog.js"></script>
+    <script type="text/javascript" src="gamejs/utils/Dialog.js"></script> 
     
-    <script type="text/javascript" src="gamejs/objectsWohnviertel.js"></script>
+    <script type="text/javascript" src="gamejs/objects.js"></script>
     <script type="text/javascript" src="gamejs/glossar.js"></script>
     <script type="text/javascript" src="gamejs/scroll.js"></script>
     <script type="text/javascript" src="gamejs/options.js"></script>
-    <script type="text/javascript" src="gamejs/secretLevelWohnviertel.js"></script>
+    <script type="text/javascript" src="gamejs/secretLevel.js"></script>
     <!-- <script type="text/javascript" src="gamejs/rain.js"></script> -->
+
+                 <!--Tooltips-->
+                 <script src="https://unpkg.com/popper.js@1"></script>
+                 <script src="https://unpkg.com/tippy.js@5/dist/tippy-bundle.iife.js"></script>
+                 <script type="text/javascript" src="gamejs/utils/createTooltips.js"></script>
 </body>
 
 </html>

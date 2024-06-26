@@ -18,7 +18,7 @@ startLevel1.onclick = (e) => {
   document.querySelector("#level2Ready").style.display = "none";
   document.querySelector("#level3Ready").style.display = "none";
   document.querySelector("#level4Ready").style.display = "none";
-  document.querySelector("#level1Ready").style.display = "block";
+  document.querySelector("#level1Ready").style.display = "flex";
   document.querySelectorAll(".menu-levelcontainer").forEach((e, index) => {
     setTimeout(() => {
       e.classList.remove("highlight");
@@ -26,8 +26,8 @@ startLevel1.onclick = (e) => {
   });
   jumpLevelInfo('#level1Ready');
   levelInfo.style.display = 'block'
-  rMs.style.setProperty(`--infoX`, `${mainScreenPos.left + mainScreenWidth * 0.7}px`);
-  rMs.style.setProperty(`--infoY`, `${mainScreenPos.top + mainScreenHeight * 0.3}px`);
+  rMs.style.setProperty(`--infoX`, `${mainScreenPos.left + mainScreenWidth * 0.725}px`);
+  rMs.style.setProperty(`--infoY`, `${mainScreenPos.top + mainScreenHeight * 0.35}px`);
 };
 startLevel2.onclick = (e) => {
 
@@ -35,7 +35,7 @@ startLevel2.onclick = (e) => {
 
   levelInfo.getElementsByTagName("h2")[0].innerHTML = "Campus";
   levelInfo.getElementsByTagName("p")[0].innerHTML = "Es geht ums Studieren: Finanzierung, Wohnen, Schwierigkeiten und das Studieren unter besonders herausfordernden Bedingungen.";
-  document.querySelector("#level2Ready").style.display = "block";
+  document.querySelector("#level2Ready").style.display = "flex";
   document.querySelector("#level3Ready").style.display = "none";
   document.querySelector("#level4Ready").style.display = "none";
   document.querySelector("#level1Ready").style.display = "none";
@@ -46,7 +46,7 @@ startLevel2.onclick = (e) => {
   });
   jumpLevelInfo('#level2Ready');
   levelInfo.style.display = 'block'
-  rMs.style.setProperty(`--infoX`, `${mainScreenPos.left + mainScreenWidth * 0.325}px`);
+  rMs.style.setProperty(`--infoX`, `${mainScreenPos.left + mainScreenWidth * 0.35}px`);
   rMs.style.setProperty(`--infoY`, `${mainScreenPos.top + mainScreenHeight * 0.3}px`);
 };
 startLevel3.onclick = (e) => {
@@ -56,7 +56,7 @@ startLevel3.onclick = (e) => {
   levelInfo.getElementsByTagName("h2")[0].innerHTML = "Altstadt";
   levelInfo.getElementsByTagName("p")[0].innerHTML = "Es geht um Ausbildungen: Welche Rechte und Pflichten habe ich? Welche finanzielle Unterstützung gibt es trotz Gehalt? Wer hilft bei Schwierigkeiten mit den Inhalten oder im Betrieb? Und vieles mehr.";
   document.querySelector("#level2Ready").style.display = "none";
-  document.querySelector("#level3Ready").style.display = "block";
+  document.querySelector("#level3Ready").style.display = "flex";
   document.querySelector("#level4Ready").style.display = "none";
   document.querySelector("#level1Ready").style.display = "none";
   document.querySelectorAll(".menu-levelcontainer").forEach((e, index) => {
@@ -66,8 +66,8 @@ startLevel3.onclick = (e) => {
   });
   jumpLevelInfo('#level3Ready');
   levelInfo.style.display = 'block'
-  rMs.style.setProperty(`--infoX`, `${mainScreenPos.left + mainScreenWidth * 0.5}px`);
-  rMs.style.setProperty(`--infoY`, `${mainScreenPos.top + mainScreenHeight * 0.6}px`);
+  rMs.style.setProperty(`--infoX`, `${mainScreenPos.left + mainScreenWidth * 0.55}px`);
+  rMs.style.setProperty(`--infoY`, `${mainScreenPos.top + mainScreenHeight * 0.65}px`);
 };
 startLevel4.onclick = (e) => {
 
@@ -77,7 +77,7 @@ startLevel4.onclick = (e) => {
   levelInfo.getElementsByTagName("p")[0].innerHTML = "Es geht ums Erwachsenwerden: Selbstständigkeit, die erste eigene Wohnung, Versicherungen, Gefühle, Skills und und und...";
   document.querySelector("#level2Ready").style.display = "none";
   document.querySelector("#level3Ready").style.display = "none";
-  document.querySelector("#level4Ready").style.display = "block";
+  document.querySelector("#level4Ready").style.display = "flex";
   document.querySelector("#level1Ready").style.display = "none";
   document.querySelectorAll(".menu-levelcontainer").forEach((e, index) => {
     setTimeout(() => {
@@ -86,8 +86,8 @@ startLevel4.onclick = (e) => {
   });
   jumpLevelInfo('#level4Ready');
   levelInfo.style.display = 'block'
-  rMs.style.setProperty(`--infoX`, `${mainScreenPos.left + mainScreenWidth * 0.175}px`);
-  rMs.style.setProperty(`--infoY`, `${mainScreenPos.top + mainScreenHeight * 0.5}px`);
+  rMs.style.setProperty(`--infoX`, `${mainScreenPos.left + mainScreenWidth * 0.2}px`);
+  rMs.style.setProperty(`--infoY`, `${mainScreenPos.top + mainScreenHeight * 0.55}px`);
 };
 
 let jumpLevelInfo = (target) => {
@@ -113,7 +113,7 @@ level1Ready.onclick = (e) => {
     duration: 500,
     easing: "easeInSine",
     complete: () => {
-      window.location.href = "level01.html";
+      window.location.href = "01_innenstadt.html";
     },
   });
 };
@@ -127,7 +127,7 @@ level2Ready.onclick = (e) => {
     duration: 500,
     easing: "easeInSine",
     complete: () => {
-      window.location.href = "level02.html";
+      window.location.href = "02_campus.html";
     },
   });
 };
@@ -141,7 +141,7 @@ level3Ready.onclick = (e) => {
     duration: 500,
     easing: "easeInSine",
     complete: () => {
-      window.location.href = "level03.html";
+      window.location.href = "03_altstadt.html";
     },
   });
 };
@@ -155,7 +155,7 @@ level4Ready.onclick = (e) => {
     duration: 500,
     easing: "easeInSine",
     complete: () => {
-      window.location.href = "level04.html";
+      window.location.href = "04_wohnviertel.html";
     },
   });
 };
@@ -237,8 +237,8 @@ let resetRatiosStartScreen = () => {
   rMs.style.setProperty(`--${"level3"}Y`, `${mainScreenPos.top + mainScreenHeight * 0.65}px`);
   rMs.style.setProperty(`--${"level4"}X`, `${mainScreenPos.left + mainScreenWidth * 0.2}px`);
   rMs.style.setProperty(`--${"level4"}Y`, `${mainScreenPos.top + mainScreenHeight * 0.55}px`);
-  rMs.style.setProperty(`--infoX`, `${mainScreenPos.left + mainScreenWidth * 0.15}px`);
-  rMs.style.setProperty(`--infoY`, `${mainScreenPos.top + mainScreenHeight * 0.3}px`);
+  rMs.style.setProperty(`--infoX`, `${mainScreenPos.left + mainScreenWidth * 0.5}px`);
+  rMs.style.setProperty(`--infoY`, `${mainScreenPos.top + mainScreenHeight * 0.5}px`);
 };
 
 let setActiveElement = (target) => {

@@ -210,10 +210,9 @@ body::-webkit-scrollbar {
     color: white;
     font-size: 1.25rem;
     /* background: black; */
-    cursor: pointer;
     touch-action: all;
     pointer-events: all;
-    width: 500px;
+    width: fit-content;
     height: fit-content;
     text-align: center;
 }
@@ -245,7 +244,7 @@ body::-webkit-scrollbar {
     justify-content: center;
     color: black;
     font-size: clamp(.5rem, 2.25vw, 2rem);
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
 }
 
 #level-info>* {
@@ -257,14 +256,13 @@ body::-webkit-scrollbar {
 #level3Ready,
 #level4Ready {
     display: none;
-    font-size: 7vw;
-    width: clamp(100px, 30vw, 800px);
+    width: clamp(100px, 34vw, 800px);
     height: clamp(50px, 10vw, 200px);
     /* background-color: rgba(0,0,0,0.25); */
-    background: url(../img/Dialog/BIB001_Dialog_Weiter_01_hz.png) 62% 0 no-repeat;
+    background: url(../img/Dialog/BIB001_Dialog_Weiter_01_hz.png) 50% 50% no-repeat;
     background-size: clamp(10%, 30%, 50%);
-    border-radius: 15px;
-    margin-top: -85px;
+    margin-top: -9.5vw;
+    cursor: pointer;
 }
 
 #startLevel1 {
@@ -703,10 +701,10 @@ body::-webkit-scrollbar {
 #text-kat #unter-kat {
     position: absolute;
     top: 24%;
-    left: 1.5%;
+    left: 1%;
     height: 68%;
-    width: 17%;
-    font-size: 2.5rem;
+    width: 18%;
+    /* font-size: 2.5rem; */
     /* text-transform: capitalize; */
     color: white;
     display: flex;
@@ -719,6 +717,7 @@ body::-webkit-scrollbar {
     background: url('../img/Glossar/GlossarBuch/BIB001_GlossarBuch_Kategorie_01_hz.png') 0 0 no-repeat;
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
     font-family: 'Museum';
     line-height: 85px;
     height: 85px;
@@ -728,16 +727,16 @@ body::-webkit-scrollbar {
 #text-kat #unter-kat span {
     font-size: 1.75rem;
     line-height: 1;
-  display: inline-block;
-  vertical-align: middle;
-  padding: 0 15px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 25px;
 }
 
 #text-kat #info-kat {
     position: absolute;
-    top: 11%;
-    right: 9%;
-    height: 84%;
+    top: 10%;
+    right: 10%;
+    height: 82.5%;
     width: 43%;
     font-size: 2rem;
     color: black;
@@ -848,7 +847,7 @@ body::-webkit-scrollbar {
     /*var(--padding)*/
     width: 80vw;
     height: calc(80vw * (514 / 3868));
-    z-index: 1;
+    z-index: 2;
     background-image: url(../img/Wimmbelbild/Inventar/BIB001_Inventar_Hintergrund_01_hz.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -1271,7 +1270,6 @@ body::-webkit-scrollbar {
     transform: translate(-50%, -50%) scale(0.695);
     width: calc(2440px* 0.96);
     height: calc(1504px* 0.96);
-
 }
 
 .card {
@@ -1431,7 +1429,7 @@ body::-webkit-scrollbar {
 }
 #dialogWrapper .choise button{
     display: block;
-    width: 20vw;
+    width: 24vw;
     height: 65px;
     background: url(../img/Dialog/dialogue_option.png) 0 0 no-repeat;
     background-size: contain;

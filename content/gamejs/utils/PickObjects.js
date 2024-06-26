@@ -18,9 +18,10 @@ class PickObject {
     this.imgProxy.onload = () => {
       this.w = this.imgProxy.width;
       this.h = this.imgProxy.height;
-      setTimeout(() => {
-        this.render();
-      }, 300);
+      this.render();
+      // setTimeout(() => {
+        
+      // }, 300);
     };
   }
 
@@ -53,6 +54,10 @@ class PickObject {
     let divInventory = document.createElement("div");
     divInventory.id = this.name + "Inventory";
     divInventory.className = "inventoryObject";
+
+    // Tooltip Data Attribute
+    divInventory.setAttribute("data-tippy-content", this.name + "");
+
     let inventoryWrapper = document.getElementById(`inventory-wrapper${this.place.slice(-2)}`);
     inventoryWrapper.appendChild(divInventory);
     divInventory.style.cssText = `
@@ -75,7 +80,38 @@ class PickObject {
           isRunning = true;
           this.wasFound = true;
           // GameManager!
-          localStorage.setItem(this.name, "true");
+          localStorage.setItem(this.label, "true");
+          console.log('Im Json oder HTML suchen und display an :' + this.label);
+
+          document.querySelectorAll('.cat-content').forEach(element => { // .cat-content .az-content   HIER WEITER!!!
+            let h2Elements = element.getElementsByTagName('h2');
+            // console.log(h2Elements);
+            for (var i = 0; i < h2Elements.length; i++) {
+              // console.log(h2Elements[i].parentNode.id);
+              // console.log(h2Elements[i].textContent == this.label);
+              if (h2Elements[i].textContent == this.label) {
+                console.log('Treffer! ' + h2Elements[i].textContent);
+                console.log( document.getElementById( h2Elements[i].parentNode.id ) );
+                document.getElementById(h2Elements[i].parentNode.id).style.background = "yellowgreen"; //
+                console.log(document.getElementById(h2Elements[i].parentNode.id + '-click'));
+                document.getElementById(h2Elements[i].parentNode.id + '-click').style.background = "yellowgreen"
+              }
+            }
+          });
+          document.querySelectorAll('.az-content').forEach(element => { // .cat-content .az-content
+            let h2Elements = element.getElementsByTagName('h2');
+            for (let i = 0; i < h2Elements.length; i++) {
+              if (h2Elements[i].textContent == this.label) {
+                console.log('Treffer! ' + h2Elements[i].textContent);
+                console.log( document.getElementById( h2Elements[i].parentNode.id ) );
+                document.getElementById(h2Elements[i].parentNode.id).style.background = "yellowgreen"; //
+                console.log(document.getElementById(h2Elements[i].parentNode.id + '-click'));
+                document.getElementById(h2Elements[i].parentNode.id + '-click').style.background = "yellowgreen"
+              }
+            }
+          });
+          // console.log( document.querySelector('#glossar-html').children )
+
           let tl = new anime.timeline();
           tl.add({
             begin: () => {
@@ -128,7 +164,6 @@ class PickObject {
             easing: "easeInOutExpo",
             duration: 300,
             complete: () => {
-
               checkAllObjectsFound(this.itemsCounts);
             },
           });
