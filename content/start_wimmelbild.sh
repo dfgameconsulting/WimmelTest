@@ -6,6 +6,6 @@ python3 -m http.server &
 
 sleep 3
 
-open "http://localhost:8000/LMS.html"
+open "http://localhost:8000/index.html"
 
 exit 0

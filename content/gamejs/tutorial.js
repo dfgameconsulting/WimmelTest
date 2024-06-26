@@ -154,8 +154,8 @@ function showTutorial(step, direction = 'next') {
       zyd3rella.src = loadedzynImages[0].src;
 
       setTimeout(() => {
-        tutBild1.style.backgroundImage = "url(../img/objects/BIB001_Inventar_Testobjektgefunden_01_hz.png)";
-        tutBild2.style.backgroundImage = "url(../img/tutorial/Leiste.png)";
+        tutBild1.style.backgroundImage = "url(../content/img/objects/BIB001_Inventar_Testobjektgefunden_01_hz.png)";
+        tutBild2.style.backgroundImage = "url(../content/img/tutorial/Leiste.png)";
         tutBild1.style.display = "block";
         tutBild2.style.display = "block";
         tutBild1.classList.remove("h4");
@@ -174,7 +174,7 @@ function showTutorial(step, direction = 'next') {
       zyd3rella.src = loadedzynImages[1].src;
       setTimeout(() => {
         tutBild1.classList.remove("h3");
-        tutBild1.style.backgroundImage = "url(../img/Glossar/GlossarButton/BIB001_GlossarButton_01_hz.png)";
+        tutBild1.style.backgroundImage = "url(../content/img/Glossar/GlossarButton/BIB001_GlossarButton_01_hz.png)";
         tutBild2.style.display = "none";
         tutBild1.classList.add("h4");
         fadeIn(tutBild1);
@@ -186,7 +186,7 @@ function showTutorial(step, direction = 'next') {
       zyd3rella.src = loadedzynImages[2].src;
 
       setTimeout(() => {
-        tutBild1.style.backgroundImage = "url(../img/options/BIB001_Wimmelbild_UmsehenPfeil_01_hz.png)";
+        tutBild1.style.backgroundImage = "url(../content/img/options/BIB001_Wimmelbild_UmsehenPfeil_01_hz.png)";
         fadeIn(tutBild1);
       }, 500);
       break;
@@ -196,11 +196,11 @@ function showTutorial(step, direction = 'next') {
       zyd3rella.src = loadedzynImages[0].src;
 
       setTimeout(() => {
-        tutBild1.style.backgroundImage = "url(../img/inventar/BIB001_Inventar_Lupe_01_hz.png)";
+        tutBild1.style.backgroundImage = "url(../content/img/inventar/BIB001_Inventar_Lupe_01_hz.png)";
         tutBild1.style.backgroundSize = '30%';
         tutBild1.classList.remove('h4')
         tutBild1.classList.add('h3')
-        tutBild2.style.backgroundImage = 'url(../img/objects/BIB001_Stadt_Hinweiskreis_04_ll.png)';
+        tutBild2.style.backgroundImage = 'url(../content/img/objects/BIB001_Stadt_Hinweiskreis_04_ll.png)';
         tutBild2.style.display = "block";
         tutBild2.style.backgroundSize = '50%';
         tutBild2.classList.remove('h3')
@@ -219,7 +219,7 @@ function showTutorial(step, direction = 'next') {
         tutBild1.classList.add('h4')
         tutBild2.classList.remove('h5')
         tutBild2.style.display = "none";
-        tutBild1.style.backgroundImage = "url(../img/inventar/BIB001_Inventar_Fragezeichen_01_hz.png)";
+        tutBild1.style.backgroundImage = "url(../content/img/inventar/BIB001_Inventar_Fragezeichen_01_hz.png)";
         fadeIn(tutBild1);
       }, 500);
       break;

@@ -12,7 +12,7 @@ const config = {
   package: {
     version: process.env.npm_package_version,
     zip: true,
-    author: 'Jochen Kapalla',
+    author: 'Dominic FLorack / Jochen Kapalla',
     outputFolder: path.join(__dirname, 'scorm_packages'),
     description: 'A test of the course packaging module',
     keywords: ['scorm', 'test', 'course'],

@@ -5,26 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/stylesheet.css">
-    <!-- <script src="gamejs/scormfunctions.js" type="text/javascript"></script> -->
+    <!--Tooltips-->
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@5/dist/backdrop.css" />
+    <!-- <script type="text/javascript" src="../js/SCORM_API_wrapper.js"></script>
+    <script type="text/javascript" src="../js/SCORM.js"></script> -->
     <script type="text/javascript" src="libs/anime.min.js"></script>
     <!-- <script type="text/javascript" src="libs/pixi.min.js"></script> -->
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/pizzicato/0.6.4/Pizzicato.min.js"></script>
-    <title>Altstadt</title>
+    <title>Wohnviertel</title>
 </head>
 
 <body>
     <div id="fullScreen" class="no-select">
         <div id="start-screen">
-            <p id="start-titel">Altstadt</p>
+            <p id="start-titel">Wohnviertel</p>
         </div>
         <div id="volume">
             <div id="options-text">
-                <p>Einstellungen</p>
+                <p>Lautstärke</p>
             </div>
             <div id="slide">
                 <img src="img/options/BIB001_Einstellungen_Tonsymbol_01_hz.png" alt="" srcset="">
-                <input type="range" min="0" max="100" step="1" value="50" class="slider" onchange="setVolume(this.value)">
+                <input type="range" min="0" max="100" step="1" value="50" class="slider"
+                    onchange="setVolume(this.value)">
             </div>
             <div id="options-back">
                 <img src="img/options/Kreuz.png" alt="" srcset="">
@@ -63,65 +67,65 @@
                     srcset="">
                 <div id="options-info">
                     <img src="img/Wimmbelbild/Objektbeschreibung Pop Up/BIB001_Objektbeschreibung_Box_01_hz.png" alt=""
-                    srcset="">
+                        srcset="">
                     <p id="foundInfo"></p>
                 </div>
-               
+
             </div>
         </div>
-       
+
         <div id="screens">
-           
-            <div id="screen01"> 
-                <img id="screen01-image" src="img/Altstadt/Bild_001/altstadt_withoutobjects_001_1_jg.png" alt=""> 
+
+            <div id="screen01">
+                <img id="screen01-image" src="img/Wohnviertel/Bild_001/wohnviertel_withoutobjects_001_jg.png" alt="">
                 <div id="inventory-wrapper01" class="inventory">
                     <img class="hint" src="img/inventar/BIB001_Inventar_Fragezeichen_01_hz.png" alt="">
                     <img class="lupe" src="img/inventar/BIB001_Inventar_Lupe_01_hz.png" alt="">
                     <img class="switchInventory" src="img/options/BIB001_Wimmelbild_UmsehenPfeil_01_hz.png" alt="">
                 </div>
-                <!-- <div class="backscreen" style="background-image: url(img/Altstadt/Bild_001/Altstadt_Wobj_001_rl.jpg);"></div> -->
                 <div class="backscreen2" style="background-image: url(img/BIB001_Rand_01_hz.png);"></div>
+                <!--img/Wohnviertel/Bild_001/WohnviertelWObjects_001_rl.png-->
             </div>
             <div id="screen02">
-                <img id="screen02-image" src="img/Altstadt/Bild_002/altstadt_withoutobjects_002_1_jg.png" alt=""> 
+                <img id="screen02-image" src="img/Wohnviertel/Bild_002/wohnviertel_withoutobjects_002_jg.png" alt="">
                 <div id="inventory-wrapper02" class="inventory">
                     <img class="hint" src="img/inventar/BIB001_Inventar_Fragezeichen_01_hz.png" alt="">
                     <img class="lupe" src="img/inventar/BIB001_Inventar_Lupe_01_hz.png" alt="">
                     <img class="switchInventory" src="img/options/BIB001_Wimmelbild_UmsehenPfeil_01_hz.png" alt="">
                 </div>
-                <!-- <div class="backscreen" style="background-image: url(img/Altstadt/Bild_002/Altstadt_Wobj_002_rl.jpg);"></div> -->
+                <!-- <div class="backscreen" style="background-image: url(img/Wohnviertel/Bild_002/WohnviertelWObjekte_002_rl.png);"></div> -->
                 <div class="backscreen2" style="background-image: url(img/BIB001_Rand_01_hz.png);"></div>
-                <div id="secretAltstadt">
-                    <div id="puzzle_wrapper">
-                        <!-- cards will be rendered on puzzle init -->
-                    </div>
-                    <div class="close"></div>
-                </div>
             </div>
             <div id="screen03">
-                <img id="screen03-image" src="img/Altstadt/Bild_003/altstadt_withoutobjects_003_1_jg.png" alt=""> 
+                <img id="screen03-image" src="img/Wohnviertel/Bild_003/wohnviertel_withoutobjects_003_jg.png" alt="">
                 <div id="inventory-wrapper03" class="inventory">
                     <img class="hint" src="img/inventar/BIB001_Inventar_Fragezeichen_01_hz.png" alt="">
                     <img class="lupe" src="img/inventar/BIB001_Inventar_Lupe_01_hz.png" alt="">
                     <img class="switchInventory" src="img/options/BIB001_Wimmelbild_UmsehenPfeil_01_hz.png" alt="">
                 </div>
-                <!-- <div class="backscreen" style="background-image: url(img/Altstadt/Bild_003/Altstadt_Wobj_003_rl.jpg);"></div> -->
+                <!-- <div class="backscreen" style="background-image: url(img/Wohnviertel/Bild_003/WohnviertelWObjekte_003_rl.png);"></div> -->
                 <div class="backscreen2" style="background-image: url(img/BIB001_Rand_01_hz.png);"></div>
             </div>
             <div id="screen04">
-                <img id="screen04-image" src="img/Altstadt/Bild_004/altstadt_withoutobjects_004_1_jg.png" alt=""> 
+                <img id="screen04-image" src="img/Wohnviertel/Bild_004/wohnviertel_withoutobjects_004_jg.png" alt="">
+                <!--img/Wohnviertel/Bild_004/WohnviertelWithoutObjekte_004_rl.png-->
                 <div id="inventory-wrapper04" class="inventory">
                     <img class="hint" src="img/inventar/BIB001_Inventar_Fragezeichen_01_hz.png" alt="">
                     <img class="lupe" src="img/inventar/BIB001_Inventar_Lupe_01_hz.png" alt="">
                     <img class="switchInventory" src="img/options/BIB001_Wimmelbild_UmsehenPfeil_01_hz.png" alt="">
                 </div>
-                <!-- <div class="backscreen" style="background-image: url(img/Altstadt/Bild_004/Altstadt_Wobj_004_rl.jpg);"></div> -->
+                <!-- <div class="backscreen" ></div> style="background-image: url(img/Wohnviertel/Bild_004/WohnviertelWObjekte_004_rl.png);"-->
                 <div class="backscreen2" style="background-image: url(img/BIB001_Rand_01_hz.png);"></div>
-                <img class="lupe" src="img/inventar/BIB001_Inventar_Lupe_01_hz.png" alt="">
+                <div id="secretWohnviertel">
+                    <div id="Wlan"></div>
+                    <div id="Stromkasten"></div>
+                    <div id="Rathaus"></div>
+                    <div class="close"></div>
+                </div>
             </div>
             <!-- <div id="rain"></div> -->
         </div>
-       
+
         <div id="zoom-screen"></div>
         <div id="arrow-left">
             <div id="hintCircleLeft"></div>
@@ -146,23 +150,23 @@
         </div>
         <div id="backgroundDark"></div>
     </div>
-    <!-- <script>
-            ScormProcessInitialize("Altstadt");
-    </script> -->
     <script type="text/javascript" src="gamejs/utils/Utils.js"></script>
     <script type="text/javascript" src="gamejs/utils/HintCircleObject.js"></script>
     <script type="text/javascript" src="gamejs/utils/PickObjects.js"></script>
     <script type="text/javascript" src="gamejs/utils/SecretEntry.js"></script>
-    <script type="text/javascript" src="gamejs/utils/Puzzle.js"></script>
     <script type="text/javascript" src="gamejs/utils/Glossar.js"></script>
     <script type="text/javascript" src="gamejs/utils/Dialog.js"></script>
-    
-    <script type="text/javascript" src="gamejs/objectsAltstadt.js"></script>
+
+    <script type="text/javascript" src="gamejs/objectsWohnviertel.js"></script>
     <script type="text/javascript" src="gamejs/glossar.js"></script>
     <script type="text/javascript" src="gamejs/scroll.js"></script>
     <script type="text/javascript" src="gamejs/options.js"></script>
-    <script type="text/javascript" src="gamejs/secretLevelAltstadt.js"></script>
+    <script type="text/javascript" src="gamejs/secretLevelWohnviertel.js"></script>
     <!-- <script type="text/javascript" src="gamejs/rain.js"></script> -->
+    <!--Tooltips-->
+    <script src="https://unpkg.com/popper.js@1"></script>
+    <script src="https://unpkg.com/tippy.js@5/dist/tippy-bundle.iife.js"></script>
+    <script type="text/javascript" src="gamejs/utils/createTooltips.js"></script>
 </body>
 
 </html>
