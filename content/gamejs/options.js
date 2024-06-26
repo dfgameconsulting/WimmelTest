@@ -124,17 +124,19 @@ let glossarPanelClick = () => {
       duration: 500,
       easing: 'easeInOutSine',
     });
-    anime({
-      begin: () => {
-        targets.forEach((e) => {
-          document.querySelector(e).style.pointerEvents = 'none';
-        });
-      },
-      targets: ['#screens', '#menu-wrapper', '#arrow-left', '#arrow-right'],
-      filter: ['brightness(1)', 'brightness(0.3)'],
-      duration: 500,
-      easing: 'easeInOutSine',
-    });
+    if (lastPart !== 'index.html') {
+      anime({
+        begin: () => {
+          targets.forEach((e) => {
+            document.querySelector(e).style.pointerEvents = 'none';
+          });
+        },
+        targets: ['#screens', '#menu-wrapper', '#arrow-left', '#arrow-right'],
+        filter: ['brightness(1)', 'brightness(0.3)'],
+        duration: 500,
+        easing: 'easeInOutSine',
+      });
+    }
   } else {
     anime({
       complete: () => {
@@ -145,17 +147,19 @@ let glossarPanelClick = () => {
       duration: 500,
       easing: 'easeInOutSine',
     });
-    anime({
-      begin: () => {
-        targets.forEach((e) => {
-          document.querySelector(e).style.pointerEvents = 'all';
-        });
-      },
-      targets: ['#screens', '#menu-wrapper', '#arrow-left', '#arrow-right'],
-      filter: ['brightness(0.3)', 'brightness(1)'],
-      duration: 500,
-      easing: 'easeInOutSine',
-    });
+    if (lastPart !== 'index.html') {
+      anime({
+        begin: () => {
+          targets.forEach((e) => {
+            document.querySelector(e).style.pointerEvents = 'all';
+          });
+        },
+        targets: ['#screens', '#menu-wrapper', '#arrow-left', '#arrow-right'],
+        filter: ['brightness(0.3)', 'brightness(1)'],
+        duration: 500,
+        easing: 'easeInOutSine',
+      });
+    }
   }
   // Lade erste Seite
   if (!firstTime) {
