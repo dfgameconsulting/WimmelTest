@@ -32,7 +32,7 @@ let initSecretLevel = async () => {
   let optionen02 = document.querySelector("#optionen02");
   let kontoauszug = document.querySelector("#kontoauszug");
   let loadedSecret = [];
-  let lodedGlitchImages = [];
+  let loadedGlitchImages = [];
   let glitch01Images = [
     "img/CityCenter/Zoom/glitch/bsod.png",
     "img/CityCenter/Zoom/glitch/glitch-bsod01.png",
@@ -63,7 +63,7 @@ let initSecretLevel = async () => {
   glitch01Images.forEach((e) => {
     let img = new Image();
     img.src = e;
-    lodedGlitchImages.push(img);
+    loadedGlitchImages.push(img);
   });
 
 
@@ -98,7 +98,7 @@ let initSecretLevel = async () => {
     let glitchIndex = 20;
     let glitchInterval = setInterval(() => {
       glitchIndex += Math.random() * 100 + 20;
-      glitch01.style.backgroundImage = `url(${lodedGlitchImages[Math.floor(Math.random() * lodedGlitchImages.length)].src})`;
+      glitch01.style.backgroundImage = `url(${loadedGlitchImages[Math.floor(Math.random() * loadedGlitchImages.length)].src})`;
       if (Math.random() > 0.95) {
         glitch01.style.backgroundSize = `${Math.floor(Math.random() * 20 + 110)}%`
       };

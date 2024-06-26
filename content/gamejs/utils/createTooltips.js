@@ -1,7 +1,6 @@
 setInterval(() => {
     tippy('[data-tippy-content]'); 
-}, 5000);
-
+}, 2000);
 //#options-glossar
 
 tippy('#options-glossar', {
@@ -12,11 +11,32 @@ tippy('#options-glossar', {
     content: 'Lautstärke',
     placement: 'left'
   });
-
-  tippy('#BurgerInventory', {
-    content: 'Burger',
+    tippy('#sort', {
+    content: 'Kategorie / A-Z',
+    placement: 'left'
+  });
+  tippy('#studium', {
+    content: 'Studium',
+    placement: 'right'
+  });
+  tippy('#ausbildung', {
+    content: 'Ausbildung',
+    placement: 'right'
+  });
+  tippy('#lebenskrisen', {
+    content: 'Lebenskrisen',
+    placement: 'right'
+  });
+  tippy('#erwachsen-werden', {
+    content: 'Erwachsen werden',
+    placement: 'right'
+  });
+  tippy('.close-level', {
+    content: 'Zurück zur Stadtviertel Auswahl',
+    placement: 'right'
+  });
+  
+  tippy('.switchInventory', {
+    content: 'Inventar ein/aus klappen',
     placement: 'top'
   });
- 
-
-  console.log(objects)
