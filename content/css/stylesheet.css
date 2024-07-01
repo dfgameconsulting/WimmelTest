@@ -993,7 +993,10 @@ body::-webkit-scrollbar {
 
 .pickObject {
     /* image-rendering: crisp-edges; */
-    outline: 15px solid rgba(255, 51, 0, 0.67);
+    /* outline: 15px solid rgba(255, 51, 0, 0.67); */
+}
+.outline{
+    outline: 12px solid tomato;
 }
 
 .hintCircle {
@@ -1568,3 +1571,23 @@ body::-webkit-scrollbar {
 .tippy-tooltip.wimmel-theme[data-placement^='right'] .tippy-arrow {
   border-right-color: black;
 }
+
+#devmode{
+    position: absolute;
+    left:3vh;
+    bottom:3vh;
+    z-index: 9999;
+}
+
+#devmode button{
+    padding: .125rem;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: .25rem;
+    font-size: 1.25rem;
+    font-family: 'Museum';
+}
+ .button-active{
+    background: tomato!important;
+ }
