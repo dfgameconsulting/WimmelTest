@@ -161,3 +161,16 @@ switchInventory.forEach((sw) => {
  
   };
 });
+
+
+let devOn = false;
+function devMode(){
+  devOn = !devOn
+  if(devOn){
+    document.querySelectorAll('.pickObject').forEach(e => e.classList.add('outline'));
+    document.querySelector('#devmode button').classList.add('button-active');
+  }else{
+    document.querySelectorAll('.pickObject').forEach(e => e.classList.remove('outline'));
+    document.querySelector('#devmode button').classList.remove('button-active');
+  }
+}

@@ -106,12 +106,16 @@ class Puzzle {
                         this.moveCount++
                         if(this.checkIfFinished(this.cards)){
                             this.active = false
+                            // Inventory einblenden, wenn geschlossen (siehe scroll.js)
+                            if (!inventoryOut) {
+                                switchInventory[0].click();
+                              }
                            secretItemToInventory("Waage", this.cityItemsCount)
                            setTimeout(() => {
                             fadeOut('#secretAltstadt')
                             secretLevelDone = true
                             document.querySelector('#hintCircleSecret').style.display = 'none'
-                          }, 1000);
+                          }, 3000);
                         }
                     }
 

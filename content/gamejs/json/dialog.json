@@ -10,7 +10,7 @@
             ],
             "choice": true,
             "choiseAccept": "Weitersuchen",
-            "choiseDecline": "Beenden"
+            "choiseDecline": "Stadtviertel Auswahl"
         },
         {
             "id": "horror",
@@ -34,7 +34,7 @@
             ],
             "choice": true,
             "choiseAccept": "Weiter",
-            "choiseDecline": "Zurück"
+            "choiseDecline": "Stadtviertel Auswahl"
         },
         {
             "id": "campusFinished",
@@ -43,7 +43,10 @@
                     "text": "Juhu, du hast ALLES gefunden. Willst du jetzt vielleicht noch in die Altstadt, das Wohnviertel oder die Innenstadt?",
                     "emotion": "good-job"
                 }
-            ]
+            ],
+            "choice": true,
+            "choiseAccept": "Noch hier bleiben",
+            "choiseDecline": "Stadtviertel Auswahl"
         },
         {
             "id": "altstadtFinished",
@@ -52,7 +55,10 @@
                     "text": "WOW, you made it! Wie sieht`s aus - Hast du Lust noch weiterzusuchen? Dann geh doch in die Innenstadt, das Wohnvirtel oder auf den Camppus.",
                     "emotion": "good-job"
                 }
-            ]
+            ],
+            "choice": true,
+            "choiseAccept": "Noch hier bleiben",
+            "choiseDecline": "Stadtviertel Auswahl"
         },
         {
             "id": "innenstadtFinished",
@@ -65,7 +71,10 @@
                     "text": "Ich kann dir anbieten, dich in die Altstadt, auf den Canpus oder ins Wohnviertel zu begleiten. Wollen wir los?",
                     "emotion": "good-job"
                 }
-            ]
+            ],
+            "choice": true,
+            "choiseAccept": "Noch hier bleiben",
+            "choiseDecline": "Stadtviertel Auswahl"
         },
         {
             "id": "wohnviertelFinished",
@@ -74,7 +83,10 @@
                     "text": "Adlerauge! Vor dir ist kein Objekt gut genug versteckt. Glückwunsch, du hast alles entdeckt! Auf in ein neues Stadtviertel? Campus, Altstadt oder Innenstadt gefällig?",
                     "emotion": "good-job"
                 }
-            ]
+            ],
+            "choice": true,
+            "choiseAccept": "Noch hier bleiben",
+            "choiseDecline": "Stadtviertel Auswahl"
         }
     ]
 }

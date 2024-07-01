@@ -1,60 +1,60 @@
-const r = document.querySelector(":root");
+const r = document.querySelector(':root');
 
-const screen01 = document.querySelector("#screen01-image");
+const screen01 = document.querySelector('#screen01-image');
 let screen01Pos = screen01.getBoundingClientRect();
 let screen01Height = screen01Pos.bottom - screen01Pos.top;
 let screen01Width = screen01Pos.right - screen01Pos.left;
 
-const screen02 = document.querySelector("#screen02-image");
+const screen02 = document.querySelector('#screen02-image');
 let screen02Pos = screen02.getBoundingClientRect();
 let screen02Height = screen02Pos.bottom - screen02Pos.top;
 let screen02Width = screen02Pos.right - screen02Pos.left;
 
-const screen03 = document.querySelector("#screen03-image");
+const screen03 = document.querySelector('#screen03-image');
 let screen03Pos = screen03.getBoundingClientRect();
 let screen03Height = screen03Pos.bottom - screen03Pos.top;
 let screen03Width = screen03Pos.right - screen03Pos.left;
 
-const screen04 = document.querySelector("#screen04-image");
+const screen04 = document.querySelector('#screen04-image');
 let screen04Pos = screen04.getBoundingClientRect();
 let screen04Height = screen04Pos.bottom - screen04Pos.top;
 let screen04Width = screen04Pos.right - screen04Pos.left;
 
 // TEST Object
-r.style.setProperty("--size", `${screen01Width * 0.055}px`);
+r.style.setProperty('--size', `${screen01Width * 0.055}px`);
 
 let scaleFactor, scaleFactorObjects;
 
-let lupe = document.querySelectorAll(".lupe");
+let lupe = document.querySelectorAll('.lupe');
 let lupeAus = true;
 let secretLevelDone = false;
 let secretIsRunning = false;
 lupe.forEach((lupe) => {
   lupe.onclick = () => {
     anime({
-      targets: ".lupe",
+      targets: '.lupe',
       scale: [1.33, 1],
       duration: 500,
-      easing: "easeOutSine",
+      easing: 'easeOutSine',
     });
     lupeAus = !lupeAus;
     if (!lupeAus) {
-      document.body.style.cursor = "url(img/inventar/LupeCursor.svg), auto";
+      document.body.style.cursor = 'url(img/inventar/LupeCursor.svg), auto';
     } else {
-      document.body.style.cursor = "auto";
+      document.body.style.cursor = 'auto';
     }
   };
 });
 
 let secretHintAnimation = () => {
   anime({
-    targets: "#hintCircleSecret",
+    targets: '#hintCircleSecret',
     scale: [1, 1.5, 1],
-    easing: "easeInOutQuad",
+    easing: 'easeInOutQuad',
     duration: 5000,
-    loop: true
+    loop: true,
   });
-}
+};
 
 let resetRatios = () => {
   // Screens
@@ -72,125 +72,108 @@ let resetRatios = () => {
   screen04Width = screen04Pos.right - screen04Pos.left;
 
   scaleFactor = Math.floor((screen01Pos.width + screen01Pos.height) / 2) / 2000;
-  r.style.setProperty("--scaleFactor", `scale(${scaleFactor})`);
-  r.style.setProperty("--scaleFactorObjects", `scale(${scaleFactor * 0.667})`);
-  r.style.setProperty("--size", `${screen01Width * 0.055}px`); // 0.0309
+  r.style.setProperty('--scaleFactor', `scale(${scaleFactor})`);
+  r.style.setProperty('--scaleFactorObjects', `scale(${scaleFactor * 0.667})`);
+  r.style.setProperty('--size', `${screen01Width * 0.055}px`); // 0.0309
 
   //Setze Objekte auf den Screen
   objects.forEach((element) => {
-    let pos = element.place == "screen01" ? screen01Pos : element.place == "screen02" ? screen02Pos : element.place == "screen03" ? screen03Pos : screen04Pos;
-    let width =
-      element.place == "screen01" ? screen01Width : element.place == "screen02" ? screen02Width : element.place == "screen03" ? screen03Width : screen04Width;
-    let height =
-      element.place == "screen01"
-        ? screen01Height
-        : element.place == "screen02"
-          ? screen02Height
-          : element.place == "screen03"
-            ? screen03Height
-            : screen04Height;
+    let pos = element.place == 'screen01' ? screen01Pos : element.place == 'screen02' ? screen02Pos : element.place == 'screen03' ? screen03Pos : screen04Pos;
+    let width = element.place == 'screen01' ? screen01Width : element.place == 'screen02' ? screen02Width : element.place == 'screen03' ? screen03Width : screen04Width;
+    let height = element.place == 'screen01' ? screen01Height : element.place == 'screen02' ? screen02Height : element.place == 'screen03' ? screen03Height : screen04Height;
     r.style.setProperty(`--${element.name}X`, `${pos.left + width * element.x}px`);
     r.style.setProperty(`--${element.name}Y`, `${pos.top + height * element.y}px`);
   });
   // Geheime Eingänge
   secrets.forEach((element) => {
-    let pos = element.place == "screen01" ? screen01Pos : element.place == "screen02" ? screen02Pos : element.place == "screen03" ? screen03Pos : screen04Pos;
-    let width =
-      element.place == "screen01" ? screen01Width : element.place == "screen02" ? screen02Width : element.place == "screen03" ? screen03Width : screen04Width;
-    let height =
-      element.place == "screen01"
-        ? screen01Height
-        : element.place == "screen02"
-          ? screen02Height
-          : element.place == "screen03"
-            ? screen03Height
-            : screen04Height;
+    let pos = element.place == 'screen01' ? screen01Pos : element.place == 'screen02' ? screen02Pos : element.place == 'screen03' ? screen03Pos : screen04Pos;
+    let width = element.place == 'screen01' ? screen01Width : element.place == 'screen02' ? screen02Width : element.place == 'screen03' ? screen03Width : screen04Width;
+    let height = element.place == 'screen01' ? screen01Height : element.place == 'screen02' ? screen02Height : element.place == 'screen03' ? screen03Height : screen04Height;
     r.style.setProperty(`--${element.name}X`, `${pos.left + width * element.x}px`);
     r.style.setProperty(`--${element.name}Y`, `${pos.top + height * element.y}px`);
   });
-}
+};
 
-window.addEventListener("resize", resetRatios);
+window.addEventListener('resize', resetRatios);
 
 let foundAllSecrets = (id) => {
-  let amount = secretItemsFound
+  let amount = secretItemsFound;
   if (amount < 3) return;
   sound06.play();
   secretLevelDone = true;
-  document.querySelector('#hintCircleSecret').style.display = 'none'
+  document.querySelector('#hintCircleSecret').style.display = 'none';
+  // Inventory einblenden, wenn geschlossen (siehe scroll.js)
+  if (!inventoryOut) {
+    switchInventory[0].click();
+  }
   setTimeout(() => {
     fadeOut(id);
   }, 3000);
-}
+};
 
 // Objekte checken
 let objectCopy = [];
-let lvl1Done, lvl2Done, lvl3Done, lvl4Done = false;
+let lvl1Done,
+  lvl2Done,
+  lvl3Done,
+  lvl4Done = false;
 let checkAllObjectsFound = (counts, closing = false) => {
-
-  let countedObjects01 = objectCopy.filter((element) => element.wasFound == true && element.place == "screen01");
-  let countedObjects02 = objectCopy.filter((element) => element.wasFound == true && element.place == "screen02");
-  let countedObjects03 = objectCopy.filter((element) => element.wasFound == true && element.place == "screen03");
-  let countedObjects04 = objectCopy.filter((element) => element.wasFound == true && element.place == "screen04");
+  let countedObjects01 = objectCopy.filter((element) => element.wasFound == true && element.place == 'screen01');
+  let countedObjects02 = objectCopy.filter((element) => element.wasFound == true && element.place == 'screen02');
+  let countedObjects03 = objectCopy.filter((element) => element.wasFound == true && element.place == 'screen03');
+  let countedObjects04 = objectCopy.filter((element) => element.wasFound == true && element.place == 'screen04');
 
   if (countedObjects01.length >= counts[0] && !lvl1Done) {
     sound04.play();
-    animateWin("#inventory-wrapper01");
-    lvl1Done = true
+    animateWin('#inventory-wrapper01');
+    lvl1Done = true;
   }
 
   if (countedObjects02.length >= counts[1] && !lvl2Done) {
     sound04.play();
-    animateWin("#inventory-wrapper02");
-    lvl2Done = true
-
+    animateWin('#inventory-wrapper02');
+    lvl2Done = true;
   }
 
   if (countedObjects03.length >= counts[2] && !lvl3Done) {
     sound04.play();
-    animateWin("#inventory-wrapper03");
-    lvl3Done = true
-
+    animateWin('#inventory-wrapper03');
+    lvl3Done = true;
   }
 
   if (countedObjects04.length >= counts[3] && !lvl4Done) {
     sound04.play();
-    animateWin("#inventory-wrapper04");
-    lvl4Done = true
-
+    animateWin('#inventory-wrapper04');
+    lvl4Done = true;
   }
-  if (countedObjects01.length == counts[0] &&
-    countedObjects02.length == counts[1] &&
-    countedObjects03.length == counts[2] &&
-    countedObjects04.length == counts[3]
-  ) {
-    let dialog = new Dialog()
-    dialog.setDialog(`${locationId}Finished`)
-    return true
+  if (countedObjects01.length == counts[0] && countedObjects02.length == counts[1] && countedObjects03.length == counts[2] && countedObjects04.length == counts[3]) {
+    let dialog = new Dialog();
+    dialog.setDialog(`${locationId}Finished`);
+    return true;
   } else {
-    return false
+    return false;
   }
-}
+};
 
 let animateWin = (div) => {
   anime({
-    targets: div + " " + ".inventoryObject",
+    targets: div + ' ' + '.inventoryObject',
     scale: [
-      { value: 0.1, easing: "easeOutSine", duration: 120 },
-      { value: 1, easing: "easeInOutQuad", duration: 240 },
+      { value: 0.1, easing: 'easeOutSine', duration: 120 },
+      { value: 1, easing: 'easeInOutQuad', duration: 240 },
     ],
     delay: anime.stagger(120),
   });
-}
+};
 
 window.onload = () => {
   let tl = new anime.timeline();
   tl.add({
-    targets: "#start-titel",
+    targets: '#start-titel',
     opacity: [0, 1],
     scale: [0.1, 1],
     duration: 500,
-    easing: "easeInOutSine",
+    easing: 'easeInOutSine',
   })
     .add({
       duration: 100,
@@ -199,20 +182,19 @@ window.onload = () => {
       begin: () => {
         startGame();
       },
-      targets: "#start-screen",
-      translateY: [0, "-100%"],
+      targets: '#start-screen',
+      translateY: [0, '-100%'],
       duration: 500,
-      easing: "easeInSine",
+      easing: 'easeInSine',
     });
 };
 
-
 let hints = () => {
   // Hint System
-  let hints = document.querySelectorAll(".hint");
+  let hints = document.querySelectorAll('.hint');
 
   let hintCoolDown = false;
-  let allInventorys = document.querySelectorAll(".inventory");
+  let allInventorys = document.querySelectorAll('.inventory');
 
   hints.forEach((hint) => {
     hint.onclick = (e) => {
@@ -226,63 +208,63 @@ let hints = () => {
       if (filteredObjects.length < 1) {
         // Wenn keine Objekt mehr da gehe auf Pfeil
         let rnd = Math.random();
-        let side = rnd > 0.5 ? "left" : "right";
-        if (side === "left") {
-          target = document.querySelector("#hintCircleLeft");
+        let side = rnd > 0.5 ? 'left' : 'right';
+        if (side === 'left') {
+          target = document.querySelector('#hintCircleLeft');
         } else {
-          target = document.querySelector("#hintCircleRight");
+          target = document.querySelector('#hintCircleRight');
         }
         anime({
           begin: () => {
             hintCoolDown = true;
-            target.style.display = "block";
+            target.style.display = 'block';
           },
           targets: target,
           opacity: [0, 1, 1, 1, 1, 0],
-          easing: "easeInOutQuad",
+          easing: 'easeInOutQuad',
           duration: 2000,
           complete: () => {
-            target.style.display = "none";
+            target.style.display = 'none';
             hintCoolDown = false;
           },
         });
       } else {
         hintCoolDown = true;
         allInventorys.forEach((inv) => {
-          let div = document.createElement("div");
-          div.className = "hint-bar";
+          let div = document.createElement('div');
+          div.className = 'hint-bar';
           inv.appendChild(div);
         });
         // sonst such Dir eine Objekt aus und gehe da drauf
         let rand = Math.random() * filteredObjects.length;
         let randObject = filteredObjects[Math.floor(rand)];
         let offset = () => Math.random() * 0.033 - 0.0167;
-        hintCircle01 = new HintCircleObject("hintCircle01", randObject.x + offset(), randObject.y + offset(), screen, "BIB001_Stadt_Hinweiskreis_01_hz.png");
+        hintCircle01 = new HintCircleObject('hintCircle01', randObject.x + offset(), randObject.y + offset(), screen, 'BIB001_Stadt_Hinweiskreis_01_hz.png');
         let randRot = Math.floor(Math.random() * 360);
         let leftRight = Math.random() > 0.5 ? -360 : 360;
         anime({
-          targets: ".hintCircle",
+          targets: '.hintCircle',
           scale: [2, 4, 3],
           opacity: [1, 1, 1, 1, 1, 0],
           rotate: [randRot, randRot + leftRight],
           translateY: [0, -10, 0, 10],
           translateX: [10, 0, -10, 0],
-          easing: "easeInOutQuad",
+          easing: 'easeInOutQuad',
           duration: 5000,
         });
         setTimeout(() => {
           let index = objects.indexOf(hintCircle01);
           objects.splice(index, 1);
-          document.getElementById("hintCircle01").remove();
+          document.getElementById('hintCircle01').remove();
         }, 5000);
         setTimeout(() => {
           hintCoolDown = false;
-          removeElementsByClass("hint-bar");
+          removeElementsByClass('hint-bar');
         }, 15000);
       }
     };
   });
-}
+};
 
 function removeElementsByClass(className) {
   const elements = document.getElementsByClassName(className);
@@ -291,16 +273,15 @@ function removeElementsByClass(className) {
   }
 }
 
-
 function fadeIn(selector) {
   anime({
     begin: () => {
-      document.querySelector(selector).style.display = "block";
+      document.querySelector(selector).style.display = 'block';
     },
     targets: selector,
     opacity: [0, 1],
     duration: 500,
-    easing: "easeInOutSine",
+    easing: 'easeInOutSine',
   });
 }
 function fadeOut(selector) {
@@ -308,9 +289,9 @@ function fadeOut(selector) {
     targets: selector,
     opacity: [1, 0],
     duration: 500,
-    easing: "easeInOutSine",
+    easing: 'easeInOutSine',
     complete: () => {
-      document.querySelector(selector).style.display = "none";
+      document.querySelector(selector).style.display = 'none';
     },
   });
 }
@@ -322,43 +303,46 @@ function secretItemToInventory(name, itemCounts) {
       isRunning = true;
       wasFound = true;
       // GameManager!
-      localStorage.setItem(name, "true");
+      localStorage.setItem(name, 'true');
       let tl = new anime.timeline();
       tl.add({
         begin: () => {
-          document.querySelector('#foundInfo').innerHTML = name.replace(/_/g, ' ') + " gefunden!";
+          document.querySelector('#foundInfo').innerHTML = name.replace(/_/g, ' ') + ' gefunden!';
         },
-        targets: "#options-info",
+        targets: '#options-info',
         opacity: [0, 1],
         duration: 500,
-        easing: "easeInOutSine",
-      }).add({
-        duration: 1000,
-      }).add({
-        targets: "#options-info",
-        opacity: [1, 0],
-        duration: 500,
-        easing: "easeInOutSine",
+        easing: 'easeInOutSine',
       })
+        .add({
+          duration: 1000,
+        })
+        .add({
+          targets: '#options-info',
+          opacity: [1, 0],
+          duration: 500,
+          easing: 'easeInOutSine',
+        });
     },
-    targets: "#" + name,
+    targets: '#' + name,
     scale: [1.5, 1, 0.01],
-    translate: "-33% -33%",
-    transformOrigin: "50% 50%",
-    easing: "linear",
+    translate: '-33% -33%',
+    transformOrigin: '50% 50%',
+    easing: 'linear',
     duration: 500,
     complete: () => {
       sound01.play();
-      let foundObject = objects.find((element) => element.name == name)
-      foundObject.wasFound = true
+      let foundObject = objects.find((element) => element.name == name);
+      foundObject.wasFound = true;
       objectCopy.push(foundObject);
       document.getElementById(name).remove();
+      objects.splice(0,1); //Waage in Objekten entfernt wegen Bug bei klick auf Fragezeichen
       isRunning = false;
       anime({
-        targets: `#${name + "Inventory"}`,
-        filter: ["brightness(0.1) sepia(1) opacity(0.3)", "brightness(1) sepia(0) opacity(1)"],
+        targets: `#${name + 'Inventory'}`,
+        filter: ['brightness(0.1) sepia(1) opacity(0.3)', 'brightness(1) sepia(0) opacity(1)'],
         scale: [0.9, 1.3, 1],
-        easing: "easeInOutExpo",
+        easing: 'easeInOutExpo',
         duration: 300,
         complete: () => {
           checkAllObjectsFound(itemCounts);
@@ -368,25 +352,24 @@ function secretItemToInventory(name, itemCounts) {
   });
 }
 
-
 let closeLevel = (counts) => {
-  let dialog = null
+  let dialog = null;
   document.querySelector('.close-level').onclick = async () => {
     if (checkAllObjectsFound(counts, true)) {
-      window.open('index.html', "_self")
+      window.open('index.html', '_self');
     } else {
-      dialog = new Dialog()
-     
-      if (!dialog.loaded) await dialog.init()
-      dialog.setDialog('leave')
+      dialog = new Dialog();
+
+      if (!dialog.loaded) await dialog.init();
+      dialog.setDialog('leave');
     }
-  }
-}
+  };
+};
 
 let innenstadtEntry = async () => {
-  let dialog = null
-  dialog = new Dialog()
+  let dialog = null;
+  dialog = new Dialog();
 
-  if (!dialog.loaded) await dialog.init()
-  dialog.setDialog('horror')
-}
+  if (!dialog.loaded) await dialog.init();
+  dialog.setDialog('horror');
+};
