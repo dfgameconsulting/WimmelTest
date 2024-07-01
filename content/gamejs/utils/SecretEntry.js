@@ -63,7 +63,7 @@ class SecretEntry {
             tl.add({
               targets: "#hintCircleSecret",
               opacity: [0, 1],
-              duration: 1000,
+              duration: 2000,
               easing: "easeInOutSine",
             })
           }
@@ -78,6 +78,10 @@ class SecretEntry {
         document.body.style.cursor = "auto";
         lupeAus = !lupeAus;
         sound06.play();
+        // Inventory ausblenden, wenn offen (siehe scroll.js)
+        if (inventoryOut) {
+          switchInventory[0].click();
+        }
       };
     }
   }

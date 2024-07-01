@@ -1,6 +1,3 @@
-
-
-
 let sound06 = new Pizzicato.Sound("sound/Secret.mp3");
 soundGroup.addSound(sound06)
 
